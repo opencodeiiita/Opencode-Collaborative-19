@@ -21,3 +21,15 @@ body {
 .pagination {
   margin-bottom: 30px;
 }
+
+.profile-image{
+  border-radius: 10px;
+}
+
+.hero{
+
+  padding: 150px 0;
+  background-color: #212121;
+  color:white;
+
+}
