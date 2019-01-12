@@ -1,14 +1,88 @@
 {
-    "participants" : [
+    "participants": [
         {
-            "name"     : "Cod3Creator",
-			"imageurl" : "assets/img/participants/Cod3Creator.jpg",
-			"about"    : "Learner.",
+          "name": "Cod3Creator",
+			        "imageurl": "assets/img/participants/Cod3Creator.jpg",
+			        "about": "Learner.",
+              "college": "IIIT, Allahabad",
+			        "facebook": "",
+			        "github": "https://github.com/Cod3Creator",
+			        "twitter": "",
+              "referral" : ""
+        },
+
+          {
+            "name"     : "Wwar-lock",
+			"imageurl" : "assets/img/participants/Wwar-lock.jpeg",
+			"about"    : "Believer",
+			"college"  : "IIIT, Allahabad",
+			"facebook" : "https://www.facebook.com/wwarlock.3",
+			"github"   : "https://github.com/Wwar-lock",
+			"twitter"  : "",
+            "referral" : ""
+        },
+	 {
+            "name"     : "Archies11",
+			"imageurl" : "assets/img/participants/archisha.jpg",
+			"about"    : "Curious mind keen to learn",
 			"college"  : "IIIT, Allahabad",
 			"facebook" : "",
 			"github"   : "https://github.com/Cod3Creator",
 			"twitter"  : "",
             "referral" : ""
+        },
+        {
+            "name"     : "Lekhika Dugtal",
+			"imageurl" : "assets/img/participants/lekhika.jpg",
+			"about"    : "NPC of this virtual World",
+			"college"  : "IIIT Allahabad",
+			"facebook" : "",
+			"github"   : "https://github.com/CleverFool77",
+			"twitter"  : "https://twitter.com/DugtalLekhika",
+            "referral" : ""
+
+        },
+      {
+        "name": "Manish",
+            "imageurl": "assets/img/participants/manish.jpg",
+            "about": "love to learn",
+            "college": "IIIT, Allahabad",
+            "facebook": "https://www.facebook.com/manish.jagnani.9",
+            "github": "https://github.com/Jaggu-123",
+            "twitter": "",
+            "referral": ""
+      },
+	    
+      {
+        "name": "Lalit",
+            "imageurl": "",
+            "about": "new to open source",
+            "college": "IIIT, Allahabad",
+            "facebook": "",
+            "github": "https://github.com/Rattlecode17sh",
+            "twitter": "",
+            "referral": ""
+      },
+      {
+        "name": "Dhairya Baweja",
+            "imageurl": "",
+            "about": "willing to learn",
+            "college": "IIIT, Allahabad",
+            "facebook": "",
+            "github": "https://github.com/dhairyabaweja",
+            "twitter": "",
+            "referral": ""
+      },
+      {
+            "name"     : "Sheik Mohammed Adil",
+            "imageurl" : "assets/img/participants/adil.jpg",
+            "about"    : "UI Designer",
+            "college"  : "PACE, Mangaluru",
+            "facebook" : "",
+            "github"   : "http://github.com/mohammed-adil/",
+            "twitter"  : "https://twitter.com/_mohdAdil",
+            "referral" : ""
         }
+
     ]
 }
