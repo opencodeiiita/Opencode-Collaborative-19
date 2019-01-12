@@ -41,5 +41,14 @@
             "twitter": "",
             "referral": ""
       }
+      
+     {
+   	"name" : "devgupta2607",
+   	"imageurl" : "assets/img/participants/devgupta2607.png",
+   	"about" : "Hi, I am a web developer",
+   	"facebook" : "",
+   	"github" : "https://github.com/devgupta2607",
+   	"twitter" : ""
+}
     ]
 }
