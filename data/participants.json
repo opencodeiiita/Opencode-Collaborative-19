@@ -180,6 +180,16 @@
             "github"   : "https://github.com/amitkr6211",
             "twitter"  : "",
             "referral" : ""
-        }   
+        },
+	  {
+   	"name" : "Rajat Sharma",
+   	"imageurl" : "",
+   	"about" : "Enthusiastic learner",
+   	"college" : "IIIT Allahabad",
+   	"facebook" : "",
+   	"github" : "https://github.com/Rajatsharma1007",
+   	"twitter" : "",
+   	"referral" : ""
+	}
     ]
 }
