@@ -1,4 +1,4 @@
-# Opencode Collaborative 2019
+# [Opencode Collaborative 2019](https://opencodeiiita.github.io/)
 
 ![Opencode](assets/img/opencode-banner.jpg)
 
@@ -10,6 +10,8 @@ Like us on [Facebook](https://www.facebook.com/opencodeiiita/)
 
 ## About us
 
+[OpenCode](https://opencodeiiita.github.io/) is a month long open source program organised by [GeekHaven IIIT Allahabad](https://geekhaven.iiita.ac.in). OpenCode attracts talent from all over the world. People contribute to various open source projects. We welcome everyone to experience the awesome event and win exciting prizes.
+
 ## Requirements:
 
 - GitHub Account 
@@ -20,6 +22,49 @@ Like us on [Facebook](https://www.facebook.com/opencodeiiita/)
 - [Download and install the latest version of Git.](https://git-scm.com/downloads)
 - [Set your username in Git.](https://help.github.com/articles/setting-your-username-in-git)
 - [Set your commit email address in Git.](https://help.github.com/articles/setting-your-commit-email-address-in-git)
+
+
+## Adding a mentor
+To add a mentor open `mentors.json` and please maintain the following format EXACTLY (replacing values where indicated):
+>   {  
+        &nbsp;&nbsp;     "name" : "Mentors Name",    
+        &nbsp;&nbsp;     "imageurl" : "mentor/image.jpg",    
+        &nbsp;&nbsp;     "about" : "Hello I'm a web developer",   
+        &nbsp;&nbsp;     "facebook" : "url",  
+        &nbsp;&nbsp;     "github" : "url",  
+        &nbsp;&nbsp;     "twitter" : "url"  
+        }
+
+
+
+IMPORTANT:
+
+* All images must be optimized before uploaded to the repo via commit or PR.
+* The images should be of square resolution.
+* If you do not want to include social media accounts, leave the field empty `"facebook":""`.
+
+## Adding yourselves to student section
+
+To add yourself to student section you need to open the file `contestants.json` and please maintain the following format EXACTLY (replacing values where indicated):
+
+>   {  
+        &nbsp;&nbsp;     "name" : "Name",  
+        &nbsp;&nbsp;     "imageurl" : "contestant/avatar.jpg",  
+        &nbsp;&nbsp;     "about" : "Hello I'm a web developer",  
+        &nbsp;&nbsp;     "college" : "My college",  
+        &nbsp;&nbsp;     "facebook" : "url",  
+        &nbsp;&nbsp;     "github" : "url",  
+        &nbsp;&nbsp;     "twitter" : "url",  
+        &nbsp;&nbsp;     "referral" : "who refered you?"   
+        }
+
+
+IMPORTANT:
+
+* All images must be optimized before uploaded to the repo via commit or PR.
+* The images should be of square resolution.
+* If you do not want to include social media accounts, leave the field empty `"facebook":""`.
+
 
 
 ## Contributing
