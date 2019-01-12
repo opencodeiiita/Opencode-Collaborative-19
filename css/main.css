@@ -33,3 +33,32 @@ body {
   color:white;
 
 }
+
+.participant-card {
+  box-shadow: 0 3px 6px 0 rgba(0,0,0,0.12);
+}
+
+.participant-img {
+  object-fit: cover;
+  object-position: top;
+  width: 100%;
+  height: 240px;
+}
+
+.social-media-links {
+  background: #fafafa;
+  padding: 15px 0;
+}
+
+.social-media-links a i {
+  color: #9E9E9E;
+  padding: 0 10px; 
+  font-size: 16px;
+  transition: .2s ease-in-out;
+  -webkit-transition: .2s ease-in-out;
+}
+
+.social-media-links a i:hover {
+  color: #212121;
+  transform: scale(1.4);
+}
