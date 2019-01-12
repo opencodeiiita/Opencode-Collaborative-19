@@ -65,7 +65,7 @@ IMPORTANT:
 * The images should be of square resolution.
 * If you do not want to include social media accounts, leave the field empty `"facebook":""`.
 
-
+* While working with JSON, check the file using [JSON Lint](https://jsonlint.com/) before opening pull request 
 
 ## Contributing
  
@@ -95,9 +95,9 @@ We will follow the official GitHub documentation for setting up the repo.
 
     > [Link to docs](https://help.github.com/articles/about-pull-requests/)
 
-    Pull request means submitting your changes to the original project for the review. Once the maintainers of the project feel that your changes are appropriate then your pull request will be merged.
-
-**Note**: In case you feel any issue during setting up the project or using git, don't hesitate to ask us on our slack channel. We will help you out.
+   * Pull request means submitting your changes to the original project for the review. Once the maintainers of the project feel that your changes are appropriate then your pull request will be merged.
+* Add relevant commit message in the pr, mention issue number and live link to comment while making pr. 
+* **Note**: In case you feel any issue during setting up the project or using git, don't hesitate to ask us on our slack channel. We will help you out.
 
 ## Claiming up an issue
 
