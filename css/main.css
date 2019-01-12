@@ -29,5 +29,5 @@ body {
 .hero{
 
   padding: 150px 0;
-  background-image: url(assets/img/hero-background); 
+  background-image: url("assets/img/hero-background"); 
 }
