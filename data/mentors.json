@@ -1,0 +1,20 @@
+{
+    "mentors" : [
+        {
+            "name"     : "Pradeep Gangwar",
+            "imageurl" : "assets/img/mentors/pradeep.jpg",
+            "about"    : "Developing",
+            "facebook" : "https://www.facebook.com/pradeep.gangwar.391",
+            "github"   : "https://github.com/pradeepgangwar",
+            "twitter"  : "https://twitter.com/pradeep_3_9"
+        },
+        {
+            "name"     : "Anupam Dagar",
+            "imageurl" : "assets/img/mentors/mentor.png",
+            "about"    : "",
+            "facebook" : "",
+            "github"   : "",
+            "twitter"  : ""
+        }
+    ]
+}
