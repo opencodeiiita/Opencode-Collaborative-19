@@ -23,6 +23,14 @@
             "facebook" : "https://www.facebook.com/shreyansh.dwivedi.18",
             "github"   : "https://github.com/shreyanshdwivedi",
             "twitter"  : "https://twitter.com/shreyanshdwiv97"
+        },
+	{
+            "name"     : "Shreyansh Dwivedi",
+            "imageurl" : "assets/img/mentors/joglekar.jpg",
+            "about"    : "React and SASS Dev, IIITA",
+            "facebook" : "https://www.facebook.com/joglekaraayush",
+            "github"   : "https://github.com/zerefwayne",
+            "twitter"  : "https://twitter.com/zerefwayne"
         }
     ]
 }
