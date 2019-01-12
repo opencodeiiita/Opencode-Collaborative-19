@@ -45,7 +45,7 @@ IMPORTANT:
 
 ## Adding yourselves to participant section
 
-To add yourself to student section you need to open the file `contestants.json` and please maintain the following format EXACTLY (replacing values where indicated):
+To add yourself to student section you need to open the file `participants.json` and please maintain the following format EXACTLY (replacing values where indicated):
 
 >   {  
         &nbsp;&nbsp;     "name" : "Name",  
