@@ -9,6 +9,16 @@
 			"github"   : "",
 			"twitter"  : "",
             "referral" : ""
+        },
+        {
+            "name"     : "Shivam Singhal",
+			"imageurl" : "assets/img/participants/shivhek25.jpg",
+			"about"    : "Passionate Coder",
+			"college"  : "NIT Durgapur",
+			"facebook" : "",
+			"github"   : "",
+			"twitter"  : "",
+            "referral" : "ashish4321"
         }
     ]
 }
