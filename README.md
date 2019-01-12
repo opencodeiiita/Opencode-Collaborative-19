@@ -97,7 +97,7 @@ We will follow the official GitHub documentation for setting up the repo.
 
    * Pull request means submitting your changes to the original project for the review. Once the maintainers of the project feel that your changes are appropriate then your pull request will be merged.
 * Add relevant commit message in the pr, mention issue number and live link to comment while making pr. 
-**Note**: In case you feel any issue during setting up the project or using git, don't hesitate to ask us on our slack channel. We will help you out.
+* **Note**: In case you feel any issue during setting up the project or using git, don't hesitate to ask us on our slack channel. We will help you out.
 
 ## Claiming up an issue
 
