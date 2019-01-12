@@ -11,9 +11,9 @@
             "referral" : ""
         },
 	 {
-            "name"     : "Archies11",
-			"imageurl" : "assets/img/participants/archisha.jpg",
-			"about"    : "Curious mind keen to learn",
+            "name"     : "agentprotn",
+			"imageurl" : "",
+			"about"    : "",
 			"college"  : "IIIT, Allahabad",
 			"facebook" : "",
 			"github"   : "",
@@ -31,12 +31,12 @@
             "referral" : ""
         },
       {
-        "name": "Manish",
-            "imageurl": "assets/img/participants/manish.jpg",
+        "name": "agentproton",
+            "imageurl": "",
             "about": "love to learn",
             "college": "IIIT, Allahabad",
-            "facebook": "https://www.facebook.com/manish.jagnani.9",
-            "github": "https://github.com/Jaggu-123",
+            "facebook": "",
+            "github": "",
             "twitter": "",
             "referral": ""
       },
