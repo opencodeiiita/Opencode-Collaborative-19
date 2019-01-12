@@ -3,7 +3,7 @@
         {
             "name"     : "Pradeep Gangwar",
             "imageurl" : "assets/img/mentors/pradeep.jpg",
-            "about"    : "Developing",
+            "about"    : "Developing for community",
             "facebook" : "https://www.facebook.com/pradeep.gangwar.391",
             "github"   : "https://github.com/pradeepgangwar",
             "twitter"  : "https://twitter.com/pradeep_3_9"
@@ -15,6 +15,22 @@
             "facebook" : "https://www.facebook.com/invincible.anupam",
             "github"   : "https://github.com/Anupam-dagar",
             "twitter"  : "https://twitter.com/siriusdagar"
+        },
+	{
+            "name"     : "Shreyansh Dwivedi",
+            "imageurl" : "assets/img/mentors/shreyansh.jpg",
+            "about"    : "OpenSource Enthusiast | IIITA",
+            "facebook" : "https://www.facebook.com/shreyansh.dwivedi.18",
+            "github"   : "https://github.com/shreyanshdwivedi",
+            "twitter"  : "https://twitter.com/shreyanshdwiv97"
+        },
+	{
+            "name"     : "Aayush Joglekar",
+            "imageurl" : "assets/img/mentors/joglekar.jpg",
+            "about"    : "React and SASS Dev, IIITA",
+            "facebook" : "https://www.facebook.com/joglekaraayush",
+            "github"   : "https://github.com/zerefwayne",
+            "twitter"  : "https://twitter.com/zerefwayne"
         }
     ]
 }
