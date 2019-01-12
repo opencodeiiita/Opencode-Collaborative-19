@@ -109,6 +109,16 @@
             "github"   : "http://github.com/B3ingALearner",
             "twitter"  : "",
             "referral" : ""	    
-	}
+	},
+	{
+		"name"     : "BlackDChase",
+		"imageurl" : "assets/img/participants/BlackDChase.jpg",
+		"about"    : "N00b",
+		"college"  : "IIIT, Allahabad",
+		"facebook" : "",
+		"github"   : "https://github.com/BlackDChase",
+		"twitter"  : "",
+            	"referral" : ""
+        }
     ]
 }
