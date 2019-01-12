@@ -121,14 +121,14 @@
             "referral" : ""	    
 	},
 	{
-	   "name" : "Name",
-	   "imageurl" : "contestant/avatar.jpg",
+	   "name" : "Ashutosh Mishra",
+	   "imageurl" : "assets/img/participants/download.jfif",
 	   "about" : "Hello I'm a web developer",
-	   "college" : "My college",
-	   "facebook" : "url",
-	   "github" : "url",
-	   "twitter" : "url",
-	   "referral" : "who refered you?"
+	   "college" : "IIIT ALLAHABAD",
+	   "facebook" : "",
+	   "github" : "https://github.com/ashumishra007",
+	   "twitter" : "",
+	   "referral" : ""
 	}
     ]
 }
