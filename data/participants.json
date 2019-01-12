@@ -1,12 +1,12 @@
 {
-    "participants" : [
+    "participants": [
         {
-            "name"     : "Zerefwayne",
-			"imageurl" : "assets/img/participants/zerefwayne.jpg",
-			"about"    : "The participant we need, but not the one we deserve.",
+            "name"     : "Wwar-lock",
+			"imageurl" : "assets/img/participants/Wwar-lock.jpeg",
+			"about"    : "Believer",
 			"college"  : "IIIT, Allahabad",
-			"facebook" : "",
-			"github"   : "",
+			"facebook" : "https://www.facebook.com/wwarlock.3",
+			"github"   : "https://github.com/Wwar-lock",
 			"twitter"  : "",
             "referral" : ""
         },
@@ -19,6 +19,27 @@
 			"github"   : "",
 			"twitter"  : "",
             "referral" : ""
-        }
+        },
+        {
+            "name"     : "Lekhika Dugtal",
+			"imageurl" : "assets/img/participants/lekhika.jpg",
+			"about"    : "NPC of this virtual World",
+			"college"  : "IIIT Allahabad",
+			"facebook" : "",
+			"github"   : "https://github.com/CleverFool77",
+			"twitter"  : "https://twitter.com/DugtalLekhika",
+            "referral" : ""
+
+        },
+      {
+        "name": "Manish",
+            "imageurl": "assets/img/participants/manish.jpg",
+            "about": "love to learn",
+            "college": "IIIT, Allahabad",
+            "facebook": "https://www.facebook.com/manish.jagnani.9",
+            "github": "https://github.com/Jaggu-123",
+            "twitter": "",
+            "referral": ""
+      }
     ]
 }
