@@ -245,4 +245,13 @@
         }	
 
     ]
-}
+}{
+            "name"     : "Ayushi Gupta",
+			"imageurl" : "",
+			"about"    : "",
+			"college"  : "IIIT Allahabad",
+			"facebook" : "",
+			"github"   : "",
+			"twitter"  : "",
+            "referral" : ""
+        },
