@@ -150,6 +150,16 @@
             "github"   : "http://github.com/thesmallstar/",
             "twitter"  : "",
             "referral" : ""
+        },
+	    {
+            "name"     : "Aastha Kasera",
+            "imageurl" : "assets/img/participants/Aastha.jpg",
+            "about"    : "Want to learn open source",
+            "college"  : "IIIT Allahabad",
+            "facebook" : "",
+            "github"   : "http://github.com/littleprodigy",
+            "twitter"  : "",
+            "referral" : ""
         }
     ]
 }
