@@ -9,6 +9,16 @@
 			"github"   : "",
 			"twitter"  : "",
             "referral" : ""
+        },
+        {
+            "name"     : "Wwar-lock",
+			"imageurl" : "assets/img/participants/Wwar-lock.jpeg",
+			"about"    : "Believer",
+			"college"  : "IIIT, Allahabad",
+			"facebook" : "https://www.facebook.com/wwarlock.3",
+			"github"   : "https://github.com/Wwar-lock",
+			"twitter"  : "",
+            "referral" : ""
         }
     ]
 }
