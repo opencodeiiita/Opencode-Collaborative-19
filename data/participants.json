@@ -112,6 +112,18 @@
             "referral" : ""
         },
 	{
+
+            "name"     : "Vidhi Sah",
+            "imageurl" : "",
+            "about"    : "love to learn",
+            "college"  : "IIIT Allahabad",
+            "facebook" : "https://www.facebook.com/vidhi.sah.7",
+            "github"   : "http://github.com/VidhiSah/",
+            "twitter"  : "",
+            "referral" : ""
+  },
+  {
+
             "name"     : "Tushar Singh",
             "imageurl" : "assets/img/participants/tushar.jpg",
             "about"    : "Web Developer",
@@ -243,6 +255,7 @@
             "twitter"  : "",
             "referral" : ""
         }	
+
 
     ]
 }
