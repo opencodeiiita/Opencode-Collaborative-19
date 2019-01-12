@@ -1,12 +1,172 @@
 {
-	"projects": [
+    "projects": [
         {
-			"name": "OpenCode Collaborative",
-			"imageurl": "assets/img/participants/zerefwayne.jpg",
-			"mentors": "Team OpenCode",
-			"about": "A collaborative website created by particpants of opencode'18.",
-			"lang": "HTML, JavaScript, CSS",
-			"github": "https://github.com/opencodeiiita/Opencode-Collaborative-19"
-		}
-	]
+            "name": "OpenCode Collaborative",
+            "imageurl": "assets/img/participants/zerefwayne.jpg",
+            "mentors": "Team OpenCode",
+            "about": "A collaborative website created by particpants of opencode'18.",
+            "lang": "HTML, JavaScript, CSS",
+            "github": "https://github.com/opencodeiiita/Opencode-Collaborative-19"
+        },
+        {
+            "name": "Competitive_Coding",
+            "imageurl": "assets/img/projects/Competitive-Programming.jpg",
+            "mentors": "Team OpenCode",
+            "about": "A project aimed at encouraging the competitive coding skills of novices",
+            "lang": "C++, Python, Java, C",
+            "github": "https://github.com/opencodeiiita/Competitive_Coding"
+        },
+        {
+            "name": "ToDO-List-App",
+            "imageurl": "assets/img/projects/android.jpg",
+            "mentors": "Team OpenCode",
+            "about": "A very basic ToDo List Application for all the Android Enthusiasts !",
+            "lang": "Java",
+            "github": "https://github.com/opencodeiiita/ToDo-List-App"
+        },
+        {
+            "name": "Sassy-Css",
+            "imageurl": "assets/img/projects/css.png",
+            "mentors": "Team OpenCode",
+            "about": "Showcasing your amazing pure CSS interfaces & artworks.",
+            "lang": "css scss html",
+            "github": "https://github.com/opencodeiiita/sassy-css"
+        },
+        {
+            "name": "OpenCode",
+            "imageurl": "assets/img/projects/opencode.jpg",
+            "mentors": "Team OpenCode",
+            "about": "Building the OpenCode Website",
+            "lang": "css javascript html",
+            "github": "https://github.com/opencodeiiita/opencodeiiita.github.io"
+        },
+        {
+            "name": "Road-CS",
+            "imageurl": "assets/img/projects/cs.jpg",
+            "mentors": "Team OpenCode",
+            "about": "Road for Entering the world of Cyber Security",
+            "lang": "Linux Kali",
+            "github": "https://github.com/opencodeiiita/Road-CS"
+        },
+        {
+            "name": "opencodebot",
+            "imageurl": "assets/img/projects/opencodebot.png",
+            "mentors": "Team OpenCode",
+            "about": "A GitHub App built with Probot that Manages workflow on github for OpenCode organization",
+            "lang": "js npm json",
+            "github": "https://github.com/opencodeiiita/opencodebot"
+        },
+        {
+            "name": "Machine Learning",
+            "imageurl": "assets/img/projects/ml.jpeg",
+            "mentors": "Team OpenCode",
+            "about": "A repository for basic Machine Learning algorithms and Assignments.",
+            "lang": "Python",
+            "github": "https://github.com/opencodeiiita/Machine-Learning"
+        },
+        {
+            "name": "GirlsDoCode",
+            "imageurl": "assets/img/projects/opencodebot.png",
+            "mentors": "Team OpenCode",
+            "about": "A Project to encourage the envolvement of girls in opensource",
+            "lang": "js css html",
+            "github": "https://github.com/opencodeiiita/GirlsDoCode"
+        },
+        {
+            "name": "sociofolio-backend",
+            "imageurl": "assets/img/projects/backend.png",
+            "mentors": "Team OpenCode",
+            "about": "Backend for Sociofolio made using Node and MongoDB (MLab)",
+            "lang": "js npm json mongoDB node",
+            "github": "https://github.com/opencodeiiita/sociofolio-backend"
+        },
+        {
+            "name": "sociofolio-frontend",
+            "imageurl": "assets/img/projects/frontend.png",
+            "mentors": "Team OpenCode",
+            "about": "Frontend for Sociofolio made using React and Bootstrap.",
+            "lang": "React Redux Bootstrap",
+            "github": "https://github.com/opencodeiiita/sociofolio-frontend"
+        },
+        {
+            "name": "expensify",
+            "imageurl": "assets/img/projects/tracking.png",
+            "mentors": "Team OpenCode",
+            "about": "An expense tracking app ade using React.",
+            "lang": "React Redux Bootstrap",
+            "github": "https://github.com/zerefwayne/expensify"
+        },
+        {
+            "name": "Selena-Gomez-Discography",
+            "imageurl": "assets/img/projects/music.jpg",
+            "mentors": "Team OpenCode",
+            "about": "One Pager containing all of the albums, songs, singles ",
+            "lang": "HTML CSS JS",
+            "github": "https://github.com/OrionStar25/Selena-Gomez-Discography"
+        },
+        {
+            "name": "File-Creator-CLI",
+            "imageurl": "assets/img/projects/filecreator.png",
+            "mentors": "Team OpenCode",
+            "about": "A simple Command Line application which allows you to create files in your directory/folder, with all types of file extension in a more interactive way.",
+            "lang": "Nodejs npm-package cli",
+            "github": "https://github.com/debck/File-Creator-CLI"
+        },
+        {
+            "name": "ComputerVision",
+            "imageurl": "assets/img/projects/cv.png",
+            "mentors": "Team OpenCode",
+            "about": "Collection of cool projects using Image Recognition",
+            "lang": "Tensorflow MachineLearning",
+            "github": "https://github.com/yash-agarwal17/ComputerVision"
+        },
+        {
+            "name": "Wall-Street",
+            "imageurl": "assets/img/projects/stock.jpg",
+            "mentors": "Team OpenCode",
+            "about": "A React Based Web App that allows you to trade virtually",
+            "lang": "Nodejs react redux jwt typescript",
+            "github": "https://github.com/Jigar3/Wall-Street"
+        },
+        {
+            "name": "kasper_music_player",
+            "imageurl": "assets/img/projects/music-player.png",
+            "mentors": "Team OpenCode",
+            "about": "An app that would allow \"music.youtube.com\" to work in India",
+            "lang": "Flask React Json",
+            "github": "https://github.com/stealthanthrax/kasper_music_player"
+        },
+        {
+            "name": "Rose",
+            "imageurl": "assets/img/projects/bar.png",
+            "mentors": "Team OpenCode",
+            "about": "Analyse all kinds of data for a TV series",
+            "lang": "Python Scraper",
+            "github": "https://github.com/kaustubhhiware/rose"
+        },
+        {
+            "name": "facebook-archive",
+            "imageurl": "assets/img/projects/fb.png",
+            "mentors": "Team OpenCode",
+            "about": "Just some fun you can have with facebook's archive data",
+            "lang": "Python data-visualisation",
+            "github": "https://github.com/kaustubhhiware/facebook-archive"
+        },
+        {
+            "name": "HealthLedger",
+            "imageurl": "assets/img/projects/heart.jpg",
+            "mentors": "Team OpenCode",
+            "about": "Application for tracking Organs donations in hospitals and minimizing the scope of Organ trafficking using Blockchain (Hyperledger) technology. ",
+            "lang": "Blockchain hyperledger",
+            "github": "https://github.com/jogendra/HealthLedger"
+        },
+        {
+            "name": "ResearchFLO",
+            "imageurl": "assets/img/projects/research.jpg",
+            "mentors": "Team OpenCode",
+            "about": "An open access journal that aims to ​ promote research among students in India from a very tender age​ . Deployed on AWS.",
+            "lang": "aws flask mongoDb html css js",
+            "github": "https://github.com/PaytmBuildForIndia/ResearchFLO"
+        }
+    ]
 }
