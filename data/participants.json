@@ -160,6 +160,16 @@
             "github"   : "http://github.com/thesmallstar/",
             "twitter"  : "",
             "referral" : ""
-        }
+        },
+	 {
+            "name"     : "Amit Kumar",
+            "imageurl" : "assets/img/participants/amit.jpg",
+            "about"    : "Here to Learn",
+            "college"  : "IIIT Allahabad",
+            "facebook" : "",
+            "github"   : "https://github.com/amitkr6211",
+            "twitter"  : "",
+            "referral" : ""
+        }   
     ]
 }
