@@ -140,6 +140,16 @@
             "github"   : "https://github.com/prateek76",
             "twitter"  : "https://twitter.com/Prateek97923412",
             "referral" : "I saw it somewhere,I don't remember where"	    
-	}
+	},
+             {
+            "name"     : "Manthan Surkar",
+            "imageurl" : "https://en.gravatar.com/userimage/59390444/d267abe902e7f507e425febe985b3229.png?size=400",
+            "about"    : "< ? ? >",
+            "college"  : "IIIT Allahabad",
+            "facebook" : "www.facebook.com/ManthanRsurkar",
+            "github"   : "http://github.com/thesmallstar/",
+            "twitter"  : "",
+            "referral" : ""
+        }
     ]
 }
