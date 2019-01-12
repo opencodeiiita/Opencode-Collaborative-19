@@ -62,6 +62,16 @@
             "referral": ""
       },
       {
+        "name"     : "Neeraj Dwivedi",
+        "imageurl" : "assets/img/participants/Neeraj.jpg",
+        "about"    : "OpenCode enthusiasts, Learner",
+        "college"  : "SMS, Varanasi",
+        "facebook" : "",
+        "github"   : "https://www.github.com/neerajd007",
+        "twitter"  : "",
+        "referral" : ""
+      },
+      {
         "name": "Dhairya Baweja",
             "imageurl": "assets/img/participants/dhairya.jpg",
             "about": "willing to learn",
@@ -99,7 +109,6 @@
             "github"   : "http://github.com/punisher1151",
             "twitter"  : "",
             "referral" : ""
-
 	},
 	 {
             "name"     : "Harman Singh Jolly",
