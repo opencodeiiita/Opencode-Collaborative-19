@@ -110,7 +110,16 @@
             "github"   : "http://github.com/coderjolly",
             "twitter"  : "http://twitter.com/coderjolly",
             "referral" : ""
-        }
+        },
+	     {
+                "name" : "Ishan Agrawal",
+                "imageurl" : "assets/img/participants/ishan.JPG",
+                "about" : "Web Developer",
+                "college" : "IIIT Allahabad",
+                "facebook" : "https://www.facebook.com/ishan.agrawal.7524",
+                "github" : "https://github.com/barney-stinson",
+                "twitter" : "",
+                "referral" : ""
 
     ]
 }
