@@ -1,24 +1,24 @@
 {
     "participants" : [
         {
-            "name"     : "Zerefwayne",
-			"imageurl" : "assets/img/participants/zerefwayne.jpg",
-			"about"    : "The participant we need, but not the one we deserve.",
-			"college"  : "IIIT, Allahabad",
-			"facebook" : "",
-			"github"   : "",
+            "name"     : "Neeraj Dwivedi",
+			"imageurl" : "assets/img//participants/neeraj.jpg",
+			"about"    : "I am Neeraj Dwivedi, 1st year BCA undergrad from School OF Management Science. I am a beginner and an Opencode enthusiast ",
+			"college"  : "SMS, Varanasi",
+			"facebook" : "https://www.facebook.com/profile.php?id=100005716722849",
+			"github"   : "https://www.github.com/neerajd007",
 			"twitter"  : "",
-            "referral" : ""
+            "referral" : "",
         },
         {
             "name"     : "Wwar-lock",
-			"imageurl" : "assets/img/participants/Wwar-lock.jpeg",
-			"about"    : "Believer",
-			"college"  : "IIIT, Allahabad",
-			"facebook" : "https://www.facebook.com/wwarlock.3",
-			"github"   : "https://github.com/Wwar-lock",
+			"imageurl" : "assets/img/participants/neeraj.jpg",
+			"about"    : "Opencode enthusiast, beginner, learner",
+			"college"  : "SMS, Varanasi",
+			"facebook" : "https://www.facebook.com/profile.php?id=100005716722849",
+			"github"   : "https://github.com/neerajd007",
 			"twitter"  : "",
-            "referral" : ""
+            "referral" : "",
         }
     ]
 }
