@@ -1,14 +1,24 @@
 {
-    "participants" : [
+    "participants": [
         {
-            "name"     : "Wwar-lock",
-			"imageurl" : "assets/img/participants/Wwar-lock.jpeg",
-			"about"    : "Believer",
-			"college"  : "IIIT, Allahabad",
-			"facebook" : "https://www.facebook.com/wwarlock.3",
-			"github"   : "https://github.com/Wwar-lock",
-			"twitter"  : "",
-            "referral" : ""
+            "name": "Wwar-lock",
+            "imageurl": "assets/img/participants/Wwar-lock.jpeg",
+            "about": "Believer",
+            "college": "IIIT, Allahabad",
+            "facebook": "https://www.facebook.com/wwarlock.3",
+            "github": "https://github.com/Wwar-lock",
+            "twitter": "",
+            "referral": ""
+        },
+        {
+            "name": "Manish",
+            "imageurl": "assets/img/participants/manish.jpg",
+            "about": "love to learn",
+            "college": "IIIT, Allahabad",
+            "facebook": "https://www.facebook.com/manish.jagnani.9",
+            "github": "https://github.com/Jaggu-123",
+            "twitter": "",
+            "referral": ""
         }
     ]
 }
