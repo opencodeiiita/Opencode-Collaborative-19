@@ -1,0 +1,12 @@
+{
+	"projects": [
+        {
+			"name": "OpenCode Collaborative",
+			"imageurl": "assets/img/participants/zerefwayne.jpg",
+			"mentors": "Team OpenCode",
+			"about": "A collaborative website created by particpants of opencode'18.",
+			"lang": "HTML, JavaScript, CSS",
+			"github": "https://github.com/opencodeiiita/Opencode-Collaborative-19"
+		}
+	]
+}
