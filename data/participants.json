@@ -43,7 +43,7 @@
 	    
       {
         "name": "Lalit",
-            "imageurl": "",
+            "imageurl": "assets/img/participants/lalit.jpg",
             "about": "new to open source",
             "college": "IIIT, Allahabad",
             "facebook": "",
@@ -109,6 +109,16 @@
 	   "github" : "https://github.com/KeshavSharma21099",
 	   "twitter" : "",
 	   "referral" : ""
+  },
+  {
+	    "name"     : "B3ingALearner",
+            "imageurl" : "assets/img/participants/B3ingALearner.jpg",
+            "about"    : "NewBie",
+            "college"  : "IIIT Allahabad",
+            "facebook" : "",
+            "github"   : "http://github.com/B3ingALearner",
+            "twitter"  : "",
+            "referral" : ""	    
 	}
     ]
 }
