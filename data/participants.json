@@ -51,6 +51,16 @@
             "github": "https://github.com/Rattlecode17sh",
             "twitter": "",
             "referral": ""
-      }
+      },
+    {
+        "name"     : "Neeraj Dwivedi",
+        "imageurl" : "assets/img/participants/Neeraj.jpg",
+        "about"    : "OpenCode enthusiasts, Learner",
+        "college"  : "SMS, Varanasi",
+        "facebook" : "",
+        "github"   : "https://www.github.com/neerajd007",
+        "twitter"  : "",
+        "referral" : "",
+    }
     ]
 }
