@@ -99,6 +99,16 @@
             "github"   : "http://github.com/coderjolly",
             "twitter"  : "http://twitter.com/coderjolly",
             "referral" : ""
-        }
+        },
+	{
+	    "name"     : "Shubham Kumar",
+            "imageurl" : "",
+            "about"    : "just started",
+            "college"  : "IIIT, Allahabad",
+            "facebook" : "",
+            "github"   : "http://github.com/0leve",
+            "twitter"  : "",
+            "referral" : ""	
+	}
     ]
 }
