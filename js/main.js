@@ -17,14 +17,14 @@ $(document).ready(function () {
     $.getJSON(mentorsJson, function (data) {
         mentors = data.mentors;
         $.each( mentors, function( i, mentor ) {
-            var mentorDiv = "<div class='col-lg-2 col-sm-6 text-center mb-4'>" + 
+            var mentorDiv = "<div class='col-lg-2 col-sm-6 text-center mb-4'>" +
                             "<img class='img-fluid d-block mx-auto mb-4 profile-image' src=" + mentor.imageurl + " alt=''>" +
                             "<h4>" +
                             mentor.name +
                             "</h4>" +
                             "<p>" + mentor.about + "</p>" +
                             "</div>"
-            
+
             $('#mentors').append(mentorDiv);
         });
     });
@@ -32,7 +32,14 @@ $(document).ready(function () {
     $.getJSON(participantsJson, function (data) {
         participants = data.participants;
         $.each( participants, function( i, participant ) {
-            var participantDiv = "<div class='col-lg-2 col-sm-6 text-center mb-4'>" + 
+          if (/^ *$/.test(participant.imageurl) || participant.imageurl == "") {
+         //regex to check empty string or spaces
+
+          participant.imageurl =
+         "https://image.flaticon.com/icons/svg/1141/1141771.svg";
+           //Icon made by Freepik from www.flaticon.com *credits*
+          }
+            var participantDiv = "<div class='col-lg-2 col-sm-6 text-center mb-4'>" +
                                 "<img class='img-fluid d-block mx-auto mb-4 profile-image' src=" + participant.imageurl + " alt=''>" +
                                 "<h4>" +
                                 participant.name +
@@ -42,7 +49,7 @@ $(document).ready(function () {
                                 "</h5>" +
                                 "<p>" + participant.about + "</p>" +
                                 "</div>"
-            
+
             $('#participants').append(participantDiv);
         });
     });
@@ -50,7 +57,7 @@ $(document).ready(function () {
     $.getJSON(projectsJson, function (data) {
         projects = data.projects;
         $.each( projects, function( i, project ) {
-            var projectDiv = "<div class='col-lg-3 col-md-4 col-sm-6 portfolio-item'>" + 
+            var projectDiv = "<div class='col-lg-3 col-md-4 col-sm-6 portfolio-item'>" +
                                 "<div class='card h-100'>" +
                                     "<a href=" + project.github +"><img class='card-img-top' src=" + project.imageurl + " alt=''></a>" +
                                     "<div class='card-body'>" +
@@ -71,7 +78,7 @@ $(document).ready(function () {
                                     "</div>"
                                 "</div>"
                             "</div>"
-            
+
             $('#projects').append(projectDiv);
         });
     });
