@@ -1,5 +1,15 @@
 {
     "participants": [
+	     {
+            "name": "Vikash Kumar",
+            "imageurl": "assets/img/participants/vikash.jpg",
+            "about": "MERN Stack Developer",
+            "college": "IIIT, Allahabad",
+            "facebook": "https://www.facebook.com/V1KaShKr",
+            "github": "https://github.com/vikash-kr",
+            "twitter": "https://twitter.com/kvikash076",
+            "referral": "mail"
+        },
         {
             "name"     : "Wwar-lock",
 			"imageurl" : "assets/img/participants/Wwar-lock.jpeg",
@@ -7,6 +17,16 @@
 			"college"  : "IIIT, Allahabad",
 			"facebook" : "https://www.facebook.com/wwarlock.3",
 			"github"   : "https://github.com/Wwar-lock",
+			"twitter"  : "",
+            "referral" : ""
+        },
+	 {
+            "name"     : "NamanDeept",
+			"imageurl" : "assets/img/participants/namandeept.jpg",
+			"about"    : "Sikit Learner,Code for pragmatism",
+			"college"  : "IIIT Allahabad",
+			"facebook" : "https://www.facebook.com/naman.deept.75",
+			"github"   : "https://github.com/namandeept",
 			"twitter"  : "",
             "referral" : ""
         },
@@ -62,6 +82,16 @@
             "referral": ""
       },
       {
+        "name"     : "Neeraj Dwivedi",
+        "imageurl" : "assets/img/participants/Neeraj.jpg",
+        "about"    : "OpenCode enthusiasts, Learner",
+        "college"  : "SMS, Varanasi",
+        "facebook" : "",
+        "github"   : "https://www.github.com/neerajd007",
+        "twitter"  : "",
+        "referral" : ""
+      },
+      {
         "name": "Dhairya Baweja",
             "imageurl": "assets/img/participants/dhairya.jpg",
             "about": "willing to learn",
@@ -99,7 +129,6 @@
             "github"   : "http://github.com/punisher1151",
             "twitter"  : "",
             "referral" : ""
-
 	},
 	 {
             "name"     : "Harman Singh Jolly",
@@ -181,7 +210,39 @@
 			"github"   : "",
 			"twitter"  : "",
             "referral" : "ashish4321"
-        }
+
+
+        },
+	 {
+            "name"     : "Amit Kumar",
+            "imageurl" : "assets/img/participants/amit.jpg",
+            "about"    : "Here to Learn",
+            "college"  : "IIIT Allahabad",
+            "facebook" : "",
+            "github"   : "https://github.com/amitkr6211",
+            "twitter"  : "",
+            "referral" : ""
+        },
+	{
+            "name"     : "Eishaan Singh",
+            "imageurl" : "assets/img/participants/code.jpg",
+            "about"    : "Noobda",
+            "college"  : "IIIT Allahabad",
+            "facebook" : "",
+            "github"   : "https://github.com/eishaansingh",
+            "twitter"  : "",
+            "referral" : ""
+        },
+	{
+            "name"     : "Mohammad Amir",
+            "imageurl" : "assets/img/participants/images.jpg",
+            "about"    : "",
+            "college"  : "IIIT Allahabad",
+            "facebook" : "",
+            "github"   : "https://github.com/chiillax",
+            "twitter"  : "",
+            "referral" : ""
+        }	
 
     ]
 }
