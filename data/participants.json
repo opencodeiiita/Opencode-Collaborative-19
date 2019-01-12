@@ -140,6 +140,16 @@
             "github"   : "https://github.com/prateek76",
             "twitter"  : "https://twitter.com/Prateek97923412",
             "referral" : "I saw it somewhere,I don't remember where"	    
+	},
+	    {
+	        "name"     : "Bindu",
+            "imageurl" : "assets/img/participants/bindu.jpg",
+            "about"    : "learner",
+            "college"  : "IIIT Allahabad",
+            "facebook" : "",
+            "github"   : "https://github.com/BinduVerma123",
+            "twitter"  : "",
+            "referral" : ""	    
 	}
     ]
 }
