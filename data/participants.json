@@ -19,6 +19,17 @@
 			"github"   : "https://github.com/CleverFool77",
 			"twitter"  : "https://twitter.com/DugtalLekhika",
             "referral" : ""
-        }
+        },
+	 {
+            "name"     : "raviteja kampati",
+			"imageurl" : "assets/img/participants/ravi.jpg",
+			"about"    : "novice web developer",
+			"college"  : "IIIT Allahabad",
+			"facebook" : "",
+			"github"   : "https://github.com/Ravitejakampati",
+			"twitter"  : "",
+            "referral" : ""
+        }    
+	    
     ]
 }
