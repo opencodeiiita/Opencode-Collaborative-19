@@ -132,6 +132,16 @@
             "referral" : ""	    
 	},
 	{
+	   "name" : "Ashutosh Mishra",
+	   "imageurl" : "assets/img/participants/download.jfif",
+	   "about" : "Hello I'm a web developer",
+	   "college" : "IIIT ALLAHABAD",
+	   "facebook" : "",
+	   "github" : "https://github.com/ashumishra007",
+	   "twitter" : "",
+	   "referral" : ""
+  },
+      {
 	        "name"     : "Prateek",
             "imageurl" : "assets/img/participants/prateek76.jpg",
             "about"    : "?",
@@ -151,6 +161,7 @@
             "twitter"  : "",
             "referral" : ""
         },
+
 	    {
             "name"     : "Aastha Kasera",
             "imageurl" : "assets/img/participants/Aastha.jpg",
@@ -161,5 +172,6 @@
             "twitter"  : "",
             "referral" : ""
         }
+
     ]
 }
