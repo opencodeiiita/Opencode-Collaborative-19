@@ -43,7 +43,7 @@ IMPORTANT:
 * The images should be of square resolution.
 * If you do not want to include social media accounts, leave the field empty `"facebook":""`.
 
-## Adding yourselves to student section
+## Adding yourselves to participant section
 
 To add yourself to student section you need to open the file `contestants.json` and please maintain the following format EXACTLY (replacing values where indicated):
 
