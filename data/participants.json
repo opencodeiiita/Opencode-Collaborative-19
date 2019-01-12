@@ -10,5 +10,17 @@
 			"twitter"  : "",
             "referral" : ""
         }
+    ],
+    "participants" : [
+        {
+            "name"     : "Sheik Mohammed Adil",
+			"imageurl" : "assets/img/participants/adil.jpg",
+			"about"    : "UI Designer",
+			"college"  : "PACE, Mangaluru",
+			"facebook" : "",
+			"github"   : "http://github.com/mohammed-adil/",
+			"twitter"  : "https://twitter.com/_mohdAdil",
+            "referral" : ""
+        }
     ]
 }
