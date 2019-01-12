@@ -71,7 +71,16 @@
             "github"   : "http://github.com/mohammed-adil/",
             "twitter"  : "https://twitter.com/_mohdAdil",
             "referral" : ""
+        },
+	{
+            "name"     : "Palak Mittal",
+            "imageurl" : "",
+            "about"    : "Loving and learning every art around",
+            "college"  : "IIIT Allahabad",
+            "facebook" : "https://www.facebook.com/palak.mittal.9231",
+            "github"   : "https://github.com/palak2001",
+            "twitter"  : "",
+            "referral" : ""
         }
-
     ]
 }
