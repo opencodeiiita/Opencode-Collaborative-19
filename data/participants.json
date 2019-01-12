@@ -113,6 +113,17 @@
             "twitter"  : "http://twitter.com/coderjolly",
             "referral" : ""
         }
+	    
+	     {
+            "name"     : "raviteja kampati",
+            "imageurl" : "assets/img/participants/ravi.jpg",
+            "about"    : "novice developer",
+            "college"  : "iiit allahabad",
+            "facebook" : "",
+            "github"   : "https://github.com/Ravitejakampati",
+            "twitter"  : "",
+            "referral" : ""
+        }
 
     ]
 }
