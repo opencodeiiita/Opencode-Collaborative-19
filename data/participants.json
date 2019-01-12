@@ -29,7 +29,6 @@
 			"github"   : "https://github.com/CleverFool77",
 			"twitter"  : "https://twitter.com/DugtalLekhika",
             "referral" : ""
-
         },
       {
         "name": "Manish",
@@ -49,6 +48,16 @@
             "college": "IIIT, Allahabad",
             "facebook": "",
             "github": "https://github.com/Rattlecode17sh",
+            "twitter": "",
+            "referral": ""
+      },
+       {
+        "name": "Ashish Agarowala",
+            "imageurl": "assets/img/participants/ashish4321.jpg",
+            "about": "want to learn open source",
+            "college": "NIT, Durgaput",
+            "facebook": "",
+            "github": "https://github.com/ashish4321",
             "twitter": "",
             "referral": ""
       },
