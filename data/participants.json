@@ -219,6 +219,16 @@
             "github"   : "https://github.com/eishaansingh",
             "twitter"  : "",
             "referral" : ""
-        }	    
+        },
+	{
+            "name"     : "Mohammad Amir",
+            "imageurl" : "assets/img/participants/images.jpg",
+            "about"    : "",
+            "college"  : "IIIT Allahabad",
+            "facebook" : "",
+            "github"   : "https://github.com/chiillax",
+            "twitter"  : "",
+            "referral" : ""
+        }	
     ]
 }
