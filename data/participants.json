@@ -199,6 +199,16 @@
             "github"   : "https://github.com/amitkr6211",
             "twitter"  : "",
             "referral" : ""
-        }   
+        },
+	{
+            "name"     : "Eishaan Singh",
+            "imageurl" : "assets/img/participants/code.jpg",
+            "about"    : "Noobda",
+            "college"  : "IIIT Allahabad",
+            "facebook" : "",
+            "github"   : "https://github.com/eishaansingh",
+            "twitter"  : "",
+            "referral" : ""
+        }	    
     ]
 }
