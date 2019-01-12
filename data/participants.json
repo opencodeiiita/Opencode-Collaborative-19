@@ -1,14 +1,14 @@
 {
     "participants": [
         {
-          "name": "Cod3Creator",
-			        "imageurl": "assets/img/participants/Cod3Creator.jpg",
-			        "about": "Learner.",
-              "college": "IIIT, Allahabad",
-			        "facebook": "",
-			        "github": "https://github.com/Cod3Creator",
-			        "twitter": "",
-              "referral" : ""
+          "name"       : "Cod3Creator",
+			"imageurl": "assets/img/participants/Cod3Creator.jpg",
+			"about": "Learner.",
+      			"college": "IIIT, Allahabad",
+		        "facebook": "",
+		        "github": "https://github.com/Cod3Creator",
+	        	"twitter": "",
+              		"referral" : ""
         },
 
           {
