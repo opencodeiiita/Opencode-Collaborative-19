@@ -1,16 +1,6 @@
 {
     "participants" : [
         {
-            "name"     : "Zerefwayne",
-			"imageurl" : "assets/img/participants/zerefwayne.jpg",
-			"about"    : "The participant we need, but not the one we deserve.",
-			"college"  : "IIIT, Allahabad",
-			"facebook" : "",
-			"github"   : "",
-			"twitter"  : "",
-            "referral" : ""
-        },
-        {
             "name"     : "Wwar-lock",
 			"imageurl" : "assets/img/participants/Wwar-lock.jpeg",
 			"about"    : "Believer",
