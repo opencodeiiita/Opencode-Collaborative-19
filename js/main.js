@@ -32,13 +32,38 @@ $(document).ready(function () {
     $.getJSON(participantsJson, function (data) {
         participants = data.participants;
         $.each( participants, function( i, participant ) {
+
+
           if (/^ *$/.test(participant.imageurl) || participant.imageurl == "") {
          //regex to check empty string or spaces
 
           participant.imageurl =
          "https://image.flaticon.com/icons/svg/1141/1141771.svg";
            //Icon made by Freepik from www.flaticon.com *credits*
-          }
+         }else{
+           var url = participant.imageurl;
+           console.log(url);
+
+ try{
+            var http = new XMLHttpRequest();
+          http.open('HEAD', url, false);
+          http.send();
+
+           if (http.status == 404)
+      {
+
+                  participant.imageurl ="https://image.flaticon.com/icons/svg/1141/1141771.svg";
+
+      }
+
+}
+catch(err) {
+
+}
+
+
+
+         }
             var participantDiv = "<div class='col-lg-2 col-sm-6 text-center mb-4'>" +
                                 "<img class='img-fluid d-block mx-auto mb-4 profile-image' src=" + participant.imageurl + " alt=''>" +
                                 "<h4>" +
