@@ -71,6 +71,16 @@
             "github"   : "http://github.com/mohammed-adil/",
             "twitter"  : "https://twitter.com/_mohdAdil",
             "referral" : ""
+        },
+	 {
+            "name"     : "Harman Singh Jolly",
+            "imageurl" : "assets/img/participants/jolly.jpg",
+            "about"    : "Ruby on Rails Developer",
+            "college"  : "Bharatin Vidyapeeth's College of Engineering",
+            "facebook" : "",
+            "github"   : "http://github.com/coderjolly",
+            "twitter"  : "http://twitter.com/coderjolly",
+            "referral" : ""
         }
 
     ]
