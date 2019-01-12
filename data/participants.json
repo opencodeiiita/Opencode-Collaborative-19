@@ -1,14 +1,23 @@
 {
-    "participants" : [
-        {
-            "name"     : "Zerefwayne",
-			"imageurl" : "assets/img/participants/zerefwayne.jpg",
-			"about"    : "The participant we need, but not the one we deserve.",
-			"college"  : "IIIT, Allahabad",
-			"facebook" : "",
-			"github"   : "",
-			"twitter"  : "",
-            "referral" : ""
-        }
-    ]
+	"participants": [{
+			"name": "Zerefwayne",
+			"imageurl": "assets/img/participants/zerefwayne.jpg",
+			"about": "The participant we need, but not the one we deserve.",
+			"college": "IIIT, Allahabad",
+			"facebook": "",
+			"github": "",
+			"twitter": "",
+			"referral": ""
+		},
+		{
+			"name": "Ayush Verma",
+			"imageurl": "assets/img/participants/punisher.jpg",
+			"about": "Be yourself; everyone else is already taken.",
+			"college": "IIIT, Allahabad",
+			"facebook": "",
+			"github": "www.github.com/ayush638",
+			"twitter": "",
+			"referral": ""
+		}
+	]
 }
