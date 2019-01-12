@@ -10,11 +10,11 @@
         },
         {
             "name"     : "Anupam Dagar",
-            "imageurl" : "assets/img/mentors/mentor.png",
-            "about"    : "",
-            "facebook" : "",
-            "github"   : "",
-            "twitter"  : ""
+            "imageurl" : "assets/img/mentors/anupam.JPG",
+            "about"    : "Mentor for OpenCode organisation.",
+            "facebook" : "https://www.facebook.com/invincible.anupam",
+            "github"   : "https://github.com/Anupam-dagar",
+            "twitter"  : "https://twitter.com/siriusdagar"
         }
     ]
 }
