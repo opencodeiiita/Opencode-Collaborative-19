@@ -52,7 +52,7 @@
             "twitter": "",
             "referral": ""
       },
-    {
+      {
         "name"     : "Neeraj Dwivedi",
         "imageurl" : "assets/img/participants/Neeraj.jpg",
         "about"    : "OpenCode enthusiasts, Learner",
@@ -61,6 +61,26 @@
         "github"   : "https://www.github.com/neerajd007",
         "twitter"  : "",
         "referral" : "",
-    }
+      },
+      {
+        "name": "Dhairya Baweja",
+            "imageurl": "assets/img/participants/dhairya.jpg",
+            "about": "willing to learn",
+            "college": "IIIT, Allahabad",
+            "facebook": "",
+            "github": "https://github.com/dhairyabaweja",
+            "twitter": "",
+            "referral": ""
+      },
+      {
+            "name"     : "Sheik Mohammed Adil",
+            "imageurl" : "assets/img/participants/adil.jpg",
+            "about"    : "UI Designer",
+            "college"  : "PACE, Mangaluru",
+            "facebook" : "",
+            "github"   : "http://github.com/mohammed-adil/",
+            "twitter"  : "https://twitter.com/_mohdAdil",
+            "referral" : ""
+        }
     ]
 }
