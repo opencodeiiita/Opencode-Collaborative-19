@@ -229,6 +229,16 @@
             "github"   : "https://github.com/chiillax",
             "twitter"  : "",
             "referral" : ""
-        }	
+        },
+	    {
+            "name"     : "Shantam Shrestha",
+            "imageurl" : "assets/img/participants/shantam.jpg",
+            "about"    : "",
+            "college"  : "IIIT Allahabad",
+            "facebook" : "",
+            "github"   : "https://github.com/shantam0810",
+            "twitter"  : "",
+            "referral" : ""
+        }
     ]
 }
