@@ -9,6 +9,16 @@
 			"github"   : "https://github.com/Wwar-lock",
 			"twitter"  : "",
             "referral" : ""
+        },
+        {
+            "name"     : "Lekhika Dugtal",
+			"imageurl" : "assets/img/participants/lekhika.jpg",
+			"about"    : "NPC of this virtual World",
+			"college"  : "IIIT Allahabad",
+			"facebook" : "",
+			"github"   : "https://github.com/CleverFool77",
+			"twitter"  : "https://twitter.com/DugtalLekhika",
+            "referral" : ""
         }
     ]
 }
