@@ -109,6 +109,16 @@
             "github"   : "http://github.com/B3ingALearner",
             "twitter"  : "",
             "referral" : ""	    
-	}
+	},
+	    {
+   "name" : "Shreyansh Sahu",
+   "imageurl" : "assets/img/participants/shreyansh.jpg",
+   "about" : "Android App Developer",
+   "college" : "IIIT Allahabad",
+   "facebook" : "https://www.facebook.com/shreyansh.sahu.9",
+   "github" : "https://github.com/23nobody",
+   "twitter" : "",
+   "referral" : ""
+}
     ]
 }
