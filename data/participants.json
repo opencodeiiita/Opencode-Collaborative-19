@@ -11,6 +11,16 @@
             "referral" : ""
         },
 	 {
+            "name"     : "NamanDeept",
+			"imageurl" : "assets/img/participants/namandeept.jpg",
+			"about"    : "Sikit Learner,Code for pragmatism",
+			"college"  : "IIIT Allahabad",
+			"facebook" : "https://www.facebook.com/naman.deept.75",
+			"github"   : "https://github.com/namandeept",
+			"twitter"  : "",
+            "referral" : ""
+        },
+	 {
             "name"     : "Archies11",
 			"imageurl" : "assets/img/participants/archisha.jpg",
 			"about"    : "Curious mind keen to learn",
