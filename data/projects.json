@@ -2,16 +2,24 @@
     "projects": [
         {
             "name": "OpenCode Collaborative",
-            "imageurl": "assets/img/participants/zerefwayne.jpg",
+            "imageurl": "assets/img/projects/opencode.jpg",
             "mentors": "Team OpenCode",
             "about": "A collaborative website created by particpants of opencode'18.",
             "lang": "HTML, JavaScript, CSS",
             "github": "https://github.com/opencodeiiita/Opencode-Collaborative-19"
         },
         {
-            "name": "Competitive_Coding",
-            "imageurl": "assets/img/projects/Competitive-Programming.jpg",
+            "name": "Technical-Writing",
+            "imageurl": "assets/img/projects/nybles.png",
             "mentors": "Team OpenCode",
+            "about": "Submit your blog on nybles",
+            "lang": "",
+            "github": "https://github.com/opencodeiiita/Technical-Writing"
+        },
+        {
+            "name": "Technical Writing",
+            "imageurl": "assets/img/projects/Competitive-Programming.jpg",
+            "mentors": "Kumar Raju",
             "about": "A project aimed at encouraging the competitive coding skills of novices",
             "lang": "C++, Python, Java, C",
             "github": "https://github.com/opencodeiiita/Competitive_Coding"
@@ -43,7 +51,7 @@
         {
             "name": "Road-CS",
             "imageurl": "assets/img/projects/cs.jpg",
-            "mentors": "Team OpenCode",
+            "mentors": "Vijeta",
             "about": "Road for Entering the world of Cyber Security",
             "lang": "Linux Kali",
             "github": "https://github.com/opencodeiiita/Road-CS"
@@ -91,7 +99,7 @@
         {
             "name": "expensify",
             "imageurl": "assets/img/projects/tracking.png",
-            "mentors": "Team OpenCode",
+            "mentors": "Aayush Joglekar",
             "about": "An expense tracking app ade using React.",
             "lang": "React Redux Bootstrap",
             "github": "https://github.com/zerefwayne/expensify"
@@ -99,7 +107,7 @@
         {
             "name": "Selena-Gomez-Discography",
             "imageurl": "assets/img/projects/music.jpg",
-            "mentors": "Team OpenCode",
+            "mentors": "Niharika Shrivastava",
             "about": "One Pager containing all of the albums, songs, singles ",
             "lang": "HTML CSS JS",
             "github": "https://github.com/OrionStar25/Selena-Gomez-Discography"
@@ -115,7 +123,7 @@
         {
             "name": "ComputerVision",
             "imageurl": "assets/img/projects/cv.png",
-            "mentors": "Team OpenCode",
+            "mentors": "Yash Agarwal",
             "about": "Collection of cool projects using Image Recognition",
             "lang": "Tensorflow MachineLearning",
             "github": "https://github.com/yash-agarwal17/ComputerVision"
@@ -123,7 +131,7 @@
         {
             "name": "Wall-Street",
             "imageurl": "assets/img/projects/stock.jpg",
-            "mentors": "Team OpenCode",
+            "mentors": "Jigar",
             "about": "A React Based Web App that allows you to trade virtually",
             "lang": "Nodejs react redux jwt typescript",
             "github": "https://github.com/Jigar3/Wall-Street"
