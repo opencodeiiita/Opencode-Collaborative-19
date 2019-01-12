@@ -41,7 +41,7 @@
             "twitter": "",
             "referral": ""
       },
-	    
+
       {
         "name": "Lalit",
             "imageurl": "",
@@ -70,6 +70,16 @@
             "facebook" : "",
             "github"   : "http://github.com/mohammed-adil/",
             "twitter"  : "https://twitter.com/_mohdAdil",
+            "referral" : ""
+        },
+             {
+            "name"     : "Manthan Surkar",
+            "imageurl" : "https://en.gravatar.com/userimage/59390444/d267abe902e7f507e425febe985b3229.png?size=400",
+            "about"    : "< ? ? >",
+            "college"  : "IIIT Allahabad",
+            "facebook" : "www.facebook.com/ManthanRsurkar",
+            "github"   : "http://github.com/thesmallstar/",
+            "twitter"  : "",
             "referral" : ""
         }
 
