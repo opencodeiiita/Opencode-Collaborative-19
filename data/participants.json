@@ -1,12 +1,12 @@
 {
     "participants" : [
         {
-            "name"     : "Zerefwayne",
-			"imageurl" : "assets/img/participants/zerefwayne.jpg",
-			"about"    : "The participant we need, but not the one we deserve.",
+            "name"     : "Cod3Creator",
+			"imageurl" : "assets/img/participants/Cod3Creator.jpg",
+			"about"    : "Learner.",
 			"college"  : "IIIT, Allahabad",
 			"facebook" : "",
-			"github"   : "",
+			"github"   : "https://github.com/Cod3Creator",
 			"twitter"  : "",
             "referral" : ""
         }
