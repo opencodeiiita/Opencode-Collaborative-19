@@ -65,7 +65,7 @@ catch(err) {
          }
             var participantDiv = "<div class='col-lg-3 col-sm-6 text-center mb-4'>" +
                                     "<div class='card participant-card'>" +
-                                      "<img class='card-img-top' src=" + participant.imageurl + " alt=''>" +
+                                      "<img class='card-img-top participant-img' src=" + participant.imageurl + " alt=''>" +
                                       "<div class='card-body'>" +
                                         "<h4 class='card-title'>" + participant.name + "</h4>" +
                                         "<p class='card-text'>" + participant.college + "</p>" +
