@@ -1,5 +1,15 @@
 {
     "participants": [
+	     {
+            "name": "Vikash Kumar",
+            "imageurl": "assets/img/participants/vikash.jpg",
+            "about": "MERN Stack Developer",
+            "college": "IIIT, Allahabad",
+            "facebook": "https://www.facebook.com/V1KaShKr",
+            "github": "https://github.com/vikash-kr",
+            "twitter": "https://twitter.com/kvikash076",
+            "referral": "mail"
+        },
         {
             "name"     : "Wwar-lock",
 			"imageurl" : "assets/img/participants/Wwar-lock.jpeg",
