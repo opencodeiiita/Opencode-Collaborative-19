@@ -90,8 +90,6 @@
             "github"   : "http://github.com/mohammed-adil/",
             "twitter"  : "https://twitter.com/_mohdAdil",
             "referral" : ""
-
-
         },
 	{
             "name"     : "Tushar Singh",
@@ -111,7 +109,6 @@
             "github"   : "http://github.com/punisher1151",
             "twitter"  : "",
             "referral" : ""
-
 	},
 	 {
             "name"     : "Harman Singh Jolly",
@@ -172,9 +169,6 @@
             "github"   : "http://github.com/thesmallstar/",
             "twitter"  : "",
             "referral" : ""
-
-        }
-
         },
 	 {
             "name"     : "Amit Kumar",
@@ -186,6 +180,5 @@
             "twitter"  : "",
             "referral" : ""
         }   
-
     ]
 }
