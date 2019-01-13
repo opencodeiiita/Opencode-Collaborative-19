@@ -412,9 +412,18 @@
 			"github"   : "https://github.com/itsnkm2000",
 			"twitter"  : "",
             "referral" : ""
-	    }
+	    },
 
-   
+	    {
+	    "name"	:"Nikhil Goyal",
+	    		"imageurl" : "",
+	    		"about"   :"Willing  to learn along the way",
+	    		"college" :"IIIT, Allahabad",
+	    		"facebook" : "",
+	    		"github" : "https://github.com/Slimshadynick",
+	    		"twitter" : "",
+	    "referral" : ""
+	    }
 
     ]
 }
