@@ -448,5 +448,15 @@
             "twitter"  : "",
             "referral" : ""
 	    }
+	     {
+          "name" : "Shivam Chhabra",
+          "imageurl" : "",
+          "about" : "",
+          "college" : "IIIT Allahabad",
+          "facebook" : "",
+          "github" : "https://github.com/shivam0211",
+          "twitter" : "",
+          "referral" : ""
+        },
   ]
 }
