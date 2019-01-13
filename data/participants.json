@@ -1,3 +1,4 @@
+
 {
     "participants": [
 	     {
@@ -186,6 +187,7 @@
                 "twitter" : "",
                 "referral" : ""
       },
+
 	    {
             "name"     : "Aayush Talesara",
             "imageurl" : "assets/img/participants/open.jpeg",
@@ -418,23 +420,33 @@
 	    },
 	    {
             "name"     : "Nitin kumar Madhukar",
-			"imageurl" : "assets/img/participants/nitin.jpg",
-			"about"    : "",
-			"college"  : "IIIT, Allahabad",
-			"facebook" : "",
-			"github"   : "https://github.com/itsnkm2000",
-			"twitter"  : "",
+            "imageurl" : "assets/img/participants/nitin.jpg",
+            "about"    : "",
+            "college"  : "IIIT, Allahabad",
+            "facebook" : "",
+            "github"   : "https://github.com/itsnkm2000",
+            "twitter"  : "",
             "referral" : ""
+	    },
+	    {
+          "name" : "Himanshu Janbandhu",
+          "imageurl" : "",
+          "about" : "",
+          "college" : "IIIT Allahabad",
+          "facebook" : "",
+          "github" : "https://github.com/HimanshuJanbandhu",
+          "twitter" : "",
+          "referral" : ""
         },
         {
             "name"     : "Sagar Lakhani",
-			"imageurl" : "assets/img/participants/sagar.png",
-			"about"    : "",
-			"college"  : "IIIT Allahabad",
-			"facebook" : "",
-			"github"   : "https://github.com/SLakhani1",
-			"twitter"  : "",
+            "imageurl" : "assets/img/participants/sagar.png",
+            "about"    : "",
+            "college"  : "IIIT Allahabad",
+            "facebook" : "",
+            "github"   : "https://github.com/SLakhani1",
+            "twitter"  : "",
             "referral" : ""
 	    }
-    ]
+  ]
 }
