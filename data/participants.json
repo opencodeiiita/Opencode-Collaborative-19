@@ -20,6 +20,7 @@
 			"twitter"  : "",
             "referral" : ""
         },
+
 	 {
             "name"     : "NamanDeept",
 			"imageurl" : "assets/img/participants/namandeept.jpg",
@@ -111,6 +112,7 @@
             "twitter"  : "https://twitter.com/_mohdAdil",
             "referral" : ""
         },
+
 	{
 
             "name"     : "Vidhi Sah",
@@ -280,6 +282,17 @@
 
 
         },	
+
+        {
+            "name" : "Sourabh Pruthi",
+            "imageurl" : "assets/img/participants/sourabh1031.jpeg",
+            "about" : "A developer , Programmer ,FOSS Enthusiastic and much more...",
+            "college" : "DCRUST, Sonepat",
+            "facebook" : "",
+            "github" : "https://www.github.com/sourabh1031",
+            "twitter" : "https://twitter.com/sourabh1031",
+            "referral" : ""
+         },
 
 	{
             "name": "Ishan Arora",
