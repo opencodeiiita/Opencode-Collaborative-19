@@ -165,6 +165,18 @@
             "twitter"  : "http://twitter.com/coderjolly",
             "referral" : ""
         },
+
+	{
+	    "name"     : "Shubham Kumar",
+            "imageurl" : "assets/img/participants/dhruv-deshmukh-266273-unsplash.jpg",
+            "about"    : "just started",
+            "college"  : "IIIT, Allahabad",
+            "facebook" : "",
+            "github"   : "http://github.com/0leve",
+            "twitter"  : "",
+            "referral" : ""	
+	},	    
+
 	     {
                 "name" : "Ishan Agrawal",
                 "imageurl" : "assets/img/participants/ishan.JPG",
@@ -349,7 +361,8 @@
             "referral" : ""
         },
 
-	    {"name"     : "ANKUSH PANDEY ",
+	{   
+	    "name"     : "ANKUSH PANDEY ",
             "imageurl" : "assets/img/participants/github.jpg",
             "about"    : "GROWING..",
             "college"  : "IIIT Allahabad",
@@ -358,7 +371,7 @@
             "twitter"  : "",
             "referral" : ""
         },
-	    
+
 	{
             "name"     : "Nandini Goyal",
 	    "imageurl" : "",
@@ -425,5 +438,5 @@
                     "twitter" : "",
                     "referral" : ""
 	    }
-]
+  ]
 }
