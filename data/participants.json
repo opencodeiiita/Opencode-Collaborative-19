@@ -359,6 +359,16 @@
 			"twitter"  : "",
             "referral" : ""
         },
+	    {
+            "name"     : "Meghna",
+            "imageurl" : "",
+            "about"    : "Keen learner and explorer",
+            "college"  : "IIIT,Allahabad",
+            "facebook" : "https://www.facebook.com/meghna.batra.7",
+            "github"   : "http://github.com/batra-meghna",
+            "twitter"  : "",
+            "referral" : ""
+        }
    
 
     ]
