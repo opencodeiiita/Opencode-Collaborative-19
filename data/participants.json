@@ -265,7 +265,18 @@
             "github"   : "https://github.com/chiillax",
             "twitter"  : "",
             "referral" : ""
+        },	
+{
+            "name"     : "Bindu",
+            "imageurl" : "assets/img/participants/bindu.jpg",
+            "about"    : "learner",
+            "college"  : "IIIT Allahabad",
+            "facebook" : "",
+            "github"   : "https://github.com/BinduVerma123",
+            "twitter"  : "",
+            "referral" : ""
         }	
+
 
   ]
 
