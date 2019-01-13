@@ -447,6 +447,16 @@
             "github"   : "https://github.com/SLakhani1",
             "twitter"  : "",
             "referral" : ""
+	    },
+	{
+	    "name"     : "Kaushal Sahu",
+	    "imageurl" : "assets/img/participants/kaushal.jpg",
+	    "about"    : "Coding Enthusiast",
+	    "college"  : "IIITA",
+	    "facebook" : "",
+	    "github"   : "",
+	    "twitter"  : "",
+	    "referral" : ""
 	    }
   ]
 }
