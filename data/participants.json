@@ -303,6 +303,16 @@
             "github"   : "https://github.com/coding-clown",
             "twitter"  : "",
             "referral" : ""
+        },
+         {
+            "name"     : "Neelabh Gupta",
+			"imageurl" : "",
+			"about"    : "",
+			"college"  : "IIIT, Allahabad",
+			"facebook" : "https://www.facebook.com/neelabh.gupta.56",
+			"github"   : "https://github.com/Neelabh46",
+			"twitter"  : "",
+            "referral" : ""
         }
 
     ]
