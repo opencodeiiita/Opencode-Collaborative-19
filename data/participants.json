@@ -448,5 +448,15 @@
             "twitter"  : "",
             "referral" : ""
 	    }
+	    {
+            "name"     : "Arpit Bhatt",
+            "imageurl" : "",
+            "about"    : "",
+            "college"  : "IIIT Allahabad",
+            "facebook" : "",
+            "github"   : "https://github.com/brownsands",
+            "twitter"  : "",
+            "referral" : ""
+	    }
   ]
 }
