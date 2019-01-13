@@ -33,7 +33,6 @@ $(document).ready(function () {
         participants = data.participants;
         $.each( participants, function( i, participant ) {
 
-
           if (/^ *$/.test(participant.imageurl) || participant.imageurl == "") {
          //regex to check empty string or spaces
 
@@ -64,15 +63,20 @@ catch(err) {
 
 
          }
-            var participantDiv = "<div class='col-lg-2 col-sm-6 text-center mb-4'>" +
-                                "<img class='img-fluid d-block mx-auto mb-4 profile-image' src=" + participant.imageurl + " alt=''>" +
-                                "<h4>" +
-                                participant.name +
-                                "</h4>" +
-                                "<h5>" +
-                                participant.college +
-                                "</h5>" +
-                                "<p>" + participant.about + "</p>" +
+            var participantDiv = "<div class='col-lg-3 col-sm-6 text-center mb-4'>" +
+                                    "<div class='card participant-card'>" +
+                                      "<img class='card-img-top participant-img' src=" + participant.imageurl + " alt=''>" +
+                                      "<div class='card-body'>" +
+                                        "<h4 class='card-title'>" + participant.name + "</h4>" +
+                                        "<p class='card-text'>" + participant.college + "</p>" +
+                                        "<p class='card-text'>" + participant.about + "</p>" +
+                                      "</div>" +
+                                      "<div class='social-media-links'>"+
+                                          "<a href="+ participant.facebook +"><i class='fab fa-facebook-f'></i></a>"+
+                                          "<a href="+ participant.github +"><i class='fab fa-github'></i></a>"+
+                                          "<a href="+ participant.twitter +"><i class='fab fa-twitter'></i></a>"+
+                                      "</div>" +
+                                  "</div>" +
                                 "</div>"
 
             $('#participants').append(participantDiv);
