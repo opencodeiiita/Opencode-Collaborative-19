@@ -457,6 +457,15 @@
 	    		"github" : "https://github.com/Slimshadynick",
 	    		"twitter" : "",
 	        "referral" : ""
+	    },
+	    {
+		    "name"      : "Priyesh Raj",
+		    "imageurl"  : "assets/img/participants/priyesh.png",
+		    "about"     : "Eat,Sleep,Learn,Repeat",
+		    "college"   : "IIIT Allahabad",
+		    "github"    : "https://github.com/ekthapriyesh24",
+		    "twitter"   : "",
+		    "referral"  : ""
 	    }
 
     ]
