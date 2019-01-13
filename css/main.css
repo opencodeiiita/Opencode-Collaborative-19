@@ -29,4 +29,7 @@ body {
 .hero{
 
   padding: 150px 0;
-  background: linear-gradient(to bottom right, black,blue,pink,yellow);}
+  background: linear-gradient(to bottom right, black,blue,pink,yellow);
+  border-style:solid;
+  border-color:#287EC7;
+}
