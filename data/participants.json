@@ -245,6 +245,17 @@
             "twitter"  : "",
             "referral" : ""
         },
+
+	  {
+   	"name" : "Rajat Sharma",
+   	"imageurl" : "assets/img/participants/Rajat.jpg",
+   	"about" : "Enthusiastic learner",
+   	"college" : "IIIT Allahabad",
+   	"facebook" : "",
+   	"github" : "https://github.com/Rajatsharma1007",
+   	"twitter" : "",
+   	"referral" : ""
+	},
 	{
             "name"     : "Eishaan Singh",
             "imageurl" : "assets/img/participants/code.jpg",
@@ -264,6 +275,9 @@
             "github"   : "https://github.com/chiillax",
             "twitter"  : "",
             "referral" : ""
+
+
+
 
         },	
 
@@ -290,5 +304,6 @@
             "twitter"  : "",
             "referral" : ""
         }
+
     ]
 }
