@@ -8,14 +8,6 @@
             "github"   : "https://github.com/pradeepgangwar",
             "twitter"  : "https://twitter.com/pradeep_3_9"
         },
-	{
-            "name"     : "Ananya Agrawal",
-            "imageurl" : "assets/img/mentors/anan.jpg",
-            "about"    : "Mentor for Opencode",
-            "facebook" : "https://www.facebook.com/ananya.agrawal1251999",
-            "github"   : "https://github.com/ananya-agrawal",
-            "twitter"  : "https://twitter.com/AgrawalAnanyaa"
-        },
         {
             "name"     : "Anupam Dagar",
             "imageurl" : "assets/img/mentors/anupam.JPG",
@@ -31,6 +23,14 @@
             "facebook" : "https://www.facebook.com/shreyansh.dwivedi.18",
             "github"   : "https://github.com/shreyanshdwivedi",
             "twitter"  : "https://twitter.com/shreyanshdwiv97"
+        },
+	{
+            "name"     : "Ananya Agrawal",
+            "imageurl" : "assets/img/mentors/anan.jpg",
+            "about"    : "Mentor for Opencode",
+            "facebook" : "https://www.facebook.com/ananya.agrawal1251999",
+            "github"   : "https://github.com/ananya-agrawal",
+            "twitter"  : "https://twitter.com/AgrawalAnanyaa"
         },
 	{
             "name"     : "Aayush Joglekar",
