@@ -415,6 +415,16 @@
 			"github"   : "https://github.com/itsnkm2000",
 			"twitter"  : "",
             "referral" : ""
+        },
+        {
+            "name"     : "Sagar Lakhani",
+			"imageurl" : "assets/img/participants/sagar.png",
+			"about"    : "",
+			"college"  : "IIIT Allahabad",
+			"facebook" : "",
+			"github"   : "https://github.com/SLakhani1",
+			"twitter"  : "",
+            "referral" : ""
 	    }
     ]
 }
