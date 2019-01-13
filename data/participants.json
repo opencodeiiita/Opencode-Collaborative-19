@@ -112,6 +112,18 @@
             "referral" : ""
         },
 	{
+
+            "name"     : "Vidhi Sah",
+            "imageurl" : "",
+            "about"    : "love to learn",
+            "college"  : "IIIT Allahabad",
+            "facebook" : "https://www.facebook.com/vidhi.sah.7",
+            "github"   : "http://github.com/VidhiSah/",
+            "twitter"  : "",
+            "referral" : ""
+  },
+  {
+
             "name"     : "Tushar Singh",
             "imageurl" : "assets/img/participants/tushar.jpg",
             "about"    : "Web Developer",
@@ -190,7 +202,18 @@
             "twitter"  : "",
             "referral" : ""
         },
-        {
+
+	    {
+            "name"     : "Aastha Kasera",
+            "imageurl" : "assets/img/participants/Aastha.jpg",
+            "about"    : "Want to learn open source",
+            "college"  : "IIIT Allahabad",
+            "facebook" : "",
+            "github"   : "http://github.com/littleprodigy",
+            "twitter"  : "",
+            "referral" : ""
+        },
+	    {
         	"name"     : "Shivam Singhal",
 			"imageurl" : "assets/img/participants/shivhek25.jpg",
 			"about"    : "Passionate Coder",
@@ -199,6 +222,8 @@
 			"github"   : "",
 			"twitter"  : "",
             "referral" : "ashish4321"
+
+
         },
 	 {
             "name"     : "Amit Kumar",
@@ -241,6 +266,5 @@
             "twitter"  : "",
             "referral" : ""
         }	
-
     ]
 }
