@@ -71,7 +71,7 @@
             "twitter": "",
             "referral": ""
       },
-	    
+
       {
         "name": "Lalit",
             "imageurl": "assets/img/participants/lalit.jpg",
@@ -192,7 +192,7 @@
             "facebook" : "",
             "github"   : "http://github.com/B3ingALearner",
             "twitter"  : "",
-            "referral" : ""	    
+            "referral" : ""
 	},
 	{
 	   "name" : "Ashutosh Mishra",
@@ -212,7 +212,7 @@
             "facebook" : "https://www.facebook.com/prateek.17.xx.1999",
             "github"   : "https://github.com/prateek76",
             "twitter"  : "https://twitter.com/Prateek97923412",
-            "referral" : "I saw it somewhere,I don't remember where"	    
+            "referral" : "I saw it somewhere,I don't remember where"
 	},
              {
             "name"     : "Manthan Surkar",
@@ -291,7 +291,7 @@
 
 
 
-        },	
+        },
 
         {
             "name" : "Sourabh Pruthi",
@@ -336,7 +336,7 @@
             "twitter"  : "",
             "referral" : ""
         }
-	    
+
 	{
             "name"     : "Nandini Goyal",
 	    "imageurl" : "",
@@ -348,7 +348,7 @@
             "referral" : ""
         },
 
-	    
+
 	 {
             "name"     : "Wwar-lock",
 			"imageurl" : "assets/img/participants/Wwar-lock.jpeg",
@@ -359,7 +359,17 @@
 			"twitter"  : "",
             "referral" : ""
         },
-   
+         {
+            "name": "Anmol Chaddha",
+                "imageurl": "assets/img/participants/anmol.jpg",
+                "about": "A newbie to opensource",
+                "college": "IIT Patna",
+                "facebook": "",
+                "github": "https://github.com/chanmol1999",
+                "twitter": "",
+                "referral": "a friend"
+          },
+
 
     ]
 }
