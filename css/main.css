@@ -29,5 +29,4 @@ body {
 .hero{
 
   padding: 150px 0;
-  background-image: url(../assets/img/hero-background.jpg); 
-}
+  background: linear-gradient(to bottom right, black,blue,pink,yellow);}
