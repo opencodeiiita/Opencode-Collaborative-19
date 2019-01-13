@@ -359,6 +359,17 @@
 			"twitter"  : "",
             "referral" : ""
         },
+	{
+            "name"     : "Jahanvi Bhadoria",
+			"imageurl" : "assets/img/participants/Jahanvi.jpeg",
+			"about"    : "Exploring Open code",
+			"college"  : "IIIT Allahabad",
+			"facebook" : "",
+			"github"   : "https://github.com/Jahanvi21",
+			"twitter"  : "",
+            "referral" : ""
+        },
+        
    
 
     ]
