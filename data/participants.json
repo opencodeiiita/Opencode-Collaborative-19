@@ -337,7 +337,6 @@
       },
 
 
-
 	{
             "name"     : "raviteja ",
             "imageurl" : "assets/img/participants/ravi.jpg",
@@ -345,6 +344,17 @@
             "college"  : "IIIT Allahabad",
             "facebook" : "",
             "github"   : "https://github.com/coding-clown",
+            "twitter"  : "",
+            "referral" : ""
+        },
+	    
+	{
+            "name"     : "Saakshi Jain",
+            "imageurl" : "assets/img/participants/Saakshi.jpeg",
+            "about"    : "Passionate Learner",
+            "college"  : "IIIT Lucknow",
+            "facebook" : "",
+            "github"   : "https://github.com/sa4k5hi",
             "twitter"  : "",
             "referral" : ""
         },
