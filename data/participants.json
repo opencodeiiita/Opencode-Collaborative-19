@@ -152,6 +152,16 @@
             "twitter"  : "http://twitter.com/coderjolly",
             "referral" : ""
         },
+	    {
+            "name"     : "Aayush Talesara",
+            "imageurl" : "assets/img/participants/open.jpeg",
+            "about"    : "eager to learn opensource",
+            "college"  : "IIIT Allahabad",
+            "facebook" : "https://www.facebook.com/aayush.talesara.7",
+            "github"   : "https://github.com/elitesf",
+            "twitter"  : "",
+            "referral" : ""
+        },
 	{
 	   "name" : "Keshav Sharma",
 	   "imageurl" : "assets/img/participants/Keshav.JPG",
