@@ -25,12 +25,36 @@
             "twitter"  : "https://twitter.com/shreyanshdwiv97"
         },
 	{
+            "name"     : "Ananya Agrawal",
+            "imageurl" : "assets/img/mentors/anan.jpg",
+            "about"    : "Mentor for Opencode",
+            "facebook" : "https://www.facebook.com/ananya.agrawal1251999",
+            "github"   : "https://github.com/ananya-agrawal",
+            "twitter"  : "https://twitter.com/AgrawalAnanyaa"
+        },
+	{
             "name"     : "Aayush Joglekar",
             "imageurl" : "assets/img/mentors/joglekar.jpg",
-            "about"    : "React and SASS Dev, IIITA",
+            "about"    : "React and SASS Developer | IIITA",
             "facebook" : "https://www.facebook.com/joglekaraayush",
             "github"   : "https://github.com/zerefwayne",
             "twitter"  : "https://twitter.com/zerefwayne"
+        },
+	{
+            "name"     : "Shivansh Tiwari",
+            "imageurl" : "assets/img/mentors/shivansh_tiwari.jpg",
+            "about"    : "Android Developer | Machine Learning Enthusiast",
+            "facebook" : "https://www.facebook.com/shivansh.tiwari.3954",
+            "github"   : "https://github.com/shiv07tiwari",
+            "twitter"  : "https://twitter.com/shivansh1610"
+        },
+    {
+            "name"     : "Prateek",
+            "imageurl" : "assets/img/mentors/prateek76.jpg",
+            "about"    : "Mentor for OpenCode19 | IIITA",
+            "facebook" : "https://www.facebook.com/prateek.17.xx.1999",
+            "github"   : "https://github.com/prateek76",
+            "twitter"  : "https://twitter.com/Prateek97923412"
         }
     ]
 }
