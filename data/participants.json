@@ -254,7 +254,18 @@
             "github"   : "https://github.com/chiillax",
             "twitter"  : "",
             "referral" : ""
-        }	
+        },
+	{
+		 "name" : "Himanshu Janbandhu",
+   		 "imageurl" : "assetd/img/participants/images.jpg",
+                 "about" : "",
+                 "college" : "IIIT Allahabad",
+                 "facebook" : "",
+                 "github" : "https://github.com/HimanshuJanbandhu",
+                 "twitter" : "",
+                 "referral" : ""
+	}
+	    
 
 
     ]
