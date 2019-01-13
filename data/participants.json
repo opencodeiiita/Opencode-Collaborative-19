@@ -303,16 +303,7 @@
             "twitter" : "https://twitter.com/sourabh1031",
             "referral" : ""
          },
-	{
-            "name" : "Palak Mittal",
-            "imageurl" : "",
-            "about" : "Love and learn every art on the wall",
-            "college" : "IIIT Allahabad",
-            "facebook" : "",
-            "github" : "https://github.com/palak2001",
-            "twitter" : "",
-            "referral" : ""
-         },
+
 	{
             "name": "Ishan Arora",
             "imageurl": "assets/img/participants/Ishan.jpg",
@@ -335,31 +326,17 @@
             "github"   : "https://github.com/coding-clown",
             "twitter"  : "",
             "referral" : ""
-        }
-	    
-	{
-            "name"     : "Nandini Goyal",
-	    "imageurl" : "",
-	    "about"    : "",
+        },
+	     {
+            "name"     : "Jahanvi21",
+	    "imageurl" : "assets/img/participants/Jahanvi.jpg",
+	    "about"    : "Love to learn!",
 	    "college"  : "IIIT, Allahabad",
 	    "facebook" : "",
-	    "github"   : "",
+	    "github"   : "https://github.com/Jahanvi21",
 	    "twitter"  : "",
             "referral" : ""
-        },
-
-	    
-	 {
-            "name"     : "Wwar-lock",
-			"imageurl" : "assets/img/participants/Wwar-lock.jpeg",
-			"about"    : "Believer",
-			"college"  : "IIIT, Allahabad",
-			"facebook" : "https://www.facebook.com/wwarlock.3",
-			"github"   : "https://github.com/Wwar-lock",
-			"twitter"  : "",
-            "referral" : ""
-        },
-   
+        }
 
     ]
 }
