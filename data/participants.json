@@ -292,8 +292,6 @@
             "referral": ""
       },
 
-
-
 	{
             "name"     : "raviteja ",
             "imageurl" : "assets/img/participants/ravi.jpg",
@@ -304,9 +302,9 @@
             "twitter"  : "",
             "referral" : ""
         },
-         {
+    {
             "name"     : "Neelabh Gupta",
-			"imageurl" : "",
+			"imageurl" : "assets/img/participants/neelabh.jpg",
 			"about"    : "",
 			"college"  : "IIIT, Allahabad",
 			"facebook" : "https://www.facebook.com/neelabh.gupta.56",
@@ -315,5 +313,6 @@
             "referral" : ""
         }
 
+         
     ]
 }
