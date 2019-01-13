@@ -265,6 +265,35 @@
             "github"   : "https://github.com/chiillax",
             "twitter"  : "",
             "referral" : ""
-        }	
+
+
+
+
+        },	
+
+	{
+            "name": "Ishan Arora",
+            "imageurl": "assets/img/participants/Ishan.jpg",
+            "about": "Exploring OpenSource",
+            "college": "IIIT, Allahabad",
+            "facebook": "",
+            "github": "https://github.com/Ishaniiit",
+            "twitter": "",
+            "referral": ""
+      },
+
+
+
+	{
+            "name"     : "raviteja ",
+            "imageurl" : "assets/img/participants/ravi.jpg",
+            "about"    : "novice developer",
+            "college"  : "IIIT Allahabad",
+            "facebook" : "",
+            "github"   : "https://github.com/coding-clown",
+            "twitter"  : "",
+            "referral" : ""
+        }
+
     ]
 }
