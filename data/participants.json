@@ -112,6 +112,18 @@
             "referral" : ""
         },
 	{
+
+            "name"     : "Vidhi Sah",
+            "imageurl" : "",
+            "about"    : "love to learn",
+            "college"  : "IIIT Allahabad",
+            "facebook" : "https://www.facebook.com/vidhi.sah.7",
+            "github"   : "http://github.com/VidhiSah/",
+            "twitter"  : "",
+            "referral" : ""
+  },
+  {
+
             "name"     : "Tushar Singh",
             "imageurl" : "assets/img/participants/tushar.jpg",
             "about"    : "Web Developer",
@@ -180,10 +192,49 @@
             "twitter"  : "https://twitter.com/Prateek97923412",
             "referral" : "I saw it somewhere,I don't remember where"	    
 	},
+
 	    {
 	        "name"     : "Bindu",
             "imageurl" : "assets/img/participants/bindu.jpg",
             "about"    : "learner",
+
+             {
+            "name"     : "Manthan Surkar",
+            "imageurl" : "https://en.gravatar.com/userimage/59390444/d267abe902e7f507e425febe985b3229.png?size=400",
+            "about"    : "< ? ? >",
+            "college"  : "IIIT Allahabad",
+            "facebook" : "www.facebook.com/ManthanRsurkar",
+            "github"   : "http://github.com/thesmallstar/",
+            "twitter"  : "",
+            "referral" : ""
+        },
+
+	    {
+            "name"     : "Aastha Kasera",
+            "imageurl" : "assets/img/participants/Aastha.jpg",
+            "about"    : "Want to learn open source",
+            "college"  : "IIIT Allahabad",
+            "facebook" : "",
+            "github"   : "http://github.com/littleprodigy",
+            "twitter"  : "",
+            "referral" : ""
+        },
+	    {
+        	"name"     : "Shivam Singhal",
+			"imageurl" : "assets/img/participants/shivhek25.jpg",
+			"about"    : "Passionate Coder",
+			"college"  : "NIT Durgapur",
+			"facebook" : "",
+			"github"   : "",
+			"twitter"  : "",
+            "referral" : "ashish4321"
+
+
+        },
+	 {
+            "name"     : "Amit Kumar",
+            "imageurl" : "assets/img/participants/amit.jpg",
+            "about"    : "Here to Learn",
             "college"  : "IIIT Allahabad",
             "facebook" : "",
             "github"   : "https://github.com/BinduVerma123",
@@ -215,5 +266,10 @@
             "twitter"  : "",
             "referral" : ""
         }	
+
   ]
+
+
+
+    ]
 }
