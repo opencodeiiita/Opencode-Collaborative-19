@@ -34,53 +34,134 @@ body {
 
 }
 
-.participant-card {
-  max-height: 470px;
-  min-height: 470px;
-  min-width: 100%;
-  box-shadow: 0 3px 6px 0 rgba(0,0,0,0.12);
-}
-
-.participant-img {
-  max-height: 240px;
-  min-height: 240px;
-  min-width: 100%;
-  
+.mentor{
+  height: 50vh;
   width: 100%;
-	height: auto;
+  background-size: cover;
+  background-position: center;
+  cursor: pointer;
+  padding: 5px;
+  box-shadow: 0 0 1px 0 #000;
+  border-radius: 5px;
+  margin: 10px 0
+  
 }
 
-.social-media-links {
-  background: #fafafa;
-  padding: 15px 0;
+.mentor_img{
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  cursor: pointer;
+  transition: 0.5s;
+  border-radius: 5px
 }
 
-.social-media-links a i {
-  color: #9E9E9E;
-  padding: 0 10px; 
-  font-size: 16px;
-  transition: .2s ease-in-out;
-  -webkit-transition: .2s ease-in-out;
+.mentor_img#one{
+  background-image: url(../assets/img/mentors/anupam.jpg);
+ 
+
+}
+.mentor_img#two{
+  background-image: url(../assets/img/mentors/joglekar.jpg);
+
+}
+.mentor_img#three{
+  background-image: url(../assets/img/mentors/pradeep.jpg);
+  
+}
+.mentor_img#four{
+  background-image: url(../assets/img/mentors/shreyansh.jpg);
+ 
+}
+.mentor:hover > .mentor_img{
+  height: 85%;
+  background-position: bottom 0;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
 }
 
-.social-media-links a i:hover {
-  color: #212121;
-  transform: scale(1.4);
+
+.mentor_name{
+  padding: 16px;
+  text-align: center;
+  transform: scale(1,0);
+  background: #fff;
+  transition-duration: 0.5s;
+  transform-origin: top;
+  opacity: 1;
+  border-radius: 5px;
+  border-top-right-radius: 0;
+  border-top-left-radius: 0;
+  box-sizing: border-box;
+  font-weight: bold;
 }
 
-@media screen and (max-width: 767px) {
-  .participant-card {
-    max-height: 515px;
-    min-height: 515px;
-  }
+.mentor:hover .mentor_name{
+  transform: scale(1,1);
+  opacity: 1
 }
 
-@media screen and (max-width: 575px) {
-  .participant-card {
-    max-height: none;
-  }
 
-  .participant-img {
-    max-height: none;
-  }
+.mentor_img::before{
+  content: '';
+  background: none;
+  position: absolute;
+  width: calc(100% - 10px);
+  height: calc(85% - 7px);
+  transform-style: bottom;
+  transition-duration: 0.5s
 }
+
+.mentor:hover .mentor_img::before{
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 2;
+}
+
+/*Start of Social Media Icons*/
+
+.fa{
+  height: 35px;
+  width: 35px;
+  font-size: 20px;
+  border-radius: 50%;
+  background: #fff;
+  text-align: center;
+  padding: 8px 0;
+  box-sizing: border-box;
+  display: block;
+}
+
+span{
+  position: absolute;
+  top: 100%;
+  opacity: 0;
+  transition-duration: 0.5s;
+}
+
+
+.mentor:hover span{
+  transform: translate(0,-300%);
+  opacity: 1;
+  z-index: 3
+}
+
+span:nth-child(1){
+  transition-delay: 0s;
+  left: 12%
+}
+
+span:nth-child(2){
+  transition-delay: 0.1s;
+  left: 32%;
+}
+span:nth-child(3){
+  transition-delay: 0.2s;
+  left: 52%;
+}
+span:nth-child(4){
+  transition-delay: 0.3s;
+  left: 72%;
+}
+
+/*End of Social Media Icons*/
