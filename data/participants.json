@@ -359,7 +359,26 @@
 			"twitter"  : "",
             "referral" : ""
         },
-   
+        {
+            "name": "C",
+            "imageurl": "assets/img/participants/AkshayKalola.jpg",
+            "about": "Android Developer",
+            "college": "SPCE, Anand",
+            "facebook": "https://www.facebook.com/akshay.kalola28",
+            "github": "https://github.com/akshaykalola28",
+            "twitter": "",
+            "referral": ""
+        },
+	{
+            "name": "Chaitali Agrawal",
+            "imageurl": "assets/img/participants/Chaitali.jpg",
+            "about": "Exploring Opencode",
+            "college": "IIIT Allahabad",
+            "facebook": "",
+            "github": "https://github.com/chi50800",
+            "twitter": "",
+            "referral": ""
+        },
 
     ]
 }
