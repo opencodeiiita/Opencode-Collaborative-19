@@ -164,6 +164,18 @@
             "twitter"  : "http://twitter.com/coderjolly",
             "referral" : ""
         },
+
+	{
+	    "name"     : "Shubham Kumar",
+            "imageurl" : "assets/img/participants/dhruv-deshmukh-266273-unsplash.jpg",
+            "about"    : "just started",
+            "college"  : "IIIT, Allahabad",
+            "facebook" : "",
+            "github"   : "http://github.com/0leve",
+            "twitter"  : "",
+            "referral" : ""	
+	},	    
+
 	     {
                 "name" : "Ishan Agrawal",
                 "imageurl" : "assets/img/participants/ishan.JPG",
