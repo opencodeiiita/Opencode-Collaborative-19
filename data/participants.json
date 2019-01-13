@@ -102,13 +102,13 @@
         },
 	{
 	    "name"     : "Shubham Kumar",
-            "imageurl" : "",
+            "imageurl" : "assets/img/participants/dhruv-deshmukh-266273-unsplash.jpg",
             "about"    : "just started",
             "college"  : "IIIT, Allahabad",
             "facebook" : "",
             "github"   : "http://github.com/0leve",
             "twitter"  : "",
             "referral" : ""	
-	}
+	}	    
     ]
 }
