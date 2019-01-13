@@ -369,6 +369,19 @@
 			"twitter"  : "",
             "referral" : ""
         },
+
+	{
+            "name"     : "Jahanvi Bhadoria",
+			"imageurl" : "",
+			"about"    : "Exploring Open code",
+			"college"  : "IIIT Allahabad",
+			"facebook" : "",
+			"github"   : "https://github.com/Jahanvi21",
+			"twitter"  : "",
+            "referral" : ""
+        },
+        
+
 	    
 	    {
             "name"     : "Shantam Shrestha",
@@ -390,6 +403,7 @@
 			"twitter"  : "",
             "referral" : ""
 	    }
+
    
 
     ]
