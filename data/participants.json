@@ -359,9 +359,10 @@
 			"twitter"  : "",
             "referral" : ""
         },
+
 	{
             "name"     : "Jahanvi Bhadoria",
-			"imageurl" : "assets/img/participants/Jahanvi.jpeg",
+			"imageurl" : "",
 			"about"    : "Exploring Open code",
 			"college"  : "IIIT Allahabad",
 			"facebook" : "",
@@ -370,6 +371,19 @@
             "referral" : ""
         },
         
+
+	    
+	    {
+            "name"     : "Shantam Shrestha",
+			"imageurl" : "assets/img/participants/shantam.jpg",
+			"about"    : "Budding Full stack developer",
+			"college"  : "IIIT, Allahabad",
+			"facebook" : "",
+			"github"   : "https://github.com/shantam0810",
+			"twitter"  : "",
+            "referral" : ""
+	    }
+
    
 
     ]
