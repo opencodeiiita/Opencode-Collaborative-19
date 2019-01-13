@@ -336,6 +336,7 @@
             "twitter"  : "",
             "referral" : ""
         },
+
 	    {"name"     : "ANKUSH PANDEY ",
             "imageurl" : "assets/img/participants/github.jpg",
             "about"    : "GROWING..",
@@ -344,7 +345,7 @@
             "github"   : "https://github.com/lo0oper",
             "twitter"  : "",
             "referral" : ""
-        }
+        },
 	    
 	{
             "name"     : "Nandini Goyal",
@@ -376,6 +377,16 @@
 			"college"  : "IIIT, Allahabad",
 			"facebook" : "",
 			"github"   : "https://github.com/shantam0810",
+			"twitter"  : "",
+            "referral" : ""
+	    },
+	    {
+            "name"     : "Nitin kumar Madhukar",
+			"imageurl" : "assets/img/participants/nitin.jpg",
+			"about"    : "",
+			"college"  : "IIIT, Allahabad",
+			"facebook" : "",
+			"github"   : "https://github.com/itsnkm2000",
 			"twitter"  : "",
             "referral" : ""
 	    }
