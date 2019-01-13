@@ -29,8 +29,9 @@ body {
 .hero{
 
   padding: 150px 0;
-  background-color: #212121;
-  color:white;
+  background: linear-gradient(to top, #0250c5 0%, #d43f8d 100%);
+  border-style:solid;
+  border-color:#287EC7;
 
 }
 
@@ -84,13 +85,12 @@ body {
     max-height: none;
   }
 }
-
 #myBtn {
   display: none;
   position: fixed;
   bottom: 20px;
   right: 20px;
-  z-index: 99;
+  z-index: 100;
   font-size: 20px;
   border: none;
   outline: none;
