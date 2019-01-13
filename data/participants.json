@@ -109,6 +109,15 @@
             "github"   : "http://github.com/B3ingALearner",
             "twitter"  : "",
             "referral" : ""	    
-	}
+	},
+	    {
+	    "name"     : "amritansh6",
+            "imageurl" : "assets/img/participants/image(1).jpg",
+            "about"    : "Want to learn",
+            "college"  : "IIIT Allahabad",
+            "facebook" : "",
+            "github"   : "http://github.com/amritansh6",
+            "twitter"  : "",
+            "referral" : ""	     
     ]
 }
