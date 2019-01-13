@@ -68,8 +68,19 @@ body {
   transform: scale(1.4);
 }
 
-@media screen and (max-width: 30em) {
+@media screen and (max-width: 767px) {
+  .participant-card {
+    max-height: 515px;
+    min-height: 515px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .participant-card {
+    max-height: none;
+  }
+
   .participant-img {
-    height: auto;
+    max-height: none;
   }
 }
