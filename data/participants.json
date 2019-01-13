@@ -10,6 +10,16 @@
             "twitter": "https://twitter.com/kvikash076",
             "referral": "mail"
         },
+	{
+            "name": "Akshay Kalola",
+            "imageurl": "assets/img/participants/AkshayKalola.jpg",
+            "about": "Android Developer",
+            "college": "SPCE, Anand",
+            "facebook": "https://www.facebook.com/akshay.kalola28",
+            "github": "https://github.com/akshaykalola28",
+            "twitter": "",
+            "referral": ""
+        },
         {
             "name"     : "Wwar-lock",
 			"imageurl" : "assets/img/participants/Wwar-lock.jpeg",
