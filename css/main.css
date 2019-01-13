@@ -85,3 +85,22 @@ body {
     max-height: none;
   }
 }
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 100;
+  font-size: 20px;
+  border: none;
+  outline: none;
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  padding: 8px;
+  border-radius: 2px;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
