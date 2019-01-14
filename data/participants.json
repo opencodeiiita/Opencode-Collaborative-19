@@ -476,7 +476,7 @@
 	     "github"  : "",
 	     "twitter" : "",
 	     "referral": ""
-	}
+	},
 
 	  {
  	"name": "Vaibhav Shukla",
@@ -487,8 +487,19 @@
  	"github": "https://github.com/vaibhav_1207",
  	"twitter": "",
  	"referral": ""
- }
-  ]
+ },
+    {
+            "name"     : "Nishant Sharma",
+            "imageurl" : "assets/img/participants/nishant.jpeg",
+            "about"    : "Getting into open source",
+            "college"  : "IIIT Allahabad",
+            "facebook" : "",
+            "github"   : "https://github.com/supremenishant",
+            "twitter"  : "",
+            "referral" : ""
+	    }
+        
+  
 
 
     ]
