@@ -487,9 +487,9 @@
 	     "github"  : "",
 	     "twitter" : "",
 	     "referral": ""
-	}
+	},
 
-<<<<<<< HEAD
+
 	  {
  	"name": "Vaibhav Shukla",
  	"imageurl": "",
@@ -500,10 +500,7 @@
  	"twitter": "",
  	"referral": ""
  }
-  ]
 
-=======
->>>>>>> ab44afd6417aa852ed73f30b62d78c61b323dabf
 
     ]
 }
