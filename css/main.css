@@ -26,6 +26,15 @@ body {
   border-radius: 10px;
 }
 
+@media (min-width: 100px) {
+  .navbar-brand
+      {
+          position: absolute;
+          left: 50%;
+          transform: translateX(-50%);
+      }
+  }
+
 .hero{
 
   padding: 150px 0;
