@@ -457,7 +457,7 @@
 	    		"github" : "https://github.com/Slimshadynick",
 	    		"twitter" : "",
 	        "referral" : ""
-	    }
+	    },
 	    {
 	        "name"	:"Hardik Kumawat
 	    		"imageurl" : "",
@@ -467,7 +467,68 @@
 	    		"github" : "https://github.com/caperdango",
 	    		"twitter" : "",
 	        "referral" : ""
-	    }
+	        },
+        {
+	        "name"	:"Mansi Sharma",
+	    		"imageurl" : "assets/img/participants/mansi.jpg",
+	    		"about"   :"",
+	    		"college" :"IIIT Allahabad",
+	    		"facebook" : "https://www.facebook.com/profile.php?id=100007309844750",
+	    		"github" : "https://github.com/sharmamansi",
+	    		"twitter" : "",
+	            "referral" : ""
+	    },
 
+        {
+            "name"  :"Ritik Harchani",
+                "imageurl" : "",
+                "about"   :"Started OpenCode19",
+                "college" :"IIIT, Allahabad",
+                "facebook" : "",
+                "github" : "https://github.com/harchani-ritik",
+                "twitter" : "",
+            "referral" : ""
+        },
+	    {
+		    "name"      : "Priyesh Raj",
+		    "imageurl"  : "assets/img/participants/IMG_20180728_162500.jpg",
+		    "about"     : "Eat,Sleep,Learn,Repeat",
+		    "college"   : "IIIT Allahabad",
+		    "github"    : "https://github.com/ekthapriyesh24",
+		    "twitter"   : "",
+		    "referral"  : ""
+	    },
+	    {
+
+   		"name" : "Kumar Ujjwaldisha Batra",
+   		"imageurl" : "",
+   		"about" : "Hello I'm a web developer",
+   		"college" : "IIIT Allahabad",
+   		"facebook" : "https://www.facebook.com/ujjwal.batra.79",
+   		"github" : "https://github.com/ujjwal-batra",
+   		"twitter" : "",
+   		"referral" : ""
+	    },
+      {
+	     "name"    : "Kaushal Sahu",
+	     "imageurl": "assets/img/participants/kaushal.jpg",
+	     "about"   : "Coding Enthusiast",
+	     "college" : "IIITA",
+	     "facebook": "",
+	     "github"  : "",
+	     "twitter" : "",
+	     "referral": ""
+	    },
+
+{
+ 	"name": "Vaibhav Shukla",
+ 	"imageurl": "",
+ 	"about": "",
+ 	"college": "IIIT Allahabad",
+ 	"facebook": "",
+ 	"github": "https://github.com/vaibhav_1207",
+ 	"twitter": "",
+ 	"referral": ""
+ }
     ]
 }
