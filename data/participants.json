@@ -529,6 +529,15 @@
 	 "github"    : "https://github.com/me-stone",
 	 "twitter"   : "",
 	 "referral" : "",
+ },
+	     {
+	 "name"      : "Nitin Mathur",
+	 "imageurl"  : "",
+	 "about"     : "",
+	 "college"   : "IIIT Allahabad",
+	 "github"    : "https://github.com/nitinmathur1998",
+	 "twitter"   : "",
+	 "referral" : "",
  }
     ]
 }
