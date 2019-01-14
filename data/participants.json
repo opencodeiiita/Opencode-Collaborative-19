@@ -457,7 +457,17 @@
 	    		"github" : "https://github.com/Slimshadynick",
 	    		"twitter" : "",
 	        "referral" : ""
-	    }
+	    },
+        {
+            "name"  :"Ritik Harchani",
+                "imageurl" : "",
+                "about"   :"Started OpenCode19",
+                "college" :"IIIT, Allahabad",
+                "facebook" : "",
+                "github" : "https://github.com/harchani-ritik",
+                "twitter" : "",
+            "referral" : ""
+        }
 
     ]
 }
