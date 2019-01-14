@@ -529,6 +529,17 @@
 	 "github"    : "https://github.com/me-stone",
 	 "twitter"   : "",
 	 "referral" : "",
- }
+ },
+{
+	"name"       : "Cheena Budhiraja",
+	"imageurl"   : "assets/img/participants/maxresdefault.jpg",
+	"about"      : "a learner",
+	"college"    : "IIIT Allahabad",
+	"facebook"   : "",
+	"github"     : "https://github.com/griffy06",
+	"twitter"    : "",
+	"referral"   : "",
+}
+		    
     ]
 }
