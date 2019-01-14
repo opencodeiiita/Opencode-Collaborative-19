@@ -466,6 +466,16 @@
 		    "github"    : "https://github.com/ekthapriyesh24",
 		    "twitter"   : "",
 		    "referral"  : ""
+	    },
+	    {
+   		"name" : "Kumar Ujjwaldisha Batra",
+   		"imageurl" : "",
+   		"about" : "Hello I'm a web developer",
+   		"college" : "IIIT Allahabad",
+   		"facebook" : "https://www.facebook.com/ujjwal.batra.79",
+   		"github" : "https://github.com/ujjwal-batra",
+   		"twitter" : "",
+   		"referral" : ""
 	    }
 
     ]
