@@ -457,7 +457,17 @@
 	    		"github" : "https://github.com/Slimshadynick",
 	    		"twitter" : "",
 	        "referral" : ""
-	    }
+	    },
+        {
+            "name"	:"Nishant Sharma",
+	    		"imageurl" : "assets/img/participants/nishant.jpeg",
+	    		"about"   :"Getting to know about opensource",
+	    		"college" :"IIIT, Allahabad",
+	    		"facebook" : "",
+	    		"github" : "https://github.com/supremenishant",
+	    		"twitter" : "",
+	        "referral" : ""
+        }
 
     ]
 }
