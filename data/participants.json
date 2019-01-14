@@ -468,6 +468,18 @@
 	    		"twitter" : "",
 	            "referral" : ""
 	    },
+
+        {
+            "name"  :"Ritik Harchani",
+                "imageurl" : "",
+                "about"   :"Started OpenCode19",
+                "college" :"IIIT, Allahabad",
+                "facebook" : "",
+                "github" : "https://github.com/harchani-ritik",
+                "twitter" : "",
+            "referral" : ""
+        },
+
 	    {
 		    "name"      : "Priyesh Raj",
 		    "imageurl"  : "assets/img/participants/IMG_20180728_162500.jpg",
@@ -497,16 +509,17 @@
 	     "github"  : "",
 	     "twitter" : "",
 	     "referral": ""
-	},
-      {
-    "name": "Vaibhav Shukla",
-    "imageurl": "",
-    "about": "",
-    "college": "IIIT Allahabad",
-    "facebook": "",
-    "github": "https://github.com/vaibhav_1207",
-    "twitter": "",
-    "referral": ""
-   }
+	    },
+
+{
+ 	"name": "Vaibhav Shukla",
+ 	"imageurl": "",
+ 	"about": "",
+ 	"college": "IIIT Allahabad",
+ 	"facebook": "",
+ 	"github": "https://github.com/vaibhav_1207",
+ 	"twitter": "",
+ 	"referral": ""
+ }
     ]
 }
