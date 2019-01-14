@@ -487,7 +487,20 @@
 	     "github"  : "",
 	     "twitter" : "",
 	     "referral": ""
-	}
+	},
+
+	  {
+ 	"name": "Vaibhav Shukla",
+ 	"imageurl": "",
+ 	"about": "",
+ 	"college": "IIIT Allahabad",
+ 	"facebook": "",
+ 	"github": "https://github.com/vaibhav_1207",
+ 	"twitter": "",
+ 	"referral": ""
+ }
+  ]
+
 
 
     ]
