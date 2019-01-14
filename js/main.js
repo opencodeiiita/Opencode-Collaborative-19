@@ -91,6 +91,7 @@ $(document).ready(function () {
 
     $.getJSON(participantsJson, function(data) {
         participants = data.participants;
+        
         $.each(participants, function(i, participant) {
             if (
                 /^ *$/.test(participant.imageurl) ||
