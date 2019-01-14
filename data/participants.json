@@ -457,6 +457,16 @@
 	    		"github" : "https://github.com/Slimshadynick",
 	    		"twitter" : "",
 	        "referral" : ""
+        },
+        {
+	        "name"	:"Mansi Sharma",
+	    		"imageurl" : "assets/img/participants/mansi.jpg",
+	    		"about"   :"",
+	    		"college" :"IIIT Allahabad",
+	    		"facebook" : "https://www.facebook.com/profile.php?id=100007309844750",
+	    		"github" : "https://github.com/sharmamansi",
+	    		"twitter" : "",
+	            "referral" : ""
 	    },
 	    {
 		    "name"      : "Priyesh Raj",
@@ -488,19 +498,15 @@
 	     "twitter" : "",
 	     "referral": ""
 	},
-
-
-	  {
- 	"name": "Vaibhav Shukla",
- 	"imageurl": "",
- 	"about": "",
- 	"college": "IIIT Allahabad",
- 	"facebook": "",
- 	"github": "https://github.com/vaibhav_1207",
- 	"twitter": "",
- 	"referral": ""
- }
-
-
+      {
+    "name": "Vaibhav Shukla",
+    "imageurl": "",
+    "about": "",
+    "college": "IIIT Allahabad",
+    "facebook": "",
+    "github": "https://github.com/vaibhav_1207",
+    "twitter": "",
+    "referral": ""
+   }
     ]
 }
