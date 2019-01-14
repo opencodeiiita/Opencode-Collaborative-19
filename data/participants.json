@@ -522,6 +522,16 @@
  	"referral": ""
  },
  {
+   "name" : "Mahak Saria",
+   "imageurl" : "",
+   "about" : "Hello I'm a web developer",
+   "college" : "SRMIST, Chennai",
+   "facebook" : "",
+   "github" : "https://github.com/mahek5",
+   "twitter" : "",
+   "referral" : "Shivam Singhal https://github.com/shivhek25",
+ },
+ {
 	 "name"      : "Uddeept Shandilya",
 	 "imageurl"  : "",
 	 "about"     : "",
