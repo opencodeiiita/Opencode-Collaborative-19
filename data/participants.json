@@ -520,8 +520,9 @@
  	"github": "https://github.com/vaibhav_1207",
  	"twitter": "",
  	"referral": ""
-}
-        {
+
+},
+{
             "name": "Chaitali Agrawal",
             "imageurl": "",
             "about": "Exploring Opencode",
@@ -530,6 +531,16 @@
             "github": "https://github.com/chi50800",
             "twitter": "",
             "referral": ""
-        }
+       
+ },
+ {
+	 "name"      : "Uddeept Shandilya",
+	 "imageurl"  : "",
+	 "about"     : "",
+	 "college"   : "IIIT Allahabad",
+	 "github"    : "https://github.com/me-stone",
+	 "twitter"   : "",
+	 "referral" : "",
+ }
     ]
 }
