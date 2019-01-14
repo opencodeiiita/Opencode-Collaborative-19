@@ -457,7 +457,17 @@
 	    		"github" : "https://github.com/Slimshadynick",
 	    		"twitter" : "",
 	        "referral" : ""
-	    }
+	    },
+	    {
+	    "name"      : "Parag Goyal",
+	   "imageurl"   : "",
+	   "about"      : "I will win, not immediately, but definitely....",
+	   "college"    : "IIIT Allahabad",
+	   "facebook"   : "",
+	   "github"     : "https://github.com/parag1201",
+	   "twitter"    : "",
+	   "referral"   : ""
+             }
 
     ]
 }
