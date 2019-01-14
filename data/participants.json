@@ -468,6 +468,7 @@
 		    "referral"  : ""
 	    },
 	    {
+
    		"name" : "Kumar Ujjwaldisha Batra",
    		"imageurl" : "",
    		"about" : "Hello I'm a web developer",
@@ -476,7 +477,18 @@
    		"github" : "https://github.com/ujjwal-batra",
    		"twitter" : "",
    		"referral" : ""
-	    }
+	    },
+      {
+	     "name"    : "Kaushal Sahu",
+	     "imageurl": "assets/img/participants/kaushal.jpg",
+	     "about"   : "Coding Enthusiast",
+	     "college" : "IIITA",
+	     "facebook": "",
+	     "github"  : "",
+	     "twitter" : "",
+	     "referral": ""
+	}
+
 
     ]
 }
