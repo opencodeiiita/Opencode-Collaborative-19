@@ -529,6 +529,15 @@
 	 "github"    : "https://github.com/me-stone",
 	 "twitter"   : "",
 	 "referral" : "",
- }
+ }{
+            "name"     : "Ayushi Gupta",
+			"imageurl" : "",
+			"about"    : "Love to learn",
+			"college"  : "IIIT Allahabad",
+			"facebook" : "",
+			"github"   : "",
+			"twitter"  : "",
+            "referral" : ""
+        },
     ]
 }
