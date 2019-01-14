@@ -530,5 +530,14 @@
 	 "twitter"   : "",
 	 "referral" : "",
  }
-    ]
+    ]{
+            "name"     : "Ayushi Gupta",
+			"imageurl" : "",
+			"about"    : "Love to learn",
+			"college"  : "IIIT Allahabad",
+			"facebook" : "",
+			"github"   : "",
+			"twitter"  : "",
+            "referral" : ""
+        },
 }
