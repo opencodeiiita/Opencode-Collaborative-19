@@ -468,6 +468,17 @@
 		    "referral"  : ""
 	    },
 	    {
+
+   		"name" : "Kumar Ujjwaldisha Batra",
+   		"imageurl" : "",
+   		"about" : "Hello I'm a web developer",
+   		"college" : "IIIT Allahabad",
+   		"facebook" : "https://www.facebook.com/ujjwal.batra.79",
+   		"github" : "https://github.com/ujjwal-batra",
+   		"twitter" : "",
+   		"referral" : ""
+	    },
+      {
 	     "name"    : "Kaushal Sahu",
 	     "imageurl": "assets/img/participants/kaushal.jpg",
 	     "about"   : "Coding Enthusiast",
@@ -478,6 +489,7 @@
 	     "referral": ""
 	}
 
+<<<<<<< HEAD
 	  {
  	"name": "Vaibhav Shukla",
  	"imageurl": "",
@@ -490,6 +502,8 @@
  }
   ]
 
+=======
+>>>>>>> ab44afd6417aa852ed73f30b62d78c61b323dabf
 
     ]
 }
