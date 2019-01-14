@@ -454,17 +454,38 @@
             "twitter"  : "",
             "referral" : ""
 	    },
-	{
+
+	   {
+	        "name"	:"Nikhil Goyal",
+	    		"imageurl" : "",
+	    		"about"   :"Willing  to learn along the way",
+	    		"college" :"IIIT, Allahabad",
+	    		"facebook" : "",
+	    		"github" : "https://github.com/Slimshadynick",
+	    		"twitter" : "",
+	        "referral" : ""
+	    },
+	    {
+		    "name"      : "Priyesh Raj",
+		    "imageurl"  : "assets/img/participants/IMG_20180728_162500.jpg",
+		    "about"     : "Eat,Sleep,Learn,Repeat",
+		    "college"   : "IIIT Allahabad",
+		    "github"    : "https://github.com/ekthapriyesh24",
+		    "twitter"   : "",
+		    "referral"  : ""
+	    },
+      {
 		
-            "name"     : "Neelabh Gupta",
+      "name"     : "Neelabh Gupta",
 			"imageurl" : "assets/img/participants/neelabh.jpg",
 			"about"    : "",
 			"college"  : "IIIT, Allahabad",
 			"facebook" : "https://www.facebook.com/neelabh.gupta.56",
 			"github"   : "https://github.com/Neelabh46",
 			"twitter"  : "",
-            "referral" : ""
-        }
-  ]
+       "referral" : ""
+       }
+
+    ]
 
 }
