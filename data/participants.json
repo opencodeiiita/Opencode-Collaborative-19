@@ -447,6 +447,16 @@
             "github"   : "https://github.com/SLakhani1",
             "twitter"  : "",
             "referral" : ""
+        },
+        {
+            "name"     : "Rishabh Shukla",
+            "imageurl" : "assets/img/participants/blurry.jpeg",
+            "about"    : "Hey!",
+            "college"  : "IIIT Lucknow",
+            "facebook" : "https://www.facebook.com/firela007",
+            "github"   : "https://github.com/Firela",
+            "twitter"  : "",
+            "referral" : ""
 	    }
   ]
 }
