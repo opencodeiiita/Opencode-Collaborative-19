@@ -529,6 +529,15 @@
 	 "github"    : "https://github.com/me-stone",
 	 "twitter"   : "",
 	 "referral" : "",
+ },
+        {
+	 "name"      : "Nishant Sharma",
+	 "imageurl"  : "assets/img/participants/nishant.jpg",
+	 "about"     : "Getting into open source",
+	 "college"   : "IIIT Allahabad",
+	 "github"    : "https://github.com/supremenishant",
+	 "twitter"   : "",
+	 "referral" : "",
  }
     ]
 }
