@@ -4,14 +4,41 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-4-col-portfolio/blob/master/LICENSE)
  */
 
-body {
-  padding-top: 54px;
+ body {
+  margin: 0;
+  padding: 0;
 }
 
-@media (min-width: 992px) {
-  body {
-    padding-top: 56px;
-  }
+#mainNav {
+  padding: 1em 0;
+}
+
+.header-overlay {
+  background: url("../assets/img/header-bg.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover; 
+  padding: 200px 0;
+  color: #fafafa;
+}
+
+.header-btn {
+  margin-top: 15px;
+  border: none;
+  border-radius: 40px;
+  padding: 10px 20px;
+  color: #fff;
+  box-shadow: 0 1px 3px rgb(24, 23, 23,);
+  background: -webkit-linear-gradient(left, rgb(255, 140, 89) 0%, rgb(255, 177, 82) 100%); 
+}
+
+.header-btn a {
+  color: #fff;
+}
+
+.header-btn:hover {
+  cursor: pointer;
+  background: -webkit-linear-gradient(left, rgb(247, 112, 55) 0%, rgb(250, 168, 68) 100%);
 }
 
 .portfolio-item {
@@ -24,15 +51,6 @@ body {
 
 .profile-image{
   border-radius: 10px;
-}
-
-.hero{
-
-  padding: 150px 0;
-  background: linear-gradient(to top, #0250c5 0%, #d43f8d 100%);
-  border-style:solid;
-  border-color:#287EC7;
-
 }
 
 .footer_media{
