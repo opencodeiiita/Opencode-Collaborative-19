@@ -528,16 +528,16 @@
 	 "college"   : "IIIT Allahabad",
 	 "github"    : "https://github.com/me-stone",
 	 "twitter"   : "",
-	 "referral" : "",
+	 "referral" : ""
  },
      {
 	 "name"      : "vijit jain",
-	 "imageurl"  : "",
+	 "imageurl"  : "assets/img/participants/vj.jpg",
 	 "about"     : "",
 	 "college"   : "IIIT Allahabad",
 	 "github"    : "https://github.com/vj2000",
 	 "twitter"   : "",
-	 "referral" : "",
+	 "referral" : ""
  }
     ]
 }
