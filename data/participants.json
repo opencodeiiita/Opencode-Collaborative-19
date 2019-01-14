@@ -447,6 +447,36 @@
             "github"   : "https://github.com/SLakhani1",
             "twitter"  : "",
             "referral" : ""
-	    }
-  ]
+	    },
+	    {
+	        "name"	:"Nikhil Goyal",
+	    		"imageurl" : "",
+	    		"about"   :"Willing  to learn along the way",
+	    		"college" :"IIIT, Allahabad",
+	    		"facebook" : "",
+	    		"github" : "https://github.com/Slimshadynick",
+	    		"twitter" : "",
+	        "referral" : ""
+	    },
+	    {
+		    "name"      : "Priyesh Raj",
+		    "imageurl"  : "assets/img/participants/IMG_20180728_162500.jpg",
+		    "about"     : "Eat,Sleep,Learn,Repeat",
+		    "college"   : "IIIT Allahabad",
+		    "github"    : "https://github.com/ekthapriyesh24",
+		    "twitter"   : "",
+		    "referral"  : ""
+	    },
+	    {
+	     "name"    : "Kaushal Sahu",
+	     "imageurl": "assets/img/participants/kaushal.jpg",
+	     "about"   : "Coding Enthusiast",
+	     "college" : "IIITA",
+	     "facebook": "",
+	     "github"  : "",
+	     "twitter" : "",
+	     "referral": ""
+	}
+
+    ]
 }
