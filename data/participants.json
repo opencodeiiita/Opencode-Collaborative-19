@@ -1,284 +1,567 @@
 {
-    "participants": [
-	     {
-            "name": "Vikash Kumar",
-            "imageurl": "assets/img/participants/vikash.jpg",
-            "about": "MERN Stack Developer",
-            "college": "IIIT, Allahabad",
-            "facebook": "https://www.facebook.com/V1KaShKr",
-            "github": "https://github.com/vikash-kr",
-            "twitter": "https://twitter.com/kvikash076",
-            "referral": "mail"
-        },
-        {
-            "name"     : "Wwar-lock",
-			"imageurl" : "assets/img/participants/Wwar-lock.jpeg",
-			"about"    : "Believer",
-			"college"  : "IIIT, Allahabad",
-			"facebook" : "https://www.facebook.com/wwarlock.3",
-			"github"   : "https://github.com/Wwar-lock",
-			"twitter"  : "",
-            "referral" : ""
-        },
-	 {
-            "name"     : "NamanDeept",
-			"imageurl" : "assets/img/participants/namandeept.jpg",
-			"about"    : "Sikit Learner,Code for pragmatism",
-			"college"  : "IIIT Allahabad",
-			"facebook" : "https://www.facebook.com/naman.deept.75",
-			"github"   : "https://github.com/namandeept",
-			"twitter"  : "",
-            "referral" : ""
-        },
-	 {
-            "name"     : "Archies11",
-			"imageurl" : "assets/img/participants/archisha.jpg",
-			"about"    : "Curious mind keen to learn",
-			"college"  : "IIIT, Allahabad",
-			"facebook" : "",
-			"github"   : "",
-			"twitter"  : "",
-            "referral" : ""
-        },
-        {
-            "name"     : "Lekhika Dugtal",
-			"imageurl" : "assets/img/participants/lekhika.jpg",
-			"about"    : "NPC of this virtual World",
-			"college"  : "IIIT Allahabad",
-			"facebook" : "",
-			"github"   : "https://github.com/CleverFool77",
-			"twitter"  : "https://twitter.com/DugtalLekhika",
-            "referral" : ""
-        },
-      {
-        "name": "Manish",
-            "imageurl": "assets/img/participants/manish.jpg",
-            "about": "love to learn",
-            "college": "IIIT, Allahabad",
-            "facebook": "https://www.facebook.com/manish.jagnani.9",
-            "github": "https://github.com/Jaggu-123",
-            "twitter": "",
-            "referral": ""
-      },
-	    
-      {
-        "name": "Lalit",
-            "imageurl": "assets/img/participants/lalit.jpg",
-            "about": "new to open source",
-            "college": "IIIT, Allahabad",
-            "facebook": "",
-            "github": "https://github.com/Rattlecode17sh",
-            "twitter": "",
-            "referral": ""
-      },
-       {
-        "name": "Ashish Agarowala",
-            "imageurl": "assets/img/participants/ashish4321.jpg",
-            "about": "want to learn open source",
-            "college": "NIT, Durgaput",
-            "facebook": "",
-            "github": "https://github.com/ashish4321",
-            "twitter": "",
-            "referral": ""
-      },
-      {
-        "name"     : "Neeraj Dwivedi",
-        "imageurl" : "assets/img/participants/Neeraj.jpg",
-        "about"    : "OpenCode enthusiasts, Learner",
-        "college"  : "SMS, Varanasi",
-        "facebook" : "",
-        "github"   : "https://www.github.com/neerajd007",
-        "twitter"  : "",
-        "referral" : ""
-      },
-      {
-        "name": "Dhairya Baweja",
-            "imageurl": "assets/img/participants/dhairya.jpg",
-            "about": "willing to learn",
-            "college": "IIIT, Allahabad",
-            "facebook": "",
-            "github": "https://github.com/dhairyabaweja",
-            "twitter": "",
-            "referral": ""
-      },
-      {
-            "name"     : "Sheik Mohammed Adil",
-            "imageurl" : "assets/img/participants/adil.jpg",
-            "about"    : "UI Designer",
-            "college"  : "PACE, Mangaluru",
-            "facebook" : "",
-            "github"   : "http://github.com/mohammed-adil/",
-            "twitter"  : "https://twitter.com/_mohdAdil",
-            "referral" : ""
-        },
-	{
+	"participants": [{
+			"name": "Vikash Kumar",
+			"imageurl": "assets/img/participants/vikash.jpg",
+			"about": "MERN Stack Developer",
+			"college": "IIIT, Allahabad",
+			"facebook": "https://www.facebook.com/V1KaShKr",
+			"github": "https://github.com/vikash-kr",
+			"twitter": "https://twitter.com/kvikash076",
+			"referral": "mail"
+		},
+		{
+			"name": "Akshay Kalola",
+			"imageurl": "assets/img/participants/AkshayKalola.jpg",
+			"about": "Android Developer",
+			"college": "SPCE, Anand",
+			"facebook": "https://www.facebook.com/akshay.kalola28",
+			"github": "https://github.com/akshaykalola28",
+			"twitter": "",
+			"referral": ""
+		},
+		{
+			"name": "Wwar-lock",
+			"imageurl": "assets/img/participants/Wwar-lock.jpeg",
+			"about": "Believer",
+			"college": "IIIT, Allahabad",
+			"facebook": "https://www.facebook.com/wwarlock.3",
+			"github": "https://github.com/Wwar-lock",
+			"twitter": "",
+			"referral": ""
+		},
 
-            "name"     : "Vidhi Sah",
-            "imageurl" : "",
-            "about"    : "love to learn",
-            "college"  : "IIIT Allahabad",
-            "facebook" : "https://www.facebook.com/vidhi.sah.7",
-            "github"   : "http://github.com/VidhiSah/",
-            "twitter"  : "",
-            "referral" : ""
-  },
-  {
+		{
+			"name": "NamanDeept",
+			"imageurl": "assets/img/participants/namandeept.jpg",
+			"about": "Sikit Learner,Code for pragmatism",
+			"college": "IIIT Allahabad",
+			"facebook": "https://www.facebook.com/naman.deept.75",
+			"github": "https://github.com/namandeept",
+			"twitter": "",
+			"referral": ""
+		},
+		{
+			"name": "Archies11",
+			"imageurl": "assets/img/participants/archisha.jpg",
+			"about": "Curious mind keen to learn",
+			"college": "IIIT, Allahabad",
+			"facebook": "",
+			"github": "",
+			"twitter": "",
+			"referral": ""
+		},
+		{
+			"name": "Lekhika Dugtal",
+			"imageurl": "assets/img/participants/lekhika.jpg",
+			"about": "NPC of this virtual World",
+			"college": "IIIT Allahabad",
+			"facebook": "",
+			"github": "https://github.com/CleverFool77",
+			"twitter": "https://twitter.com/DugtalLekhika",
+			"referral": ""
+		},
+		{
+			"name": "Manish",
+			"imageurl": "assets/img/participants/manish.jpg",
+			"about": "love to learn",
+			"college": "IIIT, Allahabad",
+			"facebook": "https://www.facebook.com/manish.jagnani.9",
+			"github": "https://github.com/Jaggu-123",
+			"twitter": "",
+			"referral": ""
+		},
 
-            "name"     : "Tushar Singh",
-            "imageurl" : "assets/img/participants/tushar.jpg",
-            "about"    : "Web Developer",
-            "college"  : "IIIT, Allahabad",
-            "facebook" : "https://www.facebook.com/tushar.niftyy",
-            "github"   : "https://github.com/niftyy",
-            "twitter"  : ""
-	},
-	{
-            "name"     : "Ayush Verma",
-            "imageurl" : "assets/img/participants/punisher.jpg",
-            "about"    : "The fall of dropping water wears away the stone",
-            "college"  : "IIIT Allahabad",
-            "facebook" : "",
-            "github"   : "http://github.com/punisher1151",
-            "twitter"  : "",
-            "referral" : ""
-	},
-	 {
-            "name"     : "Harman Singh Jolly",
-            "imageurl" : "assets/img/participants/jolly.jpg",
-            "about"    : "Ruby on Rails Developer",
-            "college"  : "Bharati Vidyapeeth's College of Engineering, New Delhi",
-            "facebook" : "",
-            "github"   : "http://github.com/coderjolly",
-            "twitter"  : "http://twitter.com/coderjolly",
-            "referral" : ""
-        },
-	{
-	   "name" : "Keshav Sharma",
-	   "imageurl" : "assets/img/participants/Keshav.JPG",
-	   "about" : "Full Stack Developer",
-	   "college" : "IIIT Allahabad",
-	   "facebook" : "",
-	   "github" : "https://github.com/KeshavSharma21099",
-	   "twitter" : "",
-	   "referral" : ""
-  },
-  {
-	    "name"     : "B3ingALearner",
-            "imageurl" : "assets/img/participants/B3ingALearner.jpg",
-            "about"    : "NewBie",
-            "college"  : "IIIT Allahabad",
-            "facebook" : "",
-            "github"   : "http://github.com/B3ingALearner",
-            "twitter"  : "",
-            "referral" : ""	    
-	},
-	{
-	   "name" : "Ashutosh Mishra",
-	   "imageurl" : "assets/img/participants/download.jfif",
-	   "about" : "Hello I'm a web developer",
-	   "college" : "IIIT ALLAHABAD",
-	   "facebook" : "",
-	   "github" : "https://github.com/ashumishra007",
-	   "twitter" : "",
-	   "referral" : ""
-  },
-      {
-	        "name"     : "Prateek",
-            "imageurl" : "assets/img/participants/prateek76.jpg",
-            "about"    : "?",
-            "college"  : "IIIT Allahabad",
-            "facebook" : "https://www.facebook.com/prateek.17.xx.1999",
-            "github"   : "https://github.com/prateek76",
-            "twitter"  : "https://twitter.com/Prateek97923412",
-            "referral" : "I saw it somewhere,I don't remember where"	    
-	},
-             {
-            "name"     : "Manthan Surkar",
-            "imageurl" : "https://en.gravatar.com/userimage/59390444/d267abe902e7f507e425febe985b3229.png?size=400",
-            "about"    : "< ? ? >",
-            "college"  : "IIIT Allahabad",
-            "facebook" : "www.facebook.com/ManthanRsurkar",
-            "github"   : "http://github.com/thesmallstar/",
-            "twitter"  : "",
-            "referral" : ""
-        },
+		{
+			"name": "Lalit",
+			"imageurl": "assets/img/participants/lalit.jpg",
+			"about": "new to open source",
+			"college": "IIIT, Allahabad",
+			"facebook": "",
+			"github": "https://github.com/Rattlecode17sh",
+			"twitter": "",
+			"referral": ""
+		},
+		{
+			"name": "Ashish Agarowala",
+			"imageurl": "assets/img/participants/ashish4321.jpg",
+			"about": "want to learn open source",
+			"college": "NIT, Durgaput",
+			"facebook": "",
+			"github": "https://github.com/ashish4321",
+			"twitter": "",
+			"referral": ""
+		},
+		{
+			"name": "Neeraj Dwivedi",
+			"imageurl": "assets/img/participants/Neeraj.jpg",
+			"about": "OpenCode enthusiasts, Learner",
+			"college": "SMS, Varanasi",
+			"facebook": "",
+			"github": "https://www.github.com/neerajd007",
+			"twitter": "",
+			"referral": ""
+		},
+		{
+			"name": "Dhairya Baweja",
+			"imageurl": "assets/img/participants/dhairya.jpg",
+			"about": "willing to learn",
+			"college": "IIIT, Allahabad",
+			"facebook": "",
+			"github": "https://github.com/dhairyabaweja",
+			"twitter": "",
+			"referral": ""
+		},
+		{
+			"name": "Sheik Mohammed Adil",
+			"imageurl": "assets/img/participants/adil.jpg",
+			"about": "UI Designer",
+			"college": "PACE, Mangaluru",
+			"facebook": "",
+			"github": "http://github.com/mohammed-adil/",
+			"twitter": "https://twitter.com/_mohdAdil",
+			"referral": ""
+		},
 
-	    {
-            "name"     : "Aastha Kasera",
-            "imageurl" : "assets/img/participants/Aastha.jpg",
-            "about"    : "Want to learn open source",
-            "college"  : "IIIT Allahabad",
-            "facebook" : "",
-            "github"   : "http://github.com/littleprodigy",
-            "twitter"  : "",
-            "referral" : ""
-        },
-	    {
-        	"name"     : "Shivam Singhal",
-			"imageurl" : "assets/img/participants/shivhek25.jpg",
-			"about"    : "Passionate Coder",
-			"college"  : "NIT Durgapur",
-			"facebook" : "",
-			"github"   : "",
-			"twitter"  : "",
-            "referral" : "ashish4321"
+		{
 
+			"name": "Vidhi Sah",
+			"imageurl": "",
+			"about": "love to learn",
+			"college": "IIIT Allahabad",
+			"facebook": "https://www.facebook.com/vidhi.sah.7",
+			"github": "http://github.com/VidhiSah/",
+			"twitter": "",
+			"referral": ""
+		},
+		{
 
-        },
-	 {
-            "name"     : "Amit Kumar",
-            "imageurl" : "assets/img/participants/amit.jpg",
-            "about"    : "Here to Learn",
-            "college"  : "IIIT Allahabad",
-            "facebook" : "",
-            "github"   : "https://github.com/amitkr6211",
-            "twitter"  : "",
-            "referral" : ""
-        },
-	{
-            "name"     : "Eishaan Singh",
-            "imageurl" : "assets/img/participants/code.jpg",
-            "about"    : "Noobda",
-            "college"  : "IIIT Allahabad",
-            "facebook" : "",
-            "github"   : "https://github.com/eishaansingh",
-            "twitter"  : "",
-            "referral" : ""
-        },
-	{
-            "name"     : "Mohammad Amir",
-            "imageurl" : "assets/img/participants/images.jpg",
-            "about"    : "",
-            "college"  : "IIIT Allahabad",
-            "facebook" : "",
-            "github"   : "https://github.com/chiillax",
-            "twitter"  : "",
-            "referral" : ""
+			"name": "Tushar Singh",
+			"imageurl": "assets/img/participants/tushar.jpg",
+			"about": "Web Developer",
+			"college": "IIIT, Allahabad",
+			"facebook": "https://www.facebook.com/tushar.niftyy",
+			"github": "https://github.com/niftyy",
+			"twitter": ""
+		},
+		{
+			"name": "Ayush Verma",
+			"imageurl": "assets/img/participants/punisher.jpg",
+			"about": "The fall of dropping water wears away the stone",
+			"college": "IIIT Allahabad",
+			"facebook": "",
+			"github": "http://github.com/punisher1151",
+			"twitter": "",
+			"referral": ""
+		},
+		{
+			"name": "Harman Singh Jolly",
+			"imageurl": "assets/img/participants/jolly.jpg",
+			"about": "Ruby on Rails Developer",
+			"college": "Bharati Vidyapeeth's College of Engineering, New Delhi",
+			"facebook": "",
+			"github": "http://github.com/coderjolly",
+			"twitter": "http://twitter.com/coderjolly",
+			"referral": ""
+		},
 
-        },	
+		{
+			"name": "Shubham Kumar",
+			"imageurl": "assets/img/participants/dhruv-deshmukh-266273-unsplash.jpg",
+			"about": "just started",
+			"college": "IIIT, Allahabad",
+			"facebook": "",
+			"github": "http://github.com/0leve",
+			"twitter": "",
+			"referral": ""
+		},
 
-	{
-            "name": "Ishan Arora",
-            "imageurl": "assets/img/participants/Ishan.jpg",
-            "about": "Exploring OpenSource",
-            "college": "IIIT, Allahabad",
-            "facebook": "",
-            "github": "https://github.com/Ishaniiit",
-            "twitter": "",
-            "referral": ""
-      },
+		{
+			"name": "Ishan Agrawal",
+			"imageurl": "assets/img/participants/ishan.JPG",
+			"about": "Web Developer",
+			"college": "IIIT Allahabad",
+			"facebook": "https://www.facebook.com/ishan.agrawal.7524",
+			"github": "https://github.com/barney-stinson",
+			"twitter": "",
+			"referral": ""
+		},
+
+		{
+			"name": "Aayush Talesara",
+			"imageurl": "assets/img/participants/open.jpeg",
+			"about": "eager to learn opensource",
+			"college": "IIIT Allahabad",
+			"facebook": "https://www.facebook.com/aayush.talesara.7",
+			"github": "https://github.com/elitesf",
+			"twitter": "",
+			"referral": ""
+		},
+		{
+			"name": "Keshav Sharma",
+			"imageurl": "assets/img/participants/Keshav.JPG",
+			"about": "Full Stack Developer",
+			"college": "IIIT Allahabad",
+			"facebook": "",
+			"github": "https://github.com/KeshavSharma21099",
+			"twitter": "",
+			"referral": ""
+		},
+		{
+			"name": "B3ingALearner",
+			"imageurl": "assets/img/participants/B3ingALearner.jpg",
+			"about": "NewBie",
+			"college": "IIIT Allahabad",
+			"facebook": "",
+			"github": "http://github.com/B3ingALearner",
+			"twitter": "",
+			"referral": ""
+		},
+		{
+			"name": "Ashutosh Mishra",
+			"imageurl": "assets/img/participants/download.jfif",
+			"about": "Hello I'm a web developer",
+			"college": "IIIT ALLAHABAD",
+			"facebook": "",
+			"github": "https://github.com/ashumishra007",
+			"twitter": "",
+			"referral": ""
+		},
+		{
+			"name": "Manthan Surkar",
+			"imageurl": "https://en.gravatar.com/userimage/59390444/d267abe902e7f507e425febe985b3229.png?size=400",
+			"about": "< ? ? >",
+			"college": "IIIT Allahabad",
+			"facebook": "www.facebook.com/ManthanRsurkar",
+			"github": "http://github.com/thesmallstar/",
+			"twitter": "",
+			"referral": ""
+		},
+
+		{
+			"name": "Aastha Kasera",
+			"imageurl": "assets/img/participants/Aastha.jpg",
+			"about": "Want to learn open source",
+			"college": "IIIT Allahabad",
+			"facebook": "",
+			"github": "http://github.com/littleprodigy",
+			"twitter": "",
+			"referral": ""
+		},
+		{
+			"name": "Shivam Singhal",
+			"imageurl": "assets/img/participants/shivhek25.jpg",
+			"about": "Passionate Coder",
+			"college": "NIT Durgapur",
+			"facebook": "",
+			"github": "",
+			"twitter": "",
+			"referral": "ashish4321"
 
 
+		},
+		{
+			"name": "Amit Kumar",
+			"imageurl": "assets/img/participants/amit.jpg",
+			"about": "Here to Learn",
+			"college": "IIIT Allahabad",
+			"facebook": "",
+			"github": "https://github.com/amitkr6211",
+			"twitter": "",
+			"referral": ""
+		},
 
-	{
-            "name"     : "raviteja ",
-            "imageurl" : "assets/img/participants/ravi.jpg",
-            "about"    : "novice developer",
-            "college"  : "IIIT Allahabad",
-            "facebook" : "",
-            "github"   : "https://github.com/coding-clown",
-            "twitter"  : "",
-            "referral" : ""
-        }
-    ]
+		{
+			"name": "Rajat Sharma",
+			"imageurl": "assets/img/participants/Rajat.jpg",
+			"about": "Enthusiastic learner",
+			"college": "IIIT Allahabad",
+			"facebook": "",
+			"github": "https://github.com/Rajatsharma1007",
+			"twitter": "",
+			"referral": ""
+		},
+		{
+			"name": "Eishaan Singh",
+			"imageurl": "assets/img/participants/code.jpg",
+			"about": "Noobda",
+			"college": "IIIT Allahabad",
+			"facebook": "",
+			"github": "https://github.com/eishaansingh",
+			"twitter": "",
+			"referral": ""
+		},
+		{
+			"name": "Mohammad Amir",
+			"imageurl": "assets/img/participants/images.jpg",
+			"about": "",
+			"college": "IIIT Allahabad",
+			"facebook": "",
+			"github": "https://github.com/chiillax",
+			"twitter": "",
+			"referral": ""
+		},
+		{
+			"name": "Sourabh Pruthi",
+			"imageurl": "assets/img/participants/sourabh1031.jpeg",
+			"about": "A developer , Programmer ,FOSS Enthusiastic and much more...",
+			"college": "DCRUST, Sonepat",
+			"facebook": "",
+			"github": "https://www.github.com/sourabh1031",
+			"twitter": "https://twitter.com/sourabh1031",
+			"referral": ""
+		},
+		{
+			"name": "Palak Mittal",
+			"imageurl": "",
+			"about": "Love and learn every art on the wall",
+			"college": "IIIT Allahabad",
+			"facebook": "",
+			"github": "https://github.com/palak2001",
+			"twitter": "",
+			"referral": ""
+		},
+		{
+			"name": "Ishan Arora",
+			"imageurl": "assets/img/participants/Ishan.jpg",
+			"about": "Exploring OpenSource",
+			"college": "IIIT, Allahabad",
+			"facebook": "",
+			"github": "https://github.com/Ishaniiit",
+			"twitter": "",
+			"referral": ""
+		},
+		{
+			"name": "raviteja ",
+			"imageurl": "assets/img/participants/ravi.jpg",
+			"about": "novice developer",
+			"college": "IIIT Allahabad",
+			"facebook": "",
+			"github": "https://github.com/coding-clown",
+			"twitter": "",
+			"referral": ""
+		},
+		{
+			"name": "Saakshi Jain",
+			"imageurl": "assets/img/participants/Saakshi.jpeg",
+			"about": "Passionate Learner",
+			"college": "IIIT Lucknow",
+			"facebook": "",
+			"github": "https://github.com/sa4k5hi",
+			"twitter": "",
+			"referral": ""
+		},
+		{
+			"name": "ANKUSH PANDEY ",
+			"imageurl": "assets/img/participants/github.jpg",
+			"about": "GROWING..",
+			"college": "IIIT Allahabad",
+			"facebook": "",
+			"github": "https://github.com/lo0oper",
+			"twitter": "",
+			"referral": ""
+		},
+		{
+			"name": "Nandini Goyal",
+			"imageurl": "",
+			"about": "",
+			"college": "IIIT, Allahabad",
+			"facebook": "",
+			"github": "",
+			"twitter": "",
+			"referral": ""
+		},
+		{
+			"name": "Wwar-lock",
+			"imageurl": "assets/img/participants/Wwar-lock.jpeg",
+			"about": "Believer",
+			"college": "IIIT, Allahabad",
+			"facebook": "https://www.facebook.com/wwarlock.3",
+			"github": "https://github.com/Wwar-lock",
+			"twitter": "",
+			"referral": ""
+		},
+		{
+			"name": "Jahanvi Bhadoria",
+			"imageurl": "",
+			"about": "Exploring Open code",
+			"college": "IIIT Allahabad",
+			"facebook": "",
+			"github": "https://github.com/Jahanvi21",
+			"twitter": "",
+			"referral": ""
+		},
+		{
+			"name": "Shantam Shrestha",
+			"imageurl": "assets/img/participants/shantam.jpg",
+			"about": "Budding Full stack developer",
+			"college": "IIIT, Allahabad",
+			"facebook": "",
+			"github": "https://github.com/shantam0810",
+			"twitter": "",
+			"referral": ""
+		},
+		{
+			"name": "Nitin kumar Madhukar",
+			"imageurl": "assets/img/participants/nitin.jpg",
+			"about": "",
+			"college": "IIIT, Allahabad",
+			"facebook": "",
+			"github": "https://github.com/itsnkm2000",
+			"twitter": "",
+			"referral": ""
+		},
+		{
+			"name": "Himanshu Janbandhu",
+			"imageurl": "",
+			"about": "",
+			"college": "IIIT Allahabad",
+			"facebook": "",
+			"github": "https://github.com/HimanshuJanbandhu",
+			"twitter": "",
+			"referral": ""
+		},
+		{
+			"name": "Sagar Lakhani",
+			"imageurl": "assets/img/participants/sagar.png",
+			"about": "",
+			"college": "IIIT Allahabad",
+			"facebook": "",
+			"github": "https://github.com/SLakhani1",
+			"twitter": "",
+			"referral": ""
+		},
+		{
+			"name": "Nikhil Goyal",
+			"imageurl": "",
+			"about": "Willing  to learn along the way",
+			"college": "IIIT, Allahabad",
+			"facebook": "",
+			"github": "https://github.com/Slimshadynick",
+			"twitter": "",
+			"referral": ""
+		},
+		{
+			"name": "Mansi Sharma",
+			"imageurl": "assets/img/participants/mansi.jpg",
+			"about": "",
+			"college": "IIIT Allahabad",
+			"facebook": "https://www.facebook.com/profile.php?id=100007309844750",
+			"github": "https://github.com/sharmamansi",
+			"twitter": "",
+			"referral": ""
+		},
+
+		{
+			"name": "Ritik Harchani",
+			"imageurl": "",
+			"about": "Started OpenCode19",
+			"college": "IIIT, Allahabad",
+			"facebook": "",
+			"github": "https://github.com/harchani-ritik",
+			"twitter": "",
+			"referral": ""
+		},
+
+		{
+			"name": "Priyesh Raj",
+			"imageurl": "assets/img/participants/IMG_20180728_162500.jpg",
+			"about": "Eat,Sleep,Learn,Repeat",
+			"college": "IIIT Allahabad",
+			"github": "https://github.com/ekthapriyesh24",
+			"twitter": "",
+			"referral": ""
+		},
+		{
+
+			"name": "Kumar Ujjwaldisha Batra",
+			"imageurl": "",
+			"about": "Hello I'm a web developer",
+			"college": "IIIT Allahabad",
+			"facebook": "https://www.facebook.com/ujjwal.batra.79",
+			"github": "https://github.com/ujjwal-batra",
+			"twitter": "",
+			"referral": ""
+		},
+		{
+			"name": "Kaushal Sahu",
+			"imageurl": "assets/img/participants/kaushal.jpg",
+			"about": "Coding Enthusiast",
+			"college": "IIITA",
+			"facebook": "",
+			"github": "",
+			"twitter": "",
+			"referral": ""
+		},
+
+		{
+			"name": "Vaibhav Shukla",
+			"imageurl": "",
+			"about": "",
+			"college": "IIIT Allahabad",
+			"facebook": "",
+			"github": "https://github.com/vaibhav_1207",
+			"twitter": "",
+			"referral": ""
+		},
+		{
+			"name": "Uddeept Shandilya",
+			"imageurl": "",
+			"about": "",
+			"college": "IIIT Allahabad",
+			"github": "https://github.com/me-stone",
+			"twitter": "",
+			"referral": ""
+		},
+		{
+			"name": "Cheena Budhiraja",
+			"imageurl": "assets/img/participants/maxresdefault.jpg",
+			"about": "a learner",
+			"college": "IIIT Allahabad",
+			"facebook": "",
+			"github": "https://github.com/griffy06",
+			"twitter": "",
+			"referral": ""
+		},
+		{
+			"name": "Vishnu K Raman",
+			"imageurl": "assets/img/participants/Vishnuk7.jpg",
+			"about": "a learner",
+			"college": "Amirta School of Arts and Sciences",
+			"facebook": "https://www.facebook.com/vishnu.kraman",
+			"github": "https://github.com/vishnuk7",
+      			"twitter": "",
+			"referral": ""
+    		},
+    		{
+			"name": "Anupam Shukla",
+			"imageurl": "assets/img/participants/Anupam.jpg",
+			"about": "Front end web developer",
+			"college": "Amrita school of arts and sciences, Mysore",
+			"facebook": "https://facebook.com/anupam.shukla141",
+			"github": "https://github.com/anupm12",
+			"twitter": "",
+			"referral": ""
+		},
+		{
+			"name": "Nishant Sharma",
+			"imageurl": "assets/img/participants/nishant.jpeg",
+			"about": "Getting into opensource",
+			"college": "IIIT Allahabad",
+			"facebook": "",
+			"github": "https://github.com/supremenishant",
+      			"twitter": "",
+			"referral": ""
+    		},
+		{
+			"name": "Harshit Singh",
+			"imageurl": "assets/img/participants/harshit.jpg",
+			"about": "Believer",
+			"college": "BIT Mesra, Ranchi",
+			"facebook": "https://www.facebook.com/Harshit966",
+			"github": "https://github.com/helios1101",
+			"twitter": "",
+			"referral": ""
+		}
+
+	]
 }
