@@ -686,6 +686,97 @@
 			"twitter"  : "",
       "referral" : ""
 	    },
+	    {
+            "name"     : "Nitin kumar Madhukar",
+            "imageurl" : "assets/img/participants/nitin.jpg",
+            "about"    : "",
+            "college"  : "IIIT, Allahabad",
+            "facebook" : "",
+            "github"   : "https://github.com/itsnkm2000",
+            "twitter"  : "",
+            "referral" : ""
+	    },
+	    {
+          "name" : "Himanshu Janbandhu",
+          "imageurl" : "",
+          "about" : "",
+          "college" : "IIIT Allahabad",
+          "facebook" : "",
+          "github" : "https://github.com/HimanshuJanbandhu",
+          "twitter" : "",
+          "referral" : ""
+        },
+        {
+            "name"     : "Sagar Lakhani",
+            "imageurl" : "assets/img/participants/sagar.png",
+            "about"    : "",
+            "college"  : "IIIT Allahabad",
+            "facebook" : "",
+            "github"   : "https://github.com/SLakhani1",
+            "twitter"  : "",
+            "referral" : ""
+	    },
+	    {
+	        "name"	:"Nikhil Goyal",
+	    		"imageurl" : "",
+	    		"about"   :"Willing  to learn along the way",
+	    		"college" :"IIIT, Allahabad",
+	    		"facebook" : "",
+	    		"github" : "https://github.com/Slimshadynick",
+	    		"twitter" : "",
+	        "referral" : ""
+	    },
+	    {
+	        "name"	:"Hardik Kumawat
+	    		"imageurl" : "",
+	    		"about"   :"Stepping for the thousand miles",
+	    		"college" :"IIIT, Allahabad",
+	    		"facebook" : "",
+	    		"github" : "https://github.com/caperdango",
+	    		"twitter" : "",
+	        "referral" : ""
+	        },
+        {
+	        "name"	:"Mansi Sharma",
+	    		"imageurl" : "assets/img/participants/mansi.jpg",
+	    		"about"   :"",
+	    		"college" :"IIIT Allahabad",
+	    		"facebook" : "https://www.facebook.com/profile.php?id=100007309844750",
+	    		"github" : "https://github.com/sharmamansi",
+	    		"twitter" : "",
+	            "referral" : ""
+	    },
+
+        {
+            "name"  :"Ritik Harchani",
+                "imageurl" : "",
+                "about"   :"Started OpenCode19",
+                "college" :"IIIT, Allahabad",
+                "facebook" : "",
+                "github" : "https://github.com/harchani-ritik",
+                "twitter" : "",
+            "referral" : ""
+        },
+	    {
+		    "name"      : "Priyesh Raj",
+		    "imageurl"  : "assets/img/participants/IMG_20180728_162500.jpg",
+		    "about"     : "Eat,Sleep,Learn,Repeat",
+		    "college"   : "IIIT Allahabad",
+		    "github"    : "https://github.com/ekthapriyesh24",
+		    "twitter"   : "",
+		    "referral"  : ""
+	    },
+	    {
+
+   		"name" : "Kumar Ujjwaldisha Batra",
+   		"imageurl" : "",
+   		"about" : "Hello I'm a web developer",
+   		"college" : "IIIT Allahabad",
+   		"facebook" : "https://www.facebook.com/ujjwal.batra.79",
+   		"github" : "https://github.com/ujjwal-batra",
+   		"twitter" : "",
+   		"referral" : ""
+	    },
       {
 	"name": "Rohini13",
 	"imageurl": "",
