@@ -496,118 +496,18 @@
 			"facebook" : "https://www.facebook.com/neelabh.gupta.56",
 			"github"   : "https://github.com/Neelabh46",
 			"twitter"  : "",
-            "referral" : ""
-        },
-	 {
-            "name"     : "Archies11",
-			"imageurl" : "assets/img/participants/archisha.jpg",
-			"about"    : "Curious mind keen to learn",
-			"college"  : "IIIT, Allahabad",
-			"facebook" : "",
-			"github"   : "",
-			"twitter"  : "",
-            "referral" : ""
-        },
-        {
-            "name"     : "Lekhika Dugtal",
-			"imageurl" : "assets/img/participants/lekhika.jpg",
-			"about"    : "NPC of this virtual World",
-			"college"  : "IIIT Allahabad",
-			"facebook" : "",
-			"github"   : "https://github.com/CleverFool77",
-			"twitter"  : "https://twitter.com/DugtalLekhika",
-            "referral" : ""
-        },
-      {
-        "name": "Manish",
-            "imageurl": "assets/img/participants/manish.jpg",
-            "about": "love to learn",
-            "college": "IIIT, Allahabad",
-            "facebook": "https://www.facebook.com/manish.jagnani.9",
-            "github": "https://github.com/Jaggu-123",
-            "twitter": "",
-            "referral": ""
-      },
-	    
-      {
-        "name": "Lalit",
-            "imageurl": "assets/img/participants/lalit.jpg",
-            "about": "new to open source",
-            "college": "IIIT, Allahabad",
-            "facebook": "",
-            "github": "https://github.com/Rattlecode17sh",
-            "twitter": "",
-            "referral": ""
-      },
-       {
-        "name": "Ashish Agarowala",
-            "imageurl": "assets/img/participants/ashish4321.jpg",
-            "about": "want to learn open source",
-            "college": "NIT, Durgaput",
-            "facebook": "",
-            "github": "https://github.com/ashish4321",
-            "twitter": "",
-            "referral": ""
-      },
-      {
-        "name": "Dhairya Baweja",
-            "imageurl": "assets/img/participants/dhairya.jpg",
-            "about": "willing to learn",
-            "college": "IIIT, Allahabad",
-            "facebook": "",
-            "github": "https://github.com/dhairyabaweja",
-            "twitter": "",
-            "referral": ""
-      },
-      {
-            "name"     : "Sheik Mohammed Adil",
-            "imageurl" : "assets/img/participants/adil.jpg",
-            "about"    : "UI Designer",
-            "college"  : "PACE, Mangaluru",
-            "facebook" : "",
-            "github"   : "http://github.com/mohammed-adil/",
-            "twitter"  : "https://twitter.com/_mohdAdil",
-            "referral" : ""
-        },
-	{
-            "name"     : "Tushar Singh",
-            "imageurl" : "assets/img/participants/tushar.jpg",
-            "about"    : "Web Developer",
-            "college"  : "IIIT, Allahabad",
-            "facebook" : "https://www.facebook.com/tushar.niftyy",
-            "github"   : "https://github.com/niftyy",
-            "twitter"  : ""
-	},
-	 {
-            "name"     : "Harman Singh Jolly",
-            "imageurl" : "assets/img/participants/jolly.jpg",
-            "about"    : "Ruby on Rails Developer",
-            "college"  : "Bharati Vidyapeeth's College of Engineering, New Delhi",
-            "facebook" : "",
-            "github"   : "http://github.com/coderjolly",
-            "twitter"  : "http://twitter.com/coderjolly",
-            "referral" : ""
-        },
-	{
-	    "name"     : "B3ingALearner",
-            "imageurl" : "assets/img/participants/B3ingALearner.jpg",
-            "about"    : "NewBie",
-            "college"  : "IIIT Allahabad",
-            "facebook" : "",
-            "github"   : "http://github.com/B3ingALearner",
-            "twitter"  : "",
-            "referral" : ""	    
-	},
-	    {
-   "name" : "Shreyansh Sahu",
-   "imageurl" : "assets/img/participants/shreyansh.jpg",
-   "about" : "Android App Developer",
-   "college" : "IIIT Allahabad",
-   "facebook" : "https://www.facebook.com/shreyansh.sahu.9",
-   "github" : "https://github.com/23nobody",
-   "twitter" : "",
-   "referral" : ""
-   		},
+            		"referral" : ""
+        	},
+	    	{
+			   "name" : "Shreyansh Sahu",
+			   "imageurl" : "assets/img/participants/shreyansh.jpg",
+			   "about" : "Android App Developer",
+			   "college" : "IIIT Allahabad",
+			   "facebook" : "https://www.facebook.com/shreyansh.sahu.9",
+			   "github" : "https://github.com/23nobody",
+			   "twitter" : "",
+			   "referral" : ""
+		},
 		{
 			"name": "Vaibhav Shukla",
 			"imageurl": "",
