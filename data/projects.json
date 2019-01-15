@@ -41,6 +41,14 @@
             "github": "https://github.com/opencodeiiita/sassy-css"
         },
         {
+            "name": "Cynthesize",
+            "imageurl": "assets/img/projects/cynthesize.jpg",
+            "mentors": "Siddhant Shrivastava, Aayush Joglekar",
+            "about": "Cythesize aims to solve the bridge between mentors and students for development, designing and other fields.",
+            "lang": "Angular, SASS",
+            "github": "https://github.com/Cynthesize-temp/frontend"
+        },
+        {
             "name": "OpenCode",
             "imageurl": "assets/img/projects/opencode.jpg",
             "mentors": "Team OpenCode",
@@ -175,6 +183,14 @@
             "about": "An open access journal that aims to ​ promote research among students in India from a very tender age​ . Deployed on AWS.",
             "lang": "aws flask mongoDb html css js",
             "github": "https://github.com/PaytmBuildForIndia/ResearchFLO"
+        },
+        {
+            "name": "Leave Application Portal",
+            "imageurl": "assets/img/projects/lap.png",
+            "mentors": "Prateek",
+            "about": "Leave application portal for IIIT-A to speed up leave approval process.",
+            "lang": "Html css js PHP",
+            "github": "https://github.com/GeekHaven/Leave-Application-Portal"
         }
     ]
 }
