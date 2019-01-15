@@ -174,7 +174,6 @@
 			"twitter": "",
 			"referral": ""
 		},
-
 		{
 			"name": "Ishan Agrawal",
 			"imageurl": "assets/img/participants/ishan.JPG",
@@ -185,7 +184,6 @@
 			"twitter": "",
 			"referral": ""
 		},
-
 		{
 			"name": "Aayush Talesara",
 			"imageurl": "assets/img/participants/open.jpeg",
@@ -501,12 +499,22 @@
 	    	{
 			"name"     : "Meghna",
 			"imageurl" : "",
-			"about"    : "Keen learner and explorer",
+          		"about"    : "Keen learner and explorer",
 		    	"college"  : "IIIT,Allahabad",
 		    	"facebook" : "https://www.facebook.com/meghna.batra.7",
 		    	"github"   : "http://github.com/batra-meghna",
 		    	"twitter"  : "",
 		    	"referral" : ""
+        	},
+		{
+   			"name" : "Abhishek Mishra",
+		   	"imageurl" : "assets/img/participants/Abhishek.jpg",
+		   	"about" : "",
+		   	"college" : "IIIT Allahabad",
+		  	"facebook" : "https://www.facebook.com/profile.php?id=100005016060283",
+		   	"github" : "https://github.com/iit2018026",
+		   	"twitter" : "",
+		   	"referral" : ""
         	},
         	{
             		"name"     : "Kartik Nema",
