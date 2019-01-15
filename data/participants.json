@@ -1588,13 +1588,23 @@
 			"referral": ""
 		},
 		{
-			"name": "Agamjot Singh",
-			"imageurl": "",
-			"about": "new to github",
-			"college": "IIIT Allahabad",
-			"github": "https://github.com/agamjotpanesar",
-			"twitter": "",
-			"referral": ""
+	 		"name"      : "Agamjot Singh",
+			 "imageurl"  : "",
+			 "about"     : "new to github",
+			 "college"   : "IIIT Allahabad",
+			 "github"    : "https://github.com/agamjotpanesar",
+			 "twitter"   : "",
+			 "referral" : ""
+		},
+		{
+			"name"      : "Tarun Asudani",
+			"imageur1"  : "",
+			"about"	    : "",
+			"college"   : "IIIT Allahabad",
+			"github"    : "https://github.com/Tarunasudani",
+			"twitter"   : "",
+			"referral"  : ""
+
 		}
 	]
 
