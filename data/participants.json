@@ -545,6 +545,16 @@
 			"college": "Amirta School of Arts and Sciences",
 			"facebook": "https://www.facebook.com/vishnu.kraman",
 			"github": "https://github.com/vishnuk7",
+      "twitter": "",
+			"referral": ""
+    },
+    {
+			"name": "Anupam Shukla",
+			"imageurl": "assets/img/participants/Anupam.jpg",
+			"about": "Front end web developer",
+			"college": "Amrita school of arts and sciences, Mysore",
+			"facebook": "https://facebook.com/anupam.shukla141",
+			"github": "https://github.com/anupm12",
 			"twitter": "",
 			"referral": ""
 		}
