@@ -617,6 +617,15 @@
 	   		"github"   : "https://github.com/parag1201",
 	   		"twitter"  : "",
 	   		"referral" : ""
-             	}
+             	},
+		{
+	 		"name"      : "Agamjot Singh",
+			 "imageurl"  : "",
+			 "about"     : "new to github",
+			 "college"   : "IIIT Allahabad",
+			 "github"    : "https://github.com/agamjotpanesar",
+			 "twitter"   : "",
+			 "referral" : ""
+		}
 	]
 }
