@@ -1685,8 +1685,16 @@
 			"twitter"   : "",
 			"referral"  : ""
 
+		},
+	    	{
+			"name"      : "Priyatam Reddy Somagattu",
+			"imageur1"  : "",
+			"about"	    : "",
+			"college"   : "IIIT Allahabad",
+			"github"    : "https://github.com/Pri1437",
+			"twitter"   : "",
+			"referral"  : ""
 		}
 	]
 
 }
-
