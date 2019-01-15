@@ -496,27 +496,27 @@
 			"facebook" : "https://www.facebook.com/neelabh.gupta.56",
 			"github"   : "https://github.com/Neelabh46",
 			"twitter"  : "",
-            "referral" : ""
-        },
-	    {
-            "name"     : "Meghna",
-            "imageurl" : "https://image.flaticon.com/icons/svg/1141/1141771.svg",
-            "about"    : "Keen learner and explorer",
-            "college"  : "IIIT,Allahabad",
-            "facebook" : "https://www.facebook.com/meghna.batra.7",
-            "github"   : "http://github.com/batra-meghna",
-            "twitter"  : "",
-            "referral" : ""
+            		"referral" : ""
         	},
 	    	{
-			   "name" : "Shreyansh Sahu",
-			   "imageurl" : "assets/img/participants/shreyansh.jpg",
-			   "about" : "Android App Developer",
-			   "college" : "IIIT Allahabad",
-			   "facebook" : "https://www.facebook.com/shreyansh.sahu.9",
-			   "github" : "https://github.com/23nobody",
-			   "twitter" : "",
-			   "referral" : ""
+			"name"     : "Meghna",
+			"imageurl" : "",
+		    	"about"    : "Keen learner and explorer",
+		    	"college"  : "IIIT,Allahabad",
+		    	"facebook" : "https://www.facebook.com/meghna.batra.7",
+		    	"github"   : "http://github.com/batra-meghna",
+		    	"twitter"  : "",
+		    	"referral" : ""
+        	},
+	    	{
+			"name" : "Shreyansh Sahu",
+			"imageurl" : "assets/img/participants/shreyansh.jpg",
+			"about" : "Android App Developer",
+		   	"college" : "IIIT Allahabad",
+		   	"facebook" : "https://www.facebook.com/shreyansh.sahu.9",
+		   	"github" : "https://github.com/23nobody",
+		   	"twitter" : "",
+		   	"referral" : ""
 		},
 		{
 			"name": "Vaibhav Shukla",
