@@ -501,13 +501,24 @@
 	    	{
 			"name"     : "Meghna",
 			"imageurl" : "",
-    			"about"    : "Keen learner and explorer",
+			"about"    : "Keen learner and explorer",
 		    	"college"  : "IIIT,Allahabad",
 		    	"facebook" : "https://www.facebook.com/meghna.batra.7",
 		    	"github"   : "http://github.com/batra-meghna",
 		    	"twitter"  : "",
 		    	"referral" : ""
         	},
+        	{
+            		"name"     : "Kartik Nema",
+		    	"imageurl" : "",
+		   	"about"    : "",
+		    	"college"  : "IIIT, Allahabad",
+		    	"facebook" : "",
+		    	"github"   : "https://github.com/Kartik2301",
+		    	"twitter"  : "",
+		    	"referral" : ""
+	  
+	   	},	
 	    	{
 			"name" : "Shreyansh Sahu",
 			"imageurl" : "assets/img/participants/shreyansh.jpg",
