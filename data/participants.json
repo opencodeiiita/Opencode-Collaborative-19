@@ -1703,6 +1703,16 @@
 			"github"    : "https://github.com/Pri1437",
 			"twitter"   : "",
 			"referral"  : ""
+		},
+	    
+	    {
+			"name"      : "Bindu",
+			"imageur1"  : "assets/img/participants/bindu.jpg",
+			"about"	    : "Learner",
+			"college"   : "IIIT Allahabad",
+			"github"    : "https://github.com/BinduVerma123",
+			"twitter"   : "",
+			"referral"  : ""
 		}
 	]
 
