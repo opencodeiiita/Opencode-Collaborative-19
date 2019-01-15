@@ -256,9 +256,7 @@
 			"github": "",
 			"twitter": "",
 			"referral": "ashish4321"
-
-
-		},
+    		},
 		{
 			"name": "Amit Kumar",
 			"imageurl": "assets/img/participants/amit.jpg",
@@ -269,7 +267,6 @@
 			"twitter": "",
 			"referral": ""
 		},
-
 		{
 			"name": "Rajat Sharma",
 			"imageurl": "assets/img/participants/Rajat.jpg",
@@ -472,7 +469,6 @@
 			"referral": ""
 		},
 		{
-
 			"name": "Kumar Ujjwaldisha Batra",
 			"imageurl": "",
 			"about": "Hello I'm a web developer",
@@ -492,7 +488,16 @@
 			"twitter": "",
 			"referral": ""
 		},
-
+		{
+      			"name"     : "Neelabh Gupta",
+			"imageurl" : "assets/img/participants/neelabh.jpg",
+			"about"    : "",
+			"college"  : "IIIT, Allahabad",
+			"facebook" : "https://www.facebook.com/neelabh.gupta.56",
+			"github"   : "https://github.com/Neelabh46",
+			"twitter"  : "",
+      			"referral" : ""
+   		},
 		{
 			"name": "Vaibhav Shukla",
 			"imageurl": "",
@@ -531,8 +536,8 @@
 			"github": "https://github.com/vishnuk7",
       			"twitter": "",
 			"referral": ""
-    		},
-    		{
+		},
+		{
 			"name": "Anupam Shukla",
 			"imageurl": "assets/img/participants/Anupam.jpg",
 			"about": "Front end web developer",
@@ -562,6 +567,5 @@
 			"twitter": "",
 			"referral": ""
 		}
-
 	]
 }
