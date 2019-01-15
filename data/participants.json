@@ -299,12 +299,7 @@
 			"github": "https://github.com/chiillax",
 			"twitter": "",
 			"referral": ""
-
-
-
-
 		},
-
 		{
 			"name": "Sourabh Pruthi",
 			"imageurl": "assets/img/participants/sourabh1031.jpeg",
@@ -335,8 +330,6 @@
 			"twitter": "",
 			"referral": ""
 		},
-
-
 		{
 			"name": "raviteja ",
 			"imageurl": "assets/img/participants/ravi.jpg",
@@ -347,7 +340,6 @@
 			"twitter": "",
 			"referral": ""
 		},
-
 		{
 			"name": "Saakshi Jain",
 			"imageurl": "assets/img/participants/Saakshi.jpeg",
@@ -358,7 +350,6 @@
 			"twitter": "",
 			"referral": ""
 		},
-
 		{
 			"name": "ANKUSH PANDEY ",
 			"imageurl": "assets/img/participants/github.jpg",
@@ -369,7 +360,6 @@
 			"twitter": "",
 			"referral": ""
 		},
-
 		{
 			"name": "Nandini Goyal",
 			"imageurl": "",
@@ -380,8 +370,6 @@
 			"twitter": "",
 			"referral": ""
 		},
-
-
 		{
 			"name": "Wwar-lock",
 			"imageurl": "assets/img/participants/Wwar-lock.jpeg",
@@ -392,7 +380,6 @@
 			"twitter": "",
 			"referral": ""
 		},
-
 		{
 			"name": "Jahanvi Bhadoria",
 			"imageurl": "",
@@ -403,9 +390,6 @@
 			"twitter": "",
 			"referral": ""
 		},
-
-
-
 		{
 			"name": "Shantam Shrestha",
 			"imageurl": "assets/img/participants/shantam.jpg",
@@ -558,16 +542,16 @@
 			"twitter": "",
 			"referral": ""
 		},
-		 {
+		{
 			"name": "Nishant Sharma",
 			"imageurl": "assets/img/participants/nishant.jpeg",
 			"about": "Getting into opensource",
 			"college": "IIIT Allahabad",
 			"facebook": "",
 			"github": "https://github.com/supremenishant",
-      "twitter": "",
+      			"twitter": "",
 			"referral": ""
-     },
+    		},
 		{
 			"name": "Harshit Singh",
 			"imageurl": "assets/img/participants/harshit.jpg",
