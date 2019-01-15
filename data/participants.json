@@ -826,6 +826,7 @@
 	   		"twitter"  : "",
 	   		"referral" : ""
              	},
+
 		{
 	 		"name"      : "Agamjot Singh",
 			 "imageurl"  : "",
@@ -843,6 +844,17 @@
 			 "github"    : "https://github.com/Pri1437",
 			 "twitter"   : "",
 			 "referral" : ""
+      },
+		{
+			"name"      : "Tarun Asudani",
+			"imageur1"  : "",
+			"about"	    : "",
+			"college"   : "IIIT Allahabad",
+			"github"    : "https://github.com/Tarunasudani",
+			"twitter"   : "",
+			"referral"  : ""
+
+
 		}
 	    	
 	]
