@@ -310,6 +310,17 @@
             "github"   : "https://github.com/coding-clown",
             "twitter"  : "",
             "referral" : ""
+        },
+
+         {
+            "name"     : "Bindu ",
+            "imageurl" : "assets/img/participants/bindu.jpg",
+            "about"    : "Learner",
+            "college"  : "IIIT Allahabad",
+            "facebook" : "",
+            "github"   : "https://github.com/BinduVerma123",
+            "twitter"  : "",
+            "referral" : ""
         }
 
     ]
