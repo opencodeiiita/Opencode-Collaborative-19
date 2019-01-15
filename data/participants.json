@@ -927,15 +927,15 @@
 			 "referral" : ""
 		},
 	    	{
-        	"name": "Puja Kumari",
-            	"imageurl": "assets/img/participants/Puja.jpg",
-            	"about": "Learner",
-            	"college": "IIIT, Allahabad",
-            	"facebook": "",
-            	"github": "https://github.com/Pujastar",
-            	"twitter": "",
-            	"referral": ""
-      	}
+        		"name": "Puja Kumari",
+            		"imageurl": "assets/img/participants/Puja.jpg",
+            		"about": "Learner",
+            		"college": "IIIT Allahabad",
+            		"facebook": "",
+            		"github": "https://github.com/Pujastar",
+            		"twitter": "",
+            		"referral": ""
+      		}
 
 	]
 }
