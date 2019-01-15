@@ -419,7 +419,7 @@
 		},
 		{
 			"name": "Sagar Lakhani",
-			"imageurl": "assets/img/participants/sagar.png",
+			"imageurl": "assets/img/participants/.png",
 			"about": "",
 			"college": "IIIT Allahabad",
 			"facebook": "",
@@ -501,67 +501,6 @@
 	    	{
 			"name"     : "Meghna",
 			"imageurl" : "",
-			"about"    : "Exploring Open code",
-			"college"  : "IIIT Allahabad",
-			"facebook" : "",
-			"github"   : "https://github.com/Jahanvi21",
-			"twitter"  : "",
-            "referral" : ""
-        },
-        
-
-	    
-	    {
-            "name"     : "Shantam Shrestha",
-			"imageurl" : "assets/img/participants/shantam.jpg",
-			"about"    : "Budding Full stack developer",
-			"college"  : "IIIT, Allahabad",
-			"facebook" : "",
-			"github"   : "https://github.com/shantam0810",
-			"twitter"  : "",
-            "referral" : ""
-	    },
-	    {
-            "name"     : "Nitin kumar Madhukar",
-            "imageurl" : "assets/img/participants/nitin.jpg",
-            "about"    : "",
-            "college"  : "IIIT, Allahabad",
-            "facebook" : "",
-            "github"   : "https://github.com/itsnkm2000",
-            "twitter"  : "",
-            "referral" : ""
-	    },
-	    {
-          "name" : "Himanshu Janbandhu",
-          "imageurl" : "",
-          "about" : "",
-          "college" : "IIIT Allahabad",
-          "facebook" : "",
-          "github" : "https://github.com/HimanshuJanbandhu",
-          "twitter" : "",
-          "referral" : ""
-        },
-        {
-            "name"     : "Sagar Lakhani",
-            "imageurl" : "assets/img/participants/sagar.png",
-            "about"    : "",
-            "college"  : "IIIT Allahabad",
-            "facebook" : "",
-            "github"   : "https://github.com/SLakhani1",
-            "twitter"  : "",
-            "referral" : ""
-        },
-        {
-            "name"     : "Rishabh Shukla",
-            "imageurl" : "assets/img/participants/blurry.jpeg",
-            "about"    : "Hey!",
-            "college"  : "IIIT Lucknow",
-            "facebook" : "https://www.facebook.com/firela007",
-            "github"   : "https://github.com/Firela",
-            "twitter"  : "",
-            "referral" : ""
-	    },
-      {
 		    	"about"    : "Keen learner and explorer",
 		    	"college"  : "IIIT,Allahabad",
 		    	"facebook" : "https://www.facebook.com/meghna.batra.7",
