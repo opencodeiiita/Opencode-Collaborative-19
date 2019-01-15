@@ -419,7 +419,7 @@
 		},
 		{
 			"name": "Sagar Lakhani",
-			"imageurl": "assets/img/participants/.png",
+			"imageurl": "assets/img/participants/sagar.png",
 			"about": "",
 			"college": "IIIT Allahabad",
 			"facebook": "",
@@ -586,6 +586,16 @@
 			"github": "https://github.com/helios1101",
 			"twitter": "",
 			"referral": ""
+		},
+		{
+            		"name"     : "Rishabh Shukla",
+            		"imageurl" : "assets/img/participants/blurry.jpeg",
+            		"about"    : "Hey!",
+            		"college"  : "IIIT Lucknow",
+            		"facebook" : "https://www.facebook.com/firela007",
+            		"github"   : "https://github.com/Firela",
+            		"twitter"  : "",
+            		"referral" : ""
 		}
 	]
 }
