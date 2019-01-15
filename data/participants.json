@@ -1661,10 +1661,21 @@
 			 "imageurl"  : "",
 			 "about"     : "new to github",
 			 "college"   : "IIIT Allahabad",
-			 "github"    : "https://github.com/agamjotpanesar",
+			 "github"    : "https://github.com/agamjotpanes",
 			 "twitter"   : "",
 			 "referral" : ""
 		},
+	  {
+     		"name": "Puja Kumari",
+     		"imageurl": "assets/img/participants/Puja.jpg",
+     		"about": "Learner",
+     		"college": "IIIT Allahabad",
+     		"facebook": "",
+     		"github": "https://github.com/Pujastar",
+     		"twitter": "",
+     		"referral": ""
+    }
+
 		{
 			"name"      : "Tarun Asudani",
 			"imageur1"  : "",
