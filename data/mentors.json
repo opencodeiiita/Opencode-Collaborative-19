@@ -63,6 +63,14 @@
             "facebook" : "https://www.facebook.com/out0fScop3",
             "github"   : "https://github.com/DreamyPhobic",
             "twitter"  : ""
+        },
+    {
+            "name"     : "Niharika Shrivastava",
+            "imageurl" : "assets/img/mentors/niharika.jpeg",
+            "about"    : "Backend Developer, ML enthusiast | IIITA",
+            "facebook" : "https://www.facebook.com/NiharikaS25",
+            "github"   : "https://github.com/OrionStar25",
+            "twitter"  : "https://twitter.com/StarOrion25"
         }
     ]
 }
