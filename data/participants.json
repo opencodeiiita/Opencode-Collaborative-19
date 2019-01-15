@@ -684,8 +684,18 @@
 			"facebook" : "https://www.facebook.com/neelabh.gupta.56",
 			"github"   : "https://github.com/Neelabh46",
 			"twitter"  : "",
-            		"referral" : ""
-        	},
+      "referral" : ""
+	    },
+      {
+	"name": "Rohini13",
+	"imageurl": "",
+	"about": "Escaping the ordinary",
+	"college": "IIITA",
+	"facebook": "",
+	"github": "https://github.com/Rohini13",
+	"twitter": "",
+	"referral": ""
+},
 	    	{
 			"name"     : "Meghna",
 			"imageurl" : "",
