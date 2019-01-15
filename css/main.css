@@ -4,6 +4,9 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-4-col-portfolio/blob/master/LICENSE)
  */
 
+/* adding font */
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,600,700');
+
 body {
   padding-top: 54px;
 }
@@ -14,6 +17,73 @@ body {
   }
 }
 
+/* landing section */
+.landing-section {
+  background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom-left-radius: 17rem;
+}
+
+.landing-bg {
+  background: url('../assets/img/Circle.svg');
+  background-position: center;
+  background-size: cover;
+}
+
+@media screen and (max-width: 767px) {
+  .landing-bg1 {
+    display: flex;
+    justify-content: center;
+  }
+
+  .bg-image {
+    width: 224px;
+  }
+
+  .social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .landing-bg1 {
+    display: flex;
+    justify-content: center;
+  }
+
+  .bg-image {
+    width: 224px;
+  }
+
+  .social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.landing-19 {
+  font-size: 47px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.landing-social {
+  color: #fff !important;
+  font-size: 20px;
+
+}
+
+/* hero text */
+.hero-text {
+  font-family: 'Raleway', sans-serif;
+}
+
 .portfolio-item {
   margin-bottom: 30px;
 }
@@ -22,21 +92,21 @@ body {
   margin-bottom: 30px;
 }
 
-.profile-image{
+.profile-image {
   border-radius: 10px;
 }
 
-.hero{
+.hero {
 
   padding: 150px 0;
   background: linear-gradient(to top, #0250c5 0%, #d43f8d 100%);
-  border-style:solid;
-  border-color:#287EC7;
+  border-style: solid;
+  border-color: #287EC7;
 
 }
 
-.footer_media{
-  color:white;
+.footer_media {
+  color: white;
   font-size: 20px;
   padding-left: 10px;
   text-align: center;
@@ -46,16 +116,16 @@ body {
   max-height: 470px;
   min-height: 470px;
   min-width: 100%;
-  box-shadow: 0 3px 6px 0 rgba(0,0,0,0.12);
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.12);
 }
 
 .participant-img {
   max-height: 240px;
   min-height: 240px;
   min-width: 100%;
-  
+
   width: 100%;
-	height: auto;
+  height: auto;
 }
 
 .social-media-links {
@@ -65,7 +135,7 @@ body {
 
 .social-media-links a i {
   color: #9E9E9E;
-  padding: 0 10px; 
+  padding: 0 10px;
   font-size: 16px;
   transition: .2s ease-in-out;
   -webkit-transition: .2s ease-in-out;
@@ -92,6 +162,7 @@ body {
     max-height: none;
   }
 }
+
 #myBtn {
   display: none;
   position: fixed;

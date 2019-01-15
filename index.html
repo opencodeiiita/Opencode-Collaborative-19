@@ -1,34 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
-
   <head>
-
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="Opencode Collaborative website">
-    <meta name="author" content="">
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="Opencode Collaborative website" />
+    <meta name="author" content="" />
 
     <title>Opencode 2019 Collaborative</title>
     <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
 
     <!-- Font Awesome Icon pack for icons used in project -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+      integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+      crossorigin="anonymous"
+    />
 
     <!-- Custom styles for this template -->
-    <link href="css/main.css" rel="stylesheet">
-
+    <link href="css/main.css" rel="stylesheet" />
   </head>
 
   <body>
-    <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fas fa-arrow-up"></i></button>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">
+      <i class="fas fa-arrow-up"></i>
+    </button>
     <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: rgb(255,184,51)">
+    <nav
+      class="navbar navbar-expand-lg navbar-dark fixed-top"
+      style="background-color: #fff;"
+    >
       <div class="container">
         <a class="navbar-brand" href="#" style="color: black">
-<!-- OpenCode Logo added in navbar -->
-        	<img src="./assets/img/Opencode_LOGO.png" width="40" height="37" class="d-inline-block align-top " style="padding-right:5px">Opencode 2019</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <!-- OpenCode Logo added in navbar -->
+          <img
+            src="./assets/img/Opencode_LOGO.png"
+            width="40"
+            height="37"
+            class="d-inline-block align-top "
+            style="padding-right:5px"
+          />Opencode 2019</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarResponsive"
+          aria-controls="navbarResponsive"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
@@ -41,57 +66,73 @@
       </div>
     </nav>
 
-    <div class="jumbotron text-center jumbotron-fluid hero">
-        <h1 class="display-4"style="font-family:georgia;text-shadow: 3px 2px black;color: white;"><b>Hello, world!</b></h1>
-        <br>
-      <h4 style="font-family:courier;"><b>Welcome to OpenCode'19</b></h4>
-      </div>
-
+    <section class="landing-section">
     <div class="container">
-
-      <!-- Participants -->
-      <div class="row">
-        <div class="col-lg-12">
-          <h2 class="my-4">Participants</h2>
+      <div class="row py-4 justify-content-between">
+        <div class="col-md-6 pr-4 landing-bg1">
+          <img class="img-responsive bg-image" src="assets/img/OpenCodeLanding1.svg" style="height:100%;" />
+        </div>
+        <div class="col-md-6 landing-bg" style="background: url('assets/img/Circle.svg');">
+            <h1 class="display-4 hero-text pt-4" style="color: #f1f2f6;">
+              <b>Hello, <span style="color: #fff;">&Tab;&Tab;world!</span></b>
+            </h1>
+            <br />
+            <h4 class="hero-text" style="font-weight: 600; color: #f1f2f6;">
+              Welcome to <span style="color: #fff;"> OpenCode'</span><span class="landing-19">19</span>
+              
+            </h4>
+            <div class="social">
+                <a class="landing-social pr-2" href="https://www.facebook.com/opencodeiiita/" target="_blank"
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+              <a class="landing-social pr-2" href="https://github.com/opencodeiiita " target="_blank"
+                ><i class="fab fa-github"></i
+              ></a>
+              <a class="landing-social pr-2" href="https://twitter.com/geekhaveniiita" target="_blank"
+                ><i class="fab fa-twitter"></i
+              ></a>
+            </div>
         </div>
       </div>
-      <div class="row" id="participants">
-        <!-- Feeding data from json -->
       </div>
+    </section>
+
+    <div class="container">
+      <!-- Participants -->
+      <div class="row">
+        <div class="col-lg-12"><h2 class="my-4">Participants</h2></div>
+      </div>
+      <div class="row" id="participants"><!-- Feeding data from json --></div>
 
       <!-- Mentors -->
       <div class="row">
-        <div class="col-lg-12">
-          <h2 class="my-4">Mentors</h2>
-        </div>
+        <div class="col-lg-12"><h2 class="my-4">Mentors</h2></div>
       </div>
-      <div class="row" id="mentors">
-        <!-- Feeding data from json -->
-      </div>
+      <div class="row" id="mentors"><!-- Feeding data from json --></div>
 
       <!-- Projects -->
       <div class="row">
-        <div class="col-lg-12">
-          <h2 class="my-4">Projects</h2>
-        </div>
+        <div class="col-lg-12"><h2 class="my-4">Projects</h2></div>
       </div>
 
-      <div class="row" id="projects">
-        <!-- Feeding data from json -->
-      </div>
-
+      <div class="row" id="projects"><!-- Feeding data from json --></div>
     </div>
     <!-- /.container -->
-
 
     <!-- Footer -->
     <footer class="py-5 bg-dark">
       <div class="footer_media">
-        <a href="https://www.facebook.com/opencodeiiita/" target="_blank"><i class="fab fa-facebook-f"></i></a>  
-        <a href="https://github.com/opencodeiiita " target="_blank"><i class="fab fa-github"></i></a>  
-        <a href="https://twitter.com/geekhaveniiita" target="_blank"><i class="fab fa-twitter"></i></a>  
+        <a href="https://www.facebook.com/opencodeiiita/" target="_blank"
+          ><i class="fab fa-facebook-f"></i
+        ></a>
+        <a href="https://github.com/opencodeiiita " target="_blank"
+          ><i class="fab fa-github"></i
+        ></a>
+        <a href="https://twitter.com/geekhaveniiita" target="_blank"
+          ><i class="fab fa-twitter"></i
+        ></a>
       </div>
-      <div class="container">    
+      <div class="container">
         <p class="m-0 text-center text-white">Copyright &copy; OpenCode'19</p>
       </div>
       <!-- /.container -->
@@ -101,7 +142,5 @@
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="js/main.js"></script>
-
   </body>
-
 </html>
