@@ -1686,6 +1686,15 @@
 			"referral"  : ""
 
 		},
+	      {
+            "name": "Aman Sokhal",
+            "imageurl": "assets/img/participants/aman.jpg",
+            "about": "Begginer",
+            "college": "IIIT, Allahabad",
+            "facebook": "https://www.facebook.com/amansokha0001",
+            "github": "https://github.com/Amansokhal",
+           
+	      },
 	    	{
 			"name"      : "Priyatam Reddy Somagattu",
 			"imageur1"  : "",
