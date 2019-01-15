@@ -1665,6 +1665,17 @@
 			 "twitter"   : "",
 			 "referral" : ""
 		},
+	  {
+     		"name": "Puja Kumari",
+     		"imageurl": "assets/img/participants/Puja.jpg",
+     		"about": "Learner",
+     		"college": "IIIT Allahabad",
+     		"facebook": "",
+     		"github": "https://github.com/Pujastar",
+     		"twitter": "",
+     		"referral": ""
+    }
+
 		{
 			"name"      : "Tarun Asudani",
 			"imageur1"  : "",
@@ -1683,8 +1694,16 @@
             "facebook": "https://www.facebook.com/amansokha0001",
             "github": "https://github.com/Amansokhal",
            
-	      }
+	      },
+	    	{
+			"name"      : "Priyatam Reddy Somagattu",
+			"imageur1"  : "",
+			"about"	    : "",
+			"college"   : "IIIT Allahabad",
+			"github"    : "https://github.com/Pri1437",
+			"twitter"   : "",
+			"referral"  : ""
+		}
 	]
 
 }
-
