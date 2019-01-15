@@ -528,8 +528,8 @@
 	 "college"   : "IIIT Allahabad",
 	 "github"    : "https://github.com/me-stone",
 	 "twitter"   : "",
-	 "referral" : "",
- }
+	 "referral" : ""
+ },
 {
 	 "name"      : "Agamjot Singh",
 	 "imageurl"  : "",
@@ -537,7 +537,7 @@
 	 "college"   : "IIIT Allahabad",
 	 "github"    : "https://github.com/agamjotpanesar",
 	 "twitter"   : "",
-	 "referral" : "",
+	 "referral" : ""
  }
     
     ]
