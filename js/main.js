@@ -15,6 +15,12 @@ function topFunction() {
   document.documentElement.scrollTop = 0;
 }
 
+var title = document.getElementById('project');
+
+function loading(){
+    title.style.display = 'hidden';
+}
+
 $(document).ready(function () {
 
     var mentors;
