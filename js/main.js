@@ -6,6 +6,13 @@ $(document).ready(function () {
     var mentorsJson = 'data/mentors.json';
     var participantsJson = 'data/participants.json';
     var projectsJson = 'data/projects.json';
+    
+  
+    var preloader = document.getElementById('loading');
+
+     function myfunction(){
+    preloader.style.display = "none";
+  }
 
     $.ajaxSetup({ beforeSend: function (xhr) {
         if (xhr.overrideMimeType) {
