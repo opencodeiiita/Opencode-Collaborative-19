@@ -2,6 +2,17 @@
     "participants": [
 	    
 	    {
+            "name": "Shubham Kumar",
+            "imageurl": "",
+            "about": "",
+            "college": "IIIT, Allahabad",
+            "facebook": "",
+            "github": "https://github.com/kumarshubham707",
+            "twitter": "",
+            "referral": "mail"
+        },
+	    
+	    {
             "name": "Dhairya Patel",
             "imageurl": "",
             "about": "",
