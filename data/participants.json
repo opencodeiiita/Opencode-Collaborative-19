@@ -1,5 +1,4 @@
 {
-
     "participants": [
 	     {
             "name": "Vikash Kumar",
@@ -805,6 +804,7 @@
 			"twitter": "",
 			"referral": ""
 		},
+
 		{
 			"name": "Aastha Kasera",
 			"imageurl": "assets/img/participants/Aastha.jpg",
@@ -954,6 +954,7 @@
 			"twitter": "https://twitter.com/_mohdAdil",
 			"referral": ""
 		},
+
 		{
 			"name": "raviteja ",
 			"imageurl": "assets/img/participants/ravi.jpg",
@@ -989,8 +990,6 @@
 			"referral": ""
 		},
 		{
-
-
 			"name": "Tushar Singh",
 			"imageurl": "assets/img/participants/tushar.jpg",
 			"about": "Web Developer",
@@ -1030,6 +1029,7 @@
 			"twitter": "",
 			"referral": ""
 		},
+
 		{
 			"name": "Ishan Agrawal",
 			"imageurl": "assets/img/participants/ishan.JPG",
@@ -1040,6 +1040,7 @@
 			"twitter": "",
 			"referral": ""
 		},
+
 		{
 			"name": "Aayush Talesara",
 			"imageurl": "assets/img/participants/open.jpeg",
@@ -1092,6 +1093,7 @@
 		},
 
 		{
+
 			"name": "Wwar-lock",
 			"imageurl": "assets/img/participants/Wwar-lock.jpeg",
 			"about": "Believer",
@@ -1146,6 +1148,7 @@
 			"github": "",
 			"twitter": "",
 			"referral": "ashish4321"
+
 		},
 		{
 			"name": "Amit Kumar",
@@ -1157,6 +1160,7 @@
 			"twitter": "",
 			"referral": ""
 		},
+
 		{
 			"name": "Rajat Sharma",
 			"imageurl": "assets/img/participants/Rajat.jpg",
@@ -1187,6 +1191,7 @@
 			"twitter": "",
 			"referral": ""
 		},
+
 		{
 			"name": "Sourabh Pruthi",
 			"imageurl": "assets/img/participants/sourabh1031.jpeg",
@@ -1227,6 +1232,7 @@
 			"twitter": "",
 			"referral": ""
 		},
+
 		{
 			"name": "Saakshi Jain",
 			"imageurl": "assets/img/participants/Saakshi.jpeg",
@@ -1237,6 +1243,7 @@
 			"twitter": "",
 			"referral": ""
 		},
+
 		{
 			"name": "ANKUSH PANDEY ",
 			"imageurl": "assets/img/participants/github.jpg",
@@ -1247,6 +1254,7 @@
 			"twitter": "",
 			"referral": ""
 		},
+
 		{
 			"name": "Nandini Goyal",
 			"imageurl": "",
@@ -1257,6 +1265,7 @@
 			"twitter": "",
 			"referral": ""
 		},
+
 		{
 			"name": "Wwar-lock",
 			"imageurl": "assets/img/participants/Wwar-lock.jpeg",
@@ -1267,6 +1276,7 @@
 			"twitter": "",
 			"referral": ""
 		},
+
 		{
 			"name": "Jahanvi Bhadoria",
 			"imageurl": "",
@@ -1277,6 +1287,7 @@
 			"twitter": "",
 			"referral": ""
 		},
+
 		{
 			"name": "Shantam Shrestha",
 			"imageurl": "assets/img/participants/shantam.jpg",
@@ -1328,6 +1339,7 @@
 			"referral": ""
 		},
 		{
+
 			"name": "Mansi Sharma",
 			"imageurl": "assets/img/participants/mansi.jpg",
 			"about": "",
@@ -1359,6 +1371,7 @@
 			"referral": ""
 		},
 		{
+
 			"name": "Kumar Ujjwaldisha Batra",
 			"imageurl": "",
 			"about": "Hello I'm a web developer",
@@ -1378,6 +1391,7 @@
 			"twitter": "",
 			"referral": ""
 		},
+
 		{
 			"name": "Neelabh Gupta",
 			"imageurl": "assets/img/participants/neelabh.jpg",
@@ -1552,6 +1566,17 @@
 			"twitter": "",
 			"referral": ""
 		},
+
+		{
+			"name": "Ravi Kumar",
+			"imageurl": "",
+			"about": "",
+			"college": "IIIT Allahabad",
+			"facebook": "",
+			"github": "https://github.com/rvid2w",
+			"twitter": "",
+			"referral": ""
+		},
 		{
 			"name": "Uddeept Shandilya",
 			"imageurl": "",
@@ -1640,6 +1665,17 @@
 			 "twitter"   : "",
 			 "referral" : ""
 		},
+	  {
+     		"name": "Puja Kumari",
+     		"imageurl": "assets/img/participants/Puja.jpg",
+     		"about": "Learner",
+     		"college": "IIIT Allahabad",
+     		"facebook": "",
+     		"github": "https://github.com/Pujastar",
+     		"twitter": "",
+     		"referral": ""
+    },
+
 		{
 			"name"      : "Tarun Asudani",
 			"imageur1"  : "",
@@ -1650,6 +1686,7 @@
 			"referral"  : ""
 
 		},
+
 	    	{
 			"name"      : "VIDUR KATARIA",
 			"imageur1"  : "assets/img/participants/vidur.jpg",
@@ -1658,10 +1695,37 @@
 			"github"    : "https://github.com/kavi-12",
 			"twitter"   : "",
 			"referral"  : ""
+      },
+
+	      {
+            "name": "Aman Sokhal",
+            "imageurl": "assets/img/participants/aman.jpg",
+            "about": "Begginer",
+            "college": "IIIT, Allahabad",
+            "facebook": "https://www.facebook.com/amansokha0001",
+            "github": "https://github.com/Amansokhal"
+           
+	      },
+	    	{
+			"name"      : "Priyatam Reddy Somagattu",
+			"imageur1"  : "",
+			"about"	    : "",
+			"college"   : "IIIT Allahabad",
+			"github"    : "https://github.com/Pri1437",
+			"twitter"   : "",
+			"referral"  : ""
+		},
+	    
+	    {
+			"name"      : "Bindu",
+			"imageur1"  : "assets/img/participants/bindu.jpg",
+			"about"	    : "Learner",
+			"college"   : "IIIT Allahabad",
+			"github"    : "https://github.com/BinduVerma123",
+			"twitter"   : "",
+			"referral"  : ""
 
 		}
 	]
 
-
 }
-
