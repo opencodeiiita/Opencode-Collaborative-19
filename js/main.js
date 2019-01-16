@@ -8,7 +8,13 @@ function scrollFunction() {
     document.getElementById("myBtn").style.display = "none";
   }
 }
+//Preloader
 
+var preloader = document.getElementById('loading');
+
+function myfunction(){
+    preloader.style.display = "none";
+}
 // When the user clicks on the button, scroll to the top of the document
 function topFunction() {
   document.body.scrollTop = 0;
