@@ -60,6 +60,16 @@
 			"twitter"  : "https://twitter.com/DugtalLekhika",
             "referral" : ""
         },
+	    {
+            "name"     : "anupam",
+			"imageurl" : "assets/img/participants/namandeept.jpg",
+			"about"    : "opencode",
+			"college"  : "IIIT Allahabad",
+			"facebook" : "https://www.facebook.com/naman.deept.75",
+			"github"   : "https://github.com/namandeept",
+			"twitter"  : "",
+            "referral" : ""
+        },
       	{
         	"name": "Manish",
             "imageurl": "assets/img/participants/manish.jpg",
