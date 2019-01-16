@@ -725,7 +725,8 @@
      		"github": "https://github.com/Pujastar",
      		"twitter": "",
      		"referral": ""
-    	},
+    },
+
 		{
 			"name"      : "Tarun Asudani",
 			"imageur1"  : "",
@@ -736,6 +737,18 @@
 			"referral"  : ""
 
 		},
+
+	    	{
+			"name"      : "VIDUR KATARIA",
+			"imageur1"  : "assets/img/participants/vidur.jpg",
+			"about"	    : "Novice",
+			"college"   : "IIIT Allahabad",
+			"github"    : "https://github.com/kavi-12",
+			"twitter"   : "",
+			"referral"  : ""
+      },
+
+
 	    {
             "name": "Aman Sokhal",
             "imageurl": "assets/img/participants/aman.jpg",
@@ -762,6 +775,8 @@
 			"github"    : "https://github.com/BinduVerma123",
 			"twitter"   : "",
 			"referral"  : ""
+
+
 		},
 	    {
 	        "name"      : "Nikhil",
