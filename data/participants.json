@@ -1714,6 +1714,15 @@
 			"twitter"   : "",
 			"referral"  : ""
 		}
+	    {
+	                "name"      : "Nikhil",
+			"imageur1"  : "assets/img/participants/nikhil.jpg",
+			"about"	    : "",
+			"college"   : "IIIT Allahabad",
+			"github"    : "https://github.com/nikolai6303",
+			"twitter"   : "",
+			"referral"  : ""
+	    }
 	]
 
 }
