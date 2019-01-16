@@ -821,6 +821,16 @@
 			"twitter"   : "",
 			"referral"  : ""
 
-		}
+		},
+	     {
+            "name": "Jishan Singh",
+            "imageurl": "",
+            "about": "",
+            "college": "IIIT, Allahabad",
+            "facebook": "",
+            "github": "https://github.com/jishansingh",
+            "twitter": "",
+            "referral": "mail"
+}
     ]
 }
