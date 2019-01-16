@@ -32,7 +32,7 @@ $(document).ready(function () {
     $.getJSON(participantsJson, function (data) {
         participants = data.participants;
         participants.sort(function(a,b) {
-            return a.name.toLowerCase() > b.nametoLowerCase();
+            return a.name.toLowerCase() > b.name.toLowerCase();
         });
         $.each( participants, function( i, participant ) {
 
