@@ -47,8 +47,38 @@ body {
   min-height: 470px;
   min-width: 100%;
   box-shadow: 0 3px 6px 0 rgba(0,0,0,0.12);
+  transform-style: preserve-3d;
+  transition: all 0.5s ease-in-out;
+
+}
+.mentor-card {
+  max-height: 470px;
+  min-height: 470px;
+  min-width: 100%;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.12);
+
+}
+.participant-card:hover {
+  transform: rotateY(180deg);
 }
 
+.participant-card .side {
+  backface-visibility: hidden;
+   overflow: hidden;
+   position: absolute;
+}
+.card-about{
+  text-align: center;
+  padding: 30px 10px;
+  margin:100px 20px; 
+  font-size: 25px;
+}
+.participant-card .back {
+
+  text-align: center;
+  justify-content: center;
+  transform: rotateY(180deg);
+}
 .participant-img {
   max-height: 240px;
   min-height: 240px;
@@ -57,6 +87,8 @@ body {
   width: 100%;
 	height: auto;
 }
+
+
 
 .social-media-links {
   background: #fafafa;
@@ -77,14 +109,14 @@ body {
 }
 
 @media screen and (max-width: 767px) {
-  .participant-card {
+  .participant-card .mentor-card {
     max-height: 515px;
     min-height: 515px;
   }
 }
 
 @media screen and (max-width: 575px) {
-  .participant-card {
+  .participant-card .mentor-card{
     max-height: none;
   }
 
