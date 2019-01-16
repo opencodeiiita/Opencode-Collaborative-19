@@ -771,6 +771,7 @@
 			"github"    : "https://github.com/nikolai6303",
 			"twitter"   : "",
 			"referral"  : ""
+
 	    },
 	    {
 			"name"      : "Shivam Chhabra",
@@ -782,5 +783,8 @@
 			"referral"  : ""
 
 		}
+
+	    }
+
     ]
 }
