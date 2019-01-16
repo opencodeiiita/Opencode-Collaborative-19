@@ -48,13 +48,29 @@
             "github"   : "https://github.com/shiv07tiwari",
             "twitter"  : "https://twitter.com/shivansh1610"
         },
-    {
+        {
             "name"     : "Prateek",
             "imageurl" : "assets/img/mentors/prateek76.jpg",
             "about"    : "Mentor for OpenCode19 | IIITA",
             "facebook" : "https://www.facebook.com/prateek.17.xx.1999",
             "github"   : "https://github.com/prateek76",
             "twitter"  : "https://twitter.com/Prateek97923412"
+        },
+	{
+            "name"     : "Harsh Gupta",
+            "imageurl" : "assets/img/mentors/harsh.jpg",
+            "about"    : "Mentor for OpenCode19 | IIITA",
+            "facebook" : "https://www.facebook.com/out0fScop3",
+            "github"   : "https://github.com/DreamyPhobic",
+            "twitter"  : ""
+        },
+    {
+            "name"     : "Niharika Shrivastava",
+            "imageurl" : "assets/img/mentors/niharika.jpeg",
+            "about"    : "Backend Developer, ML enthusiast | IIITA",
+            "facebook" : "https://www.facebook.com/NiharikaS25",
+            "github"   : "https://github.com/OrionStar25",
+            "twitter"  : "https://twitter.com/StarOrion25"
         }
     ]
 }
