@@ -217,6 +217,17 @@
             "twitter"  : "",
             "referral" : ""	    
 	},
+
+	    {
+	    "name"     : "amritansh6",
+            "imageurl" : "assets/img/participants/images (1).jpg",
+            "about"    : "Want to learn",
+            "college"  : "IIIT Allahabad",
+            "facebook" : "",
+            "github"   : "http://github.com/amritansh6",
+            "twitter"  : "",
+            "referral" : ""	     
+      },
 	{
 	   "name" : "Ashutosh Mishra",
 	   "imageurl" : "assets/img/participants/download.jfif",
@@ -1674,7 +1685,7 @@
      		"github": "https://github.com/Pujastar",
      		"twitter": "",
      		"referral": ""
-    }
+    },
 
 		{
 			"name"      : "Tarun Asudani",
@@ -1692,7 +1703,7 @@
             "about": "Begginer",
             "college": "IIIT, Allahabad",
             "facebook": "https://www.facebook.com/amansokha0001",
-            "github": "https://github.com/Amansokhal",
+            "github": "https://github.com/Amansokhal"
            
 	      },
 	    	{
@@ -1713,7 +1724,7 @@
 			"github"    : "https://github.com/BinduVerma123",
 			"twitter"   : "",
 			"referral"  : ""
-		}
+		},
 	    {
 	                "name"      : "Nikhil",
 			"imageur1"  : "assets/img/participants/nikhil.jpg",
@@ -1723,6 +1734,9 @@
 			"twitter"   : "",
 			"referral"  : ""
 	    }
-	]
+
+
+    ]
+
 
 }
