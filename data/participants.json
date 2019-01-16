@@ -786,6 +786,17 @@
 			"github"    : "https://github.com/nikolai6303",
 			"twitter"   : "",
 			"referral"  : ""
-	    }
+	    },
+	    {
+			"name"      : "Achint Agrawal",
+			"imageur1"  : "assets/img/participants/Achint.jpg",
+			"about"	    : "Designer",
+			"college"   : "IIIT Allahabad",
+			"github"    : "https://github.com/achintagrawal",
+			"twitter"   : "",
+			"referral"  : ""
+
+
+		},
     ]
 }
