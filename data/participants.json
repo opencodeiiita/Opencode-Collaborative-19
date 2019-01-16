@@ -1,5 +1,18 @@
 {
     "participants": [
+	    
+	    {
+            "name": "Dhairya Patel",
+            "imageurl": "",
+            "about": "",
+            "college": "IIIT, Allahabad",
+            "facebook": "https://www.facebook.com/dhairya.patel.1800",
+            "github": "https://github.com/thenullterminator",
+            "twitter": "",
+            "referral": "mail"
+        },
+	    
+	    
 	    {
             "name": "Vikash Kumar",
             "imageurl": "assets/img/participants/vikash.jpg",
