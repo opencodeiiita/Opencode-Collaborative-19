@@ -71,6 +71,14 @@
             "facebook" : "https://www.facebook.com/NiharikaS25",
             "github"   : "https://github.com/OrionStar25",
             "twitter"  : "https://twitter.com/StarOrion25"
+        },
+    {
+            "name"     : "Debasish Sahoo",
+            "imageurl" : "assets/img/mentors/debck.jpg",
+            "about"    : "Web Developer | Open Source Lover ",
+            "facebook" : "",
+            "github"   : "https://github.com/debck",
+            "twitter"  : "https://twitter.com/imhere_ck"
         }
     ]
 }
