@@ -43,15 +43,15 @@ body {
 }
 
 .participant-card {
-  max-height: 470px;
-  min-height: 470px;
+  max-height: 370px;
+  min-height: 400px;
   min-width: 100%;
   box-shadow: 0 3px 6px 0 rgba(0,0,0,0.12);
 }
 
 .participant-img {
-  max-height: 240px;
-  min-height: 240px;
+  max-height: 150px;
+  min-height: 150px;
   min-width: 100%;
   
   width: 100%;
