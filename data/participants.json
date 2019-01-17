@@ -808,25 +808,7 @@
           "twitter" : "",
           "referral" : ""
       },
-{
- 	"name": "Vaibhav Shukla",
- 	"imageurl": "",
- 	"about": "",
- 	"college": "IIIT Allahabad",
- 	"facebook": "",
- 	"github": "https://github.com/vaibhav_1207",
- 	"twitter": "",
- 	"referral": ""
- },
- {
-	 "name"      : "Uddeept Shandilya",
-	 "imageurl"  : "",
-	 "about"     : "",
-	 "college"   : "IIIT Allahabad",
-	 "github"    : "https://github.com/me-stone",
-	 "twitter"   : "",
-	 "referral" : "",
- },
+
 	     {
 	 "name"      : "Nitin Mathur",
 	 "imageurl"  : "",
