@@ -173,16 +173,20 @@ $(document).ready(function () {
                 "<p class='card-text'>" +
                 project.about +
                 "</p>" +
-                "</hr>" +
-                "<h5>" +
+                "<hr>" +
+                "<h4>" +
                 "Mentors" +
+                "</h4>" +
+                "<h5>" +
                 "<p>" +
                 project.mentors +
                 "</p>" +
                 "</h5>" +
-                "</hr>" +
-                "<h5>" +
+                "<hr>" +
+                "<h4>" +
                 "Tech Stack" +
+                "</h4>"+
+                "<h5>"+
                 "<p>" +
                 project.lang +
                 "</p>" +

@@ -53,7 +53,7 @@ body {
   max-height: 240px;
   min-height: 240px;
   min-width: 100%;
-  
+
   width: 100%;
 	height: auto;
 }
@@ -65,7 +65,7 @@ body {
 
 .social-media-links a i {
   color: #9E9E9E;
-  padding: 0 10px; 
+  padding: 0 10px;
   font-size: 16px;
   transition: .2s ease-in-out;
   -webkit-transition: .2s ease-in-out;
@@ -110,4 +110,10 @@ body {
 
 #myBtn:hover {
   background-color: #555;
+}
+.card-body{
+  text-align: center;
+}
+.card-body h4{
+  font-weight: 550;
 }
