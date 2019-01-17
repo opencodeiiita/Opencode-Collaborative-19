@@ -819,8 +819,17 @@
           "twitter" : "",
           "referral" : ""
       },
-      {
 
+	     {
+	 "name"      : "Nitin Mathur",
+	 "imageurl"  : "",
+	 "about"     : "",
+	 "college"   : "IIIT Allahabad",
+	 "github"    : "https://github.com/nitinmathur1998",
+	 "twitter"   : "",
+	 "referral" : "",
+ },
+{
                          "name": "Abhinav2023",
                          "imageurl": "assets/img/participants/Abhinav2023.jpg",
                          "about": "Android Developer",
