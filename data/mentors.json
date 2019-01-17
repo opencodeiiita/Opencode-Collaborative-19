@@ -79,6 +79,14 @@
             "facebook" : "",
             "github"   : "https://github.com/debck",
             "twitter"  : "https://twitter.com/imhere_ck"
+    },
+	    {
+            "name"     : "Sneha Mishra",
+            "imageurl" : "assets/img/mentors/sneha.jpg",
+            "about"    : "Open Source Enthusiast | IIITA ",
+            "facebook" : "https://www.facebook.com/snehamishrabb",
+            "github"   : "https://github.com/Tlazypanda",
+            "twitter"  : ""
         }
     ]
 }
