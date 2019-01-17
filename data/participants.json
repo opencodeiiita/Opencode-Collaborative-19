@@ -879,6 +879,17 @@
             "github": "https://github.com/ak0005",
             "twitter": "",
             "referral": ""
-},
+}, 
+	     {
+		"name" : "Naman Gupta",
+		"imageurl" : "",
+		"about" : "Hii I am from IIITL and just got started working in git and git-hub",
+		"college" : "IIIT Lucknow",
+		"facebook" : "https://www.facebook.com/profile.php?id=100004042579280",
+		"github" : "https://github.com/naman-150200",
+		"twitter" : "",
+		"referral" : ""
+	    },
+	
     ]
 }
