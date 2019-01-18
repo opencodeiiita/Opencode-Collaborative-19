@@ -856,7 +856,7 @@
 	 "college"   : "IIIT Allahabad",
 	 "github"    : "https://github.com/nitinmathur1998",
 	 "twitter"   : "",
-	 "referral" : "",
+	 "referral" : ""
  },
 {
                          "name": "Abhinav2023",
@@ -898,6 +898,6 @@
             "github": "https://github.com/ak0005",
             "twitter": "",
             "referral": ""
-},
+}
     ]
 }
