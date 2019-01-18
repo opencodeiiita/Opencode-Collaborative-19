@@ -128,6 +128,72 @@ $(document).ready(function() {
                     }
                 } catch (err) {}
             }
+
+            // check if social media links available otherwise disable them 
+            
+            if (
+                /^ *$/.test(participant.facebook) ||
+                participant.facebook == ""
+            ) {
+                //regex to check empty string or spaces
+                participant.facebook = "javascript:void(0);";
+
+            } else {
+                var url = participant.facebook;
+
+                try {
+                    var http = new XMLHttpRequest();
+                    http.open("HEAD", url, false);
+                    http.send();
+
+                    if (http.status == 404) {
+                        participant.facebook = "javascript:void(0);";
+                    }
+                } catch (err) {}
+            }
+
+            if (
+                /^ *$/.test(participant.github) ||
+                participant.github == ""
+            ) {
+                //regex to check empty string or spaces
+                participant.github = "javascript:void(0);";
+
+            } else {
+                var url = participant.github;
+
+                try {
+                    var http = new XMLHttpRequest();
+                    http.open("HEAD", url, false);
+                    http.send();
+
+                    if (http.status == 404) {
+                        participant.github = "javascript:void(0);";
+                    }
+                } catch (err) {}
+            }
+
+            if (
+                /^ *$/.test(participant.twitter) ||
+                participant.twitter == ""
+            ) {
+                //regex to check empty string or spaces
+                participant.twitter = "javascript:void(0);";
+
+            } else {
+                var url = participant.twitter;
+
+                try {
+                    var http = new XMLHttpRequest();
+                    http.open("HEAD", url, false);
+                    http.send();
+
+                    if (http.status == 404) {
+                        participant.twitter = "javascript:void(0);";
+                    }
+                } catch (err) {}
+            }
+
             var participantDiv =
                   "<div class='col-lg-3 col-sm-6 text-center mb-4'>" +
                 "<div class='card participant-card'>" +
@@ -160,7 +226,6 @@ $(document).ready(function() {
                 "><i class='fab fa-twitter'></i></a>" +
                 "</div>" +
                 "</div>";
-
 
             $("#participants").append(participantDiv);
         });
