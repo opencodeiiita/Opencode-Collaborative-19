@@ -1,0 +1,113 @@
+/*!
+ * Start Bootstrap - 4 Col Portfolio (https://startbootstrap.com/template-overviews/4-col-portfolio)
+ * Copyright 2013-2018 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-4-col-portfolio/blob/master/LICENSE)
+ */
+
+body {
+  padding-top: 54px;
+}
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 56px;
+  }
+} #align{   text-align: center; } 
+
+.portfolio-item {
+  margin-bottom: 30px;
+}
+
+.pagination {
+  margin-bottom: 30px;
+}
+
+.profile-image{
+  border-radius: 10px;
+}
+
+.hero{
+
+  padding: 150px 0;
+  background: linear-gradient(to top, #0250c5 0%, #d43f8d 100%);
+  border-style:solid;
+  border-color:#287EC7;
+
+}
+
+.footer_media{
+  color:white;
+  font-size: 20px;
+  padding-left: 10px;
+  text-align: center;
+}
+
+.participant-card {
+  max-height: 470px;
+  min-height: 470px;
+  min-width: 100%;
+  box-shadow: 0 3px 6px 0 rgba(0,0,0,0.12);
+}
+
+.participant-img {
+  max-height: 240px;
+  min-height: 240px;
+  min-width: 100%;
+  
+  width: 100%;
+	height: auto;
+}
+
+.social-media-links {
+  background: #fafafa;
+  padding: 15px 0;
+}
+
+.social-media-links a i {
+  color: #9E9E9E;
+  padding: 0 10px; 
+  font-size: 16px;
+  transition: .2s ease-in-out;
+  -webkit-transition: .2s ease-in-out;
+}
+
+.social-media-links a i:hover {
+  color: #212121;
+  transform: scale(1.4);
+}
+
+@media screen and (max-width: 767px) {
+  .participant-card {
+    max-height: 515px;
+    min-height: 515px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .participant-card {
+    max-height: none;
+  }
+
+  .participant-img {
+    max-height: none;
+  }
+}
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 100;
+  font-size: 20px;
+  border: none;
+  outline: none;
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  padding: 8px;
+  border-radius: 2px;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
