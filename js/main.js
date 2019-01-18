@@ -58,8 +58,8 @@ $(document).ready(function () {
                 } catch (err) {}
             }
             var mentorDiv =
-                "<div class='col-lg-2 col-sm-6 text-center mb-4'>" +
-                "<div class='card participant-card'>" +
+                "<div class='col-lg-3 col-sm-6 text-center mb-4'>" +
+                "<div class='card mentor-card'>" +
                 "<img class='card-img-top participant-img' src=" +
                 mentor.imageurl +
                 " alt=''>" +
@@ -117,22 +117,26 @@ $(document).ready(function () {
                 } catch (err) {}
             }
             var participantDiv =
-                "<div class='col-lg-3 col-sm-6 text-center mb-4'>" +
+                "<div class='col-lg-2 col-sm-6 text-center mb-4'>" +
                 "<div class='card participant-card'>" +
+                "<div class = 'side'>" +
                 "<img class='card-img-top participant-img' src=" +
                 participant.imageurl +
                 " alt=''>" +
                 "<div class='card-body'>" +
-                "<h4 class='card-title'>" +
+                
+                "<b><p class='card-title'>" +
                 participant.name +
-                "</h4>" +
-                "<p class='card-text'>" +
+                "</p></b>" +
+                "<p class='card-text' style='font-size:12px;'>" +
                 participant.college +
                 "</p>" +
-                "<p class='card-text'>" +
+                "</div>"+
+                "</div>" +
+                "<div class='side back'>" +
+                "<p class='card-about'>" +
                 participant.about +
                 "</p>" +
-                "</div>" +
                 "<div class='social-media-links'>" +
                 "<a href=" +
                 participant.facebook +
@@ -143,7 +147,6 @@ $(document).ready(function () {
                 "<a href=" +
                 participant.twitter +
                 "><i class='fab fa-twitter'></i></a>" +
-                "</div>" +
                 "</div>" +
                 "</div>";
 
