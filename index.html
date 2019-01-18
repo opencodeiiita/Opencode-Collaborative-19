@@ -18,6 +18,9 @@
     <!-- Custom styles for this template -->
     <link href="css/main.css" rel="stylesheet">
 
+    <!-- Animate css -->
+    <link rel="stylesheet" type="text/css" media="all" href="css/animate.css">
+
   </head>
 
   <body>
@@ -48,20 +51,20 @@
     </nav>
 
     <div class="jumbotron jumbotron-fluid text-center header-overlay">
-      <h1 class="display-4"><b>Hello, world!</b></h1>
-      <h4>Welcome to OpenCode'19</h4>
-      <a href="#participants"><button class="header-btn">Get Started</button></a>
+      <h1 class="display-4 landing-header-text"><b>Hello, world!</b></h1>
+      <h4 class="landing-sub-text">Welcome to OpenCode'19</h4>
+      <a href="#participants"><button class="header-btn mt-5 landing-btn">Get Started</button></a>
     </div>
 
     <div class="container">
 
       <!-- Participants -->
       <div class="row">
-        <div class="col-lg-12">
+        <div class="col-lg-12 participants-heading">
           <h2 class="my-4">Participants</h2>
         </div>
       </div>
-      <div class="row" id="participants">
+      <div class="row participants-card" id="participants">
         <!-- Feeding data from json -->
       </div>
 
@@ -107,7 +110,6 @@
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="js/main.js"></script>
-
   </body>
 
 </html>

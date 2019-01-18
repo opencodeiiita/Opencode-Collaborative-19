@@ -197,3 +197,22 @@ $(document).ready(function () {
         });
     });
 });
+
+
+// landing page animation
+$(function(){
+    $('.landing-header-text').addClass('animated fadeInUp');
+  
+    setTimeout(function() { 
+      $('.landing-sub-text').show().addClass('animated-c fadeInUp');
+    }, 500);
+      
+    setTimeout(function(){ 
+      $('.participants-heading h2').show().addClass('animated-c fadeInUp');
+    }, 850);
+
+    // setTimeout(function(){ 
+    //     $('.landing-btn').show().addClass('animated-c fadeInDown');
+    //   }, 850);
+
+  });
