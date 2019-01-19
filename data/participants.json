@@ -909,6 +909,16 @@
             "github": "https://github.com/ak0005",
             "twitter": "",
             "referral": ""
-}
+},
+        {
+			"name"      : "Dev Gupta",
+			"imageur1"  : "assets/img/participants/devgupta2607.png",
+			"about"	    : "I am a web developer and a Python enthusiast.",
+			"college"   : "Delhi Technological University",
+			"github"    : "https://github.com/devgupta2607",
+			"twitter"   : "",
+			"referral"  : ""
+
+		}
     ]
 }
