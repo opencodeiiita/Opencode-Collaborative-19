@@ -1,6 +1,17 @@
 {
     "participants": [
-	     {
+	    
+	    {
+  	   "name" : "Deepak Katre",
+  	   "imageurl" : "",
+	   "about" : "",
+	   "college" : "IIIT Allahabad",
+	   "facebook" : "",
+ 	   "github" : "https://github.com/deepakDOTexe",
+  	   "twitter" : "",
+  	   "referral" : ""
+	},
+	    {
 		"name" : " Vishal Mishra",
 		"imageurl" : "",
 		"about" : "Hii I am from IIITL and just got started with python progamming",
