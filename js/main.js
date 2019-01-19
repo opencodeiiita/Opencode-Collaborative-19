@@ -129,8 +129,9 @@ $(document).ready(function() {
                 } catch (err) {}
             }
             var participantDiv =
-                "<div class='col-lg-3 col-sm-6 text-center mb-4'>" +
+                  "<div class='col-lg-3 col-sm-6 text-center mb-4'>" +
                 "<div class='card participant-card'>" +
+                "<div class = 'side'>" +
                 "<img class='card-img-top participant-img' src=" +
                 participant.imageurl +
                 " alt=''>" +
@@ -141,10 +142,12 @@ $(document).ready(function() {
                 "<p class='card-text'>" +
                 participant.college +
                 "</p>" +
-                "<p class='card-text'>" +
+                "</div>"+
+                "</div>" +
+                "<div class='side back'>" +
+                "<p class='card-about'>" +
                 participant.about +
                 "</p>" +
-                "</div>" +
                 "<div class='social-media-links'>" +
                 "<a href=" +
                 participant.facebook +
@@ -156,8 +159,8 @@ $(document).ready(function() {
                 participant.twitter +
                 "><i class='fab fa-twitter'></i></a>" +
                 "</div>" +
-                "</div>" +
                 "</div>";
+
 
             $("#participants").append(participantDiv);
         });
