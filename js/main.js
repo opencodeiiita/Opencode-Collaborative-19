@@ -228,18 +228,18 @@ $(document).ready(function() {
 
 // landing page animation
 $(function(){
-    $('.landing-header-text').addClass('animated fadeInUp');
+    $('.a-landing-header-text').addClass('animated-4s fadeInUp');
   
     setTimeout(function() { 
-      $('.landing-sub-text').show().addClass('animated-c fadeInUp');
+      $('.a-landing-sub-text').show().addClass('animated-3s slideInUp');
     }, 500);
+
+    setTimeout(function() { 
+        $('.a-nav').show().addClass('animated-2s bounceInDown');
+      }, 500);
+
+      setTimeout(function() { 
+        $('.a-btn').show().addClass('animated-2s bounceInUp');
+      }, 500);
       
-    setTimeout(function(){ 
-      $('.participants-heading h2').show().addClass('animated-c fadeInUp');
-    }, 850);
-
-    // setTimeout(function(){ 
-    //     $('.landing-btn').show().addClass('animated-c fadeInDown');
-    //   }, 850);
-
   });
