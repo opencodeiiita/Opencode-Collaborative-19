@@ -102,6 +102,7 @@ $(document).ready(function() {
     });
 
     $.getJSON(participantsJson, function(data) {
+
         //variables for pagination
         let current_page = 1;
         var per_page = 12;
@@ -185,7 +186,17 @@ $(document).ready(function() {
         if(current_page === numPages()){
             $('.next').addClass('disabled');
         }
-
+        participants = data.participants;
+        participants.sort((p1, p2) => {
+            p1 = p1.name.toLowerCase(), p2 = p2.name.toLowerCase();
+            if (p1 < p2) {
+                return -1;
+            }
+            if (p1 > p2) {
+                return 1;
+            }
+            return 0; // default case
+        });
         $.each(participants, function(i, participant) {
             if (
                 /^ *$/.test(participant.imageurl) ||
