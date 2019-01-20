@@ -1,22 +1,25 @@
-
-window.onscroll = function() {scrollFunction()};
+window.onscroll = function() {
+    scrollFunction();
+};
 
 function scrollFunction() {
-  if (document.body.scrollTop > 2000 || document.documentElement.scrollTop > 2000) {
-    document.getElementById("myBtn").style.display = "block";
-  } else {
-    document.getElementById("myBtn").style.display = "none";
-  }
+    if (
+        document.body.scrollTop > 2000 ||
+        document.documentElement.scrollTop > 2000
+    ) {
+        document.getElementById("myBtn").style.display = "block";
+    } else {
+        document.getElementById("myBtn").style.display = "none";
+    }
 }
 
 // When the user clicks on the button, scroll to the top of the document
 function topFunction() {
-  document.body.scrollTop = 0;
-  document.documentElement.scrollTop = 0;
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
 }
 
-$(document).ready(function () {
-
+$(document).ready(function() {
     var mentors;
     var participants;
     var projects;
@@ -35,6 +38,15 @@ $(document).ready(function () {
 
     $.getJSON(mentorsJson, function(data) {
         mentors = data.mentors;
+        mentors.sort((a, b) => {
+            if (a.name < b.name) {
+                return -1;
+            }
+            if (a.name > b.name) {
+                return 1;
+            }
+        });
+        console.log(mentors);
         $.each(mentors, function(i, mentor) {
             if (/^ *$/.test(mentor.imageurl) || mentor.imageurl == "") {
                 //regex to check empty string or spaces
@@ -44,7 +56,7 @@ $(document).ready(function () {
                 //Icon made by Freepik from www.flaticon.com *credits*
             } else {
                 var url = mentor.imageurl;
-                console.log(url);
+                //console.log(url);
 
                 try {
                     var http = new XMLHttpRequest();
@@ -59,7 +71,7 @@ $(document).ready(function () {
             }
             var mentorDiv =
                 "<div class='col-lg-3 col-sm-6 text-center mb-4'>" +
-                "<div class='card mentor-card'>" +
+                "<div class='card participant-card'>" +
                 "<img class='card-img-top participant-img' src=" +
                 mentor.imageurl +
                 " alt=''>" +
@@ -103,7 +115,7 @@ $(document).ready(function () {
                 //Icon made by Freepik from www.flaticon.com *credits*
             } else {
                 var url = participant.imageurl;
-                console.log(url);
+                //console.log(url);
 
                 try {
                     var http = new XMLHttpRequest();
@@ -117,7 +129,7 @@ $(document).ready(function () {
                 } catch (err) {}
             }
             var participantDiv =
-                "<div class='col-lg-3 col-sm-6 text-center mb-4'>" +
+                  "<div class='col-lg-3 col-sm-6 text-center mb-4'>" +
                 "<div class='card participant-card'>" +
                 "<div class = 'side'>" +
                 "<img class='card-img-top participant-img' src=" +
@@ -148,6 +160,7 @@ $(document).ready(function () {
                 "><i class='fab fa-twitter'></i></a>" +
                 "</div>" +
                 "</div>";
+
 
             $("#participants").append(participantDiv);
         });
@@ -196,6 +209,20 @@ $(document).ready(function () {
             $("#projects").append(projectDiv);
         });
     });
+
+
+    //smooth scrolling
+        $('a[href^="#"]').on('click', function (e) {
+                    e.preventDefault();
+
+                    var target = this.hash;
+                    var $target = $(target);
+
+                    $('html, body').animate({
+                        'scrollTop': $target.offset().top
+                    }, 500, 'swing');
+                });
+
 });
 
 
