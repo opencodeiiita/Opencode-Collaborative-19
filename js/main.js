@@ -130,7 +130,7 @@ $(document).ready(function() {
 
         //this function count number of pages are required 
         function numPages(){
-            let no_pages = all_participants.length/per_page;
+            let no_pages = Math.ceil(all_participants.length/per_page);
             return parseInt(no_pages);  
         }
 
@@ -279,8 +279,7 @@ $(document).ready(function() {
 
         //this function count number of pages are required 
         function numPages(){
-            let no_pages = all_projects.length/per_page;
-            console.log(all_projects.length);
+            let no_pages = Math.ceil(all_projects.length/per_page);
             return parseInt(no_pages);  
         }
 
@@ -288,7 +287,6 @@ $(document).ready(function() {
         $('.next-project').bind("click",function(event){
         if (current_page < numPages()) {
                 current_page++;
-            console.log(current_page);
             $(this).removeClass('disabled');
             $('.prev-project').removeClass('disabled');
             $("#projects").empty();
@@ -316,7 +314,6 @@ $(document).ready(function() {
             $('.prev-project').removeClass('disabled');
             current_page = $(this).text();
             current_page = parseInt(current_page);
-            console.log(current_page);
             $("#projects").empty();
             projects = all_projects.slice((current_page-1)*per_page, (current_page-1)*per_page+per_page);
             loadpage();
