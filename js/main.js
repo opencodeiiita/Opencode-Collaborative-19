@@ -71,7 +71,7 @@ $(document).ready(function() {
             }
             var mentorDiv =
                 "<div class='col-lg-3 col-sm-6 text-center mb-4'>" +
-                "<div class='card participant-card'>" +
+                "<div class='card mentor-card'>" +
                 "<img class='card-img-top participant-img' src=" +
                 mentor.imageurl +
                 " alt=''>" +
