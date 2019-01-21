@@ -172,8 +172,8 @@ $(document).ready(function() {
     //this function load the data
     function loadpage(){
         //show the active page
-        let active_page = ".pagination li:nth-child(" + (current_page+1) + ")";
-        $('.pagination').find('.active').removeClass('active');
+        let active_page = ".pagination-participants li:nth-child(" + (current_page+1) + ")";
+        $('.pagination-participants').find('.active').removeClass('active');
         $(active_page).addClass('active');
 
         //disable previous button when page number is 1
