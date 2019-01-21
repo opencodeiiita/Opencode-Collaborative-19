@@ -102,7 +102,92 @@ $(document).ready(function() {
     });
 
     $.getJSON(participantsJson, function(data) {
-        participants = data.participants;
+        let current_page = 1;
+        var  participants = [];
+        all_participants = data.participants;
+
+        // for first page
+        if(current_page === 1){
+            let no_pages = numPages();
+            let shw_no_pages = [];
+            for(let i = 1 ; i<=no_pages; i++){
+                    var data  = "<li class='page-item'>"+
+                                    "<a class='page-link page-click'"+ 
+                                    ">"+
+                                    i+
+                                    "</a>"+
+                                    "</li>";
+                    shw_no_pages.push(data);
+                 
+            }
+            
+            $("#pagination").after(shw_no_pages);
+             participants = all_participants.slice(current_page-1, (current_page-1)+12);
+             loadpage();
+        }
+
+        //this function count number of pages are required 
+        function numPages(){
+            console.log(all_participants.length);
+            let no_pages = all_participants.length/12;
+            return parseInt(no_pages);  
+        }
+
+        //when click the next
+        $('.next').bind("click",function(event){
+        if (current_page < numPages()) {
+                current_page++;
+            $(this).removeClass('disabled');
+            $('.prev').removeClass('disabled');
+            console.log(current_page);
+            $("#participants").empty();
+            participants = all_participants.slice((current_page-1)*12, (current_page-1)*12+12);
+            loadpage();
+        }
+        });
+
+        //when click the previous
+        $('.prev').bind("click",function(event){
+            if (current_page > 1) {
+                current_page--;
+            $('.prev').removeClass('disabled');
+            $(this).removeClass('disabled');
+            participants = all_participants.slice((current_page-1)*12, (current_page-1)*12+12);
+            loadpage(); 
+            }
+        });
+
+        //when click the page number
+        $('.page-click').bind("click", function(event) {
+            event.preventDefault();
+            $('.next').removeClass('disabled');
+            $('.prev').removeClass('disabled');
+            current_page = $(this).text();
+            current_page = parseInt(current_page);
+            console.log(current_page);
+            $("#participants").empty();
+            participants = all_participants.slice(current_page*12, current_page*12+12);
+            console.log(participants)
+            loadpage();
+        }); 
+
+    //this function load the data
+    function loadpage(){
+        //show the active page
+        let active_page = ".pagination li:nth-child(" + (current_page+1) + ")";
+        $('.pagination').find('.active').removeClass('active');
+        $(active_page).addClass('active');
+
+        //disable previous button when page number is 1
+        if(current_page === 1){
+            $('.prev').addClass('disabled');
+        }
+
+        //disable next button
+        if(current_page === numPages()){
+            $('.next').addClass('disabled');
+        }
+
         $.each(participants, function(i, participant) {
             if (
                 /^ *$/.test(participant.imageurl) ||
@@ -164,6 +249,7 @@ $(document).ready(function() {
 
             $("#participants").append(participantDiv);
         });
+    }
     });
 
     $.getJSON(projectsJson, function(data) {
