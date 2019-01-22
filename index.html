@@ -18,34 +18,44 @@
     <!-- Custom styles for this template -->
     <link href="css/main.css" rel="stylesheet">
 
+    <!-- Animate css -->
+    <link rel="stylesheet" type="text/css" media="all" href="css/animate.css">
+
   </head>
 
   <body>
+
     <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fas fa-arrow-up"></i></button>
     <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: rgb(255,184,51)">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light a-nav" id="mainNav">
       <div class="container">
-        <a class="navbar-brand" href="#" style="color: black">
-<!-- OpenCode Logo added in navbar -->
-        	<img src="./assets/img/Opencode_LOGO.png" width="40" height="37" class="d-inline-block align-top " style="padding-right:5px">Opencode 2019</a>
+        <a class="navbar-brand d-flex align-items-center" href="#">
+  <!-- OpenCode Logo added in navbar -->
+          <img src="./assets/img/Opencode_LOGO.png" width="40" height="37" class="d-inline-block align-top " style="padding-right:5px">Opencode 2019</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="#" style="color: black">Home</a>
+              <a class="nav-link" href="#participants">Participants</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="#mentors">Mentors</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="#projects">Projects</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
 
-    <div class="jumbotron text-center jumbotron-fluid hero">
-        <h1 class="display-4"style="font-family:georgia;text-shadow: 3px 2px black;color: white;"><b>Hello, world!</b></h1>
-        <br>
-      <h4 style="font-family:courier;"><b>Welcome to OpenCode'19</b></h4>
-      </div>
+    <div class="jumbotron jumbotron-fluid text-center header-overlay">
+      <h1 class="display-4 a-landing-header-text"><b>Hello, world!</b></h1>
+      <h4 class="a-landing-sub-text">Welcome to OpenCode'19</h4>
+      <a href="#participants"><button class="header-btn mt-5 landing-btn a-btn">Get Started</button></a>
+    </div>
 
     <div class="container">
 
@@ -55,7 +65,7 @@
           <h2 class="my-4">Participants</h2>
         </div>
       </div>
-      <div class="row" id="participants">
+      <div class="row participants-card" id="participants">
         <!-- Feeding data from json -->
       </div>
 
@@ -97,11 +107,28 @@
       <!-- /.container -->
     </footer>
 
-    <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="js/main.js"></script>
 
+<!--CSS Spinner-->
+  <div class="spinner-wrapper">
+    <div class="spinner"></div>
+  </div>
+  
   </body>
+
+   <!-- Bootstrap core JavaScript -->
+   <script src="vendor/jquery/jquery.min.js"></script>
+   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+   <script src="js/main.js"></script>
+
+  <!-- Preloader -->
+  <script>
+      $(document).ready(function() {
+        setTimeout(() => {
+        $(".spinner-wrapper").css({"display":"none"});
+          
+         }, 4000);
+
+     });
+  </script>
 
 </html>
