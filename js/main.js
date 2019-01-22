@@ -245,3 +245,14 @@ $(function(){
       
   });
 
+// dark mode
+$(document).ready(function(){
+    $('.slider').click(function(){
+        $('body').toggleClass('dark')
+        $('.container').toggleClass('dark')
+        $('.dark-scrl-btn').toggleClass('dark')
+        $('nav,div,footer').toggleClass('dark')
+        $('h1,h2,h3,h4,h5').toggleClass('dark')
+        $('span,a,img,ul,li,i').toggleClass('dark')
+    })
+})
