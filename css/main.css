@@ -292,3 +292,11 @@ input:checked + .slider:before {
   border-radius: 50%;
 } 
 
+/*Pagination*/
+.pagination .disabled a{
+  background: #e0e0e0 !important;
+}
+
+.pagination .active:hover{
+  color: #fff;
+}
