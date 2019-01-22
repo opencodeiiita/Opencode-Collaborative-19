@@ -226,15 +226,3 @@ $(document).ready(function() {
 });
 
 
- //Preloader
- $(document).ready(function() {
-      
-    $(window).on("load", function() {
-    //   preloaderFadeOutTime = 3000;
-      function hidePreloader() {
-        var preloader = $('.spinner-wrapper');
-        preloader.fadeOut(1000);
-      }
-      hidePreloader();
-    });
-  });

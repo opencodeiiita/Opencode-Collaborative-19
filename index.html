@@ -17,16 +17,13 @@
 
     <!-- Custom styles for this template -->
     <link href="css/main.css" rel="stylesheet">
-    
-    <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="js/main.js"></script>
 
 
   </head>
 
   <body>
+
+    
     
     <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fas fa-arrow-up"></i></button>
     <!-- Navigation -->
@@ -112,8 +109,29 @@
 
 <!--CSS Spinner-->
   <div class="spinner-wrapper">
-  <div class="spinner"></div>
+    <div class="spinner"></div>
 
   </body>
+
+   <!-- Bootstrap core JavaScript -->
+   <script src="vendor/jquery/jquery.min.js"></script>
+   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+   <script src="js/main.js"></script>
+
+  <!-- Preloader -->
+  <script>
+      $(document).ready(function() {
+       
+       $(window).on("load", function() {
+       //   preloaderFadeOutTime = 3000;
+         function hidePreloader() {
+           var preloader = $('.spinner-wrapper');
+           preloader.fadeOut(1000);
+         }
+         hidePreloader();
+       });
+     });
+  </script>
+
   
 </html>
