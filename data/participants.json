@@ -2,6 +2,16 @@
     "participants": [
 	    
 	    {
+  	   "name" : "Akinchan Lunavat",
+  	   "imageurl" : "",
+	   "about" : "",
+	   "college" : "IIIT Allahabad",
+	   "facebook" : "",
+ 	   "github" : "https://github.com/pal-0123",
+  	   "twitter" : "",
+  	   "referral" : ""
+	},
+	    {
   	   "name" : "Deepak Katre",
   	   "imageurl" : "",
 	   "about" : "",
