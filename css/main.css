@@ -227,7 +227,8 @@ html{
 }
 
 .card-footer-project{
-    background: #fff;
+    background: #fafafa;
+    border-top: initial;
 }
 
 .card-footer-project p{
