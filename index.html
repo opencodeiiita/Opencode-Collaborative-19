@@ -24,6 +24,7 @@
   </head>
 
   <body>
+
     <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fas fa-arrow-up"></i></button>
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light a-nav" id="mainNav">
@@ -106,27 +107,28 @@
       <!-- /.container -->
     </footer>
 
-    <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="js/main.js"></script>
-    <script>
-      $(document).ready(function() {
-      //Preloader
-      $(window).on("load", function() {
-      preloaderFadeOutTime = 500;
-      function hidePreloader() {
-      var preloader = $('.spinner-wrapper');
-      preloader.fadeOut(preloaderFadeOutTime);
-      }
-      hidePreloader();
-      });
-      });
-      </script>
+
+<!--CSS Spinner-->
+  <div class="spinner-wrapper">
+    <div class="spinner"></div>
+  </div>
+  
   </body>
-  <!--CSS Spinner-->
-<div class="spinner-wrapper">
-<div class="spinner"></div>
-</div>
+
+   <!-- Bootstrap core JavaScript -->
+   <script src="vendor/jquery/jquery.min.js"></script>
+   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+   <script src="js/main.js"></script>
+
+  <!-- Preloader -->
+  <script>
+      $(document).ready(function() {
+        setTimeout(() => {
+        $(".spinner-wrapper").css({"display":"none"});
+          
+         }, 4000);
+
+     });
+  </script>
 
 </html>
