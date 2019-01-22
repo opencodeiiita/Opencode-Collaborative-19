@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.modal{
+	width:100%;
+    height:100%;
+    background-color:rgba(0, 0, 0, 0.7);
+    position:absolute;
+    top:0;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    }
+.content{
+	width:600px;
+    height:345px;
+    background-color:white;
+    border-radius:4px;
+    text-align:center;
+    padding:23px;
+    position:relative;
+    }
+.close{
+	font-size:42px;
+    position:absolute;
+    top:0;
+    right:14px;
+    transform:rotate(45deg);
+    }
+</style>
+<script>
+document.getElementById('trailer').addEventListener('click',function()
+{	document.querySelector('.modal').style.display='flex';});
+
+document.querySelector('.close').addEventListener('click',function()
+{	document.querySelector('.modal').style.display='none';});
+</script>
+</head>
+<body>
+<div class="modal">
+  <div class="content">
+  <div class="close">+</div>
+  <iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fopencodeiiita%2Fvideos%2F2301796573173119%2F&show_text=0&width=560" width="560" height="315" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>
+  <br><br>
+  <b>TRAILER</b>
+  </div>
+</div>
+</body>
+</html>
