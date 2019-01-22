@@ -230,10 +230,10 @@ $(document).ready(function() {
  $(document).ready(function() {
       
     $(window).on("load", function() {
-      preloaderFadeOutTime = 5;
+    //   preloaderFadeOutTime = 3000;
       function hidePreloader() {
         var preloader = $('.spinner-wrapper');
-        preloader.fadeOut(preloaderFadeOutTime);
+        preloader.fadeOut(1000);
       }
       hidePreloader();
     });
