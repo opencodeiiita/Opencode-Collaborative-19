@@ -102,7 +102,90 @@ $(document).ready(function() {
     });
 
     $.getJSON(participantsJson, function(data) {
-        participants = data.participants;
+        //variables for pagination
+        let current_page = 1;
+        var per_page = 12;
+        var  participants = [];
+        all_participants = data.participants;
+
+        // for first page
+        if(current_page === 1){
+            let no_pages = numPages();
+            let shw_no_pages = [];
+            for(let i = 1 ; i<=no_pages; i++){
+                    var data  = "<li class='page-item'>"+
+                                    "<a class='page-link page-click'"+ 
+                                    ">"+
+                                    i+
+                                    "</a>"+
+                                    "</li>";
+                    shw_no_pages.push(data);
+                 
+            }
+            
+            $("#pagination").after(shw_no_pages);
+             participants = all_participants.slice(current_page-1, (current_page-1)+per_page);
+             loadpage();
+        }
+
+        //this function count number of pages are required 
+        function numPages(){
+            let no_pages = Math.ceil(all_participants.length/per_page);
+            return parseInt(no_pages);  
+        }
+
+        //when click the next
+        $('.next').bind("click",function(event){
+        if (current_page < numPages()) {
+                current_page++;
+            $(this).removeClass('disabled');
+            $('.prev').removeClass('disabled');
+            $("#participants").empty();
+            participants = all_participants.slice((current_page-1)*per_page, (current_page-1)*per_page+per_page);
+            loadpage();
+        }
+        });
+
+        //when click the previous
+        $('.prev').bind("click",function(event){
+            if (current_page > 1) {
+                current_page--;
+            $('.prev').removeClass('disabled');
+            $(this).removeClass('disabled');
+            participants = all_participants.slice((current_page-1)*per_page, (current_page-1)*per_page+per_page);
+            loadpage(); 
+            }
+        });
+
+        //when click the page number
+        $('.page-click').bind("click", function(event) {
+            event.preventDefault();
+            $('.next').removeClass('disabled');
+            $('.prev').removeClass('disabled');
+            current_page = $(this).text();
+            current_page = parseInt(current_page);
+            $("#participants").empty();
+            participants = all_participants.slice((current_page-1)*per_page, (current_page-1)*per_page+per_page);
+            loadpage();
+        }); 
+
+    //this function load the data
+    function loadpage(){
+        //show the active page
+        let active_page = ".pagination-participants li:nth-child(" + (current_page+1) + ")";
+        $('.pagination-participants').find('.active').removeClass('active');
+        $(active_page).addClass('active');
+
+        //disable previous button when page number is 1
+        if(current_page === 1){
+            $('.prev').addClass('disabled');
+        }
+
+        //disable next button
+        if(current_page === numPages()){
+            $('.next').addClass('disabled');
+        }
+
         $.each(participants, function(i, participant) {
             if (
                 /^ *$/.test(participant.imageurl) ||
@@ -164,10 +247,94 @@ $(document).ready(function() {
 
             $("#participants").append(participantDiv);
         });
+    }
     });
 
     $.getJSON(projectsJson, function(data) {
-        projects = data.projects;
+        //variables for pagination
+        let current_page = 1;
+        var per_page = 8;
+        var  projects = [];
+        all_projects = data.projects;
+
+        // for first page
+        if(current_page === 1){
+            let no_pages = numPages();
+            let shw_no_pages = [];
+            for(let i = 1 ; i<=no_pages; i++){
+                    var data  = "<li class='page-item'>"+
+                                    "<a class='page-link project-page-click'"+ 
+                                    ">"+
+                                    i+
+                                    "</a>"+
+                                    "</li>";
+                    shw_no_pages.push(data);
+                 
+            }
+            
+            $("#pagination-project").after(shw_no_pages);
+             projects = all_projects.slice(current_page-1, (current_page-1)+per_page);
+             loadpage();
+        }
+
+        //this function count number of pages are required 
+        function numPages(){
+            let no_pages = Math.ceil(all_projects.length/per_page);
+            return parseInt(no_pages);  
+        }
+
+        //when click the next
+        $('.next-project').bind("click",function(event){
+        if (current_page < numPages()) {
+                current_page++;
+            $(this).removeClass('disabled');
+            $('.prev-project').removeClass('disabled');
+            $("#projects").empty();
+            projects = all_projects.slice((current_page-1)*per_page, (current_page-1)*per_page+per_page);
+            loadpage();
+        }
+        });
+
+        //when click the previous
+        $('.prev-project').bind("click",function(event){
+            if (current_page > 1) {
+                current_page--;
+            $(this).removeClass('disabled');
+            $('.next-project').removeClass('disabled');
+            $("#projects").empty();
+            projects = all_projects.slice((current_page-1)*per_page, (current_page-1)*per_page+per_page);
+            loadpage(); 
+            }
+        });
+
+        //when click the page number
+        $('.project-page-click').bind("click", function(event) {
+            event.preventDefault();
+            $('.next-project').removeClass('disabled');
+            $('.prev-project').removeClass('disabled');
+            current_page = $(this).text();
+            current_page = parseInt(current_page);
+            $("#projects").empty();
+            projects = all_projects.slice((current_page-1)*per_page, (current_page-1)*per_page+per_page);
+            loadpage();
+        }); 
+       
+      //this function load the data
+    function loadpage(){
+        //show the active page
+        let active_page = ".pagination-project li:nth-child(" + (current_page+1) + ")";
+        $('.pagination-project').find('.active').removeClass('active');
+        $(active_page).addClass('active');
+
+        //disable previous button when page number is 1
+        if(current_page === 1){
+            $('.prev-project').addClass('disabled');
+        }
+
+        //disable next button
+        if(current_page === numPages()){
+            $('.next-project').addClass('disabled');
+        }
         $.each(projects, function(i, project) {
             var projectDiv =
                 "<div class='col-lg-3 col-md-4 col-sm-6 portfolio-item'>" +
@@ -208,6 +375,7 @@ $(document).ready(function() {
 
             $("#projects").append(projectDiv);
         });
+    }
     });
 
 

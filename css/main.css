@@ -211,3 +211,12 @@
 html{
   scroll-behavior: smooth;
 }
+
+/*Pagination*/
+.pagination .disabled a{
+  background: #e0e0e0 !important;
+}
+
+.pagination .active:hover{
+  color: #fff;
+}
