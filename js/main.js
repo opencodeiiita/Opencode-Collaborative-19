@@ -226,3 +226,22 @@ $(document).ready(function() {
 });
 
 
+
+// landing page animation
+$(function(){
+    $('.a-landing-header-text').addClass('animated-4s fadeInUp');
+  
+    setTimeout(function() { 
+      $('.a-landing-sub-text').show().addClass('animated-3s slideInUp');
+    }, 500);
+
+    setTimeout(function() { 
+        $('.a-nav').show().addClass('animated-2s bounceInDown');
+      }, 500);
+
+      setTimeout(function() { 
+        $('.a-btn').show().addClass('animated-2s bounceInUp');
+      }, 500);
+      
+  });
+
