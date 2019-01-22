@@ -217,6 +217,8 @@ html{
   background-color: #262626 !important;
   background: #262626 !important;
   color: #fff !important;
+  /* -webkit-transition: .1s;
+  transition: .1s; */
 }
 
 .dark-mode {
