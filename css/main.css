@@ -220,3 +220,16 @@ html{
 .pagination .active:hover{
   color: #fff;
 }
+
+/*project cards*/
+.card-img-project{
+    height: 15vw;
+}
+
+.card-footer-project{
+    background: #fff;
+}
+
+.card-footer-project p{
+    font-weight: 600;
+}
