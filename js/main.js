@@ -71,7 +71,7 @@ $(document).ready(function() {
             }
             var mentorDiv =
                 "<div class='col-lg-3 col-sm-6 text-center mb-4'>" +
-                "<div class='card participant-card'>" +
+                "<div class='card mentor-card'>" +
                 "<img class='card-img-top participant-img' src=" +
                 mentor.imageurl +
                 " alt=''>" +
@@ -226,20 +226,15 @@ $(document).ready(function() {
 });
 
 
-// landing page animation
-$(function(){
-    $('.a-landing-header-text').addClass('animated-4s fadeInUp');
-  
-    setTimeout(function() { 
-      $('.a-landing-sub-text').show().addClass('animated-3s slideInUp');
-    }, 500);
-
-    setTimeout(function() { 
-        $('.a-nav').show().addClass('animated-2s bounceInDown');
-      }, 500);
-
-      setTimeout(function() { 
-        $('.a-btn').show().addClass('animated-2s bounceInUp');
-      }, 500);
+ //Preloader
+ $(document).ready(function() {
       
+    $(window).on("load", function() {
+      preloaderFadeOutTime = 5;
+      function hidePreloader() {
+        var preloader = $('.spinner-wrapper');
+        preloader.fadeOut(preloaderFadeOutTime);
+      }
+      hidePreloader();
+    });
   });
