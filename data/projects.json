@@ -42,7 +42,7 @@
         },
         {
             "name": "Cynthesize",
-            "imageurl": "assets/img/projects/cynthesize.jpg",
+            "imageurl": "assets/img/projects/cynthesize.jpeg",
             "mentors": "Siddhant Shrivastava, Aayush Joglekar",
             "about": "Cythesize aims to solve the bridge between mentors and students for development, designing and other fields.",
             "lang": "Angular, SASS",
