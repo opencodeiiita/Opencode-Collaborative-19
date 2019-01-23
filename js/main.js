@@ -482,10 +482,11 @@ $(function(){
 $(document).ready(function(){
     $('.slider').click(function(){
         $('body').toggleClass('dark')
-        $('.container').toggleClass('dark')
+        $('.jumbotron').toggleClass('dark-2')
         $('.dark-scrl-btn').toggleClass('dark')
         $('nav,div,footer').toggleClass('dark')
-        $('h1,h2,h3,h4,h5').toggleClass('dark')
-        $('span,a,img,ul,li,i').toggleClass('dark')
+        $('h2,h3,h5').toggleClass('dark')
+        $('span,img,ul,li,i').toggleClass('dark')
+        $('h1,h4,a').toggleClass('dark-1')
     })
 })

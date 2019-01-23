@@ -215,10 +215,18 @@ html{
 /* dark mode toggle switch */
 .dark {
   background-color: #262626 !important;
-  background: #262626 !important;
   color: #fff !important;
-  /* -webkit-transition: .1s;
-  transition: .1s; */
+  -webkit-transition: .1s;
+  transition: .1s;
+}
+
+.dark-1 {
+  background-color: transparent !important;
+  color: #fff !important;
+}
+
+.dark-2 {
+  background-image: url("../assets/img/header-bg-dark.jpg");
 }
 
 .dark-mode {
