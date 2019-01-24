@@ -490,6 +490,7 @@ $(function(){
       
   });
 
+
 // dark mode
 $(document).ready(function(){
     $('.slider').click(function(){
@@ -506,3 +507,24 @@ $(document).ready(function(){
         $('.night-footer-ref').toggleClass('footer-dark')
     })
 })
+
+//fork and star
+var jsonData = {};
+		$.ajax({
+    url: "https://api.github.com/search/repositories?q=Opencode-Collaborative-19",
+    type: 'GET',
+    processData: false,
+    success: function (data) {
+    jsonData = JSON.stringify(data);
+    jsonData = JSON.parse(jsonData)
+    forks_count = jsonData.items[0].forks_count
+    star_count    = jsonData.items[0].stargazers_count
+    var fork = "<p class='badge badge-dark' style='margin:0;'>"+forks_count+"</p>";
+    var star = "<p class='badge badge-dark' style='margin:0;'>"+star_count+"</p>";
+    $("#fork").after(fork);
+    $("#star").after(star);
+    },
+    error: function(){
+      console.log("Cannot get data");
+    }
+});
