@@ -413,11 +413,11 @@ $(document).ready(function() {
         }
         $.each(projects, function(i, project) {
             var projectDiv =
-                "<div class='col-lg-3 col-md-4 col-sm-6 portfolio-item'>" +
+                "<div class='col-lg-3 col-md-4 col-sm-6 4 d-flex align-items-stretch portfolio-item'>" +
                 "<div class='card h-100'>" +
                 "<a href=" +
                 project.github +
-                "><img class='card-img-top' src=" +
+                "><img class='card-img-top card-img-project' src=" +
                 project.imageurl +
                 " alt=''></a>" +
                 "<div class='card-body'>" +
@@ -431,20 +431,21 @@ $(document).ready(function() {
                 "<p class='card-text'>" +
                 project.about +
                 "</p>" +
-                "</hr>" +
-                "<h5>" +
+                "</div>"+
+                "<div class='card-footer card-footer-project'>"+
+                "<h5>"+
                 "Mentors" +
+                "</h5>"+
                 "<p>" +
                 project.mentors +
                 "</p>" +
-                "</h5>" +
-                "</hr>" +
-                "<h5>" +
+                "<h5>"+
                 "Tech Stack" +
+                "</h5>"
                 "<p>" +
                 project.lang +
                 "</p>" +
-                "</h5>" +
+                "</div>"+
                 "</div>";
             ("</div>");
             ("</div>");
@@ -489,3 +490,40 @@ $(function(){
       
   });
 
+// dark mode
+$(document).ready(function(){
+    $('.slider').click(function(){
+        $('body').toggleClass('dark')
+        $('.jumbotron').toggleClass('dark-bg-img')
+        $('.dark-scrl-btn').toggleClass('dark')
+        $('nav,div,footer').toggleClass('dark')
+        $('h2,h3,h5').toggleClass('dark')
+        $('span,img,ul,li').toggleClass('dark')
+        $('h1,h4,a').toggleClass('dark-landing-text')
+        $('footer').toggleClass('night-footer')
+        $('.footer_media').toggleClass('footer-dark')
+        $('.fab-night').toggleClass('footer-dark')
+        $('.night-footer-ref').toggleClass('footer-dark')
+    })
+})
+
+//fork and star
+var jsonData = {};
+		$.ajax({
+    url: "https://api.github.com/search/repositories?q=Opencode-Collaborative-19",
+    type: 'GET',
+    processData: false,
+    success: function (data) {
+    jsonData = JSON.stringify(data);
+    jsonData = JSON.parse(jsonData)
+    forks_count = jsonData.items[0].forks_count
+    star_count    = jsonData.items[0].stargazers_count
+    var fork = "<p class='badge badge-dark' style='margin:0;'>"+forks_count+"</p>";
+    var star = "<p class='badge badge-dark' style='margin:0;'>"+star_count+"</p>";
+    $("#fork").after(fork);
+    $("#star").after(star);
+    },
+    error: function(){
+      console.log("Cannot get data");
+    }
+});
