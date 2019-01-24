@@ -221,9 +221,22 @@ html{
   color: #fff;
 }
 
-/*fork and star*/
 
+/*fork and star*/
 .github{
     color: #5a5a5a;
     font-size: 22px;
+
+/*project cards*/
+.card-img-project{
+    height: 15vw;
+}
+
+.card-footer-project{
+    background: #fafafa;
+    border-top: initial;
+}
+
+.card-footer-project p{
+    font-weight: 600;
 }
