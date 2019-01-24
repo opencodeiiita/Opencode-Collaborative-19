@@ -42,6 +42,27 @@
   background: -webkit-linear-gradient(left, rgb(247, 112, 55) 0%, rgb(250, 168, 68) 100%);
 }
 
+.countdownContainer{
+  position: absolute;
+  padding: 10px;
+  left: 30%;
+  top: 65%;
+  font-weight: 350;
+}
+            
+.info {
+  padding: 10px;
+  display: grid;
+  grid-template-columns: 130px 20px 130px 20px 135px 20px 135px;
+  align-items: center;
+}
+            
+.labels {
+  display: grid;
+  grid-template-columns: 25% 110px 25% 25%;
+  grid-column-gap: 15px;
+}
+
 .portfolio-item {
   margin-bottom: 30px;
 }
