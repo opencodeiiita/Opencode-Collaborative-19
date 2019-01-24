@@ -490,6 +490,23 @@ $(function(){
       
   });
 
+// dark mode
+$(document).ready(function(){
+    $('.slider').click(function(){
+        $('body').toggleClass('dark')
+        $('.jumbotron').toggleClass('dark-bg-img')
+        $('.dark-scrl-btn').toggleClass('dark')
+        $('nav,div,footer').toggleClass('dark')
+        $('h2,h3,h5').toggleClass('dark')
+        $('span,img,ul,li').toggleClass('dark')
+        $('h1,h4,a').toggleClass('dark-landing-text')
+        $('footer').toggleClass('night-footer')
+        $('.footer_media').toggleClass('footer-dark')
+        $('.fab-night').toggleClass('footer-dark')
+        $('.night-footer-ref').toggleClass('footer-dark')
+    })
+})
+
 //fork and star
 var jsonData = {};
 		$.ajax({
