@@ -2,6 +2,16 @@
     "participants": [
 	    
 	    {
+  	   "name" : "Akinchan Lunavat",
+  	   "imageurl" : "",
+	   "about" : "",
+	   "college" : "IIIT Allahabad",
+	   "facebook" : "",
+ 	   "github" : "https://github.com/pal-0123",
+  	   "twitter" : "",
+  	   "referral" : ""
+	},
+	    {
   	   "name" : "Deepak Katre",
   	   "imageurl" : "",
 	   "about" : "",
@@ -888,7 +898,15 @@
 			"github"    : "https://github.com/achintagrawal",
 			"twitter"   : "",
 			"referral"  : ""
-
+	    },
+	    {
+			"name"      : "Shivam Chhabra",
+			"imageur1"  : "",
+			"about"	    : "",
+			"college"   : "IIIT Allahabad",
+			"github"    : "https://github.com/shivam0211",
+			"twitter"   : "",
+			"referral"  : ""
 		},
 	     {
             "name": "Jishan Singh",
@@ -931,8 +949,17 @@
             "github": "https://github.com/devgupta2607",
             "twitter": "",
             "referral": "Instagram"
+},
+{
+            "name": "Aditya Kumar",
+            "imageurl": "assets/img/participants/devill71.jpg",
+            "about": "",
+            "college": "IIIT A",
+            "facebook": "",
+            "github": "https://github.com/devill71",
+            "twitter": "",
+            "referral": ""
 }
-        
-        
+
     ]
 }

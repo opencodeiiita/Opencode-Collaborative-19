@@ -204,10 +204,19 @@
   right: 0;
   bottom: 0;
   background-color: #ff6347;
-  z-index: 999999;
+  z-index: 3;
   }
 
 
 html{
   scroll-behavior: smooth;
+}
+
+/*Pagination*/
+.pagination .disabled a{
+  background: #e0e0e0 !important;
+}
+
+.pagination .active:hover{
+  color: #fff;
 }
