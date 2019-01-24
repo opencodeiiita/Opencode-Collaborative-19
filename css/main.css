@@ -341,3 +341,47 @@ input:checked + .slider:before {
 .card-footer-project p{
     font-weight: 600;
 }
+
+
+@media screen and (max-width: 991px) {
+    .navbar-brand{
+        padding: .5rem 1rem;
+    }
+    .nav-item{
+         padding: .5rem 1rem;
+    }
+    .nav-link{
+        padding: 0 !important;
+    }
+    
+    .dark-mode{
+        display: flex;
+        justify-content: start; 
+    }
+    
+    .navbar-toggler{
+        margin: .5rem 1rem;
+    }
+    
+    .navbar-nav{
+        display: initial;
+    }
+    
+    .fork {
+        display: inline-block!important;
+        padding-right: 0;
+        margin-right: initial !important;
+    }
+    
+    .fork div{
+        display: inline-block!important;
+    }
+    
+    .star{
+        display: inline-block!important;
+    }
+    
+    .star div{
+        display: inline-block!important;
+    }
+}
