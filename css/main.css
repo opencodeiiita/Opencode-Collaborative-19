@@ -243,8 +243,7 @@ html{
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-left: 8px;
-  padding-right: 16px;
+  padding: 0px 16px 0px 8px;
 }
 
 /* dark mode toggle switch */
