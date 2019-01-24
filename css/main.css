@@ -374,14 +374,14 @@ input:checked + .slider:before {
     }
     
     .fork div{
-        display: inline-block!important;
+        display: inline !important;
     }
     
     .star{
-        display: inline-block!important;
+        display: inline !important;
     }
     
     .star div{
-        display: inline-block!important;
+        display: inline !important;
     }
 }
