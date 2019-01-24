@@ -102,12 +102,23 @@ $(document).ready(function() {
     });
 
     $.getJSON(participantsJson, function(data) {
+
         //variables for pagination
         let current_page = 1;
         var per_page = 12;
         var  participants = [];
         all_participants = data.participants;
 
+        // sort participants alphabetically
+        all_participants.sort((p1, p2) => {
+            if (p1.name.toLowerCase() < p2.name.toLowerCase()) {
+                return -1;
+            }
+            if (p1.name.toLowerCase() > p2.name.toLowerCase()) {
+                return 1;
+            }
+        });
+        
         // for first page
         if(current_page === 1){
             let no_pages = numPages();
