@@ -102,12 +102,23 @@ $(document).ready(function() {
     });
 
     $.getJSON(participantsJson, function(data) {
+
         //variables for pagination
         let current_page = 1;
         var per_page = 12;
         var  participants = [];
         all_participants = data.participants;
 
+        // sort participants alphabetically
+        all_participants.sort((p1, p2) => {
+            if (p1.name.toLowerCase() < p2.name.toLowerCase()) {
+                return -1;
+            }
+            if (p1.name.toLowerCase() > p2.name.toLowerCase()) {
+                return 1;
+            }
+        });
+        
         // for first page
         if(current_page === 1){
             let no_pages = numPages();
@@ -402,11 +413,11 @@ $(document).ready(function() {
         }
         $.each(projects, function(i, project) {
             var projectDiv =
-                "<div class='col-lg-3 col-md-4 col-sm-6 portfolio-item'>" +
+                "<div class='col-lg-3 col-md-4 col-sm-6 4 d-flex align-items-stretch portfolio-item'>" +
                 "<div class='card h-100'>" +
                 "<a href=" +
                 project.github +
-                "><img class='card-img-top' src=" +
+                "><img class='card-img-top card-img-project' src=" +
                 project.imageurl +
                 " alt=''></a>" +
                 "<div class='card-body'>" +
@@ -420,20 +431,21 @@ $(document).ready(function() {
                 "<p class='card-text'>" +
                 project.about +
                 "</p>" +
-                "</hr>" +
-                "<h5>" +
+                "</div>"+
+                "<div class='card-footer card-footer-project'>"+
+                "<h5>"+
                 "Mentors" +
+                "</h5>"+
                 "<p>" +
                 project.mentors +
                 "</p>" +
-                "</h5>" +
-                "</hr>" +
-                "<h5>" +
+                "<h5>"+
                 "Tech Stack" +
+                "</h5>"
                 "<p>" +
                 project.lang +
                 "</p>" +
-                "</h5>" +
+                "</div>"+
                 "</div>";
             ("</div>");
             ("</div>");
@@ -494,3 +506,24 @@ $(document).ready(function(){
         $('.night-footer-ref').toggleClass('footer-dark')
     })
 })
+
+//fork and star
+var jsonData = {};
+		$.ajax({
+    url: "https://api.github.com/search/repositories?q=Opencode-Collaborative-19",
+    type: 'GET',
+    processData: false,
+    success: function (data) {
+    jsonData = JSON.stringify(data);
+    jsonData = JSON.parse(jsonData)
+    forks_count = jsonData.items[0].forks_count
+    star_count    = jsonData.items[0].stargazers_count
+    var fork = "<p class='badge badge-dark' style='margin:0;'>"+forks_count+"</p>";
+    var star = "<p class='badge badge-dark' style='margin:0;'>"+star_count+"</p>";
+    $("#fork").after(fork);
+    $("#star").after(star);
+    },
+    error: function(){
+      console.log("Cannot get data");
+    }
+});

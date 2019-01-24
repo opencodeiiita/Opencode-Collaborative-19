@@ -244,6 +244,7 @@ html{
   align-items: center;
   justify-content: center;
   padding-left: 8px;
+  padding-right: 16px;
 }
 
 /* dark mode toggle switch */
@@ -319,4 +320,25 @@ input:checked + .slider:before {
 
 .pagination .active:hover{
   color: #fff;
+}
+
+
+/*fork and star*/
+.github{
+    color: #5a5a5a;
+    font-size: 22px;
+}
+
+/*project cards*/
+.card-img-project{
+    height: 15vw;
+}
+
+.card-footer-project{
+    background: #fafafa;
+    border-top: initial;
+}
+
+.card-footer-project p{
+    font-weight: 600;
 }
