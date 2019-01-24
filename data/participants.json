@@ -812,7 +812,7 @@
 
 		{
 			"name"      : "Tarun Asudani",
-			"imageur1"  : "",
+			"imageurl"  : "",
 			"about"	    : "",
 			"college"   : "IIIT Allahabad",
 			"github"    : "https://github.com/Tarunasudani",
@@ -823,7 +823,7 @@
 
 	    	{
 			"name"      : "VIDUR KATARIA",
-			"imageur1"  : "assets/img/participants/vidur.jpg",
+			"imageurl"  : "assets/img/participants/vidur.jpg",
 			"about"	    : "Novice",
 			"college"   : "IIIT Allahabad",
 			"github"    : "https://github.com/kavi-12",
@@ -843,7 +843,7 @@
 	    },
 	    {
 			"name"      : "Priyatam Reddy Somagattu",
-			"imageur1"  : "",
+			"imageurl"  : "",
 			"about"	    : "",
 			"college"   : "IIIT Allahabad",
 			"github"    : "https://github.com/Pri1437",
@@ -852,7 +852,7 @@
 		},
 	    {
 			"name"      : "Bindu",
-			"imageur1"  : "assets/img/participants/bindu.jpg",
+			"imageurl"  : "assets/img/participants/bindu.jpg",
 			"about"	    : "Learner",
 			"college"   : "IIIT Allahabad",
 			"github"    : "https://github.com/BinduVerma123",
@@ -892,7 +892,7 @@
                 
 	    {
 			"name"      : "Achint Agrawal",
-			"imageur1"  : "assets/img/participants/Achint.jpg",
+			"imageurl"  : "assets/img/participants/Achint.jpg",
 			"about"	    : "Designer",
 			"college"   : "IIIT Allahabad",
 			"github"    : "https://github.com/achintagrawal",
@@ -927,7 +927,9 @@
             "github": "https://github.com/ak0005",
             "twitter": "",
             "referral": ""
+
 },
+        
 		{
             "name": "Prijesh Bhingradiya",
             "imageurl": "",
@@ -935,6 +937,16 @@
             "college": "LDCE, Ahemdabad",
             "facebook": "",
             "github": "https://github.com/prijeshb",
+            "twitter": "",
+            "referral": "Instagram"
+},
+        {
+            "name": "Dev Gupta",
+            "imageurl": "assets/img/participants/devgupta2607.png",
+            "about": "I am a web developer and a Python enthusiast.",
+            "college": "Delhi Technological University",
+            "facebook": "",
+            "github": "https://github.com/devgupta2607",
             "twitter": "",
             "referral": "Instagram"
 },
@@ -948,7 +960,6 @@
             "twitter": "",
             "referral": ""
 }
-
 
     ]
 }
