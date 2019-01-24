@@ -71,7 +71,7 @@ $(document).ready(function() {
             }
             var mentorDiv =
                 "<div class='col-lg-3 col-sm-6 text-center mb-4'>" +
-                "<div class='card participant-card'>" +
+                "<div class='card participant-card' >" +
                 "<img class='card-img-top participant-img' src=" +
                 mentor.imageurl +
                 " alt=''>" +
@@ -138,9 +138,10 @@ $(document).ready(function() {
                 "<h4 class='card-title'>" +
                 participant.name +
                 "</h4>" +
-                "<p class='card-text'>" +
+                "<p class='card-text college'>" +
                 participant.college +
                 "</p>" +
+                "<br>" +
                 "<p class='card-text'>" +
                 participant.about +
                 "</p>" +
@@ -168,21 +169,21 @@ $(document).ready(function() {
         $.each(projects, function(i, project) {
             var projectDiv =
                 "<div class='col-lg-3 col-md-4 col-sm-6 portfolio-item'>" +
-                "<div class='card h-100'>" +
+                "<div class='project-card h-100'>" +
                 "<a href=" +
                 project.github +
                 "><img class='card-img-top' src=" +
                 project.imageurl +
                 " alt=''></a>" +
-                "<div class='card-body'>" +
-                "<h4 class='card-title'>" +
+                "<div class='project-card-body'>" +
+                "<h4 class='project-card-title'>" +
                 "<a href=" +
                 project.github +
                 ">" +
                 project.name +
                 "</a>" +
                 "</h4>" +
-                "<p class='card-text'>" +
+                "<p class='project-card-text'>" +
                 project.about +
                 "</p>" +
                 "<hr>" +

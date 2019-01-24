@@ -18,7 +18,7 @@
   background: url("../assets/img/header-bg.jpg");
   background-position: center center;
   background-repeat: no-repeat;
-  background-size: cover; 
+  background-size: cover;
   padding: 200px 0;
   color: #fafafa;
 }
@@ -30,7 +30,7 @@
   padding: 10px 20px;
   color: #fff;
   box-shadow: 0 1px 3px rgb(24, 23, 23,);
-  background: -webkit-linear-gradient(left, rgb(255, 140, 89) 0%, rgb(255, 177, 82) 100%); 
+  background: -webkit-linear-gradient(left, rgb(255, 140, 89) 0%, rgb(255, 177, 82) 100%);
 }
 
 .header-btn a {
@@ -62,8 +62,8 @@
 }
 
 .participant-card {
-  max-height: 470px;
-  min-height: 470px;
+  max-height: 420px;
+  min-height: 420px;
   min-width: 100%;
   box-shadow: 0 3px 6px 0 rgba(0,0,0,0.12);
 }
@@ -72,7 +72,6 @@
   max-height: 240px;
   min-height: 240px;
   min-width: 100%;
-
   width: 100%;
 	height: auto;
 }
@@ -94,6 +93,7 @@
   color: #212121;
   transform: scale(1.4);
 }
+
 
 @media screen and (max-width: 767px) {
   .participant-card {
@@ -130,9 +130,46 @@
 #myBtn:hover {
   background-color: #555;
 }
+.project-card{
+  text-align: center;
+}
+.college{
+  margin-bottom: 3px;
+  border-bottom: black 1px solid;
+}
 .card-body{
   text-align: center;
 }
 .card-body h4{
   font-weight: 550;
+}
+
+.card-text{
+  display: none;
+}
+.card:hover{
+  box-shadow: 0px 1px 35px 0px rgba(0, 0, 0, 0.3);
+}
+.card:hover > .participant-img{
+  transform: scale(1);
+  opacity: .6;
+}
+.participant-img{
+  overflow: hidden;
+  display: block;
+  width: 100%;
+  transition: all 0.3s linear 0s;
+}
+.card-body{
+  z-index: 2;
+  background-color: white;
+  transition: all 0.3s cubic-bezier(0.37, 0.75, 0.61, 1.05) 0s;
+}
+.card:hover > .card-body{
+  margin-top: -65px;
+  transition: all 0.3s cubic-bezier(0.37, 0.75, 0.61, 1.05) 0s;
+
+}
+.card:hover .card-text{
+  display: inline;
 }
