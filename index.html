@@ -22,7 +22,40 @@
     <link rel="stylesheet" type="text/css" media="all" href="css/animate.css">
     
     <!--Trailer css -->
-    <link rel="stylesheet" type="text/css" href="css/trailer.css">
+    <style>
+.modal{
+	width:100%;
+    height:100%;
+    background-color:rgba(0, 0, 0, 0.7);
+    position:absolute;
+    top:0;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    }
+.content{
+	width:600px;
+    height:345px;
+    background-color:white;
+    border-radius:4px;
+    text-align:center;
+    padding:23px;
+    position:relative;
+    }
+.close{
+	font-size:42px;
+    position:absolute;
+    top:0;
+    right:14px;
+    transform:rotate(45deg);
+    }
+</style>
+    <script>
+document.getElementById('trailer').addEventListener('click',function()
+{	document.querySelector('.modal').style.display='flex';});
+document.querySelector('.close').addEventListener('click',function()
+{	document.querySelector('.modal').style.display='none';});
+</script>
 
   </head>
 
@@ -146,10 +179,7 @@
          }, 4000);
 
      });
-    document.getElementById('trailer').addEventListener('click',function()
-{	document.querySelector('.modal').style.display='flex';});
-document.querySelector('.close').addEventListener('click',function()
-{	document.querySelector('.modal').style.display='none';});
+   
   </script>
 
 </html>
