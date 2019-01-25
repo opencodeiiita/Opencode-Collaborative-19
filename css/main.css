@@ -342,7 +342,6 @@ input:checked + .slider:before {
     font-weight: 600;
 }
 
-
 @media screen and (max-width: 991px) {
     .navbar-brand{
         padding: .5rem 1rem;
@@ -385,3 +384,8 @@ input:checked + .slider:before {
         display: inline !important;
     }
 }
+
+.icon-color{
+	color:white;
+}
+
