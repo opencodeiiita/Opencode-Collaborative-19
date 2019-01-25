@@ -393,7 +393,7 @@ input:checked + .slider:before {
 .typing-anim {
   overflow: hidden !important;
   white-space: nowrap !important;
-  border-right: 4px solid black;
+  border-right: 4px solid #fff;
   width: 13ch;
   margin: auto;
   animation: type 3s steps(13),
@@ -420,11 +420,11 @@ input:checked + .slider:before {
 /* blinking cursor */
 @-webkit-keyframes blink-caret {
   from, to { border-color: transparent }
-  50% { border-color: black }
+  50% { border-color: #fff }
 }
 
 @-moz-keyframes blink-caret {
   from, to { border-color: transparent }
-  50% { border-color: black }
+  50% { border-color: #fff }
 }
 
