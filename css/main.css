@@ -234,3 +234,41 @@ html{
 .card-footer-project p{
     font-weight: 600;
 }
+
+.participant-img{
+    max-height: 200px;
+    min-height: 200px;
+}
+
+/*
+.project-card-body{
+    padding: 0 !important;
+    padding-top:0.9rem; 
+}
+*/
+
+.card-college{
+    font-size:14px;
+    font-weight: 600;
+}
+
+.card-name{
+    font-size: 16px;
+}
+
+@media screen and (max-width: 575px) {
+    .participant-img{
+    max-height: 240px;
+    min-height: 240px;
+}
+    
+.card-college{
+    font-size:18px;
+}
+
+.card-name{
+    font-size:20px;
+}
+    
+}
+
