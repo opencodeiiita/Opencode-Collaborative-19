@@ -64,7 +64,7 @@
             "github"   : "https://github.com/DreamyPhobic",
             "twitter"  : ""
         },
-    {
+    	{
             "name"     : "Niharika Shrivastava",
             "imageurl" : "assets/img/mentors/niharika.jpeg",
             "about"    : "Backend Developer, ML enthusiast | IIITA",
@@ -72,15 +72,15 @@
             "github"   : "https://github.com/OrionStar25",
             "twitter"  : "https://twitter.com/StarOrion25"
         },
-    {
+    	{
             "name"     : "Debasish Sahoo",
             "imageurl" : "assets/img/mentors/debck.jpg",
             "about"    : "Web Developer | Open Source Lover ",
             "facebook" : "",
             "github"   : "https://github.com/debck",
             "twitter"  : "https://twitter.com/imhere_ck"
-    },
-	    {
+    	},
+	{
             "name"     : "Sneha Mishra",
             "imageurl" : "assets/img/mentors/sneha.jpg",
             "about"    : "Open Source Enthusiast | IIITA ",
