@@ -135,7 +135,7 @@
    <script src="vendor/jquery/jquery.min.js"></script>
    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
    <script src="js/main.js"></script>
-   <script src="js/trailer.js></script>
+   
 
   <!-- Preloader -->
   <script>
@@ -146,6 +146,10 @@
          }, 4000);
 
      });
+    document.getElementById('trailer').addEventListener('click',function()
+{	document.querySelector('.modal').style.display='flex';});
+document.querySelector('.close').addEventListener('click',function()
+{	document.querySelector('.modal').style.display='none';});
   </script>
 
 </html>
