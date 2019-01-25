@@ -490,3 +490,40 @@ $(function(){
       
   });
 
+// dark mode
+$(document).ready(function(){
+    $('.slider').click(function(){
+        $('body').toggleClass('dark')
+        $('.jumbotron').toggleClass('dark-bg-img')
+        $('.dark-scrl-btn').toggleClass('dark')
+        $('nav,div,footer').toggleClass('dark')
+        $('h2,h3,h5').toggleClass('dark')
+        $('span,img,ul,li').toggleClass('dark')
+        $('h1,h4,a').toggleClass('dark-landing-text')
+        $('footer').toggleClass('night-footer')
+        $('.footer_media').toggleClass('footer-dark')
+        $('.fab-night').toggleClass('footer-dark')
+        $('.night-footer-ref').toggleClass('footer-dark')
+    })
+})
+
+//fork and star
+var jsonData = {};
+		$.ajax({
+    url: "https://api.github.com/search/repositories?q=Opencode-Collaborative-19",
+    type: 'GET',
+    processData: false,
+    success: function (data) {
+    jsonData = JSON.stringify(data);
+    jsonData = JSON.parse(jsonData)
+    forks_count = jsonData.items[0].forks_count
+    star_count    = jsonData.items[0].stargazers_count
+    var fork = "<p class='badge badge-dark' style='margin:0;'>"+forks_count+"</p>";
+    var star = "<p class='badge badge-dark' style='margin:0;'>"+star_count+"</p>";
+    $("#fork").after(fork);
+    $("#star").after(star);
+    },
+    error: function(){
+      console.log("Cannot get data");
+    }
+});
