@@ -474,8 +474,6 @@ $(document).ready(function() {
 
 // landing page animation
 $(function(){
-    $('.a-landing-header-text').addClass('animated-4s fadeInUp');
-  
     setTimeout(function() { 
       $('.a-landing-sub-text').show().addClass('animated-3s slideInUp');
     }, 500);

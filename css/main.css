@@ -389,3 +389,12 @@ input:checked + .slider:before {
 	color:white;
 }
 
+/* fixed navbar */
+.navbar-fixed {
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
