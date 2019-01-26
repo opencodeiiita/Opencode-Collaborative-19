@@ -391,8 +391,7 @@ input:checked + .slider:before {
 
 /* typing animation */
 .typing-anim {
-  overflow: hidden !important;
-  white-space: nowrap !important;
+  overflow: hidden !important;  white-space: nowrap !important;
   border-right: 4px solid #fff;
   width: 13ch;
   margin: auto;
@@ -426,5 +425,14 @@ input:checked + .slider:before {
 @-moz-keyframes blink-caret {
   from, to { border-color: transparent }
   50% { border-color: #fff }
+
+/* fixed navbar */
+.navbar-fixed {
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+
 }
 
