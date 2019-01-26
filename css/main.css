@@ -43,24 +43,31 @@
 }
 
 .countdownContainer{
-  position: absolute;
+  position: relative;
   padding: 10px;
-  left: 30%;
-  top: 65%;
+  max-width: 50%;
+  max-height: 100%;
+  margin: 20px auto;
+  box-sizing: border-box;
   font-weight: 350;
+  background-color: transparent !important;
+  font-size: 3vw;
+    
 }
             
 .info {
+  position: inherit;
   padding: 10px;
   display: grid;
-  grid-template-columns: 130px 20px 130px 20px 135px 20px 135px;
+  grid-template-columns: 20% 5% 20% 5% 20% 5% 25%;
   align-items: center;
 }
             
 .labels {
+  position: inherit;
   display: grid;
-  grid-template-columns: 25% 110px 25% 25%;
-  grid-column-gap: 15px;
+  grid-template-columns: 25% 25% 25% 25%;
+  text-align: center;
 }
 
 .portfolio-item {
