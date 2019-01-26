@@ -525,3 +525,12 @@ var jsonData = {};
       console.log("Cannot get data");
     }
 });
+
+// typing animation
+$(function(){
+    setTimeout(function() { 
+      $('.typing-anim-ref').show().addClass('typing-anim');
+    }, 500);
+    
+});
+

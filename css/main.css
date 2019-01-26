@@ -389,6 +389,43 @@ input:checked + .slider:before {
 	color:white;
 }
 
+/* typing animation */
+.typing-anim {
+  overflow: hidden !important;  white-space: nowrap !important;
+  border-right: 4px solid #fff;
+  width: 13ch;
+  margin: auto;
+  animation: type 3s steps(13),
+  blink-caret 1s step-end infinite !important;
+
+
+  -webkit-animation: type 3s steps(13),
+  blink-caret 1s step-end infinite !important;
+
+  -moz-animation: type 3s steps(13),
+  blink-caret 1s step-end infinite !important;
+}
+
+@keyframes type {
+  0% {
+    width: 0ch;
+  }
+
+  100% {
+    width: 13ch;
+  }
+}
+
+/* blinking cursor */
+@-webkit-keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: #fff }
+}
+
+@-moz-keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: #fff }
+
 /* fixed navbar */
 .navbar-fixed {
     overflow: hidden;
@@ -396,5 +433,6 @@ input:checked + .slider:before {
     top: 0;
     width: 100%;
     z-index: 1;
+
 }
 
