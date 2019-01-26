@@ -341,6 +341,98 @@ input:checked + .slider:before {
 .card-footer-project p{
     font-weight: 600;
 }
+
+@media screen and (max-width: 991px) {
+    .navbar-brand{
+        padding: .5rem 1rem;
+    }
+    .nav-item{
+         padding: .5rem 1rem;
+    }
+    .nav-link{
+        padding: 0 !important;
+    }
+    
+    .dark-mode{
+        display: flex;
+        justify-content: start; 
+    }
+    
+    .navbar-toggler{
+        margin: .5rem 1rem;
+    }
+    
+    .navbar-nav{
+        display: initial;
+    }
+    
+    .fork {
+        display: inline-block!important;
+        padding-right: 0;
+        margin-right: initial !important;
+    }
+    
+    .fork div{
+        display: inline !important;
+    }
+    
+    .star{
+        display: inline !important;
+    }
+    
+    .star div{
+        display: inline !important;
+    }
+}
+
 .icon-color{
 	color:white;
 }
+
+/* typing animation */
+.typing-anim {
+  overflow: hidden !important;  white-space: nowrap !important;
+  border-right: 4px solid #fff;
+  width: 13ch;
+  margin: auto;
+  animation: type 3s steps(13),
+  blink-caret 1s step-end infinite !important;
+
+
+  -webkit-animation: type 3s steps(13),
+  blink-caret 1s step-end infinite !important;
+
+  -moz-animation: type 3s steps(13),
+  blink-caret 1s step-end infinite !important;
+}
+
+@keyframes type {
+  0% {
+    width: 0ch;
+  }
+
+  100% {
+    width: 13ch;
+  }
+}
+
+/* blinking cursor */
+@-webkit-keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: #fff }
+}
+
+@-moz-keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: #fff }
+
+/* fixed navbar */
+.navbar-fixed {
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+
+}
+

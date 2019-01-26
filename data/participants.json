@@ -969,9 +969,46 @@
 			"github": "https://github.com/Anuj-Mittal",
 			"twitter": "",
 			"referral": ""
-		}
-
-
-
+		},        
+		{
+            "name": "Prijesh Bhingradiya",
+            "imageurl": "",
+            "about": "Priszzz Here!!!",
+            "college": "LDCE, Ahemdabad",
+            "facebook": "",
+            "github": "https://github.com/prijeshb",
+            "twitter": "",
+            "referral": "Instagram"
+    },
+        {
+            "name": "Dev Gupta",
+            "imageurl": "assets/img/participants/devgupta2607.png",
+            "about": "I am a web developer and a Python enthusiast.",
+            "college": "Delhi Technological University",
+            "facebook": "",
+            "github": "https://github.com/devgupta2607",
+            "twitter": "",
+            "referral": "Instagram"
+},
+{
+            "name": "Aditya Kumar",
+            "imageurl": "assets/img/participants/devill71.jpg",
+            "about": "",
+            "college": "IIIT A",
+            "facebook": "",
+            "github": "https://github.com/devill71",
+            "twitter": "",
+            "referral": ""
+},
+{
+            "name": "Suneet Kumar Makkar",
+            "imageurl": "",
+            "about": "",
+            "college": "IIIT A",
+            "facebook": "",
+            "github": "https://github.com/SuneetKumar19",
+            "twitter": "",
+            "referral": ""
+}
 	]
 }

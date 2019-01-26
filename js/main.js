@@ -474,8 +474,6 @@ $(document).ready(function() {
 
 // landing page animation
 $(function(){
-    $('.a-landing-header-text').addClass('animated-4s fadeInUp');
-  
     setTimeout(function() { 
       $('.a-landing-sub-text').show().addClass('animated-3s slideInUp');
     }, 500);
@@ -527,3 +525,12 @@ var jsonData = {};
       console.log("Cannot get data");
     }
 });
+
+// typing animation
+$(function(){
+    setTimeout(function() { 
+      $('.typing-anim-ref').show().addClass('typing-anim');
+    }, 500);
+    
+});
+
