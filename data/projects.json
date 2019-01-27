@@ -89,30 +89,6 @@
             "github": "https://github.com/opencodeiiita/GirlsDoCode"
         },
         {
-            "name": "sociofolio-backend",
-            "imageurl": "assets/img/projects/backend.png",
-            "mentors": "Team OpenCode",
-            "about": "Backend for Sociofolio made using Node and MongoDB (MLab)",
-            "lang": "js npm json mongoDB node",
-            "github": "https://github.com/opencodeiiita/sociofolio-backend"
-        },
-        {
-            "name": "sociofolio-frontend",
-            "imageurl": "assets/img/projects/frontend.png",
-            "mentors": "Team OpenCode",
-            "about": "Frontend for Sociofolio made using React and Bootstrap.",
-            "lang": "React Redux Bootstrap",
-            "github": "https://github.com/opencodeiiita/sociofolio-frontend"
-        },
-        {
-            "name": "expensify",
-            "imageurl": "assets/img/projects/tracking.png",
-            "mentors": "Aayush Joglekar",
-            "about": "An expense tracking app ade using React.",
-            "lang": "React Redux Bootstrap",
-            "github": "https://github.com/zerefwayne/expensify"
-        },
-        {
             "name": "Selena-Gomez-Discography",
             "imageurl": "assets/img/projects/music.jpg",
             "mentors": "Niharika Shrivastava",
@@ -151,14 +127,6 @@
             "about": "An app that would allow \"music.youtube.com\" to work in India",
             "lang": "Flask React Json",
             "github": "https://github.com/stealthanthrax/kasper_music_player"
-        },
-        {
-            "name": "Rose",
-            "imageurl": "assets/img/projects/bar.png",
-            "mentors": "Kaustubh Hiware",
-            "about": "Analyse all kinds of data for a TV series",
-            "lang": "Python Scraper",
-            "github": "https://github.com/kaustubhhiware/rose"
         },
         {
             "name": "facebook-archive",
