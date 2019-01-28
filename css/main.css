@@ -64,6 +64,7 @@
 .participant-card {
   max-height: 375px;
   min-height: 375px;
+  width: 100% !important;
   min-width: 100%;
   box-shadow: 0 3px 6px 0 rgba(0,0,0,0.12);
   transform-style: preserve-3d;
@@ -138,13 +139,9 @@
   }
 }
 
-@media screen and (max-width: 575px) {
-  .participant-card {
-    max-height: none;
-  }
-
-  .participant-img {
-    max-height: none;
+ @media screen and (max-width: 600px) {
+  .participant-card .card {
+    height: 200px !important;
   }
 }
 #myBtn {
@@ -348,6 +345,20 @@ input:checked + .slider:before {
     min-height: 200px;
 }
 
+@media only screen and (max-width: 600px) {
+  .participant-img {
+    width: 100% !important;
+    height: 100% !important;
+  }
+} 
+
+@media only screen and (min-width: 600px) {
+  .participant-img {
+    width: 100% !important;
+    height: 100% !important;
+  }
+} 
+
 .card-college{
     font-size:14px;
     font-weight: 600;
@@ -357,12 +368,6 @@ input:checked + .slider:before {
     font-size: 16px;
 }
 
-@media screen and (max-width: 575px) {
-    .participant-img{
-    max-height: 240px;
-    min-height: 240px;
-}
-    
 .card-college{
     font-size:18px;
 }
@@ -456,6 +461,7 @@ input:checked + .slider:before {
 @-moz-keyframes blink-caret {
   from, to { border-color: transparent }
   50% { border-color: #fff }
+}
 
 /* fixed navbar */
 .navbar-fixed {
