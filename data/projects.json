@@ -49,14 +49,6 @@
             "github": "https://github.com/Cynthesize-temp/frontend"
         },
         {
-            "name": "OpenCode",
-            "imageurl": "assets/img/projects/opencode.jpg",
-            "mentors": "Team OpenCode",
-            "about": "Building the OpenCode Website",
-            "lang": "css javascript html",
-            "github": "https://github.com/opencodeiiita/opencodeiiita.github.io"
-        },
-        {
             "name": "Road-CS",
             "imageurl": "assets/img/projects/cs.jpg",
             "mentors": "Vijeta",
@@ -127,14 +119,6 @@
             "about": "An app that would allow \"music.youtube.com\" to work in India",
             "lang": "Flask React Json",
             "github": "https://github.com/stealthanthrax/kasper_music_player"
-        },
-        {
-            "name": "facebook-archive",
-            "imageurl": "assets/img/projects/fb.png",
-            "mentors": "Kaustubh Hiware",
-            "about": "Just some fun you can have with facebook's archive data",
-            "lang": "Python data-visualisation",
-            "github": "https://github.com/kaustubhhiware/facebook-archive"
         },
         {
             "name": "HealthLedger",

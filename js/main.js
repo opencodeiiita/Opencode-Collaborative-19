@@ -289,17 +289,17 @@ $(document).ready(function() {
             }
 
             var participantDiv =
-                  "<div class='col-lg-3 col-sm-6 text-center mb-4'>" +
+                  "<div class='col-lg-2 col-sm-6 text-center mb-4'>" +
                 "<div class='card participant-card'>" +
                 "<div class = 'side'>" +
-                "<img class='card-img-top participant-img' src=" +
+                "<img class='card-img-top participant-img img-fluid' src=" +
                 participant.imageurl +
                 " alt=''>" +
-                "<div class='card-body'>" +
-                "<h4 class='card-title'>" +
+                "<div class='card-body project-card-body'>" +
+                "<h4 class='card-title card-name'>" +
                 participant.name +
                 "</h4>" +
-                "<p class='card-text'>" +
+                "<p class='card-text card-college'>" +
                 participant.college +
                 "</p>" +
                 "</div>"+
