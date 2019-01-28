@@ -494,7 +494,7 @@ $(document).ready(function(){
         $('body').toggleClass('dark')
         $('.jumbotron').toggleClass('dark-bg-img')
         $('.dark-scrl-btn').toggleClass('dark')
-        $('nav,div,footer').toggleClass('dark')
+        $('nav,div,footer,section').toggleClass('dark')
         $('h2,h3,h5').toggleClass('dark')
         $('span,img,ul,li').toggleClass('dark')
         $('h1,h4,a').toggleClass('dark-landing-text')

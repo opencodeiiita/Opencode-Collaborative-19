@@ -21,7 +21,6 @@ function loadMoreIssues(user, repo) {
             var author = this.user.login;
             var author_url = this.user.html_url;
             var labels = "";
-            var comments = this.comments;
             var issue_type = '<a href="' + issue_url + '" target="_tab"><i class="pull-right fa fa-2x fa-external-link"></i></a>';
             var repo_url = "https://github.com/" + user + "/" + repo;
             var repo_name = repo;
