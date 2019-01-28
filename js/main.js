@@ -118,31 +118,31 @@ $(document).ready(function() {
                 return 1;
             }
         });
-        
+
         // for first page
         if(current_page === 1){
             let no_pages = numPages();
             let shw_no_pages = [];
             for(let i = 1 ; i<=no_pages; i++){
                     var data  = "<li class='page-item'>"+
-                                    "<a class='page-link page-click'"+ 
+                                    "<a class='page-link page-click'"+
                                     ">"+
                                     i+
                                     "</a>"+
                                     "</li>";
                     shw_no_pages.push(data);
-                 
+
             }
-            
+
             $("#pagination").after(shw_no_pages);
              participants = all_participants.slice(current_page-1, (current_page-1)+per_page);
              loadpage();
         }
 
-        //this function count number of pages are required 
+        //this function count number of pages are required
         function numPages(){
             let no_pages = Math.ceil(all_participants.length/per_page);
-            return parseInt(no_pages);  
+            return parseInt(no_pages);
         }
 
         //when click the next
@@ -164,7 +164,7 @@ $(document).ready(function() {
             $('.prev').removeClass('disabled');
             $(this).removeClass('disabled');
             participants = all_participants.slice((current_page-1)*per_page, (current_page-1)*per_page+per_page);
-            loadpage(); 
+            loadpage();
             }
         });
 
@@ -178,7 +178,7 @@ $(document).ready(function() {
             $("#participants").empty();
             participants = all_participants.slice((current_page-1)*per_page, (current_page-1)*per_page+per_page);
             loadpage();
-        }); 
+        });
 
     //this function load the data
     function loadpage(){
@@ -223,8 +223,8 @@ $(document).ready(function() {
                 } catch (err) {}
             }
 
-            // check if social media links available otherwise disable them 
-            
+            // check if social media links available otherwise disable them
+
             if (
                 /^ *$/.test(participant.facebook) ||
                 participant.facebook == ""
@@ -339,24 +339,24 @@ $(document).ready(function() {
             let shw_no_pages = [];
             for(let i = 1 ; i<=no_pages; i++){
                     var data  = "<li class='page-item'>"+
-                                    "<a class='page-link project-page-click'"+ 
+                                    "<a class='page-link project-page-click'"+
                                     ">"+
                                     i+
                                     "</a>"+
                                     "</li>";
                     shw_no_pages.push(data);
-                 
+
             }
-            
+
             $("#pagination-project").after(shw_no_pages);
              projects = all_projects.slice(current_page-1, (current_page-1)+per_page);
              loadpage();
         }
 
-        //this function count number of pages are required 
+        //this function count number of pages are required
         function numPages(){
             let no_pages = Math.ceil(all_projects.length/per_page);
-            return parseInt(no_pages);  
+            return parseInt(no_pages);
         }
 
         //when click the next
@@ -379,7 +379,7 @@ $(document).ready(function() {
             $('.next-project').removeClass('disabled');
             $("#projects").empty();
             projects = all_projects.slice((current_page-1)*per_page, (current_page-1)*per_page+per_page);
-            loadpage(); 
+            loadpage();
             }
         });
 
@@ -393,8 +393,8 @@ $(document).ready(function() {
             $("#projects").empty();
             projects = all_projects.slice((current_page-1)*per_page, (current_page-1)*per_page+per_page);
             loadpage();
-        }); 
-       
+        });
+
       //this function load the data
     function loadpage(){
         //show the active page
@@ -413,42 +413,46 @@ $(document).ready(function() {
         }
         $.each(projects, function(i, project) {
             var projectDiv =
-                "<div class='col-lg-3 col-md-4 col-sm-6 4 d-flex align-items-stretch portfolio-item'>" +
-                "<div class='card h-100'>" +
-                "<a href=" +
-                project.github +
-                "><img class='card-img-top card-img-project' src=" +
-                project.imageurl +
-                " alt=''></a>" +
-                "<div class='card-body'>" +
-                "<h4 class='card-title'>" +
-                "<a href=" +
-                project.github +
-                ">" +
-                project.name +
-                "</a>" +
-                "</h4>" +
-                "<p class='card-text'>" +
-                project.about +
-                "</p>" +
-                "</div>"+
-                "<div class='card-footer card-footer-project'>"+
-                "<h5>"+
-                "Mentors" +
-                "</h5>"+
-                "<p>" +
-                project.mentors +
-                "</p>" +
-                "<h5>"+
-                "Tech Stack" +
-                "</h5>"
-                "<p>" +
-                project.lang +
-                "</p>" +
-                "</div>"+
-                "</div>";
-            ("</div>");
-            ("</div>");
+            "<div class='col-lg-3 col-md-4 col-sm-6 4 d-flex align-items-stretch portfolio-item'>" +
+            "<div class='card h-100 project-card'>" +
+            "<a href=" +
+            project.github +
+            "><img class='card-img-top card-img-project' src=" +
+            project.imageurl +
+            " alt=''></a>" +
+            "<div class='flip-box' >" +
+            "<div class='flip-box-inner' >" +
+            "<div class='card-body project-card-body project-card-front'>" +
+            "<h4 class='card-title'>" +
+            "<a href=" +
+            project.github +
+            ">" +
+            project.name +
+            "</a>" +
+            "</h4>" +
+            "<p class='card-text'>" +
+            project.about +
+            "</p>" +
+            "</div>"+
+            "<div class='card-footer card-footer-project project-card-back'>"+
+            "<h4>"+
+            "Mentors" +
+            "</h4>"+
+            "<p>" +
+            project.mentors +
+            "</p>" +
+            "<h4>"+
+            "Tech Stack" +
+            "</h4>"
+            "<p>" +
+            project.lang +
+            "</p>" +
+            "</div>"+
+            "</div>"+
+            "</div>"+
+            "</div>";
+        ("</div>");
+        ("</div>");
 
             $("#projects").append(projectDiv);
         });
@@ -474,18 +478,18 @@ $(document).ready(function() {
 
 // landing page animation
 $(function(){
-    setTimeout(function() { 
+    setTimeout(function() {
       $('.a-landing-sub-text').show().addClass('animated-3s slideInUp');
     }, 500);
 
-    setTimeout(function() { 
+    setTimeout(function() {
         $('.a-nav').show().addClass('animated-2s bounceInDown');
       }, 500);
 
-      setTimeout(function() { 
+      setTimeout(function() {
         $('.a-btn').show().addClass('animated-2s bounceInUp');
       }, 500);
-      
+
   });
 
 // dark mode
@@ -528,9 +532,8 @@ var jsonData = {};
 
 // typing animation
 $(function(){
-    setTimeout(function() { 
+    setTimeout(function() {
       $('.typing-anim-ref').show().addClass('typing-anim');
     }, 500);
-    
-});
 
+});

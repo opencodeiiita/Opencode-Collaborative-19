@@ -18,7 +18,7 @@
   background: url("../assets/img/header-bg.jpg");
   background-position: center center;
   background-repeat: no-repeat;
-  background-size: cover; 
+  background-size: cover;
   padding: 200px 0;
   color: #fafafa;
 }
@@ -30,7 +30,7 @@
   padding: 10px 20px;
   color: #fff;
   box-shadow: 0 1px 3px rgb(24, 23, 23,);
-  background: -webkit-linear-gradient(left, rgb(255, 140, 89) 0%, rgb(255, 177, 82) 100%); 
+  background: -webkit-linear-gradient(left, rgb(255, 140, 89) 0%, rgb(255, 177, 82) 100%);
 }
 
 .header-btn a {
@@ -91,7 +91,7 @@
 .card-about{
   text-align: center;
   padding: 30px 10px;
-  margin:100px 20px; 
+  margin:100px 20px;
   font-size: 15px;
 }
 .participant-card .back {
@@ -108,7 +108,7 @@
   max-height: 240px;
   min-height: 240px;
   min-width: 100%;
-  
+
   width: 100%;
 	height: auto;
 }
@@ -120,7 +120,7 @@
 
 .social-media-links a i {
   color: #9E9E9E;
-  padding: 0 10px; 
+  padding: 0 10px;
   font-size: 16px;
   transition: .2s ease-in-out;
   -webkit-transition: .2s ease-in-out;
@@ -185,13 +185,13 @@
 }
 
 @keyframes sk-rotateplane {
-  0% { 
+  0% {
     transform: perspective(120px) rotateX(0deg) rotateY(0deg);
-    -webkit-transform: perspective(120px) rotateX(0deg) rotateY(0deg) 
-  } 50% { 
+    -webkit-transform: perspective(120px) rotateX(0deg) rotateY(0deg)
+  } 50% {
     transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg);
-    -webkit-transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg) 
-  } 100% { 
+    -webkit-transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg)
+  } 100% {
     transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
     -webkit-transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
   }
@@ -256,7 +256,7 @@ html{
   margin-top: 3px;
 }
 
-.switch input { 
+.switch input {
   opacity: 0;
   width: 0;
   height: 0;
@@ -278,7 +278,7 @@ html{
 .slider:before {
   position: absolute;
   content: "";
-  height: 16px; 
+  height: 16px;
   width: 16px;
   left: 2px;
   right: 2px;
@@ -310,7 +310,7 @@ input:checked + .slider:before {
 
 .slider.round:before {
   border-radius: 50%;
-} 
+}
 
 /*Pagination*/
 .pagination .disabled a{
@@ -362,7 +362,7 @@ input:checked + .slider:before {
     max-height: 240px;
     min-height: 240px;
 }
-    
+
 .card-college{
     font-size:18px;
 }
@@ -370,7 +370,7 @@ input:checked + .slider:before {
 .card-name{
     font-size:20px;
 }
- 
+
 }
 
 @media screen and (max-width: 991px) {
@@ -383,34 +383,34 @@ input:checked + .slider:before {
     .nav-link{
         padding: 0 !important;
     }
-    
+
     .dark-mode{
         display: flex;
-        justify-content: start; 
+        justify-content: start;
     }
-    
+
     .navbar-toggler{
         margin: .5rem 1rem;
     }
-    
+
     .navbar-nav{
         display: initial;
     }
-    
+
     .fork {
         display: inline-block!important;
         padding-right: 0;
         margin-right: initial !important;
     }
-    
+
     .fork div{
         display: inline !important;
     }
-    
+
     .star{
         display: inline !important;
     }
-    
+
     .star div{
         display: inline !important;
     }
@@ -456,7 +456,7 @@ input:checked + .slider:before {
 @-moz-keyframes blink-caret {
   from, to { border-color: transparent }
   50% { border-color: #fff }
-
+}
 /* fixed navbar */
 .navbar-fixed {
     overflow: hidden;
@@ -465,5 +465,58 @@ input:checked + .slider:before {
     width: 100%;
     z-index: 1;
 
-}
-
+  }
+  .project-card{
+    transform-style: preserve-3d;
+    perspective: 1000px;
+    transition: .8s ease;
+  }
+  .flip-box {
+    height: 200px;
+    width: 250px;
+    background-color: transparent;
+    border: 1px solid #f1f1f1;
+    perspective: 1000px;
+  }
+  .flip-box-inner {
+    text-align: center;
+    transition: transform 1s;
+    transform-style: preserve-3d;
+  }
+  .project-card:hover .flip-box-inner {
+    transform: rotateY(180deg);
+  }
+  .card-img-project{
+    transition: transform 1.4s;
+    transform-style: preserve-3d;
+  }
+  .project-card:hover .card-img-project{
+    transform: rotateY(-360deg);
+  }
+  .project-card:hover{
+    box-shadow: 0px 1px 35px 0px rgba(0, 0, 0, 0.3);
+    border-radius: 10px 10px 10px 10px;
+  }
+  .project-card-front, .project-card-back {
+    position: absolute;
+    backface-visibility: hidden;
+  }
+  .project-card-front {
+    height: 200px;
+    width: 250px;
+    background-color: white;
+    color: black;
+  }
+  .project-card-back {
+    height: 200px;
+    width: 250px;
+    background-color: #EEEEEE;
+    color: black;
+    transform: rotateY(180deg);
+  }
+  .card-footer-project h4{
+    font-weight: 600;
+  }
+  .card-footer-project p{
+    font-weight: 400;
+  }
