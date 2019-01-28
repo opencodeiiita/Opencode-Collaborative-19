@@ -287,7 +287,9 @@ $(document).ready(function() {
                     }
                 } catch (err) {}
             }
-
+            var participantabout=participant.about;
+            if(participantabout==="")
+                participantabout="Talk is cheap. Show me the code";
             var participantDiv =
                   "<div class='col-lg-2 col-sm-6 text-center mb-4'>" +
                 "<div class='card participant-card'>" +
@@ -306,7 +308,7 @@ $(document).ready(function() {
                 "</div>" +
                 "<div class='side back'>" +
                 "<p class='card-about'>" +
-                participant.about +
+                participantabout +
                 "</p>" +
                 "<div class='social-media-links'>" +
                 "<a href=" +
