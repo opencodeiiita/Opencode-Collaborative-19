@@ -6,7 +6,7 @@ Yes/No
 
 ### Solves which issue ?
 
-Solves #[issue number]
+Fixes #[issue number]
 
 ### Give discription.
 
