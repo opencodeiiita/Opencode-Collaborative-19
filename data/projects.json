@@ -42,19 +42,11 @@
         },
         {
             "name": "Cynthesize",
-            "imageurl": "assets/img/projects/cynthesize.jpg",
+            "imageurl": "assets/img/projects/cynthesize.jpeg",
             "mentors": "Siddhant Shrivastava, Aayush Joglekar",
             "about": "Cythesize aims to solve the bridge between mentors and students for development, designing and other fields.",
             "lang": "Angular, SASS",
             "github": "https://github.com/Cynthesize-temp/frontend"
-        },
-        {
-            "name": "OpenCode",
-            "imageurl": "assets/img/projects/opencode.jpg",
-            "mentors": "Team OpenCode",
-            "about": "Building the OpenCode Website",
-            "lang": "css javascript html",
-            "github": "https://github.com/opencodeiiita/opencodeiiita.github.io"
         },
         {
             "name": "Road-CS",
@@ -87,30 +79,6 @@
             "about": "A Project to encourage the envolvement of girls in opensource",
             "lang": "js css html",
             "github": "https://github.com/opencodeiiita/GirlsDoCode"
-        },
-        {
-            "name": "sociofolio-backend",
-            "imageurl": "assets/img/projects/backend.png",
-            "mentors": "Team OpenCode",
-            "about": "Backend for Sociofolio made using Node and MongoDB (MLab)",
-            "lang": "js npm json mongoDB node",
-            "github": "https://github.com/opencodeiiita/sociofolio-backend"
-        },
-        {
-            "name": "sociofolio-frontend",
-            "imageurl": "assets/img/projects/frontend.png",
-            "mentors": "Team OpenCode",
-            "about": "Frontend for Sociofolio made using React and Bootstrap.",
-            "lang": "React Redux Bootstrap",
-            "github": "https://github.com/opencodeiiita/sociofolio-frontend"
-        },
-        {
-            "name": "expensify",
-            "imageurl": "assets/img/projects/tracking.png",
-            "mentors": "Aayush Joglekar",
-            "about": "An expense tracking app ade using React.",
-            "lang": "React Redux Bootstrap",
-            "github": "https://github.com/zerefwayne/expensify"
         },
         {
             "name": "Selena-Gomez-Discography",
@@ -151,22 +119,6 @@
             "about": "An app that would allow \"music.youtube.com\" to work in India",
             "lang": "Flask React Json",
             "github": "https://github.com/stealthanthrax/kasper_music_player"
-        },
-        {
-            "name": "Rose",
-            "imageurl": "assets/img/projects/bar.png",
-            "mentors": "Kaustubh Hiware",
-            "about": "Analyse all kinds of data for a TV series",
-            "lang": "Python Scraper",
-            "github": "https://github.com/kaustubhhiware/rose"
-        },
-        {
-            "name": "facebook-archive",
-            "imageurl": "assets/img/projects/fb.png",
-            "mentors": "Kaustubh Hiware",
-            "about": "Just some fun you can have with facebook's archive data",
-            "lang": "Python data-visualisation",
-            "github": "https://github.com/kaustubhhiware/facebook-archive"
         },
         {
             "name": "HealthLedger",

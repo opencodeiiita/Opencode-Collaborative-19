@@ -17,6 +17,7 @@
 
     <!-- Custom styles for this template -->
     <link href="css/main.css" rel="stylesheet">
+    <link rel="icon" href="assets/img/opencode_logo_61n_icon.ico">
 
     <!-- Animate css -->
     <link rel="stylesheet" type="text/css" media="all" href="css/animate.css">
@@ -25,9 +26,9 @@
 
   <body>
 
-    <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fas fa-arrow-up"></i></button>
+    <button onclick="topFunction()" id="myBtn" title="Go to top" class="dark-scrl-btn"><i class="fas fa-arrow-up"></i></button>
     <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light a-nav" id="mainNav">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light a-nav navbar-fixed" id="mainNav">
       <div class="container">
         <a class="navbar-brand d-flex align-items-center" href="#">
   <!-- OpenCode Logo added in navbar -->
@@ -46,15 +47,31 @@
             <li class="nav-item active">
               <a class="nav-link" href="#projects">Projects</a>
             </li>
+            <li class="nav-item dark-mode">
+                <label class="switch">
+                  <input type="checkbox">
+                  <span class="slider round"></span>
+              </label>
+            </li> 
+            <li class="nav-item mr-2 d-flex align-items fork" >
+               <div class="d-flex align-items-center">
+                  <i id="fork" class="fas fa-code-branch pr-1 github"></i> 
+                </div>
+            </li>
+            <li class="nav-item d-flex align-items-center star" >
+               <div class="d-flex align-items-center">
+                    <i id="star" class="fas fa-star pr-1 github"></i>
+                </div>
+            </li>
           </ul>
         </div>
       </div>
     </nav>
 
     <div class="jumbotron jumbotron-fluid text-center header-overlay">
-      <h1 class="display-4 a-landing-header-text"><b>Hello, world!</b></h1>
+      <h1 class="display-4 typing-anim-ref"><b>Hello, world!</b></h1>
       <h4 class="a-landing-sub-text">Welcome to OpenCode'19</h4>
-      <a href="#participants"><button class="header-btn mt-5 landing-btn a-btn">Get Started</button></a>
+      <a href="#participants"><button class="header-btn mt-5 a-btn">Get Started</button></a>
     </div>
 
     <div class="container">
@@ -116,17 +133,17 @@
         <nav aria-label="Page navigation example">
           <ul class="pagination pagination-project text-primary">
             <li class="page-item prev-project" id="pagination-project">
-              <a class="page-link"  aria-label="Previous">
+              <a class="page-link" aria-label="Previous">
                 <span aria-hidden="true">&laquo;</span>
                 <span class="sr-only">Previous</span>
               </a>
             </li>
               
-             <li class="page-item next-project"> 
-                <a class="page-link " aria-label="Next">
-                  <span aria-hidden="true">&raquo;</span>
-                  <span class="sr-only">Next</span>
-                </a>
+            <li class="page-item next-project"> 
+              <a class="page-link" aria-label="Next">
+                <span aria-hidden="true">&raquo;</span>
+                <span class="sr-only">Next</span>
+              </a>
             </li>
           </ul>
         </nav>
@@ -139,15 +156,15 @@
     <!-- Footer -->
     <footer class="py-5 bg-dark">
       <div class="footer_media">
-        <a href="https://www.facebook.com/opencodeiiita/" target="_blank"><i class="fab fa-facebook-f"></i></a>  
-        <a href="https://github.com/opencodeiiita " target="_blank"><i class="fab fa-github"></i></a>  
-        <a href="https://twitter.com/geekhaveniiita" target="_blank"><i class="fab fa-twitter"></i></a> 
-       <div class="col-12 col-sm-12 col-md-4 " >
-        <a href="https://www.iiita.ac.in/" ><img src="./assets/img/iiitalogo.jpg" width="65" height="60"></a>
-        <a href="https://geekhaven.iiita.ac.in/" ><img src="./assets/img/geekhavenlogo.svg" width="60" height="60"></a>
+        <a href="https://www.facebook.com/opencodeiiita/" target="_blank"><i class="fab-night fab fa-facebook-f icon-color"></i></a>  
+        <a href="https://github.com/opencodeiiita " target="_blank"><i class="fab-night fab fa-github icon-color"></i></a>  
+        <a href="https://twitter.com/geekhaveniiita" target="_blank"><i class="fab-night fab fa-twitter icon-color"></i></a> 
+       <div class="col-12 col-sm-12 col-md-4 night-footer-ref" >
+        <a href="https://www.iiita.ac.in/" ><img class="night-footer-ref" src="./assets/img/iiitalogo.jpg" width="65" height="60"></a>
+        <a href="https://geekhaven.iiita.ac.in/" ><img class="night-footer-ref" src="./assets/img/geekhavenlogo.svg" width="60" height="60"></a>
       </div>
       </div>
-      <div class="container">    
+      <div class="container night-footer-ref">    
         <p class="m-0 text-center text-white">Copyright &copy; OpenCode'19</p>
       </div>
       <!-- /.container -->

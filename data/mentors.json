@@ -64,7 +64,7 @@
             "github"   : "https://github.com/DreamyPhobic",
             "twitter"  : ""
         },
-    {
+    	{
             "name"     : "Niharika Shrivastava",
             "imageurl" : "assets/img/mentors/niharika.jpeg",
             "about"    : "Backend Developer, ML enthusiast | IIITA",
@@ -72,21 +72,37 @@
             "github"   : "https://github.com/OrionStar25",
             "twitter"  : "https://twitter.com/StarOrion25"
         },
-    {
+    	{
             "name"     : "Debasish Sahoo",
             "imageurl" : "assets/img/mentors/debck.jpg",
             "about"    : "Web Developer | Open Source Lover ",
             "facebook" : "",
             "github"   : "https://github.com/debck",
             "twitter"  : "https://twitter.com/imhere_ck"
-    },
-	    {
+    	},
+	   {
             "name"     : "Sneha Mishra",
             "imageurl" : "assets/img/mentors/sneha.jpg",
             "about"    : "Open Source Enthusiast | IIITA ",
             "facebook" : "https://www.facebook.com/snehamishrabb",
             "github"   : "https://github.com/Tlazypanda",
             "twitter"  : ""
-        }
+        },
+      	{
+      	   "name" : "Yash Rathore",
+      	   "imageurl" : "assets/img/mentors/RE.jpg",
+      	   "about" : "Here for the commits",
+      	   "facebook" : "https://www.facebook.com/yash.re.10",
+      	   "github" : "https://github.com/YashRE42",
+      	   "twitter" : ""
+      	},
+        {
+      	   "name" : "Jogendra Kumar",
+      	   "imageurl" : "assets/img/mentors/jogendra.JPG",
+      	   "about" : "Open Source Contributor | IIT Varanasi",
+      	   "facebook" : "https://www.facebook.com/jogendra.singh24",
+      	   "github" : "https://github.com/jogendra",
+      	   "twitter" : "https://twitter.com/imjog24"
+      	}
     ]
 }

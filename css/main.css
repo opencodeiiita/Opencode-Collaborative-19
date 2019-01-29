@@ -55,7 +55,7 @@
 }
 
 .footer_media{
-  color:white;
+  color:black;
   font-size: 20px;
   padding-left: 10px;
   text-align: center;
@@ -197,6 +197,7 @@
   }
 }
 
+/* spinner */
 .spinner-wrapper {
   position: fixed;
   top: 0;
@@ -207,10 +208,109 @@
   z-index: 3;
   }
 
-
+/* smooth scrolling */
 html{
   scroll-behavior: smooth;
 }
+
+/* dark mode */
+.dark {
+  background-color: #262626 !important;
+  color: #fff !important;
+  -webkit-transition: .1s;
+  transition: .1s;
+}
+
+.dark-landing-text {
+  background-color: transparent !important;
+  color: #fff !important;
+}
+
+.dark-bg-img {
+  background-image: url("../assets/img/header-bg-dark.jpg");
+}
+
+.night-footer {
+  border-top: 1px solid #fff;
+  background-color: #000 !important;
+}
+
+.footer-dark {
+  background-color: #000 !important;
+}
+
+.dark-mode {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 16px 0px 8px;
+}
+
+/* dark mode toggle switch */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 35px;
+  height: 21px;
+  margin-bottom: 0px;
+  margin-top: 3px;
+}
+
+.switch input { 
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #fff;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+/* dark mode slider */
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 16px; 
+  width: 16px;
+  left: 2px;
+  right: 2px;
+  top: 1px;
+  background-image: url("../assets/icons/moon.png");
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #8A8B8B;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px rgb(255, 255, 255);
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(14px);
+  -ms-transform: translateX(14px);
+  transform: translateX(14px);
+}
+
+/* Round slide */
+.slider.round {
+  border-radius: 34px;
+  border: 2px solid #8A8B8B;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+} 
 
 /*Pagination*/
 .pagination .disabled a{
@@ -220,3 +320,150 @@ html{
 .pagination .active:hover{
   color: #fff;
 }
+
+
+/*fork and star*/
+.github{
+    color: #5a5a5a;
+    font-size: 22px;
+}
+
+/*project cards*/
+.card-img-project{
+    height: 15vw;
+}
+
+.card-footer-project{
+    background: #fafafa;
+    border-top: initial;
+}
+
+.card-footer-project p{
+    font-weight: 600;
+}
+
+
+.participant-img{
+    max-height: 200px;
+    min-height: 200px;
+}
+
+.card-college{
+    font-size:14px;
+    font-weight: 600;
+}
+
+.card-name{
+    font-size: 16px;
+}
+
+@media screen and (max-width: 575px) {
+    .participant-img{
+    max-height: 240px;
+    min-height: 240px;
+}
+    
+.card-college{
+    font-size:18px;
+}
+
+.card-name{
+    font-size:20px;
+}
+ 
+}
+
+@media screen and (max-width: 991px) {
+    .navbar-brand{
+        padding: .5rem 1rem;
+    }
+    .nav-item{
+         padding: .5rem 1rem;
+    }
+    .nav-link{
+        padding: 0 !important;
+    }
+    
+    .dark-mode{
+        display: flex;
+        justify-content: start; 
+    }
+    
+    .navbar-toggler{
+        margin: .5rem 1rem;
+    }
+    
+    .navbar-nav{
+        display: initial;
+    }
+    
+    .fork {
+        display: inline-block!important;
+        padding-right: 0;
+        margin-right: initial !important;
+    }
+    
+    .fork div{
+        display: inline !important;
+    }
+    
+    .star{
+        display: inline !important;
+    }
+    
+    .star div{
+        display: inline !important;
+    }
+}
+
+.icon-color{
+	color:white;
+}
+
+/* typing animation */
+.typing-anim {
+  overflow: hidden !important;  white-space: nowrap !important;
+  border-right: 4px solid #fff;
+  width: 13ch;
+  margin: auto;
+  animation: type 3s steps(13),
+  blink-caret 1s step-end infinite !important;
+
+
+  -webkit-animation: type 3s steps(13),
+  blink-caret 1s step-end infinite !important;
+
+  -moz-animation: type 3s steps(13),
+  blink-caret 1s step-end infinite !important;
+}
+
+@keyframes type {
+  0% {
+    width: 0ch;
+  }
+
+  100% {
+    width: 13ch;
+  }
+}
+
+/* blinking cursor */
+@-webkit-keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: #fff }
+}
+
+@-moz-keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: #fff }
+
+/* fixed navbar */
+.navbar-fixed {
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+
+}
+
