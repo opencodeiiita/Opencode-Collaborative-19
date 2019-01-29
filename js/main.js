@@ -289,10 +289,10 @@ $(document).ready(function() {
             }
 
             var participantDiv =
-                  "<div class='col-lg-2 col-sm-6 text-center mb-4'>" +
-                "<div class='card participant-card'>" +
+                  "<div class='col-lg-2  col-md-4 col-sm-6 text-center mb-4'>" +
+                "<div class='card participant-card' style='width: 18rem;'>" +
                 "<div class = 'side'>" +
-                "<img class='card-img-top participant-img img-fluid' src=" +
+                "<img class='participant-img img-fluid card-img-top' src=" +
                 participant.imageurl +
                 " alt=''>" +
                 "<div class='card-body project-card-body'>" +
