@@ -31,12 +31,12 @@ To add a mentor open `mentors.json` and please maintain the following format EXA
 ```
      {
 
-        &nbsp;&nbsp;     "name" : "Mentors Name",
-        &nbsp;&nbsp;     "imageurl" : "mentor/image.jpg",
-        &nbsp;&nbsp;     "about" : "Hello I'm a web developer",
-        &nbsp;&nbsp;     "facebook" : "url",
-        &nbsp;&nbsp;     "github" : "url",
-        &nbsp;&nbsp;     "twitter" : "url"
+        "name" : "Mentors Name",
+        "imageurl" : "mentor/image.jpg",
+        "about" : "Hello I'm a web developer",
+        "facebook" : "url",
+        "github" : "url",
+        "twitter" : "url"
      }
 ```
 
@@ -53,14 +53,14 @@ To add yourself to student section you need to open the file `participants.json`
  ```
     {
 
-        &nbsp;&nbsp;     "name" : "Name",
-        &nbsp;&nbsp;     "imageurl" : "contestant/avatar.jpg",
-        &nbsp;&nbsp;     "about" : "Hello I'm a web developer",
-        &nbsp;&nbsp;     "college" : "My college",
-        &nbsp;&nbsp;     "facebook" : "url",
-        &nbsp;&nbsp;     "github" : "url",
-        &nbsp;&nbsp;     "twitter" : "url",
-        &nbsp;&nbsp;     "referral" : "who refered you?"
+        "name" : "Name",
+        "imageurl" : "contestant/avatar.jpg",
+        "about" : "Hello I'm a web developer",
+        "college" : "My college",
+        "facebook" : "url",
+        "github" : "url",
+        "twitter" : "url",
+        "referral" : "who refered you?"
      }
 ```
 IMPORTANT:
