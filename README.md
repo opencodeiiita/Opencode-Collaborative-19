@@ -5,7 +5,9 @@
 [![OpenCode](https://img.shields.io/badge/Open-Code-ff6a00.svg?style=flat-square)](https://opencode18.github.io)
 
 Chat with us on [Slack](https://opencodeiiita.slack.com)
+
 Join Zulip Chat [Zulip](https://opencode.zulipchat.com/)
+
 Like us on [Facebook](https://www.facebook.com/opencodeiiita/)
 
 ## About us
@@ -26,8 +28,8 @@ Like us on [Facebook](https://www.facebook.com/opencodeiiita/)
 ## Adding a mentor
 
 To add a mentor open `mentors.json` and please maintain the following format EXACTLY (replacing values where indicated):
-
-> {
+```
+     {
 
         &nbsp;&nbsp;     "name" : "Mentors Name",
         &nbsp;&nbsp;     "imageurl" : "mentor/image.jpg",
@@ -35,7 +37,8 @@ To add a mentor open `mentors.json` and please maintain the following format EXA
         &nbsp;&nbsp;     "facebook" : "url",
         &nbsp;&nbsp;     "github" : "url",
         &nbsp;&nbsp;     "twitter" : "url"
-        }
+     }
+```
 
 IMPORTANT:
 
@@ -47,7 +50,8 @@ IMPORTANT:
 
 To add yourself to student section you need to open the file `participants.json` and please maintain the following format EXACTLY (replacing values where indicated):
 
-> {
+ ```
+    {
 
         &nbsp;&nbsp;     "name" : "Name",
         &nbsp;&nbsp;     "imageurl" : "contestant/avatar.jpg",
@@ -57,8 +61,8 @@ To add yourself to student section you need to open the file `participants.json`
         &nbsp;&nbsp;     "github" : "url",
         &nbsp;&nbsp;     "twitter" : "url",
         &nbsp;&nbsp;     "referral" : "who refered you?"
-        }
-
+     }
+```
 IMPORTANT:
 
 - All images must be optimized before uploaded to the repo via commit or PR.
