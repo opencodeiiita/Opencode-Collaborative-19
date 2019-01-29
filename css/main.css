@@ -15,7 +15,7 @@
 
 .header-overlay {
   height: 100vh;
-  background: url("../assets/img/header-bg.jpg");
+  background: url("../assets/img/header_bg.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover; 
