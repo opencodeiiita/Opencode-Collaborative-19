@@ -2,23 +2,23 @@
 
 ### Did you read the instructions in [README](../README.md) ?
 
->Yes/No
+Yes/No
 
 ### Solves which issue ?
 
->Solves #[issue number]
+Fixes #[issue number]
 
 ### Give discription.
 
->[Write Here. Be Specific]
+[Write Here. Be Specific]
 
 ## Checklist
 
 (To mark the checkboxes use `x` within the box brackets)
 
-- [ ] Signed the code of conduct.
+- [] Signed the code of conduct.
 
-- [ ] Have you added yourself to the participants.
+- [] Have you added yourself to the participants.
 
-- [ ] Joined opencode zulip server.
+- [] Joined opencode zulip server.
 
