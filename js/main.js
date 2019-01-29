@@ -526,8 +526,8 @@ var jsonData = {};
     jsonData = JSON.parse(jsonData)
     forks_count = jsonData.items[0].forks_count
     star_count    = jsonData.items[0].stargazers_count
-    var fork = "<p class='badge badge-dark' style='margin:0;'>"+forks_count+"</p>";
-    var star = "<p class='badge badge-dark' style='margin:0;'>"+star_count+"</p>";
+    var fork = "<a href='https://github.com/opencodeiiita/Opencode-Collaborative-19'><p class='badge badge-dark' style='margin:0;'>"+forks_count+"</p></a>";
+    var star = "<a href='https://github.com/opencodeiiita/Opencode-Collaborative-19'><p class='badge badge-dark' style='margin:0;'>"+star_count+"</p></a>";
     $("#fork").after(fork);
     $("#star").after(star);
     },
