@@ -448,7 +448,7 @@ input:checked + .slider:before {
   z-index: 1; /* Sit on top */
   left: 0;
   top: 0;
-  background-color: #000;
+  background-color: #fff;
   overflow-x: hidden; /* Disable horizontal scroll */
   transition: 0.5s; /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
 }
@@ -468,13 +468,8 @@ input:checked + .slider:before {
   text-decoration: none;
   font-size: 36px;
   color: #818181;
-  display: block; /* Display block instead of inline */
+  display: inline; /* Display block instead of inline */
   transition: 0.3s; /* Transition effects on hover (color) */
-}
-
-/* When you mouse over the navigation links, change their color */
-.overlay a:hover, .overlay a:focus {
-  color: #f1f1f1;
 }
 
 /* Position the close button (top right corner) */
@@ -534,8 +529,9 @@ input:checked + .slider:before {
 
 /* overlay content styling */
 .issue {
-  border: 1px solid #fff;
+  border: 1px solid #000;
   border-radius: 10px;
+
 }
 
 .issue-a {
@@ -543,6 +539,11 @@ input:checked + .slider:before {
   color: #fff;
   padding: 3px 0px 3px 0px;
   font-size: 20px !important;
+}
+
+.issue-a-title:hover {
+  background-color: #fff;
+  color: #000 !important;
 }
 
 .issue-a-title {
