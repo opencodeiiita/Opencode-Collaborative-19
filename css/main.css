@@ -70,6 +70,11 @@
   text-align: center;
 }
 
+.nightcountdown {
+  background-color: transparent !important;
+  color: #fff !important;
+}
+
 .portfolio-item {
   margin-bottom: 30px;
 }

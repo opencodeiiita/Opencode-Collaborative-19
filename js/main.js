@@ -534,6 +534,8 @@ $(document).ready(function(){
         $('.jumbotron').toggleClass('dark-bg-img')
         $('.dark-scrl-btn').toggleClass('dark')
         $('nav,div,footer').toggleClass('dark')
+        $('.countdownContainer,.info,.labels,.values,.labellings').toggleClass('dark',false)
+        $('.countdownContainer,.info,.labels,.values,.labellings').toggleClass('nightcountdown')
         $('h2,h3,h5').toggleClass('dark')
         $('span,img,ul,li').toggleClass('dark')
         $('h1,h4,a').toggleClass('dark-landing-text')
