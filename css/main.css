@@ -42,6 +42,39 @@
   background: -webkit-linear-gradient(left, rgb(247, 112, 55) 0%, rgb(250, 168, 68) 100%);
 }
 
+.countdownContainer{
+  position: relative;
+  padding: 10px;
+  max-width: 50%;
+  max-height: 100%;
+  margin: 20px auto;
+  box-sizing: border-box;
+  font-weight: 350;
+  background-color: transparent !important;
+  font-size: 3vw;
+    
+}
+            
+.info {
+  position: inherit;
+  padding: 10px;
+  display: grid;
+  grid-template-columns: 20% 5% 20% 5% 20% 5% 25%;
+  align-items: center;
+}
+            
+.labels {
+  position: inherit;
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  text-align: center;
+}
+
+.nightcountdown {
+  background-color: transparent !important;
+  color: #fff !important;
+}
+
 .portfolio-item {
   margin-bottom: 30px;
 }

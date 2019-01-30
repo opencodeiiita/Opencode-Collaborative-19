@@ -19,6 +19,43 @@ function topFunction() {
     document.documentElement.scrollTop = 0;
 }
 
+// For countdown timer
+function countdown(){
+    var now = new Date();
+    var eventDate = new Date(2019, 1, 12);
+                
+    var currentTime = now.getTime();
+    var eventTime = eventDate.getTime();
+                
+    var remTime = eventTime - currentTime;
+                
+    var s = Math.floor(remTime / 1000);
+    var m = Math.floor(s / 60);
+    var h = Math.floor(m / 60);
+    var d = Math.floor(h / 24);
+                
+    h %= 24;
+    m %= 60;
+    s %= 60;
+                
+                
+    h = (h < 10) ? "0" + h : h ;
+    m = (m < 10) ? "0" + m : m ;
+    s = (s < 10) ? "0" + s : s;
+                
+    document.getElementById("days").textContent = d;
+    document.getElementById("days").innerText = d;
+                
+    document.getElementById("hours").textContent = h;
+    document.getElementById("minutes").textContent = m;
+    document.getElementById("seconds").textContent = s;
+                
+    setTimeout(countdown, 1000);
+                
+                
+}
+countdown();
+
 $(document).ready(function() {
     var mentors;
     var participants;
@@ -497,6 +534,8 @@ $(document).ready(function(){
         $('.jumbotron').toggleClass('dark-bg-img')
         $('.dark-scrl-btn').toggleClass('dark')
         $('nav,div,footer').toggleClass('dark')
+        $('.countdownContainer,.info,.labels,.values,.labellings').toggleClass('dark',false)
+        $('.countdownContainer,.info,.labels,.values,.labellings').toggleClass('nightcountdown')
         $('h2,h3,h5').toggleClass('dark')
         $('span,img,ul,li').toggleClass('dark')
         $('h1,h4,a').toggleClass('dark-landing-text')
