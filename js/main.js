@@ -287,12 +287,14 @@ $(document).ready(function() {
                     }
                 } catch (err) {}
             }
-
+            var participantabout=participant.about;
+            if(participantabout==="")
+                participantabout="Talk is cheap. Show me the code";
             var participantDiv =
-                  "<div class='col-lg-2 col-sm-6 text-center mb-4'>" +
-                "<div class='card participant-card'>" +
+                  "<div class='col-lg-2  col-md-4 col-sm-6 text-center mb-4'>" +
+                "<div class='card participant-card' style='width: 18rem;'>" +
                 "<div class = 'side'>" +
-                "<img class='card-img-top participant-img img-fluid' src=" +
+                "<img class='participant-img img-fluid card-img-top' src=" +
                 participant.imageurl +
                 " alt=''>" +
                 "<div class='card-body project-card-body'>" +
@@ -306,7 +308,7 @@ $(document).ready(function() {
                 "</div>" +
                 "<div class='side back'>" +
                 "<p class='card-about'>" +
-                participant.about +
+                participantabout +
                 "</p>" +
                 "<div class='social-media-links'>" +
                 "<a href=" +
@@ -516,8 +518,8 @@ var jsonData = {};
     jsonData = JSON.parse(jsonData)
     forks_count = jsonData.items[0].forks_count
     star_count    = jsonData.items[0].stargazers_count
-    var fork = "<p class='badge badge-dark' style='margin:0;'>"+forks_count+"</p>";
-    var star = "<p class='badge badge-dark' style='margin:0;'>"+star_count+"</p>";
+    var fork = "<a href='https://github.com/opencodeiiita/Opencode-Collaborative-19'><p class='badge badge-dark' style='margin:0;'>"+forks_count+"</p></a>";
+    var star = "<a href='https://github.com/opencodeiiita/Opencode-Collaborative-19'><p class='badge badge-dark' style='margin:0;'>"+star_count+"</p></a>";
     $("#fork").after(fork);
     $("#star").after(star);
     },

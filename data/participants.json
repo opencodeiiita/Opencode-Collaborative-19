@@ -503,7 +503,7 @@
 		},
 		{
 			"name": "Sagar Lakhani",
-			"imageurl": "assets/img/participants/sagar.png",
+			"imageurl": "assets/img/participants/sagar.jpg",
 			"about": "",
 			"college": "IIIT Allahabad",
 			"facebook": "",
@@ -951,7 +951,7 @@
 		},
 		{
 			"name": "Dev Gupta",
-			"imageurl": "assets/img/participants/devgupta2607.png",
+			"imageurl": "assets/img/participants/devgupta2607.jpg",
 			"about": "I am a web developer and a Python enthusiast.",
 			"college": "Delhi Technological University",
 			"facebook": "",
@@ -991,7 +991,7 @@
     },
         {
             "name": "Dev Gupta",
-            "imageurl": "assets/img/participants/devgupta2607.png",
+            "imageurl": "assets/img/participants/devgupta2607.jpg",
             "about": "I am a web developer and a Python enthusiast.",
             "college": "Delhi Technological University",
             "facebook": "",
@@ -1027,6 +1027,16 @@
    "facebook" : "",
    "github" : "https://github.com/SagnikMandal",
    "twitter" : "https://twitter.com/CitiznSagnik",
+   "referral" : ""
+},
+{
+    "name" : "Vishvajeet",
+   "imageurl" : "assets/img/participants/vishvajeet.jpg",
+   "about" : "",
+   "college" : "",
+   "facebook" : "",
+   "github" : "https://github.com/mivishvajeet",
+   "twitter" : "https://twitter.com/mivishvajeet",
    "referral" : ""
 }
 	]

@@ -10,7 +10,7 @@
         },
         {
             "name": "Technical-Writing",
-            "imageurl": "assets/img/projects/nybles.png",
+            "imageurl": "assets/img/projects/nybles.jpg",
             "mentors": "Team OpenCode",
             "about": "Submit your blog on nybles",
             "lang": "",
@@ -18,11 +18,19 @@
         },
         {
             "name": "Competitive Coding",
-            "imageurl": "assets/img/projects/Competitive-Programming.jpg",
+            "imageurl": "assets/img/projects/ccoding.jpg",
             "mentors": "Kumar Raju",
             "about": "A project aimed at encouraging the competitive coding skills of novices",
             "lang": "C++, Python, Java, C",
             "github": "https://github.com/opencodeiiita/Competitive_Coding"
+        },
+        {
+            "name": "Cynthesize",
+            "imageurl": "assets/img/projects/cynthesize.jpeg",
+            "mentors": "Siddhant Shrivastava, Aayush Joglekar",
+            "about": "Cythesize aims to solve the bridge between mentors and students for development, designing and other fields.",
+            "lang": "Angular, SASS",
+            "github": "https://github.com/Cynthesize-temp/frontend"
         },
         {
             "name": "ToDO-List-App",
@@ -34,19 +42,11 @@
         },
         {
             "name": "Sassy-Css",
-            "imageurl": "assets/img/projects/css.png",
+            "imageurl": "assets/img/projects/css.jpg",
             "mentors": "Team OpenCode",
             "about": "Showcasing your amazing pure CSS interfaces & artworks.",
             "lang": "css scss html",
             "github": "https://github.com/opencodeiiita/sassy-css"
-        },
-        {
-            "name": "Cynthesize",
-            "imageurl": "assets/img/projects/cynthesize.jpeg",
-            "mentors": "Siddhant Shrivastava, Aayush Joglekar",
-            "about": "Cythesize aims to solve the bridge between mentors and students for development, designing and other fields.",
-            "lang": "Angular, SASS",
-            "github": "https://github.com/Cynthesize-temp/frontend"
         },
         {
             "name": "Road-CS",
@@ -58,7 +58,7 @@
         },
         {
             "name": "opencodebot",
-            "imageurl": "assets/img/projects/opencodebot.png",
+            "imageurl": "assets/img/projects/opencodebot.jpg",
             "mentors": "Team OpenCode",
             "about": "A GitHub App built with Probot that Manages workflow on github for OpenCode organization",
             "lang": "js npm json",
@@ -74,7 +74,7 @@
         },
         {
             "name": "GirlsDoCode",
-            "imageurl": "assets/img/projects/opencodebot.png",
+            "imageurl": "assets/img/projects/opencodebot.jpg",
             "mentors": "Team OpenCode",
             "about": "A Project to encourage the envolvement of girls in opensource",
             "lang": "js css html",
@@ -90,7 +90,7 @@
         },
         {
             "name": "File-Creator-CLI",
-            "imageurl": "assets/img/projects/filecreator.png",
+            "imageurl": "assets/img/projects/filecreator.jpg",
             "mentors": "Debasish Sahoo",
             "about": "A simple Command Line application which allows you to create files in your directory/folder, with all types of file extension in a more interactive way.",
             "lang": "Nodejs npm-package cli",
@@ -98,7 +98,7 @@
         },
         {
             "name": "ComputerVision",
-            "imageurl": "assets/img/projects/cv.png",
+            "imageurl": "assets/img/projects/cv.jpg",
             "mentors": "Yash Agarwal",
             "about": "Collection of cool projects using Image Recognition",
             "lang": "Tensorflow MachineLearning",
@@ -114,7 +114,7 @@
         },
         {
             "name": "kasper_music_player",
-            "imageurl": "assets/img/projects/music-player.png",
+            "imageurl": "assets/img/projects/music-player.jpg",
             "mentors": "Sanskar Jethi",
             "about": "An app that would allow \"music.youtube.com\" to work in India",
             "lang": "Flask React Json",
@@ -138,7 +138,7 @@
         },
         {
             "name": "Leave Application Portal",
-            "imageurl": "assets/img/projects/lap.png",
+            "imageurl": "assets/img/projects/lap.jpg",
             "mentors": "Prateek",
             "about": "Leave application portal for IIIT-A to speed up leave approval process.",
             "lang": "Html css js PHP",
