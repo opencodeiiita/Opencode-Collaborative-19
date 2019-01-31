@@ -19,6 +19,43 @@ function topFunction() {
     document.documentElement.scrollTop = 0;
 }
 
+// For countdown timer
+function countdown(){
+    var now = new Date();
+    var eventDate = new Date(2019, 1, 12);
+                
+    var currentTime = now.getTime();
+    var eventTime = eventDate.getTime();
+                
+    var remTime = eventTime - currentTime;
+                
+    var s = Math.floor(remTime / 1000);
+    var m = Math.floor(s / 60);
+    var h = Math.floor(m / 60);
+    var d = Math.floor(h / 24);
+                
+    h %= 24;
+    m %= 60;
+    s %= 60;
+                
+                
+    h = (h < 10) ? "0" + h : h ;
+    m = (m < 10) ? "0" + m : m ;
+    s = (s < 10) ? "0" + s : s;
+                
+    document.getElementById("days").textContent = d;
+    document.getElementById("days").innerText = d;
+                
+    document.getElementById("hours").textContent = h;
+    document.getElementById("minutes").textContent = m;
+    document.getElementById("seconds").textContent = s;
+                
+    setTimeout(countdown, 1000);
+                
+                
+}
+countdown();
+
 $(document).ready(function() {
     var mentors;
     var participants;
@@ -287,26 +324,28 @@ $(document).ready(function() {
                     }
                 } catch (err) {}
             }
-
+            var participantabout=participant.about;
+            if(participantabout==="")
+                participantabout="Talk is cheap. Show me the code";
             var participantDiv =
-                  "<div class='col-lg-3 col-sm-6 text-center mb-4'>" +
-                "<div class='card participant-card'>" +
+                  "<div class='col-lg-2  col-md-4 col-sm-6 text-center mb-4'>" +
+                "<div class='card participant-card' style='width: 18rem;'>" +
                 "<div class = 'side'>" +
-                "<img class='card-img-top participant-img' src=" +
+                "<img class='participant-img img-fluid card-img-top' src=" +
                 participant.imageurl +
                 " alt=''>" +
-                "<div class='card-body'>" +
-                "<h4 class='card-title'>" +
+                "<div class='card-body project-card-body'>" +
+                "<h4 class='card-title card-name'>" +
                 participant.name +
                 "</h4>" +
-                "<p class='card-text'>" +
+                "<p class='card-text card-college'>" +
                 participant.college +
                 "</p>" +
                 "</div>"+
                 "</div>" +
                 "<div class='side back'>" +
                 "<p class='card-about'>" +
-                participant.about +
+                participantabout +
                 "</p>" +
                 "<div class='social-media-links'>" +
                 "<a href=" +
@@ -494,7 +533,9 @@ $(document).ready(function(){
         $('body').toggleClass('dark')
         $('.jumbotron').toggleClass('dark-bg-img')
         $('.dark-scrl-btn').toggleClass('dark')
-        $('nav,div,footer,section').toggleClass('dark')
+        $('nav,div,footer').toggleClass('dark')
+        $('.countdownContainer,.info,.labels,.values,.labellings').toggleClass('dark',false)
+        $('.countdownContainer,.info,.labels,.values,.labellings').toggleClass('nightcountdown')
         $('h2,h3,h5').toggleClass('dark')
         $('span,img,ul,li').toggleClass('dark')
         $('h1,h4,a').toggleClass('dark-landing-text')
@@ -516,8 +557,8 @@ var jsonData = {};
     jsonData = JSON.parse(jsonData)
     forks_count = jsonData.items[0].forks_count
     star_count    = jsonData.items[0].stargazers_count
-    var fork = "<p class='badge badge-dark' style='margin:0;'>"+forks_count+"</p>";
-    var star = "<p class='badge badge-dark' style='margin:0;'>"+star_count+"</p>";
+    var fork = "<a href='https://github.com/opencodeiiita/Opencode-Collaborative-19'><p class='badge badge-dark' style='margin:0;'>"+forks_count+"</p></a>";
+    var star = "<a href='https://github.com/opencodeiiita/Opencode-Collaborative-19'><p class='badge badge-dark' style='margin:0;'>"+star_count+"</p></a>";
     $("#fork").after(fork);
     $("#star").after(star);
     },
