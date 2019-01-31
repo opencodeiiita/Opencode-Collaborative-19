@@ -571,6 +571,7 @@ var jsonData = {};
 $(function(){
     setTimeout(function() { 
       $('.typing-anim-ref').show().addClass('typing-anim');
+      $('.ribbn-ref').show().addClass('github-fork-ribbon');
     }, 500);
     
 });
