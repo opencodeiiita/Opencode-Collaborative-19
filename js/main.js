@@ -575,3 +575,240 @@ $(function(){
     
 });
 
+
+// list all issues
+
+/*------first repo-----*/
+function openNav1() {
+    document.getElementById("myNav1").style.width = "100%";
+  }
+  /* Close when someone clicks on the "x" symbol inside the overlay */
+  function closeNav1() {
+    document.getElementById("myNav1").style.width = "0%";
+  }
+//   copy paste the same for all repo's
+
+
+  function openNav2() {
+    document.getElementById("myNav2").style.width = "100%";
+  }
+    function closeNav2() {
+    document.getElementById("myNav2").style.width = "0%";
+  }
+
+
+  function openNav3() {
+    document.getElementById("myNav3").style.width = "100%";
+  }
+  function closeNav3() {
+    document.getElementById("myNav3").style.width = "0%";
+  }
+
+
+  function openNav4() {
+    document.getElementById("myNav4").style.width = "100%";
+  }
+  function closeNav4() {
+    document.getElementById("myNav4").style.width = "0%";
+  }
+
+
+  function openNav5() {
+    document.getElementById("myNav5").style.width = "100%";
+  }
+  function closeNav5() {
+    document.getElementById("myNav5").style.width = "0%";
+  }
+
+
+  function openNav6() {
+    document.getElementById("myNav6").style.width = "100%";
+  }
+  function closeNav6() {
+    document.getElementById("myNav6").style.width = "0%";
+  }
+
+
+  function openNav7() {
+    document.getElementById("myNav7").style.width = "100%";
+  }
+  function closeNav7() {
+    document.getElementById("myNav7").style.width = "0%";
+  }
+
+
+  function openNav8() {
+    document.getElementById("myNav8").style.width = "100%";
+  }
+  function closeNav8() {
+    document.getElementById("myNav8").style.width = "0%";
+  }
+
+  function openNav9() {
+    document.getElementById("myNav9").style.width = "100%";
+  }
+  function closeNav9() {
+    document.getElementById("myNav9").style.width = "0%";
+  }
+
+  function openNav10() {
+    document.getElementById("myNav10").style.width = "100%";
+  }
+  function closeNav10() {
+    document.getElementById("myNav10").style.width = "0%";
+  }
+
+  function openNav11() {
+    document.getElementById("myNav11").style.width = "100%";
+  }
+  function closeNav11() {
+    document.getElementById("myNav11").style.width = "0%";
+  }
+
+  function openNav12() {
+    document.getElementById("myNav12").style.width = "100%";
+  }
+  function closeNav12() {
+    document.getElementById("myNav12").style.width = "0%";
+  }
+
+  function openNav13() {
+    document.getElementById("myNav13").style.width = "100%";
+  }
+  function closeNav13() {
+    document.getElementById("myNav13").style.width = "0%";
+  }
+
+
+  function openNav14() {
+    document.getElementById("myNav14").style.width = "100%";
+  }
+  function closeNav14() {
+    document.getElementById("myNav14").style.width = "0%";
+  }
+
+
+  function openNav15() {
+    document.getElementById("myNav15").style.width = "100%";
+  }
+  function closeNav15() {
+    document.getElementById("myNav15").style.width = "0%";
+  }
+
+
+  function openNav16() {
+    document.getElementById("myNav16").style.width = "100%";
+  }
+  function closeNav16() {
+    document.getElementById("myNav16").style.width = "0%";
+  }
+
+
+  function openNav17() {
+    document.getElementById("myNav17").style.width = "100%";
+  }
+  function closeNav17() {
+    document.getElementById("myNav17").style.width = "0%";
+  }
+
+
+  function openNav18() {
+    document.getElementById("myNav18").style.width = "100%";
+  }
+  function closeNav18() {
+    document.getElementById("myNav18").style.width = "0%";
+  }
+
+
+  function openNav19() {
+    document.getElementById("myNav19").style.width = "100%";
+  }
+  function closeNav19() {
+    document.getElementById("myNav19").style.width = "0%";
+  }
+
+
+  function openNav20() {
+    document.getElementById("myNav20").style.width = "100%";
+  }
+  function closeNav20() {
+    document.getElementById("myNav20").style.width = "0%";
+  }
+
+
+  function openNav21() {
+    document.getElementById("myNav21").style.width = "100%";
+  }
+  function closeNav21() {
+    document.getElementById("myNav21").style.width = "0%";
+  }
+
+
+  function openNav22() {
+    document.getElementById("myNav22").style.width = "100%";
+  }
+  function closeNav22() {
+    document.getElementById("myNav22").style.width = "0%";
+  }
+
+
+  function openNav23() {
+    document.getElementById("myNav23").style.width = "100%";
+  }
+  function closeNav23() {
+    document.getElementById("myNav23").style.width = "0%";
+  }
+
+
+  function openNav24() {
+    document.getElementById("myNav24").style.width = "100%";
+  }
+  function closeNav24() {
+    document.getElementById("myNav24").style.width = "0%";
+  }
+
+
+  function openNav25() {
+    document.getElementById("myNav25").style.width = "100%";
+  }
+  function closeNav25() {
+    document.getElementById("myNav25").style.width = "0%";
+  }
+
+
+  function openNav26() {
+    document.getElementById("myNav26").style.width = "100%";
+  }
+  function closeNav26() {
+    document.getElementById("myNav26").style.width = "0%";
+  }
+
+
+  $(document).ready(function () {
+    $('#opencodeiiita-HackerSkills-load-more button').click();
+    $('#opencodeiiita-Opencode-Collaborative-19-load-more button').click();
+    $('#opencodeiiita-ToDo-List-App-load-more button').click();
+    $('#opencodeiiita-CodeFemme-load-more button').click();
+    $('#opencodeiiita-Competitive_Coding-load-more button').click();
+    $('#opencodeiiita-Machine-Learning-load-more button').click();
+    $('#opencodeiiita-sassy-css-load-more button').click();
+    $('#opencodeiiita-outpassfinal-load-more button').click();
+    $('#opencodeiiita-opencodeiiita.github.io-load-more button').click();
+    $('#opencodeiiita-Road-CS-load-more button').click();
+    $('#opencodeiiita-opencodebot-load-more button').click();
+    $('#opencodeiiita-sociofolio-backend-load-more button').click();
+    $('#opencodeiiita-sociofolio-frontend-load-more button').click();
+    $('#opencodeiiita-opencode-leaderboard-load-more button').click();
+    $('#opencodeiiita-Technical-Writing-load-more button').click();
+    $('#debck-Technical-Writing-load-more button').click();
+    $('#jogendra-HealthLedger-load-more button').click();
+    $('#OrionStar25-Selena-Gomez-Discography-load-more button').click();
+    $('#Cynthesize-frontend-load-more button').click();
+    $('#yash-agarwal17-ComputerVision-load-more button').click();
+    $('#Jigar3-Wall-Street-load-more button').click();
+    $('#stealthanthrax-kasper_music_player-load-more button').click();
+    $('#kaustubhhiware-rose-more button').click();
+    $('#kaustubhhiware-facebook-archive-more button').click();
+    $('#PaytmBuildForIndia-ResearchFLO-load-more button').click();
+    $('#GeekHaven-Leave-Application-Portal-load-more button').click();
+});

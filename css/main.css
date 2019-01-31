@@ -409,7 +409,6 @@ input:checked + .slider:before {
     font-size:20px;
 }
  
-}
 
 @media screen and (max-width: 991px) {
     .navbar-brand{
@@ -506,3 +505,123 @@ input:checked + .slider:before {
 
 }
 
+/* list all issues */
+
+/* on click overlay starts */
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  background-color: #fff;
+  overflow-x: hidden; /* Disable horizontal scroll */
+  transition: 0.5s; /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
+}
+
+/* Position the content inside the overlay */
+.overlay-content {
+  position: relative;
+  top: 25%; /* 25% from the top */
+  width: 100%; /* 100% width */
+  text-align: center; /* Centered text/links */
+  margin-top: 30px; /* 30px top margin to avoid conflict with the close button on smaller screens */
+}
+
+/* The navigation links inside the overlay */
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #818181;
+  display: inline; /* Display block instead of inline */
+  transition: 0.3s; /* Transition effects on hover (color) */
+}
+
+/* Position the close button (top right corner) */
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+/* When the height of the screen is less than 450 pixels, change the font-size of the links and position the close button again, so they don't overlap */
+@media screen and (max-height: 450px) {
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
+}
+/* on click overlay ends */
+
+
+/* repository buttons */
+.row-c  {
+  margin: 0px !important;
+  padding: 0px !important;
+}
+
+/* .col {
+  margin: 0px !important;
+  padding: 0px !important;
+} */
+
+.center-c {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.issue-title {
+  background-color: inherit;
+  color: #000;
+  padding: 0px 0px 20px 15px;
+}
+
+.issue-btn-section {
+  background-color: #fff;
+}
+
+.issue-btn-section .btn {
+  margin: 0.5rem 0rem 0.5rem 0rem;
+  height: 2rem;
+  width: 100%;
+  padding: 0px 3px 0px 3px;
+}
+
+
+/* overlay content styling */
+.card-col {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 2.5rem;
+}
+
+.card-c {
+  border-radius: 1rem !important;
+}
+
+.card-title-c {
+  font-size: 2rem !important;
+}
+
+.card-subtitle-c {
+  font-size: 1.5rem !important;
+}
+
+.card-text-c {
+  font-size: 1.3rem !important;
+}
+
+.btn-c {
+  padding: 0rem .3rem 0rem .3rem;
+}
+
+.card-link-c {
+  align-items: left;
+}
