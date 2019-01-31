@@ -263,7 +263,7 @@
 		},
 		{
 			"name": "Ishan Agrawal",
-			"imageurl": "assets/img/participants/ishan.JPG",
+			"imageurl": "assets/img/participants/ishan.jpg",
 			"about": "Web Developer",
 			"college": "IIIT Allahabad",
 			"facebook": "https://www.facebook.com/ishan.agrawal.7524",
@@ -303,7 +303,7 @@
 		},
 		{
 			"name": "amritansh6",
-			"imageurl": "assets/img/participants/images (1).jpg",
+			"imageurl": "assets/img/participants/images(1).jpg",
 			"about": "Want to learn",
 			"college": "IIIT Allahabad",
 			"facebook": "",
@@ -313,7 +313,7 @@
 		},
 		{
 			"name": "Ashutosh Mishra",
-			"imageurl": "assets/img/participants/download.jfif",
+			"imageurl": "assets/img/participants/download.jpg",
 			"about": "Hello I'm a web developer",
 			"college": "IIIT ALLAHABAD",
 			"facebook": "",
@@ -333,7 +333,7 @@
 		},
 		{
 			"name": "Aastha Kasera",
-			"imageurl": "assets/img/participants/Aastha.jpg",
+			"imageurl": "assets/img/participants/Astha.jpg",
 			"about": "Want to learn open source",
 			"college": "IIIT Allahabad",
 			"facebook": "",
@@ -413,7 +413,7 @@
 		},
 		{
 			"name": "Ishan Arora",
-			"imageurl": "assets/img/participants/Ishan.jpg",
+			"imageurl": "assets/img/participants/ishan.jpg",
 			"about": "Exploring OpenSource",
 			"college": "IIIT, Allahabad",
 			"facebook": "",
@@ -433,7 +433,7 @@
 		},
 		{
 			"name": "Saakshi Jain",
-			"imageurl": "assets/img/participants/Saakshi.jpeg",
+			"imageurl": "assets/img/participants/Saakshi.jpg",
 			"about": "Passionate Learner",
 			"college": "IIIT Lucknow",
 			"facebook": "",
@@ -761,7 +761,7 @@
 		},
 		{
 			"name": "Nishant Sharma",
-			"imageurl": "assets/img/participants/nishant.jpeg",
+			"imageurl": "assets/img/participants/nishant.jpg",
 			"about": "Getting into opensource",
 			"college": "IIIT Allahabad",
 			"facebook": "",
@@ -781,7 +781,7 @@
 		},
 		{
 			"name": "Rishabh Shukla",
-			"imageurl": "assets/img/participants/blurry.jpeg",
+			"imageurl": "assets/img/participants/blurry.jpg",
 			"about": "Hey!",
 			"college": "IIIT Lucknow",
 			"facebook": "https://www.facebook.com/firela007",
@@ -870,7 +870,7 @@
 		},
 		{
 			"name": "Nikhilesh Kumar",
-			"imageurl": "assets/img/participants/DSC_0113-02.jpeg",
+			"imageurl": "assets/img/participants/DSC_0113_02.jpg",
 			"about": "",
 			"college": "IIIT Allahabad",
 			"facebook": "https://www.facebook.com/nikhilesh.kr23",
@@ -980,64 +980,64 @@
 			"referral": ""
 		},        
 		{
-            "name": "Prijesh Bhingradiya",
-            "imageurl": "",
-            "about": "Priszzz Here!!!",
-            "college": "LDCE, Ahemdabad",
-            "facebook": "",
-            "github": "https://github.com/prijeshb",
-            "twitter": "",
-            "referral": "Instagram"
-    },
-        {
-            "name": "Dev Gupta",
-            "imageurl": "assets/img/participants/devgupta2607.jpg",
-            "about": "I am a web developer and a Python enthusiast.",
-            "college": "Delhi Technological University",
-            "facebook": "",
-            "github": "https://github.com/devgupta2607",
-            "twitter": "",
-            "referral": "Instagram"
-},
-{
-            "name": "Aditya Kumar",
-            "imageurl": "assets/img/participants/devill71.jpg",
-            "about": "",
-            "college": "IIIT A",
-            "facebook": "",
-            "github": "https://github.com/devill71",
-            "twitter": "",
-            "referral": ""
-},
-{
-            "name": "Suneet Kumar Makkar",
-            "imageurl": "",
-            "about": "",
-            "college": "IIIT A",
-            "facebook": "",
-            "github": "https://github.com/SuneetKumar19",
-            "twitter": "",
-            "referral": ""
-},
-{
-    "name" : "Sagnik Mandal",
-   "imageurl" : "",
-   "about" : "Hello I'm a 12 year old app developer",
-   "college" : "",
-   "facebook" : "",
-   "github" : "https://github.com/SagnikMandal",
-   "twitter" : "https://twitter.com/CitiznSagnik",
-   "referral" : ""
-},
-{
-    "name" : "Vishvajeet",
-   "imageurl" : "assets/img/participants/vishvajeet.jpg",
-   "about" : "",
-   "college" : "",
-   "facebook" : "",
-   "github" : "https://github.com/mivishvajeet",
-   "twitter" : "https://twitter.com/mivishvajeet",
-   "referral" : ""
-}
+		    "name": "Prijesh Bhingradiya",
+		    "imageurl": "",
+		    "about": "Priszzz Here!!!",
+		    "college": "LDCE, Ahemdabad",
+		    "facebook": "",
+		    "github": "https://github.com/prijeshb",
+		    "twitter": "",
+		    "referral": "Instagram"
+	    	},
+		{
+		    "name": "Dev Gupta",
+		    "imageurl": "assets/img/participants/devgupta2607.jpg",
+		    "about": "I am a web developer and a Python enthusiast.",
+		    "college": "Delhi Technological University",
+		    "facebook": "",
+		    "github": "https://github.com/devgupta2607",
+		    "twitter": "",
+		    "referral": "Instagram"
+		},
+		{
+		    "name": "Aditya Kumar",
+		    "imageurl": "assets/img/participants/devill71.jpg",
+		    "about": "",
+		    "college": "IIIT A",
+		    "facebook": "",
+		    "github": "https://github.com/devill71",
+		    "twitter": "",
+		    "referral": ""
+		},
+		{
+		    "name": "Suneet Kumar Makkar",
+		    "imageurl": "",
+		    "about": "",
+		    "college": "IIIT A",
+		    "facebook": "",
+		    "github": "https://github.com/SuneetKumar19",
+		    "twitter": "",
+		    "referral": ""
+		},
+		{
+		    "name" : "Sagnik Mandal",
+		   "imageurl" : "",
+		   "about" : "Hello I'm a 12 year old app developer",
+		   "college" : "",
+		   "facebook" : "",
+		   "github" : "https://github.com/SagnikMandal",
+		   "twitter" : "https://twitter.com/CitiznSagnik",
+		   "referral" : ""
+		},
+		{
+		    "name" : "Vishvajeet",
+		   "imageurl" : "assets/img/participants/vishvajeet.jpg",
+		   "about" : "",
+		   "college" : "",
+		   "facebook" : "",
+		   "github" : "https://github.com/mivishvajeet",
+		   "twitter" : "https://twitter.com/mivishvajeet",
+		   "referral" : ""
+		}
 	]
 }
