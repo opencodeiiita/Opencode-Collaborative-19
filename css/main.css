@@ -569,26 +569,26 @@ input:checked + .slider:before {
   padding-bottom: 2.5rem;
 }
 
-.card {
+.card-c {
   border-radius: 1rem !important;
 }
 
-.card-title {
+.card-title-c {
   font-size: 2rem !important;
 }
 
-.card-subtitle {
+.card-subtitle-c {
   font-size: 1.5rem !important;
 }
 
-.card-text {
+.card-text-c {
   font-size: 1.3rem !important;
 }
 
-.btn {
+.btn-c {
   padding: 0rem .3rem 0rem .3rem;
 }
 
-.card-link {
+.card-link-c {
   align-items: left;
 }

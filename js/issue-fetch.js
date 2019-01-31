@@ -26,17 +26,17 @@ function loadMoreIssues(user, repo) {
             var repo_name = repo;
 
             $(this.labels).each(function(index) {
-                labels += '<button class="btn btn-secondary btn-sm">' + this.name + ' </button> <br\>';
+                labels += '<button class="btn btn-c btn-secondary btn-sm">' + this.name + ' </button> <br\>';
             });
 
             var issue_markup = 
             ' <div class="card-col col-md-4 col-xs-12">' +
-            '<div class="card pb-5" style="width: 18rem;height: 100%;">' +
+            '<div class="card card-c pb-5" style="width: 18rem;height: 100%;">' +
             '<div class="card-body">' +
-                '<a class="card-title" href="' +issue_url+  '">' +title+ '</a> <br\>' +
-                '<a class="card-subtitle mb-2 text-muted" href="' +author_url+ '">'+author+' in </a>' +
-                '<a class="card-text" href="'+repo_url+'">'+repo_name+'</a> <br\>' +
-                '<a class="card-link">' +labels+ '</a>' +
+                '<a class="card-title card-title-c" href="' +issue_url+  '">' +title+ '</a> <br\>' +
+                '<a class="card-subtitle card-subtitle-c mb-2 text-muted" href="' +author_url+ '">'+author+' in </a>' +
+                '<a class="card-text card-text-c" href="'+repo_url+'">'+repo_name+'</a> <br\>' +
+                '<a class="card-link card-link-c">' +labels+ '</a>' +
             '</div>' +
             '</div>' +
             '</div>' ;
