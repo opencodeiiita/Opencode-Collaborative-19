@@ -238,6 +238,11 @@
   z-index: 3;
   }
 
+.loading {
+    overflow: hidden;
+    height: 100vh;
+}
+
 /* smooth scrolling */
 html{
   scroll-behavior: smooth;
