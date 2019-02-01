@@ -480,14 +480,13 @@ $(document).ready(function() {
                 "</p>" +
                 "<h5>"+
                 "Tech Stack" +
-                "</h5>"
+                "</h5>"+
                 "<p>" +
                 project.lang +
                 "</p>" +
                 "</div>"+
+                "</div>"+
                 "</div>";
-            ("</div>");
-            ("</div>");
 
             $("#projects").append(projectDiv);
         });
