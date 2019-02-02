@@ -637,12 +637,13 @@ input:checked + .slider:before {
 }
 
 /* hover effect to footer icons */
-.icon-color:hover {
-  transform: rotateY(180deg);
+
+.footer-hover:hover {
+  transform: scale(1.5);
   transition-duration: 1s;
 }
 
-.footer-hover:hover {
-  transform: rotateY(180deg);
-  transition-duration: 1s;
+.fab:hover {
+  transform: scale(1.5);
+  transition-duration: 1.3s;
 }
