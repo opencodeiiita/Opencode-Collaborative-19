@@ -1,0 +1,14 @@
+#progress-cont {
+  height: 6px;
+  position: fixed;
+  width: 100%;
+  top: 79px;
+  left: 0px;
+  z-index:1;
+}
+
+#progress-bar {
+  height: 100%;
+  background-color: orangered;
+  z-index:1;
+}
