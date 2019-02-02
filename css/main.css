@@ -43,7 +43,9 @@
 }
 
 .nav-link:hover {
-    background-color: #9fbfdf;
+    color: #3366BB !important;
+    font-weight: bold;
+    
 }
 .countdownContainer{
   position: relative;
