@@ -635,3 +635,14 @@ input:checked + .slider:before {
 .card-link-c {
   align-items: left;
 }
+
+/* hover effect to footer icons */
+.icon-color:hover {
+  transform: rotateY(180deg);
+  transition-duration: 1s;
+}
+
+.footer-hover:hover {
+  transform: rotateY(180deg);
+  transition-duration: 1s;
+}
