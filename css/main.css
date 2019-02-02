@@ -42,6 +42,11 @@
   background: -webkit-linear-gradient(left, rgb(247, 112, 55) 0%, rgb(250, 168, 68) 100%);
 }
 
+.nav-link:hover {
+    color: #3366BB !important;
+    font-weight: bold;
+    
+}
 .countdownContainer{
   position: relative;
   padding: 10px;
