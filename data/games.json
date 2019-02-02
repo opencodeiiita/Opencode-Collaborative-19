@@ -1,0 +1,10 @@
+{
+	  "games": [
+      {
+		    "developer": "sample",
+		    "imageurl": "sample",
+		    "gamename": "sample",
+		    "github_link": "sample"
+	    }
+    ]
+}
