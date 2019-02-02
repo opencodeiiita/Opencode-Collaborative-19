@@ -395,6 +395,9 @@ input:checked + .slider:before {
     width: 100% !important;
     height: 100% !important;
   }
+  .card-img-project{
+    height: 190px;
+  }
 } 
 
 .card-college{
