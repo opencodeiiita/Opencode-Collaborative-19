@@ -60,10 +60,12 @@ $(document).ready(function() {
     var mentors;
     var participants;
     var projects;
+    var games;
 
     var mentorsJson = "data/mentors.json";
     var participantsJson = "data/participants.json";
     var projectsJson = "data/projects.json";
+    var gamesJson = "data/games.json";
 
     $.ajaxSetup({
         beforeSend: function(xhr) {
@@ -491,6 +493,39 @@ $(document).ready(function() {
             $("#projects").append(projectDiv);
         });
     }
+    });
+
+
+    // games
+    $.getJSON(gamesJson, function(data) {
+        games = data.games;
+
+        $.each(games, function(i, game) {
+            
+            var gameDiv =
+                "<div class='col-lg-3 col-sm-6 text-center mb-4'>" +
+                "<div class='card game-card'>" +
+                "<img class='card-img-top participant-img' src=" +
+                game.imageurl +
+                " alt=''>" +
+                "<div class='card-body'>" +
+                "<h4 class='card-title'>" +
+                game.gamename +
+                "</h4>" +
+                "<p class='card-text'>by " +
+                game.developer +
+                "</p>" +
+                "</div>" +
+                "<div class='social-media-links'>" +
+                "<a href=" +
+                game.github_link +
+                "><i class='fab fa-github'></i></a>" +
+                "</div>" +
+                "</div>" +
+                "</div>";
+
+            $("#games").append(gameDiv);
+        });
     });
 
 
