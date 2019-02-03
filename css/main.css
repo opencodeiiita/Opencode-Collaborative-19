@@ -4,6 +4,10 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-4-col-portfolio/blob/master/LICENSE)
  */
 
+body{
+  overflow-x:hidden;
+}
+
 
  .overlapissue
  {
@@ -15,7 +19,7 @@
 
 .header {
   position: fixed;
-  top: 78px;
+  top: 79px;
   
   width: 100%;
   background-color: #f1f1f1;
@@ -25,12 +29,12 @@
 
 .progress-container {
   width: 100%;
-  height: 8px;
+  height: 5px;
   background: #F7F8F9;
 }
 
 .progress-bar {
-  height: 8px;
+  height: 5px;
   background:rgb(255, 102, 0);
   width: 0%;
 }
