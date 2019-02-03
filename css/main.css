@@ -18,7 +18,7 @@
   background: url("../assets/img/header_bg.jpg");
   background-position: center center;
   background-repeat: no-repeat;
-  background-size: cover; 
+  background-size: cover;
   padding: 200px 0;
   color: #fafafa;
 }
@@ -30,7 +30,7 @@
   padding: 10px 20px;
   color: #fff;
   box-shadow: 0 1px 3px rgb(24, 23, 23,);
-  background: -webkit-linear-gradient(left, rgb(255, 140, 89) 0%, rgb(255, 177, 82) 100%); 
+  background: -webkit-linear-gradient(left, rgb(255, 140, 89) 0%, rgb(255, 177, 82) 100%);
 }
 
 .header-btn a {
@@ -45,7 +45,7 @@
 .nav-link:hover {
     color: #3366BB !important;
     font-weight: bold;
-    
+
 }
 .countdownContainer{
   position: relative;
@@ -57,9 +57,9 @@
   font-weight: 350;
   background-color: transparent !important;
   font-size: 3vw;
-    
+
 }
-            
+
 .info {
   position: inherit;
   padding: 10px;
@@ -67,7 +67,7 @@
   grid-template-columns: 20% 5% 20% 5% 20% 5% 25%;
   align-items: center;
 }
-            
+
 .labels {
   position: inherit;
   display: grid;
@@ -130,7 +130,7 @@
 .card-about{
   text-align: center;
   padding: 30px 10px;
-  margin:100px 20px; 
+  margin:100px 20px;
   font-size: 15px;
 }
 .participant-card .back {
@@ -147,7 +147,7 @@
   max-height: 240px;
   min-height: 240px;
   min-width: 100%;
-  
+
   width: 100%;
 	height: auto;
 }
@@ -159,7 +159,7 @@
 
 .social-media-links a i {
   color: #9E9E9E;
-  padding: 0 10px; 
+  padding: 0 10px;
   font-size: 16px;
   transition: .2s ease-in-out;
   -webkit-transition: .2s ease-in-out;
@@ -220,13 +220,13 @@
 }
 
 @keyframes sk-rotateplane {
-  0% { 
+  0% {
     transform: perspective(120px) rotateX(0deg) rotateY(0deg);
-    -webkit-transform: perspective(120px) rotateX(0deg) rotateY(0deg) 
-  } 50% { 
+    -webkit-transform: perspective(120px) rotateX(0deg) rotateY(0deg)
+  } 50% {
     transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg);
-    -webkit-transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg) 
-  } 100% { 
+    -webkit-transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg)
+  } 100% {
     transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
     -webkit-transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
   }
@@ -296,7 +296,7 @@ html{
   margin-top: 3px;
 }
 
-.switch input { 
+.switch input {
   opacity: 0;
   width: 0;
   height: 0;
@@ -318,7 +318,7 @@ html{
 .slider:before {
   position: absolute;
   content: "";
-  height: 16px; 
+  height: 16px;
   width: 16px;
   left: 2px;
   right: 2px;
@@ -350,7 +350,7 @@ input:checked + .slider:before {
 
 .slider.round:before {
   border-radius: 50%;
-} 
+}
 
 /*Pagination*/
 .pagination .disabled a{
@@ -393,14 +393,14 @@ input:checked + .slider:before {
     width: 100% !important;
     height: 100% !important;
   }
-} 
+}
 
 @media only screen and (min-width: 600px) {
   .participant-img {
     width: 100% !important;
     height: 100% !important;
   }
-} 
+}
 
 .card-college{
     font-size:14px;
@@ -418,7 +418,7 @@ input:checked + .slider:before {
 .card-name{
     font-size:20px;
 }
- 
+
 
 @media screen and (max-width: 991px) {
     .navbar-brand{
@@ -430,34 +430,34 @@ input:checked + .slider:before {
     .nav-link{
         padding: 0 !important;
     }
-    
+
     .dark-mode{
         display: flex;
-        justify-content: start; 
+        justify-content: start;
     }
-    
+
     .navbar-toggler{
         margin: .5rem 1rem;
     }
-    
+
     .navbar-nav{
         display: initial;
     }
-    
+
     .fork {
         display: inline-block!important;
         padding-right: 0;
         margin-right: initial !important;
     }
-    
+
     .fork div{
         display: inline !important;
     }
-    
+
     .star{
         display: inline !important;
     }
-    
+
     .star div{
         display: inline !important;
     }
@@ -634,4 +634,57 @@ input:checked + .slider:before {
 
 .card-link-c {
   align-items: left;
+}
+.project-card {
+  max-height: 450px;
+  min-height: 450px;
+  width: 100% !important;
+  min-width: 100%;
+  box-shadow: 0 3px 6px 0 rgba(0,0,0,0.12);
+  transform-style: preserve-3d;
+  transition: all 0.5s ease-in-out;
+  text-align: center;
+
+}
+.project-card:hover {
+  transform: rotateY(180deg);
+}
+.project-card .side {
+  backface-visibility: hidden;
+   overflow: hidden;
+   position: absolute;
+   text-align: center;
+}
+.project-text{
+  text-align: center;
+  padding: 30px 10px;
+  margin:100px 20px;
+  font-size: 15px;
+}
+.project-card .back {
+
+  text-align: center;
+  justify-content: center;
+  transform: rotateY(180deg);
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+.card-img-project {
+  max-height: 240px;
+  min-height: 240px;
+  min-width: 100%;
+  width: 100%;
+	height: auto;
+}
+.back{
+  display: flex;
+  flex-direction: column;
+}
+.card-footer-project{
+  margin-top: -40px;
+  flex: 1;
+}
+.project-text{
+  flex: 1;
 }
