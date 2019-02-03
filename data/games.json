@@ -1,10 +1,16 @@
 {
 	  "games": [
       {
-		    "developer": "sample",
-		    "imageurl": "sample",
-		    "gamename": "sample",
-		    "github_link": "sample"
+		    "developer": "Anupam shukla",
+		    "imageurl": "assets/img/participants/vikash.jpg",
+		    "gamename": "sample game name",
+		    "github_link": "https://github.com/pal-0123"
+		},
+		{
+		    "developer": "Vishnu",
+		    "imageurl": "assets/img/participants/vikash.jpg",
+		    "gamename": "sample game name",
+		    "github_link": "https://github.com/pal-0123"
 	    }
     ]
 }
