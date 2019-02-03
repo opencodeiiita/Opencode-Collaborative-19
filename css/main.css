@@ -639,15 +639,25 @@ input:checked + .slider:before {
 /* hover effect to footer icons */
 .footer-hover:hover {
   transform: scale(1.2);
-  transition-duration: .5s;
+  transition-duration: 0.5s;
 }
 
 .fab:hover {
   transform: scale(1.2);
-  transition-duration: .4s;
+  transition-duration: 0.4s;
 }
 
+.game-card {
+  /* max-height: 470px;
+  min-height: 470px; */
+  height: 100%;
+  min-width: 100%;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.12);
+
+}
+
+/* personal website icon */
 .fas:hover {
   transform: scale(1.2);
-  transition-duration: .4s;
+  transition-duration: 0.4s;
 }
