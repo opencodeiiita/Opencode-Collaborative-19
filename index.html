@@ -28,25 +28,53 @@
     <!-- Font for countdown -->
     <link href='https://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet' type='text/css'>
 
+
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+    <link rel="stylesheet" href="css/progress_bar.css">
+    <link href='http://fonts.googleapis.com/css?family=Vollkorn' rel='stylesheet' type='text/css'>
+
     <style type="text/css">
       .modal-content iframe{
           margin: 0 auto;
           display: block;
       }
+
+      body
+      {
+        font-family: 'Ubuntu', sans-serif;
+        font-weight:5px;
+      }
+
+
+
+    
+
   </style>
   
   </head>
 
   <body class="loading">
+
+    
+  
+  
+
+
     <a class=" ribbn-ref" href="https://github.com/opencodeiiita/Opencode-Collaborative-19" data-ribbon="Fork me on GitHub" title="Fork me on GitHub">Fork me on GitHub</a>
     <button onclick="topFunction()" id="myBtn" title="Go to top" class="dark-scrl-btn"><i class="fas fa-arrow-up"></i></button>
     <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light a-nav navbar-fixed" id="mainNav">
+
+
+
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light a-nav navbar-fixed" id="mainNav" >
       <div class="container">
+
         <a class="navbar-brand d-flex align-items-center" href="index.html">
   <!-- OpenCode Logo added in navbar -->
           <img src="./assets/img/OClogo.jpg" width="40" height="37" class="d-inline-block align-top " style="padding-right:5px">Opencode 2019
         </a>
+
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -67,7 +95,7 @@
             <li class="nav-item active">
               <a class="nav-link" data-toggle="modal" data-target="#myModal">Trailer</a>
             </li>
-
+          
 
 
             <li class="nav-item dark-mode">
@@ -89,13 +117,26 @@
           </ul>
         </div>
       </div>
+          <div class="header animated-1s bounceInDown" style="z-index:-1;!important" >
+          <div class="progress-container">
+            <div class="progress-bar" id="myBar"></div>
+          </div> 
+          </div>
     </nav>
+
+
+
+
+
+
+
+
 
     <div class="jumbotron jumbotron-fluid text-center header-overlay">
       <h1 class="display-4 typing-anim-ref"><b>Hello, world!</b></h1>
       <h4 class="a-landing-sub-text">Welcome to OpenCode'19</h4>
       <a href="#participants"><button class="header-btn mt-5 a-btn">Get Started</button></a>
-
+      
       <div class="countdownContainer display-4 a-landing-header-text">
             <div class="values">OpenCode Countdown</div>
             <div class="info" style="font-family: 'Orbitron'">
@@ -115,44 +156,80 @@
             </div>
       </div>
     </div>
+<!--
+    <h2 style="position:relative;top:2px;left:400px;">Overview</h2>
 
+    <div style="border-top:2px gray solid;width:1098px;margin:0 auto;"></div>
+
+
+
+  <div style="margin:0 auto;background-color:rgb(220, 225, 229);width:1098px;height:585px;position:relative;top:40px;border-radius:20px">
+    
+    <iframe style="padding-left:45px;padding-top:10px;border-radius:10px"width="1050px" height="900px" src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fopencodeiiita%2Fvideos%2F2301796573173119%2F&show_text=0&width=1050" 
+    frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>   
+-->
+
+
+
+
+
+  <div style="position:relative;top:60px">
     <div class="container">
+
+
+
+
+
 
       <!-- Participants -->
       <div class="row">
         <div class="col-lg-12">
           <h2 class="my-4">Participants</h2>
+          <div style="border-top:2px gray solid;width:1098px;margin:0 auto;position:relative;top:-20px"></div>
         </div>
       </div>
       <div class="row participants-card" id="participants">
         <!-- Feeding data from json -->
       </div>
-      
+       
+
+
+
+
+     
       <!-- Pagination -->
-      <div class="d-flex justify-content-center">
-        <nav aria-label="Page navigation example">
-          <ul class="pagination pagination-participants text-primary">
-            <li class="page-item prev" id="pagination">
-              <a class="page-link"  aria-label="Previous">
-                <span aria-hidden="true">&laquo;</span>
-                <span class="sr-only">Previous</span>
-              </a>
-            </li>
-              
-             <li class="page-item next"> 
-                <a class="page-link " aria-label="Next">
-                  <span aria-hidden="true">&raquo;</span>
-                  <span class="sr-only">Next</span>
+      <div class="d-flex justify-content-center overlapissue" >
+          <nav aria-label="Page navigation example" style="float:left;margin:0 auto;z-index:0">
+            <ul class="pagination pagination-participants text-primary">
+              <li class="page-item prev" id="pagination">
+                <a class="page-link"  aria-label="Previous">
+                  <span aria-hidden="true">&laquo;</span>
+                  <span class="sr-only">Previous</span>
                 </a>
-            </li>
-          </ul>
-        </nav>
-      </div>
+              </li>
+                
+               <li class="page-item next"> 
+                  <a class="page-link " aria-label="Next">
+                    <span aria-hidden="true">&raquo;</span>
+                    <span class="sr-only">Next</span>
+                  </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+    
+
+
+
+
+
 
       <!-- Mentors -->
       <div class="row">
         <div class="col-lg-12">
           <h2 class="my-4">Mentors</h2>
+          <div style="border-top:2px gray solid;width:1098px;margin:0 auto;position:relative;top:-20px"></div>
         </div>
       </div>
       <div class="row" id="mentors">
@@ -163,6 +240,7 @@
       <div class="row">
         <div class="col-lg-12">
           <h2 class="my-4">Projects</h2>
+           <div style="border-top:2px gray solid;width:1098px;margin:0 auto;position:relative;top:-20px"></div>
         </div>
       </div>
 
@@ -174,7 +252,7 @@
 
 
 
-
+           
       <div id="myModal" class="modal fade" >
         <div class="modal-dialog" >
           <div class="modal-content" style="height:0px; position:relative; top:100px;">
@@ -182,12 +260,15 @@
               <iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fopencodeiiita%2Fvideos%2F2301796573173119%2F&show_text=0&width=560" 
               width="560" height="315" style="position:relative; left: -70px; top: -70px;border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>
             </div>
-            <!-- <div class="modal-footer" height="0px">
+       <!-- <div class="modal-footer" height="0px">
               <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
             </div> -->
           </div>  
         </div>
       </div>
+    
+
+
 
 
 
@@ -195,18 +276,18 @@
 
 
       <!-- Pagination -->
-      <div class="d-flex justify-content-center">
-        <nav aria-label="Page navigation example">
-          <ul class="pagination pagination-project text-primary">
+      <div class="d-flex justify-content-center overlapissue" >
+        <nav aria-label="Page navigation example"  style="float:left;margin:0 auto;z-index:0">
+          <ul class="pagination pagination-project text-primary" >
             <li class="page-item prev-project" id="pagination-project">
-              <a class="page-link" aria-label="Previous">
+              <a  class="page-link" aria-label="Previous">
                 <span aria-hidden="true">&laquo;</span>
                 <span class="sr-only">Previous</span>
               </a>
             </li>
               
             <li class="page-item next-project"> 
-              <a class="page-link" aria-label="Next">
+              <a  class="page-link" aria-label="Next">
                 <span aria-hidden="true">&raquo;</span>
                 <span class="sr-only">Next</span>
               </a>
@@ -227,6 +308,11 @@
         <!-- Feeding data from json -->
       </div>
     </div>
+
+
+
+
+
 
 
 
@@ -785,7 +871,8 @@
 
     <!----------------------------All buttons here---------------------------->
     <section class="container issue-btn-section py-5">
-      <h1 class="text-left issue-title" >ISSUES</h1>
+      <h2 class="my-4">Issues</h2>
+           <div style="border-top:2px gray solid;width:1098px;margin:0 auto;position:relative;top:-20px"></div>
       <div class="row row-c pt-3">
         <div class="col-md-4 col-sm-6 center-c">
           <button onclick="openNav1()" type="button" class="btn btn-secondary">HackerSkills</button>
@@ -927,8 +1014,18 @@
   <div class="spinner-wrapper">
     <div class="spinner"></div>
   </div>
-  
+</div>
+</div>
+
+
+
+
+
   </body>
+
+  
+
+
 
    <!-- Bootstrap core JavaScript -->
    <script src="vendor/jquery/jquery.min.js"></script>
@@ -938,12 +1035,23 @@
 
   <!-- Preloader -->
   <script>
+
       $(document).ready(function() {
         setTimeout(() => {
         $(".spinner-wrapper").css({"display":"none"});
         $('body').removeClass('loading');
          }, 4000);
      });
+
+// When the user scrolls the page, execute myFunction 
+window.onscroll = function() {myFunction()};
+  
+  function myFunction() {
+    var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+    var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+    var scrolled = (winScroll / height) * 100;
+    document.getElementById("myBar").style.width = scrolled + "%";
+  }
   </script>
 
 </html>
