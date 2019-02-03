@@ -639,11 +639,11 @@ input:checked + .slider:before {
 /* hover effect to footer icons */
 
 .footer-hover:hover {
-  transform: scale(1.5);
-  transition-duration: 1s;
+  transform: scale(1.2);
+  transition-duration: 0.5s;
 }
 
 .fab:hover {
-  transform: scale(1.5);
-  transition-duration: 1.3s;
+  transform: scale(1.2);
+  transition-duration: 0.4s;
 }
