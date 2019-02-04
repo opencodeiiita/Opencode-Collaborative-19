@@ -359,6 +359,9 @@ $(document).ready(function() {
                 "<a href=" +
                 participant.twitter +
                 "><i class='fab fa-twitter'></i></a>" +
+                "<a href=" +
+                participant.website+
+                "><i class='fas fa-user'></i></a>" +
                 "</div>" +
                 "</div>";
 

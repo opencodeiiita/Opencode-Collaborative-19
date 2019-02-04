@@ -690,3 +690,8 @@ input:checked + .slider:before {
 
 }
 
+/* personal website icon */
+.fas:hover {
+  transform: scale(1.2);
+  transition-duration: 0.4s;
+}
