@@ -9,10 +9,8 @@ body{
 }
 
 
- .overlapissue
- {
-   
-   z-index:1;!important
+ .overlapissue{ 
+   z-index: 1 !important;
  }
 
 
@@ -20,11 +18,9 @@ body{
 .header {
   position: fixed;
   top: 79px;
-  
   width: 100%;
   background-color: #f1f1f1;
 }
-
 
 
 .progress-container {
@@ -38,7 +34,6 @@ body{
   background:rgb(255, 102, 0);
   width: 0%;
 }
-
 
 
  body {
@@ -695,3 +690,49 @@ input:checked + .slider:before {
   transform: scale(1.2);
   transition-duration: 0.4s;
 }
+
+
+/* sticky github */
+.sticky-container{
+  padding: 0px;
+  margin: 0px;
+  position: fixed;
+  right: -100px;
+  top: 200px;
+  width: 192px;
+}
+
+.sticky li{
+  text-align: left;
+  list-style-type: none;
+  background-color: #343A40;
+  color: #efefef;
+  height: 40px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  -webkit-transition: all 0.40s ease-in-out;
+  -moz-transition: all 0.40s ease-in-out;
+  -o-transition: all 0.40s ease-in-out;
+  transition: all 0.40s ease-in-out;
+  cursor: pointer;
+}
+
+.sticky li:hover{
+  margin-left: -30px;
+}
+
+.sticky li a{
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+
+.fab-c {
+  margin: 10px !important;
+}
+
+/* .fab-c:hover {
+  transition: none;
+  transform: none;
+} */
+

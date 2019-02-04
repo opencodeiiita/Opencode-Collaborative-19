@@ -28,7 +28,6 @@
     <!-- Font for countdown -->
     <link href='https://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet' type='text/css'>
 
-
     <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
     <link rel="stylesheet" href="css/progress_bar.css">
     <link href='http://fonts.googleapis.com/css?family=Vollkorn' rel='stylesheet' type='text/css'>
@@ -39,42 +38,23 @@
           display: block;
       }
 
-      body
-      {
+      body{
         font-family: 'Ubuntu', sans-serif;
         font-weight:5px;
       }
-
-
-
-    
-
-  </style>
+    </style>
   
   </head>
 
   <body class="loading">
-
-    
-  
-  
-
-
-    <a class=" ribbn-ref" href="https://github.com/opencodeiiita/Opencode-Collaborative-19" data-ribbon="Fork me on GitHub" title="Fork me on GitHub">Fork me on GitHub</a>
     <button onclick="topFunction()" id="myBtn" title="Go to top" class="dark-scrl-btn"><i class="fas fa-arrow-up"></i></button>
     <!-- Navigation -->
-
-
-
-
     <nav class="navbar navbar-expand-lg navbar-light bg-light a-nav navbar-fixed" id="mainNav" >
       <div class="container">
-
         <a class="navbar-brand d-flex align-items-center" href="index.html">
   <!-- OpenCode Logo added in navbar -->
           <img src="./assets/img/OClogo.jpg" width="40" height="37" class="d-inline-block align-top " style="padding-right:5px">Opencode 2019
         </a>
-
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -92,15 +72,9 @@
             <li class="nav-item active">
               <a class="nav-link" href="https://opencode19.netlify.com/">Leaderboard</a>
             </li>
-
-
-
             <li class="nav-item active">
               <a class="nav-link" data-toggle="modal" data-target="#myModal">Trailer</a>
             </li>
-          
-
-
             <li class="nav-item dark-mode">
                 <label class="switch">
                   <input type="checkbox">
@@ -120,70 +94,60 @@
           </ul>
         </div>
       </div>
-          <div class="header animated-1s bounceInDown" style="z-index:-1;!important" >
+          <div class="header animated-1s bounceInDown" style="z-index: -1 !important; " >
           <div class="progress-container">
             <div class="progress-bar" id="myBar"></div>
           </div> 
           </div>
     </nav>
 
-
-
-
-
-
-
-
-
+    <!-- hero section -->
     <div class="jumbotron jumbotron-fluid text-center header-overlay">
       <h1 class="display-4 typing-anim-ref"><b>Hello, world!</b></h1>
       <h4 class="a-landing-sub-text">Welcome to OpenCode'19</h4>
       <a href="#participants"><button class="header-btn mt-5 a-btn">Get Started</button></a>
       
-      <div class="countdownContainer display-4 a-landing-header-text">
-            <div class="values">OpenCode Countdown</div>
-            <div class="info" style="font-family: 'Orbitron'">
-                <div id="days" class="values">120</div>
-                <div class="values"> </div>
-                <div id="hours" class="values">4</div>
-                <div class="values">:</div>
-                <div id="minutes" class="values">12</div>
-                <div class="values">:</div>
-                <div id="seconds" class="values">22</div>
-            </div>
-            <div class="labels">
-                <div class= "values">Days</div>
-                <div class= "values">HH</div>
-                <div class= "values">MM</div>
-                <div class= "values">SS</div>
-            </div>
+      <!-- sticky github link -->
+      <div class="sticky-container">
+        <ul class="sticky">
+            <li>
+                <a href="https://github.com/opencodeiiita/Opencode-Collaborative-19">
+                  <i class="fab fa-github fab-c"></i>
+                </a>
+            </li>
+        </ul>
       </div>
+
+      <!-- countdown -->
+      <div class="countdownContainer display-4 a-landing-header-text">
+          <div class="values">OpenCode Countdown</div>
+          <div class="info" style="font-family: 'Orbitron'">
+              <div id="days" class="values">120</div>
+              <div class="values"> </div>
+              <div id="hours" class="values">4</div>
+              <div class="values">:</div>
+              <div id="minutes" class="values">12</div>
+              <div class="values">:</div>
+              <div id="seconds" class="values">22</div>
+          </div>
+          <div class="labels">
+              <div class= "values">Days</div>
+              <div class= "values">HH</div>
+              <div class= "values">MM</div>
+              <div class= "values">SS</div>
+          </div>
+        </div>
     </div>
 <!--
     <h2 style="position:relative;top:2px;left:400px;">Overview</h2>
-
     <div style="border-top:2px gray solid;width:1098px;margin:0 auto;"></div>
-
-
-
-  <div style="margin:0 auto;background-color:rgb(220, 225, 229);width:1098px;height:585px;position:relative;top:40px;border-radius:20px">
-    
+    <div style="margin:0 auto;background-color:rgb(220, 225, 229);width:1098px;height:585px;position:relative;top:40px;border-radius:20px">    
     <iframe style="padding-left:45px;padding-top:10px;border-radius:10px"width="1050px" height="900px" src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fopencodeiiita%2Fvideos%2F2301796573173119%2F&show_text=0&width=1050" 
     frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-  </div>   
+    </div>   
 -->
-
-
-
-
-
   <div style="position:relative;top:60px">
     <div class="container">
-
-
-
-
-
 
       <!-- Participants -->
       <div class="row">
@@ -195,12 +159,7 @@
       <div class="row participants-card" id="participants">
         <!-- Feeding data from json -->
       </div>
-       
-
-
-
-
-     
+            
       <!-- Pagination -->
       <div class="d-flex justify-content-center overlapissue" >
           <nav aria-label="Page navigation example" style="float:left;margin:0 auto;z-index:0">
@@ -222,12 +181,6 @@
           </nav>
         </div>
     
-
-
-
-
-
-
       <!-- Mentors -->
       <div class="row">
         <div class="col-lg-12">
@@ -250,11 +203,6 @@
       <div class="row" id="projects">
         <!-- Feeding data from json -->
       </div>
-
-
-
-
-
            
       <div id="myModal" class="modal fade" >
         <div class="modal-dialog" >
@@ -270,14 +218,6 @@
         </div>
       </div>
     
-
-
-
-
-
-
-
-
       <!-- Pagination -->
       <div class="d-flex justify-content-center overlapissue" >
         <nav aria-label="Page navigation example"  style="float:left;margin:0 auto;z-index:0">
@@ -311,13 +251,6 @@
         <!-- Feeding data from json -->
       </div>
     </div>
-
-
-
-
-
-
-
 
 
      <!---------------------------- list all issues ---------------------------->
@@ -1013,21 +946,14 @@
     </footer>
 
 
-<!--CSS Spinner-->
-  <div class="spinner-wrapper">
-    <div class="spinner"></div>
-  </div>
+    <!--CSS Spinner-->
+    <div class="spinner-wrapper">
+      <div class="spinner"></div>
+    </div>
 </div>
 </div>
-
-
-
-
 
   </body>
-
-  
-
 
 
    <!-- Bootstrap core JavaScript -->
