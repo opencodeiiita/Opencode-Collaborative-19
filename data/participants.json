@@ -8,6 +8,7 @@
 			"college": "IIIT Allahabad",
 			"facebook": "",
 			"github": "https://github.com/pal-0123",
+			"website": "",
 			"twitter": "",
 			"referral": ""
 		},
@@ -18,6 +19,7 @@
 			"college": "IIIT Allahabad",
 			"facebook": "",
 			"github": "https://github.com/deepakDOTexe",
+			"website": "",
 			"twitter": "",
 			"referral": ""
 		},
@@ -28,6 +30,7 @@
 			"college": "IIIT Lucknow",
 			"facebook": "https://www.facebook.com/profile.php?id=100026658502249",
 			"github": "https://github.com/vcode11",
+			"website": "",
 			"twitter": "",
 			"referral": ""
 		},
@@ -38,6 +41,7 @@
 			"college": "IIIT, Allahabad",
 			"facebook": "",
 			"github": "https://github.com/kumarshubham707",
+			"website": "",
 			"twitter": "",
 			"referral": "mail"
 		},
@@ -48,6 +52,7 @@
 			"college": "IIIT, Allahabad",
 			"facebook": "",
 			"github": "https://github.com/HGOYAL015",
+			"website": "",
 			"twitter": "",
 			"referral": "Friend"
 		},
@@ -58,20 +63,21 @@
 			"college": "IIIT, Allahabad",
 			"facebook": "https://www.facebook.com/dhairya.patel.1800",
 			"github": "https://github.com/thenullterminator",
+			"website": "",
 			"twitter": "",
 			"referral": "mail"
-		}, {
+		},
+		{
 			"name": "Muskan Bansal",
 			"imageurl": "",
 			"about": "",
 			"college": "IIIT, Lucknow",
 			"facebook": "",
 			"github": "https://github.com/crustyy",
+			"website": "",
 			"twitter": "",
 			"referral": "mail"
 		},
-
-
 		{
 			"name": "Vikash Kumar",
 			"imageurl": "assets/img/participants/vikash.jpg",
@@ -79,6 +85,7 @@
 			"college": "IIIT, Allahabad",
 			"facebook": "https://www.facebook.com/V1KaShKr",
 			"github": "https://github.com/vikash-kr",
+			"website": "",
 			"twitter": "https://twitter.com/kvikash076",
 			"referral": "mail"
 		},
@@ -89,6 +96,7 @@
 			"college": "SPCE, Anand",
 			"facebook": "https://www.facebook.com/akshay.kalola28",
 			"github": "https://github.com/akshaykalola28",
+			"website": "",
 			"twitter": "",
 			"referral": ""
 		},
@@ -99,6 +107,7 @@
 			"college": "IIIT, Allahabad",
 			"facebook": "https://www.facebook.com/wwarlock.3",
 			"github": "https://github.com/Wwar-lock",
+			"website": "",
 			"twitter": "",
 			"referral": ""
 		},
@@ -109,6 +118,7 @@
 			"college": "IIIT Allahabad",
 			"facebook": "https://www.facebook.com/naman.deept.75",
 			"github": "https://github.com/namandeept",
+			"website": "",
 			"twitter": "",
 			"referral": ""
 		},
@@ -119,6 +129,7 @@
 			"college": "IIIT, Allahabad",
 			"facebook": "",
 			"github": "",
+			"website": "",
 			"twitter": "",
 			"referral": ""
 		},
@@ -129,6 +140,7 @@
 			"college": "IIIT Allahabad",
 			"facebook": "",
 			"github": "https://github.com/CleverFool77",
+			"website": "",
 			"twitter": "https://twitter.com/DugtalLekhika",
 			"referral": ""
 		},
@@ -139,6 +151,7 @@
 			"college": "IIIT, Allahabad",
 			"facebook": "https://www.facebook.com/manish.jagnani.9",
 			"github": "https://github.com/Jaggu-123",
+			"website": "",
 			"twitter": "",
 			"referral": ""
 		},
@@ -149,6 +162,7 @@
 			"college": "IIIT, Lucknow",
 			"facebook": "https://www.facebook.com/profile.php?id=100008987648629",
 			"github": "https://github.com/BLJS2warchief",
+			"website": "https://bljs2warchief.github.io/projectRandom",
 			"twitter": "",
 			"referral": ""
 		},
@@ -159,6 +173,7 @@
 			"college": "IIIT, Lucknow",
 			"facebook": "https://www.facebook.com/ash.loiwal",
 			"github": "https://github.com/ThunderrZero",
+			"website": "",
 			"twitter": "",
 			"referral": ""
 		},
@@ -169,6 +184,7 @@
 			"college": "IIIT, Allahabad",
 			"facebook": "",
 			"github": "https://github.com/Rattlecode17sh",
+			"website": "",
 			"twitter": "",
 			"referral": ""
 		},
@@ -179,6 +195,7 @@
 			"college": "NIT, Durgaput",
 			"facebook": "",
 			"github": "https://github.com/ashish4321",
+			"website": "https://ashish4321.github.io/My-Site",
 			"twitter": "",
 			"referral": ""
 		},
@@ -189,6 +206,7 @@
 			"college": "SMS, Varanasi",
 			"facebook": "",
 			"github": "https://www.github.com/neerajd007",
+			"website": "https://neerajd007.github.io",
 			"twitter": "",
 			"referral": ""
 		},
@@ -199,6 +217,7 @@
 			"college": "IIIT, Allahabad",
 			"facebook": "",
 			"github": "https://github.com/dhairyabaweja",
+			"website": "",
 			"twitter": "",
 			"referral": ""
 		},
@@ -209,6 +228,7 @@
 			"college": "PACE, Mangaluru",
 			"facebook": "",
 			"github": "http://github.com/mohammed-adil/",
+			"website": "",
 			"twitter": "https://twitter.com/_mohdAdil",
 			"referral": ""
 		},
@@ -219,6 +239,7 @@
 			"college": "IIIT Allahabad",
 			"facebook": "https://www.facebook.com/vidhi.sah.7",
 			"github": "http://github.com/VidhiSah/",
+			"website": "",
 			"twitter": "",
 			"referral": ""
 		},
@@ -229,7 +250,9 @@
 			"college": "IIIT, Allahabad",
 			"facebook": "https://www.facebook.com/tushar.niftyy",
 			"github": "https://github.com/niftyy",
-			"twitter": ""
+			"website": "",
+			"twitter": "",
+			"referral": ""
 		},
 		{
 			"name": "Ayush Verma",
@@ -238,6 +261,7 @@
 			"college": "IIIT Allahabad",
 			"facebook": "",
 			"github": "http://github.com/punisher1151",
+			"website": "",
 			"twitter": "",
 			"referral": ""
 		},
@@ -248,6 +272,7 @@
 			"college": "Bharati Vidyapeeth's College of Engineering, New Delhi",
 			"facebook": "",
 			"github": "http://github.com/coderjolly",
+			"website": "",
 			"twitter": "http://twitter.com/coderjolly",
 			"referral": ""
 		},
@@ -258,6 +283,7 @@
 			"college": "IIIT, Allahabad",
 			"facebook": "",
 			"github": "http://github.com/0leve",
+			"website": "",
 			"twitter": "",
 			"referral": ""
 		},
@@ -268,6 +294,7 @@
 			"college": "IIIT Allahabad",
 			"facebook": "https://www.facebook.com/ishan.agrawal.7524",
 			"github": "https://github.com/barney-stinson",
+			"website": "",
 			"twitter": "",
 			"referral": ""
 		},
@@ -278,6 +305,7 @@
 			"college": "IIIT Allahabad",
 			"facebook": "https://www.facebook.com/aayush.talesara.7",
 			"github": "https://github.com/elitesf",
+			"website": "",
 			"twitter": "",
 			"referral": ""
 		},
@@ -288,6 +316,7 @@
 			"college": "IIIT Allahabad",
 			"facebook": "",
 			"github": "https://github.com/KeshavSharma21099",
+			"website": "",
 			"twitter": "",
 			"referral": ""
 		},
@@ -298,6 +327,7 @@
 			"college": "IIIT Allahabad",
 			"facebook": "",
 			"github": "http://github.com/B3ingALearner",
+			"website": "",
 			"twitter": "",
 			"referral": ""
 		},
@@ -308,6 +338,7 @@
 			"college": "IIIT Allahabad",
 			"facebook": "",
 			"github": "http://github.com/amritansh6",
+			"website": "",
 			"twitter": "",
 			"referral": ""
 		},
@@ -318,6 +349,7 @@
 			"college": "IIIT ALLAHABAD",
 			"facebook": "",
 			"github": "https://github.com/ashumishra007",
+			"website": "",
 			"twitter": "",
 			"referral": ""
 		},
@@ -328,6 +360,7 @@
 			"college": "IIIT Allahabad",
 			"facebook": "www.facebook.com/ManthanRsurkar",
 			"github": "http://github.com/thesmallstar/",
+			"website": "",
 			"twitter": "",
 			"referral": ""
 		},
@@ -338,6 +371,7 @@
 			"college": "IIIT Allahabad",
 			"facebook": "",
 			"github": "http://github.com/littleprodigy",
+			"website": "",
 			"twitter": "",
 			"referral": ""
 		},
@@ -348,6 +382,7 @@
 			"college": "NIT Durgapur",
 			"facebook": "",
 			"github": "",
+			"website": "",
 			"twitter": "",
 			"referral": "ashish4321"
 		},
@@ -358,6 +393,7 @@
 			"college": "IIIT Allahabad",
 			"facebook": "",
 			"github": "https://github.com/amitkr6211",
+			"website": "",
 			"twitter": "",
 			"referral": ""
 		},
@@ -368,6 +404,7 @@
 			"college": "IIIT Allahabad",
 			"facebook": "",
 			"github": "https://github.com/Rajatsharma1007",
+			"website": "",
 			"twitter": "",
 			"referral": ""
 		},
@@ -378,6 +415,7 @@
 			"college": "IIIT Allahabad",
 			"facebook": "",
 			"github": "https://github.com/eishaansingh",
+			"website": "",
 			"twitter": "",
 			"referral": ""
 		},
@@ -388,6 +426,7 @@
 			"college": "IIIT Allahabad",
 			"facebook": "",
 			"github": "https://github.com/chiillax",
+			"website": "",
 			"twitter": "",
 			"referral": ""
 		},
@@ -398,6 +437,7 @@
 			"college": "DCRUST, Sonepat",
 			"facebook": "",
 			"github": "https://www.github.com/sourabh1031",
+			"website": "",
 			"twitter": "https://twitter.com/sourabh1031",
 			"referral": ""
 		},
@@ -408,6 +448,7 @@
 			"college": "IIIT Allahabad",
 			"facebook": "",
 			"github": "https://github.com/palak2001",
+			"website": "",
 			"twitter": "",
 			"referral": ""
 		},
@@ -418,6 +459,7 @@
 			"college": "IIIT, Allahabad",
 			"facebook": "",
 			"github": "https://github.com/Ishaniiit",
+			"website": "",
 			"twitter": "",
 			"referral": ""
 		},
@@ -428,6 +470,7 @@
 			"college": "IIIT Allahabad",
 			"facebook": "",
 			"github": "https://github.com/coding-clown",
+			"website": "https://coding-clown.github.io",
 			"twitter": "",
 			"referral": ""
 		},
@@ -438,6 +481,7 @@
 			"college": "IIIT Lucknow",
 			"facebook": "",
 			"github": "https://github.com/sa4k5hi",
+			"website": "",
 			"twitter": "",
 			"referral": ""
 		},
@@ -448,6 +492,7 @@
 			"college": "IIIT Allahabad",
 			"facebook": "",
 			"github": "https://github.com/lo0oper",
+			"website": "",
 			"twitter": "",
 			"referral": ""
 		},
@@ -458,6 +503,7 @@
 			"college": "IIIT, Allahabad",
 			"facebook": "",
 			"github": "",
+			"website": "",
 			"twitter": "",
 			"referral": ""
 		},
@@ -468,6 +514,7 @@
 			"college": "IIIT Allahabad",
 			"facebook": "",
 			"github": "https://github.com/Jahanvi21",
+			"website": "",
 			"twitter": "",
 			"referral": ""
 		},
@@ -478,6 +525,7 @@
 			"college": "IIIT, Allahabad",
 			"facebook": "",
 			"github": "https://github.com/shantam0810",
+			"website": "",
 			"twitter": "",
 			"referral": ""
 		},
@@ -488,6 +536,7 @@
 			"college": "IIIT, Allahabad",
 			"facebook": "",
 			"github": "https://github.com/itsnkm2000",
+			"website": "",
 			"twitter": "",
 			"referral": ""
 		},
@@ -498,6 +547,7 @@
 			"college": "IIIT Allahabad",
 			"facebook": "",
 			"github": "https://github.com/HimanshuJanbandhu",
+			"website": "",
 			"twitter": "",
 			"referral": ""
 		},
@@ -508,6 +558,7 @@
 			"college": "IIIT Allahabad",
 			"facebook": "",
 			"github": "https://github.com/SLakhani1",
+			"website": "",
 			"twitter": "",
 			"referral": ""
 		},
@@ -518,6 +569,7 @@
 			"college": "IIIT, Allahabad",
 			"facebook": "",
 			"github": "https://github.com/Slimshadynick",
+			"website": "",
 			"twitter": "",
 			"referral": ""
 		},
@@ -527,6 +579,7 @@
 			"about": "Eat,Sleep,Learn,Repeat",
 			"college": "IIIT Allahabad",
 			"github": "https://github.com/ekthapriyesh24",
+			"website": "",
 			"twitter": "",
 			"referral": ""
 		},
@@ -537,6 +590,7 @@
 			"college": "IIITA",
 			"facebook": "",
 			"github": "",
+			"website": "",
 			"twitter": "",
 			"referral": ""
 		},
@@ -547,6 +601,7 @@
 			"college": "IIIT Allahabad",
 			"facebook": "",
 			"github": "https://github.com/vaibhav_1207",
+			"website": "",
 			"twitter": "",
 			"referral": ""
 		},
@@ -557,6 +612,7 @@
 			"college": "IIIT ALLAHABAD",
 			"facebook": "",
 			"github": "https://github.com/chi50800",
+			"website": "",
 			"twitter": "",
 			"referral": ""
 		},
@@ -566,6 +622,7 @@
 			"about": "",
 			"college": "IIIT Allahabad",
 			"github": "https://github.com/me-stone",
+			"website": "",
 			"twitter": "",
 			"referral": ""
 		},
@@ -575,6 +632,7 @@
 			"about": "",
 			"college": "IIIT Allahabad",
 			"github": "https://github.com/vj2000",
+			"website": "",
 			"twitter": "",
 			"referral": ""
 		},
@@ -585,6 +643,7 @@
 			"college": "IIIT Allahabad",
 			"facebook": "",
 			"github": "https://github.com/griffy06",
+			"website": "",
 			"twitter": "",
 			"referral": ""
 		},
@@ -595,6 +654,7 @@
 			"college": "IIIT Allahabad",
 			"facebook": "",
 			"github": "https://github.com/zoobydoobydoo",
+			"website": "",
 			"twitter": "",
 			"referral": ""
 		},
@@ -605,6 +665,7 @@
 			"college": "IIIT Allahabad",
 			"facebook": "https://www.facebook.com/prateek.17.xx.1999",
 			"github": "https://github.com/prateek76",
+			"website": "",
 			"twitter": "https://twitter.com/Prateek97923412",
 			"referral": "I saw it somewhere,I don't remember where"
 		},
@@ -615,6 +676,7 @@
 			"college": "IIT Patna",
 			"facebook": "",
 			"github": "https://github.com/chanmol1999",
+			"website": "",
 			"twitter": "",
 			"referral": "a friend"
 		},
@@ -626,6 +688,7 @@
 			"college": "IIIT Allahabad",
 			"facebook": "https://www.facebook.com/profile.php?id=100007309844750",
 			"github": "https://github.com/sharmamansi",
+			"website": "",
 			"twitter": "",
 			"referral": ""
 		},
@@ -636,6 +699,7 @@
 			"college": "IIIT, Allahabad",
 			"facebook": "",
 			"github": "https://github.com/harchani-ritik",
+			"website": "",
 			"twitter": "",
 			"referral": ""
 		},
@@ -646,6 +710,7 @@
 			"college": "IIIT Allahabad",
 			"facebook": "https://www.facebook.com/ujjwal.batra.79",
 			"github": "https://github.com/ujjwal-batra",
+			"website": "",
 			"twitter": "",
 			"referral": ""
 		},
@@ -656,6 +721,7 @@
 			"college": "IIIT, Allahabad",
 			"facebook": "https://www.facebook.com/neelabh.gupta.56",
 			"github": "https://github.com/Neelabh46",
+			"website": "",
 			"twitter": "",
 			"referral": ""
 		},
@@ -666,6 +732,7 @@
 			"college": "IIIT Allahabad",
 			"facebook": "",
 			"github": "https://github.com/brownsands",
+			"website": "",
 			"twitter": "",
 			"referral": ""
 		},
@@ -676,6 +743,7 @@
 			"college": "IIIT, Allahabad",
 			"facebook": "",
 			"github": "https://github.com/caperdango",
+			"website": "",
 			"twitter": "",
 			"referral": ""
 		},
@@ -686,6 +754,7 @@
 			"college": "IIITA",
 			"facebook": "",
 			"github": "https://github.com/Rohini13",
+			"website": "",
 			"twitter": "",
 			"referral": ""
 		},
@@ -696,6 +765,7 @@
 			"college": "IIIT,Allahabad",
 			"facebook": "https://www.facebook.com/meghna.batra.7",
 			"github": "http://github.com/batra-meghna",
+			"website": "",
 			"twitter": "",
 			"referral": ""
 		},
@@ -706,6 +776,7 @@
 			"college": "IIIT Allahabad",
 			"facebook": "https://www.facebook.com/profile.php?id=100005016060283",
 			"github": "https://github.com/iit2018026",
+			"website": "",
 			"twitter": "",
 			"referral": ""
 		},
@@ -716,6 +787,7 @@
 			"college": "IIIT, Allahabad",
 			"facebook": "",
 			"github": "https://github.com/Kartik2301",
+			"website": "",
 			"twitter": "",
 			"referral": ""
 		},
@@ -726,6 +798,7 @@
 			"college": "IIIT Allahabad",
 			"facebook": "https://www.facebook.com/shreyansh.sahu.9",
 			"github": "https://github.com/23nobody",
+			"website": "",
 			"twitter": "",
 			"referral": ""
 		},
@@ -736,6 +809,7 @@
 			"college": "IIIT Allahabad",
 			"facebook": "",
 			"github": "https://github.com/rvid2w",
+			"website": "",
 			"twitter": "",
 			"referral": ""
 		},
@@ -746,6 +820,7 @@
 			"college": "Amirta School of Arts and Sciences",
 			"facebook": "https://www.facebook.com/vishnu.kraman",
 			"github": "https://github.com/vishnuk7",
+			"website": "",
 			"twitter": "",
 			"referral": ""
 		},
@@ -756,6 +831,7 @@
 			"college": "Amrita school of arts and sciences, Mysore",
 			"facebook": "https://facebook.com/anupam.shukla141",
 			"github": "https://github.com/anupm12",
+			"website": "https://web-salon.netlify.com",
 			"twitter": "",
 			"referral": ""
 		},
@@ -766,6 +842,7 @@
 			"college": "IIIT Allahabad",
 			"facebook": "",
 			"github": "https://github.com/supremenishant",
+			"website": "",
 			"twitter": "",
 			"referral": ""
 		},
@@ -776,6 +853,7 @@
 			"college": "BIT Mesra, Ranchi",
 			"facebook": "https://www.facebook.com/Harshit966",
 			"github": "https://github.com/helios1101",
+			"website": "https://helios1101.github.io",
 			"twitter": "",
 			"referral": ""
 		},
@@ -786,6 +864,7 @@
 			"college": "IIIT Lucknow",
 			"facebook": "https://www.facebook.com/firela007",
 			"github": "https://github.com/Firela",
+			"website": "",
 			"twitter": "",
 			"referral": ""
 		},
@@ -796,6 +875,7 @@
 			"college": "IIIT Allahabad",
 			"facebook": "",
 			"github": "https://github.com/parag1201",
+			"website": "",
 			"twitter": "",
 			"referral": ""
 		},
@@ -805,6 +885,7 @@
 			"about": "new to github",
 			"college": "IIIT Allahabad",
 			"github": "https://github.com/agamjotpanesar",
+			"website": "",
 			"twitter": "",
 			"referral": ""
 		},
@@ -815,40 +896,41 @@
 			"college": "IIIT Allahabad",
 			"facebook": "",
 			"github": "https://github.com/Pujastar",
+			"website": "",
 			"twitter": "",
 			"referral": ""
 		},
-
 		{
 			"name": "Tarun Asudani",
 			"imageurl": "",
 			"about": "",
 			"college": "IIIT Allahabad",
 			"github": "https://github.com/Tarunasudani",
+			"website": "",
 			"twitter": "",
 			"referral": ""
 
 		},
-
 		{
 			"name": "VIDUR KATARIA",
 			"imageurl": "assets/img/participants/vidur.jpg",
 			"about": "Novice",
 			"college": "IIIT Allahabad",
 			"github": "https://github.com/kavi-12",
+			"website": "",
 			"twitter": "",
 			"referral": ""
 		},
-
-
 		{
 			"name": "Aman Sokhal",
 			"imageurl": "assets/img/participants/aman.jpg",
 			"about": "Begginer",
 			"college": "IIIT, Allahabad",
 			"facebook": "https://www.facebook.com/amansokha0001",
-			"github": "https://github.com/Amansokhal"
-
+			"github": "https://github.com/Amansokhal",
+			"website": "",
+			"twitter": "",
+			"referral": ""
 		},
 		{
 			"name": "Priyatam Reddy Somagattu",
@@ -856,6 +938,7 @@
 			"about": "",
 			"college": "IIIT Allahabad",
 			"github": "https://github.com/Pri1437",
+			"website": "",
 			"twitter": "",
 			"referral": ""
 		},
@@ -865,6 +948,7 @@
 			"about": "Learner",
 			"college": "IIIT Allahabad",
 			"github": "https://github.com/BinduVerma123",
+			"website": "",
 			"twitter": "",
 			"referral": ""
 		},
@@ -875,16 +959,17 @@
 			"college": "IIIT Allahabad",
 			"facebook": "https://www.facebook.com/nikhilesh.kr23",
 			"github": "https://github.com/gobblerXD",
+			"website": "",
 			"twitter": "",
 			"referral": ""
 		},
-
 		{
 			"name": "Nitin Mathur",
 			"imageurl": "",
 			"about": "",
 			"college": "IIIT Allahabad",
 			"github": "https://github.com/nitinmathur1998",
+			"website": "",
 			"twitter": "",
 			"referral": ""
 		},
@@ -895,16 +980,17 @@
 			"college": "IIIT, Allahabad",
 			"facebook": "",
 			"github": "https://github.com/Abhinav2023",
+			"website": "",
 			"twitter": "",
 			"referral": ""
 		},
-
 		{
 			"name": "Achint Agrawal",
 			"imageurl": "assets/img/participants/Achint.jpg",
 			"about": "Designer",
 			"college": "IIIT Allahabad",
 			"github": "https://github.com/achintagrawal",
+			"website": "",
 			"twitter": "",
 			"referral": ""
 		},
@@ -914,6 +1000,7 @@
 			"about": "",
 			"college": "IIIT Allahabad",
 			"github": "https://github.com/shivam0211",
+			"website": "",
 			"twitter": "",
 			"referral": ""
 		},
@@ -924,6 +1011,7 @@
 			"college": "IIIT, Allahabad",
 			"facebook": "",
 			"github": "https://github.com/jishansingh",
+			"website": "",
 			"twitter": "",
 			"referral": "mail"
 		},
@@ -934,11 +1022,10 @@
 			"college": "IIIT, Allahabad",
 			"facebook": "",
 			"github": "https://github.com/ak0005",
+			"website": "",
 			"twitter": "",
 			"referral": ""
-
 		},
-
 		{
 			"name": "Prijesh Bhingradiya",
 			"imageurl": "",
@@ -946,6 +1033,7 @@
 			"college": "LDCE, Ahemdabad",
 			"facebook": "",
 			"github": "https://github.com/prijeshb",
+			"website": "",
 			"twitter": "",
 			"referral": "Instagram"
 		},
@@ -956,6 +1044,7 @@
 			"college": "Delhi Technological University",
 			"facebook": "",
 			"github": "https://github.com/devgupta2607",
+			"website": "",
 			"twitter": "",
 			"referral": "Instagram"
 		},
@@ -966,6 +1055,7 @@
 			"college": "IIIT A",
 			"facebook": "",
 			"github": "https://github.com/devill71",
+			"website": "",
 			"twitter": "",
 			"referral": ""
 		},
@@ -976,6 +1066,7 @@
 			"college": "IIIT Allahabad",
 			"facebook": "",
 			"github": "https://github.com/Anuj-Mittal",
+			"website": "",
 			"twitter": "",
 			"referral": ""
 		},        
@@ -986,9 +1077,10 @@
 		    "college": "LDCE, Ahemdabad",
 		    "facebook": "",
 		    "github": "https://github.com/prijeshb",
-		    "twitter": "",
+			"website": "",
+			"twitter": "",
 		    "referral": "Instagram"
-	    	},
+	    },
 		{
 		    "name": "Dev Gupta",
 		    "imageurl": "assets/img/participants/devgupta2607.jpg",
@@ -996,10 +1088,10 @@
 		    "college": "Delhi Technological University",
 		    "facebook": "",
 		    "github": "https://github.com/devgupta2607",
-		    "twitter": "",
+			"website": "",
+			"twitter": "",
 		    "referral": "Instagram"
 		},
-		
 		{
 		    "name": "Suneet Kumar Makkar",
 		    "imageurl": "",
@@ -1007,7 +1099,8 @@
 		    "college": "IIIT A",
 		    "facebook": "",
 		    "github": "https://github.com/SuneetKumar19",
-		    "twitter": "",
+			"website": "",
+			"twitter": "",
 		    "referral": ""
 		},
 		{
@@ -1017,6 +1110,7 @@
 		   "college" : "",
 		   "facebook" : "",
 		   "github" : "https://github.com/SagnikMandal",
+		   "website": "",
 		   "twitter" : "https://twitter.com/CitiznSagnik",
 		   "referral" : ""
 		},
@@ -1027,6 +1121,7 @@
 		   "college" : "",
 		   "facebook" : "",
 		   "github" : "https://github.com/mivishvajeet",
+		   "website": "",
 		   "twitter" : "https://twitter.com/mivishvajeet",
 		   "referral" : ""
 		}

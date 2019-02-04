@@ -4,6 +4,43 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-4-col-portfolio/blob/master/LICENSE)
  */
 
+body{
+  overflow-x:hidden;
+}
+
+
+ .overlapissue
+ {
+   
+   z-index:1;!important
+ }
+
+
+
+.header {
+  position: fixed;
+  top: 79px;
+  
+  width: 100%;
+  background-color: #f1f1f1;
+}
+
+
+
+.progress-container {
+  width: 100%;
+  height: 5px;
+  background: #F7F8F9;
+}
+
+.progress-bar {
+  height: 5px;
+  background:rgb(255, 102, 0);
+  width: 0%;
+}
+
+
+
  body {
   margin: 0;
   padding: 0;
@@ -11,6 +48,7 @@
 
 #mainNav {
   padding: 1em 0;
+ 
 }
 
 .header-overlay {
@@ -42,11 +80,6 @@
   background: -webkit-linear-gradient(left, rgb(247, 112, 55) 0%, rgb(250, 168, 68) 100%);
 }
 
-.nav-link:hover {
-    color: #3366BB !important;
-    font-weight: bold;
-    
-}
 .countdownContainer{
   position: relative;
   padding: 10px;
@@ -359,6 +392,7 @@ input:checked + .slider:before {
 
 .pagination .active:hover{
   color: #fff;
+  z-index:-1;
 }
 
 
@@ -639,13 +673,13 @@ input:checked + .slider:before {
 /* hover effect to footer icons */
 
 .footer-hover:hover {
-  transform: scale(1.5);
-  transition-duration: 1s;
+  transform: scale(1.2);
+  transition-duration: 0.5s;
 }
 
 .fab:hover {
-  transform: scale(1.5);
-  transition-duration: 1.3s;
+  transform: scale(1.2);
+  transition-duration: 0.4s;
 }
 
 .game-card {
@@ -657,3 +691,8 @@ input:checked + .slider:before {
 
 }
 
+/* personal website icon */
+.fas:hover {
+  transform: scale(1.2);
+  transition-duration: 0.4s;
+}
