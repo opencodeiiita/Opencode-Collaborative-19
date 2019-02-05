@@ -736,3 +736,16 @@ input:checked + .slider:before {
   transform: none;
 } */
 
+.sticky-github {
+  display: none;
+}
+
+@media screen and (max-width: 991px) {
+  .github-fork-ribbon {
+    display: none !important;
+  }
+
+  .sticky-github {
+    display: inline;
+  }
+} 
