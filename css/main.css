@@ -430,14 +430,14 @@ input:checked + .slider:before {
   
 } 
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 480px) {
   .participant-img {
     width: 100% !important;
     height: 100% !important;
   }
   .card-img-project{
-    height: 230px;
-    width: 200px;
+    height: 250px;
+    width: 300px;
   }
   
 } 
