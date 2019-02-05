@@ -1,493 +1,428 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  <head>
+<head>
 
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="Opencode Collaborative website">
-    <meta name="author" content="">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="Opencode Collaborative website">
+  <meta name="author" content="">
 
-    <title>Opencode 2019 Collaborative</title>
-    <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <title>Opencode 2019 Collaborative</title>
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Font Awesome Icon pack for icons used in project -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
-   
-    <!-- fork me on github ribbon cdn -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-fork-ribbon-css/0.2.2/gh-fork-ribbon.min.css" />
-	
-    <!-- Custom styles for this template -->
-    <link href="css/main.css" rel="stylesheet">
-    <link rel="icon" href="assets/img/opencode_logo_61n_icon.ico">
+  <!-- Font Awesome Icon pack for icons used in project -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+    crossorigin="anonymous">
 
-    <!-- Animate css -->
-    <link rel="stylesheet" type="text/css" media="all" href="css/animate.css">
-      
-    <!-- Font for countdown -->
-    <link href='https://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet' type='text/css'>
+  <!-- fork me on github ribbon cdn -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-fork-ribbon-css/0.2.2/gh-fork-ribbon.min.css" />
 
+  <!-- Custom styles for this template -->
+  <link href="css/main.css" rel="stylesheet">
+  <link rel="icon" href="assets/img/opencode_logo_61n_icon.ico">
 
-    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
-    <link rel="stylesheet" href="css/progress_bar.css">
-    <link href='http://fonts.googleapis.com/css?family=Vollkorn' rel='stylesheet' type='text/css'>
+  <!-- Animate css -->
+  <link rel="stylesheet" type="text/css" media="all" href="css/animate.css">
 
-    <style type="text/css">
-      .modal-content iframe{
-          margin: 0 auto;
-          display: block;
-      }
+  <!-- Font for countdown -->
+  <link href='https://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet' type='text/css'>
 
-      body
-      {
-        font-family: 'Ubuntu', sans-serif;
-        font-weight:5px;
-      }
+  <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+  <link rel="stylesheet" href="css/progress_bar.css">
+  <link href='http://fonts.googleapis.com/css?family=Vollkorn' rel='stylesheet' type='text/css'>
 
+  <style type="text/css">
+    .modal-content iframe {
+      margin: 0 auto;
+      display: block;
+    }
 
-
-    
-
+    body {
+      font-family: 'Ubuntu', sans-serif;
+      font-weight: 5px;
+    }
   </style>
-  
-  </head>
 
-  <body class="loading">
+</head>
 
-    
-  
-  
-
-
-    <a class=" ribbn-ref" href="https://github.com/opencodeiiita/Opencode-Collaborative-19" data-ribbon="Fork me on GitHub" title="Fork me on GitHub">Fork me on GitHub</a>
-    <button onclick="topFunction()" id="myBtn" title="Go to top" class="dark-scrl-btn"><i class="fas fa-arrow-up"></i></button>
-    <!-- Navigation -->
-
-
-
-
-    <nav class="navbar navbar-expand-lg navbar-light bg-light a-nav navbar-fixed" id="mainNav" >
-      <div class="container">
-
-        <a class="navbar-brand d-flex align-items-center" href="index.html">
-  <!-- OpenCode Logo added in navbar -->
-          <img src="./assets/img/OClogo.jpg" width="40" height="37" class="d-inline-block align-top " style="padding-right:5px">Opencode 2019
-        </a>
-
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#participants">Participants</a>
-            </li>
-            <li class="nav-item active">
-              <a class="nav-link" href="#mentors">Mentors</a>
-            </li>
-            <li class="nav-item active">
-              <a class="nav-link" href="#projects">Projects</a>
-            </li>
-
-
-
-            <li class="nav-item active">
-              <a class="nav-link" data-toggle="modal" data-target="#myModal">Trailer</a>
-            </li>
-          
-
-
-            <li class="nav-item dark-mode">
-                <label class="switch">
-                  <input type="checkbox">
-                  <span class="slider round"></span>
-              </label>
-            </li> 
-            <li class="nav-item mr-2 d-flex align-items fork" >
-               <div class="d-flex align-items-center">
-                  <i id="fork" class="fas fa-code-branch pr-1 github"></i> 
-                </div>
-            </li>
-            <li class="nav-item d-flex align-items-center star" >
-               <div class="d-flex align-items-center">
-                    <i id="star" class="fas fa-star pr-1 github"></i>
-                </div>
-            </li>
-          </ul>
-        </div>
-      </div>
-          <div class="header animated-1s bounceInDown" style="z-index:-1;!important" >
-          <div class="progress-container">
-            <div class="progress-bar" id="myBar"></div>
-          </div> 
-          </div>
-    </nav>
-
-
-
-
-
-
-
-
-
-    <div class="jumbotron jumbotron-fluid text-center header-overlay">
-      <h1 class="display-4 typing-anim-ref"><b>Hello, world!</b></h1>
-      <h4 class="a-landing-sub-text">Welcome to OpenCode'19</h4>
-      <a href="#participants"><button class="header-btn mt-5 a-btn">Get Started</button></a>
-      
-      <div class="countdownContainer display-4 a-landing-header-text">
-            <div class="values">OpenCode Countdown</div>
-            <div class="info" style="font-family: 'Orbitron'">
-                <div id="days" class="values">120</div>
-                <div class="values"> </div>
-                <div id="hours" class="values">4</div>
-                <div class="values">:</div>
-                <div id="minutes" class="values">12</div>
-                <div class="values">:</div>
-                <div id="seconds" class="values">22</div>
+<body class="loading">
+  <a class=" ribbn-ref" href="https://github.com/opencodeiiita/Opencode-Collaborative-19" data-ribbon="Fork me on GitHub"
+    title="Fork me on GitHub">Fork me on GitHub</a>
+  <button onclick="topFunction()" id="myBtn" title="Go to top" class="dark-scrl-btn"><i class="fas fa-arrow-up"></i></button>
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light a-nav navbar-fixed" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center" href="index.html">
+        <!-- OpenCode Logo added in navbar -->
+        <img src="./assets/img/OClogo.jpg" width="40" height="37" class="d-inline-block align-top " style="padding-right:5px">Opencode
+        2019
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive"
+        aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#participants">Participants</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#mentors">Mentors</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#projects">Projects</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="https://opencode19.netlify.com/">Leaderboard</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" data-toggle="modal" data-target="#myModal">Trailer</a>
+          </li>
+          <li class="nav-item dark-mode">
+            <label class="switch">
+              <input type="checkbox">
+              <span class="slider round"></span>
+            </label>
+          </li>
+          <li class="nav-item mr-2 d-flex align-items fork">
+            <div class="d-flex align-items-center">
+              <i id="fork" class="fas fa-code-branch pr-1 github"></i>
             </div>
-            <div class="labels">
-                <div class= "values">Days</div>
-                <div class= "values">HH</div>
-                <div class= "values">MM</div>
-                <div class= "values">SS</div>
+          </li>
+          <li class="nav-item d-flex align-items-center star">
+            <div class="d-flex align-items-center">
+              <i id="star" class="fas fa-star pr-1 github"></i>
             </div>
+          </li>
+        </ul>
       </div>
     </div>
-<!--
-    <h2 style="position:relative;top:2px;left:400px;">Overview</h2>
-
-    <div style="border-top:2px gray solid;width:1098px;margin:0 auto;"></div>
-
-
-
-  <div style="margin:0 auto;background-color:rgb(220, 225, 229);width:1098px;height:585px;position:relative;top:40px;border-radius:20px">
-    
-    <iframe style="padding-left:45px;padding-top:10px;border-radius:10px"width="1050px" height="900px" src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fopencodeiiita%2Fvideos%2F2301796573173119%2F&show_text=0&width=1050" 
-    frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-  </div>   
--->
-
-
-
-
-
-  <div style="position:relative;top:60px">
-    <div class="container">
-
-
-
-
-
-
-      <!-- Participants -->
-      <div class="row">
-        <div class="col-lg-12">
-          <h2 class="my-4">Participants</h2>
-          <div style="border-top:2px gray solid;width:1098px;margin:0 auto;position:relative;top:-20px"></div>
-        </div>
+    <div class="header animated-1s bounceInDown" style="z-index: -1 !important; ">
+      <div class="progress-container">
+        <div class="progress-bar" id="myBar"></div>
       </div>
-      <div class="row participants-card" id="participants">
-        <!-- Feeding data from json -->
+    </div>
+  </nav>
+
+  <!-- hero section -->
+  <div class="jumbotron jumbotron-fluid text-center header-overlay">
+    <h1 class="display-4 typing-anim-ref"><b>Hello, world!</b></h1>
+    <h4 class="a-landing-sub-text">Welcome to OpenCode'19</h4>
+    <a href="#participants"><button class="header-btn mt-5 a-btn">Get Started</button></a>
+
+    <!-- sticky github link -->
+    <div class="sticky-github">
+      <div class="sticky-container">
+        <ul class="sticky">
+          <li>
+            <a href="https://github.com/opencodeiiita/Opencode-Collaborative-19">
+              <i class="fab fa-github fab-c"></i>
+            </a>
+          </li>
+        </ul>
       </div>
-       
+    </div>
 
 
-
-
-     
-      <!-- Pagination -->
-      <div class="d-flex justify-content-center overlapissue" >
-          <nav aria-label="Page navigation example" style="float:left;margin:0 auto;z-index:0">
-            <ul class="pagination pagination-participants text-primary">
-              <li class="page-item prev" id="pagination">
-                <a class="page-link"  aria-label="Previous">
-                  <span aria-hidden="true">&laquo;</span>
-                  <span class="sr-only">Previous</span>
-                </a>
-              </li>
-                
-               <li class="page-item next"> 
-                  <a class="page-link " aria-label="Next">
-                    <span aria-hidden="true">&raquo;</span>
-                    <span class="sr-only">Next</span>
-                  </a>
-              </li>
-            </ul>
-          </nav>
-        </div>
-    
-
-
-
-
-
-
-      <!-- Mentors -->
-      <div class="row">
-        <div class="col-lg-12">
-          <h2 class="my-4">Mentors</h2>
-          <div style="border-top:2px gray solid;width:1098px;margin:0 auto;position:relative;top:-20px"></div>
-        </div>
+    <!-- countdown -->
+    <div class="countdownContainer display-4 a-landing-header-text">
+      <div class="values">OpenCode Countdown</div>
+      <div class="info" style="font-family: 'Orbitron'">
+        <div id="days" class="values">120</div>
+        <div class="values"> </div>
+        <div id="hours" class="values">4</div>
+        <div class="values">:</div>
+        <div id="minutes" class="values">12</div>
+        <div class="values">:</div>
+        <div id="seconds" class="values">22</div>
       </div>
-      <div class="row" id="mentors">
-        <!-- Feeding data from json -->
+      <div class="labels">
+        <div class="values">Days</div>
+        <div class="values">HH</div>
+        <div class="values">MM</div>
+        <div class="values">SS</div>
       </div>
+    </div>
+  </div>
 
-      <!-- Projects -->
-      <div class="row">
-        <div class="col-lg-12">
-          <h2 class="my-4">Projects</h2>
-           <div style="border-top:2px gray solid;width:1098px;margin:0 auto;position:relative;top:-20px"></div>
-        </div>
+
+  <div class="container">
+
+    <!-- Participants -->
+    <div class="row">
+      <div class="col-lg-12">
+        <h2 class="my-4 border-heading">Participants</h2>
       </div>
+    </div>
+    <div class="row participants-card" id="participants">
+      <!-- Feeding data from json -->
+    </div>
 
-      <div class="row" id="projects">
-        <!-- Feeding data from json -->
+    <!-- Pagination -->
+    <div class="d-flex justify-content-center overlapissue">
+      <nav aria-label="Page navigation example" style="float:left;margin:0 auto;z-index:0">
+        <ul class="pagination pagination-participants text-primary">
+          <li class="page-item prev" id="pagination">
+            <a class="page-link" aria-label="Previous">
+              <span aria-hidden="true">&laquo;</span>
+              <span class="sr-only">Previous</span>
+            </a>
+          </li>
+
+          <li class="page-item next">
+            <a class="page-link " aria-label="Next">
+              <span aria-hidden="true">&raquo;</span>
+              <span class="sr-only">Next</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+
+    <!-- Mentors -->
+    <div class="row">
+      <div class="col-lg-12">
+        <h2 class="my-4 border-heading">Mentors</h2>
       </div>
+    </div>
+    <div class="row" id="mentors">
+      <!-- Feeding data from json -->
+    </div>
 
+    <!-- Projects -->
+    <div class="row">
+      <div class="col-lg-12">
+        <h2 class="my-4 border-heading">Projects</h2>
+      </div>
+    </div>
 
+    <div class="row" id="projects">
+      <!-- Feeding data from json -->
+    </div>
 
-
-
-           
-      <div id="myModal" class="modal fade" >
-        <div class="modal-dialog" >
-          <div class="modal-content" style="height:0px; position:relative; top:100px;">
-            <div class="modal-body" >
-              <iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fopencodeiiita%2Fvideos%2F2301796573173119%2F&show_text=0&width=560" 
-              width="560" height="315" style="position:relative; left: -70px; top: -70px;border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>
-            </div>
-       <!-- <div class="modal-footer" height="0px">
+    <div id="myModal" class="modal fade">
+      <div class="modal-dialog">
+        <div class="modal-content" style="height:0px; position:relative; top:100px;">
+          <div class="modal-body">
+            <iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fopencodeiiita%2Fvideos%2F2301796573173119%2F&show_text=0&width=560"
+              width="560" height="315" style="position:relative; left: -70px; top: -70px;border:none;overflow:hidden"
+              scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>
+          </div>
+          <!-- <div class="modal-footer" height="0px">
               <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
             </div> -->
-          </div>  
         </div>
       </div>
-    
+    </div>
 
+    <!-- Pagination -->
+    <div class="d-flex justify-content-center overlapissue">
+      <nav aria-label="Page navigation example" style="float:left;margin:0 auto;z-index:0">
+        <ul class="pagination pagination-project text-primary">
+          <li class="page-item prev-project" id="pagination-project">
+            <a class="page-link" aria-label="Previous">
+              <span aria-hidden="true">&laquo;</span>
+              <span class="sr-only">Previous</span>
+            </a>
+          </li>
 
-
-
-
-
-
-
-      <!-- Pagination -->
-      <div class="d-flex justify-content-center overlapissue" >
-        <nav aria-label="Page navigation example"  style="float:left;margin:0 auto;z-index:0">
-          <ul class="pagination pagination-project text-primary" >
-            <li class="page-item prev-project" id="pagination-project">
-              <a  class="page-link" aria-label="Previous">
-                <span aria-hidden="true">&laquo;</span>
-                <span class="sr-only">Previous</span>
-              </a>
-            </li>
-              
-            <li class="page-item next-project"> 
-              <a  class="page-link" aria-label="Next">
-                <span aria-hidden="true">&raquo;</span>
-                <span class="sr-only">Next</span>
-              </a>
-            </li>
-          </ul>
-        </nav>
-      </div>
+          <li class="page-item next-project">
+            <a class="page-link" aria-label="Next">
+              <span aria-hidden="true">&raquo;</span>
+              <span class="sr-only">Next</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
 
     <!-- /.container -->
 
-      <!-- participant's games -->
-      <div class="row">
-        <div class="col-lg-12">
-          <h2 class="my-4">Participant games</h2>
-        </div>
-      </div>
-      <div class="row" id="games">
-        <!-- Feeding data from json -->
+    <!-- participant's games -->
+    <div class="row">
+      <div class="col-lg-12">
+        <h2 class="my-4 border-heading">Participant games</h2>
       </div>
     </div>
+    <div class="row" id="games">
+      <!-- Feeding data from json -->
+    </div>
+  </div>
+
+
+  <!---------------------------- list all issues ---------------------------->
 
 
 
+  <!----------------------------first repository---------------------------->
+  <div id="myNav1" class="overlay">
 
+    <!-- Button to close the overlay navigation -->
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav1()">&times;</a>
 
+    <!-- Overlay content -->
+    <div class="overlay-content">
+      <div class="project-issues-list container" role="tab">
+        <div class="row" id="opencodeiiita-HackerSkills-issues">
+        </div>
+        <br>
+        <div class="row" id="opencodeiiita-HackerSkills-load-more">
 
-
-
-
-     <!---------------------------- list all issues ---------------------------->
-
-
-
-    <!----------------------------first repository---------------------------->
-    <div id="myNav1" class="overlay">
-
-      <!-- Button to close the overlay navigation -->
-      <a href="javascript:void(0)" class="closebtn" onclick="closeNav1()">&times;</a>
-
-      <!-- Overlay content -->
-      <div class="overlay-content">
-        <div class="project-issues-list container" role="tab">
-          <div class="row" id="opencodeiiita-HackerSkills-issues">
-          </div>
-          <br>
-          <div class="row" id="opencodeiiita-HackerSkills-load-more">
-
-              <button class="btn btn-danger" onclick="loadMoreIssues('opencodeiiita', 'HackerSkills')">Load issues.</button>
-          </div>
+          <button class="btn btn-danger" onclick="loadMoreIssues('opencodeiiita', 'HackerSkills')">Load issues.</button>
         </div>
       </div>
     </div>
+  </div>
 
 
-    <!----------------------------second repository---------------------------->
-    <div id="myNav2" class="overlay">
+  <!----------------------------second repository---------------------------->
+  <div id="myNav2" class="overlay">
 
-      <!-- Button to close the overlay navigation -->
-      <a href="javascript:void(0)" class="closebtn" onclick="closeNav2()">&times;</a>
+    <!-- Button to close the overlay navigation -->
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav2()">&times;</a>
 
-      <!-- Overlay content -->
-      <div class="overlay-content">
-        <div class="project-issues-list container" role="tab">
-          <div class="row" id="opencodeiiita-Opencode-Collaborative-19-issues">
-          </div>
-          <br>
-          <div class="row" id="opencodeiiita-Opencode-Collaborative-19-load-more">
+    <!-- Overlay content -->
+    <div class="overlay-content">
+      <div class="project-issues-list container" role="tab">
+        <div class="row" id="opencodeiiita-Opencode-Collaborative-19-issues">
+        </div>
+        <br>
+        <div class="row" id="opencodeiiita-Opencode-Collaborative-19-load-more">
 
-              <button class="btn btn-danger" onclick="loadMoreIssues('opencodeiiita', 'Opencode-Collaborative-19')">Load issues.</button>
-          </div>
+          <button class="btn btn-danger" onclick="loadMoreIssues('opencodeiiita', 'Opencode-Collaborative-19')">Load
+            issues.</button>
         </div>
       </div>
     </div>
+  </div>
 
 
-    <!----------------------------third repository---------------------------->
-    <div id="myNav3" class="overlay">
+  <!----------------------------third repository---------------------------->
+  <div id="myNav3" class="overlay">
 
-      <!-- Button to close the overlay navigation -->
-      <a href="javascript:void(0)" class="closebtn" onclick="closeNav3()">&times;</a>
+    <!-- Button to close the overlay navigation -->
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav3()">&times;</a>
 
-      <!-- Overlay content -->
-      <div class="overlay-content">
-        <div class="project-issues-list container" role="tab">
-          <div class="row" id="opencodeiiita-ToDo-List-App-issues">
-          </div>
-          <br>
-          <div class="row" id="opencodeiiita-ToDo-List-App-load-more">
+    <!-- Overlay content -->
+    <div class="overlay-content">
+      <div class="project-issues-list container" role="tab">
+        <div class="row" id="opencodeiiita-ToDo-List-App-issues">
+        </div>
+        <br>
+        <div class="row" id="opencodeiiita-ToDo-List-App-load-more">
 
-              <button class="btn btn-danger" onclick="loadMoreIssues('opencodeiiita', 'ToDo-List-App')">Load issues.</button>
-          </div>
+          <button class="btn btn-danger" onclick="loadMoreIssues('opencodeiiita', 'ToDo-List-App')">Load issues.</button>
         </div>
       </div>
     </div>
+  </div>
 
 
-    <!----------------------------fourth repository---------------------------->
-    <div id="myNav4" class="overlay">
+  <!----------------------------fourth repository---------------------------->
+  <div id="myNav4" class="overlay">
 
-        <!-- Button to close the overlay navigation -->
-        <a href="javascript:void(0)" class="closebtn" onclick="closeNav4()">&times;</a>
+    <!-- Button to close the overlay navigation -->
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav4()">&times;</a>
 
-        <!-- Overlay content -->
-        <div class="overlay-content">
-          <div class="project-issues-list container" role="tab">
-            <div class="row" id="opencodeiiita-CodeFemme-issues">
-            </div>
-            <br>
-            <div class="row" id="opencodeiiita-CodeFemme-load-more">
-
-                <button class="btn btn-danger" onclick="loadMoreIssues('opencodeiiita', 'CodeFemme')">Load issues.</button>
-            </div>
-          </div>
+    <!-- Overlay content -->
+    <div class="overlay-content">
+      <div class="project-issues-list container" role="tab">
+        <div class="row" id="opencodeiiita-CodeFemme-issues">
         </div>
-      </div>
+        <br>
+        <div class="row" id="opencodeiiita-CodeFemme-load-more">
 
-
-      <!----------------------------fifth repository---------------------------->
-    <div id="myNav5" class="overlay">
-
-        <!-- Button to close the overlay navigation -->
-        <a href="javascript:void(0)" class="closebtn" onclick="closeNav5()">&times;</a>
-
-        <!-- Overlay content -->
-        <div class="overlay-content">
-          <div class="project-issues-list container" role="tab">
-            <div class="row" id="opencodeiiita-Competitive_Coding-issues">
-            </div>
-            <br>
-            <div class="row" id="opencodeiiita-Competitive_Coding-load-more">
-
-                <button class="btn btn-danger" onclick="loadMoreIssues('opencodeiiita', 'Competitive_Coding')">Load issues.</button>
-            </div>
-          </div>
-        </div>
-      </div>
-
-
-      <!----------------------------sixth repository---------------------------->
-    <div id="myNav6" class="overlay">
-
-      <!-- Button to close the overlay navigation -->
-      <a href="javascript:void(0)" class="closebtn" onclick="closeNav6()">&times;</a>
-
-      <!-- Overlay content -->
-      <div class="overlay-content">
-        <div class="project-issues-list container" role="tab">
-          <div class="row" id="opencodeiiita-Machine-Learning-issues">
-          </div>
-          <br>
-          <div class="row" id="opencodeiiita-Machine-Learning-load-more">
-
-              <button class="btn btn-danger" onclick="loadMoreIssues('opencodeiiita', 'Machine-Learning')">Load issues.</button>
-          </div>
+          <button class="btn btn-danger" onclick="loadMoreIssues('opencodeiiita', 'CodeFemme')">Load issues.</button>
         </div>
       </div>
     </div>
+  </div>
 
 
-    <!----------------------------seventh repository---------------------------->
-    <div id="myNav7" class="overlay">
+  <!----------------------------fifth repository---------------------------->
+  <div id="myNav5" class="overlay">
 
-        <!-- Button to close the overlay navigation -->
-        <a href="javascript:void(0)" class="closebtn" onclick="closeNav7()">&times;</a>
+    <!-- Button to close the overlay navigation -->
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav5()">&times;</a>
 
-        <!-- Overlay content -->
-        <div class="overlay-content">
-          <div class="project-issues-list container" role="tab">
-            <div class="row" id="opencodeiiita-sassy-css-issues">
-            </div>
-            <br>
-            <div class="row" id="opencodeiiita-sassy-css-load-more">
+    <!-- Overlay content -->
+    <div class="overlay-content">
+      <div class="project-issues-list container" role="tab">
+        <div class="row" id="opencodeiiita-Competitive_Coding-issues">
+        </div>
+        <br>
+        <div class="row" id="opencodeiiita-Competitive_Coding-load-more">
 
-                <button class="btn btn-danger" onclick="loadMoreIssues('opencodeiiita', 'sassy-css')">Load issues.</button>
-            </div>
-          </div>
+          <button class="btn btn-danger" onclick="loadMoreIssues('opencodeiiita', 'Competitive_Coding')">Load issues.</button>
         </div>
       </div>
+    </div>
+  </div>
 
 
-      <!----------------------------8th repository---------------------------->
-    
-      <div id="myNav8" class="overlay">
+  <!----------------------------sixth repository---------------------------->
+  <div id="myNav6" class="overlay">
 
-        <!-- Button to close the overlay navigation -->
-        <a href="javascript:void(0)" class="closebtn" onclick="closeNav8()">&times;</a>
+    <!-- Button to close the overlay navigation -->
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav6()">&times;</a>
 
-        <!-- Overlay content -->
-        <div class="overlay-content">
-          <div class="project-issues-list container" role="tab">
-            <div class="row" id="opencodeiiita-outpassfinal-issues">
-            </div>
-            <br>
-            <div class="row" id="opencodeiiita-Opencode-outpassfinal-load-more">
+    <!-- Overlay content -->
+    <div class="overlay-content">
+      <div class="project-issues-list container" role="tab">
+        <div class="row" id="opencodeiiita-Machine-Learning-issues">
+        </div>
+        <br>
+        <div class="row" id="opencodeiiita-Machine-Learning-load-more">
 
-                <button class="btn btn-danger" onclick="loadMoreIssues('opencodeiiita', 'outpassfinal')">Load issues.</button>
-            </div>
-          </div>
+          <button class="btn btn-danger" onclick="loadMoreIssues('opencodeiiita', 'Machine-Learning')">Load issues.</button>
         </div>
       </div>
+    </div>
+  </div>
+
+
+  <!----------------------------seventh repository---------------------------->
+  <div id="myNav7" class="overlay">
+
+    <!-- Button to close the overlay navigation -->
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav7()">&times;</a>
+
+    <!-- Overlay content -->
+    <div class="overlay-content">
+      <div class="project-issues-list container" role="tab">
+        <div class="row" id="opencodeiiita-sassy-css-issues">
+        </div>
+        <br>
+        <div class="row" id="opencodeiiita-sassy-css-load-more">
+
+          <button class="btn btn-danger" onclick="loadMoreIssues('opencodeiiita', 'sassy-css')">Load issues.</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!----------------------------8th repository---------------------------->
+  <div id="myNav8" class="overlay">
+
+    <!-- Button to close the overlay navigation -->
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav8()">&times;</a>
+
+    <!-- Overlay content -->
+    <div class="overlay-content">
+      <div class="project-issues-list container" role="tab">
+        <div class="row" id="opencodeiiita-outpassfinal-issues">
+        </div>
+        <br>
+        <div class="row" id="opencodeiiita-Opencode-outpassfinal-load-more">
+
+          <button class="btn btn-danger" onclick="loadMoreIssues('opencodeiiita', 'outpassfinal')">Load issues.</button>
+        </div>
+      </div>
+    </div>
+  </div>
 
       <!----------------------------9th repository---------------------------->
    
@@ -496,42 +431,43 @@
     
       <div id="myNav10" class="overlay">
 
-        <!-- Button to close the overlay navigation -->
-        <a href="javascript:void(0)" class="closebtn" onclick="closeNav10()">&times;</a>
+    <!-- Button to close the overlay navigation -->
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav10()">&times;</a>
 
-        <!-- Overlay content -->
-        <div class="overlay-content">
-          <div class="project-issues-list container" role="tab">
-            <div class="row" id="opencodeiiita-Road-CS-issues">
-            </div>
-            <br>
-            <div class="row" id="opencodeiiita-Road-CS-load-more">
+    <!-- Overlay content -->
+    <div class="overlay-content">
+      <div class="project-issues-list container" role="tab">
+        <div class="row" id="opencodeiiita-Road-CS-issues">
+        </div>
+        <br>
+        <div class="row" id="opencodeiiita-Road-CS-load-more">
 
-                <button class="btn btn-danger" onclick="loadMoreIssues('opencodeiiita', 'Road-CS')">Load issues.</button>
-            </div>
-          </div>
+          <button class="btn btn-danger" onclick="loadMoreIssues('opencodeiiita', 'Road-CS')">Load issues.</button>
         </div>
       </div>
+    </div>
+  </div>
 
-      <!----------------------------11th repository---------------------------->
-    <div id="myNav11" class="overlay">
 
-        <!-- Button to close the overlay navigation -->
-        <a href="javascript:void(0)" class="closebtn" onclick="closeNav11()">&times;</a>
+  <!----------------------------11th repository---------------------------->
+  <div id="myNav11" class="overlay">
 
-        <!-- Overlay content -->
-        <div class="overlay-content">
-          <div class="project-issues-list container" role="tab">
-            <div class="row" id="opencodeiiita-opencodebot-issues">
-            </div>
-            <br>
-            <div class="row" id="opencodeiiita-opencodebot-load-more">
+    <!-- Button to close the overlay navigation -->
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav11()">&times;</a>
 
-                <button class="btn btn-danger" onclick="loadMoreIssues('opencodeiiita', 'opencodebot')">Load issues.</button>
-            </div>
-          </div>
+    <!-- Overlay content -->
+    <div class="overlay-content">
+      <div class="project-issues-list container" role="tab">
+        <div class="row" id="opencodeiiita-opencodebot-issues">
+        </div>
+        <br>
+        <div class="row" id="opencodeiiita-opencodebot-load-more">
+
+          <button class="btn btn-danger" onclick="loadMoreIssues('opencodeiiita', 'opencodebot')">Load issues.</button>
         </div>
       </div>
+    </div>
+  </div>
 
 
       <!----------------------------12th repository---------------------------->
@@ -542,193 +478,196 @@
     
 
 
-      <!----------------------------14th repository---------------------------->
-    <div id="myNav14" class="overlay">
+  <!----------------------------14th repository---------------------------->
+  <div id="myNav14" class="overlay">
 
-        <!-- Button to close the overlay navigation -->
-        <a href="javascript:void(0)" class="closebtn" onclick="closeNav14()">&times;</a>
+    <!-- Button to close the overlay navigation -->
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav14()">&times;</a>
 
-        <!-- Overlay content -->
-        <div class="overlay-content">
-          <div class="project-issues-list container" role="tab">
-            <div class="row" id="opencodeiiita-opencode-leaderboard-issues">
-            </div>
-            <br>
-            <div class="row" id="opencodeiiita-opencode-leaderboard-load-more">
+    <!-- Overlay content -->
+    <div class="overlay-content">
+      <div class="project-issues-list container" role="tab">
+        <div class="row" id="opencodeiiita-opencode-leaderboard-issues">
+        </div>
+        <br>
+        <div class="row" id="opencodeiiita-opencode-leaderboard-load-more">
 
-                <button class="btn btn-danger" onclick="loadMoreIssues('opencodeiiita', 'opencode-leaderboard')">Load issues.</button>
-            </div>
-          </div>
+          <button class="btn btn-danger" onclick="loadMoreIssues('opencodeiiita', 'opencode-leaderboard')">Load
+            issues.</button>
         </div>
       </div>
+    </div>
+  </div>
 
 
-      <!----------------------------15th repository---------------------------->
-    <div id="myNav15" class="overlay">
+  <!----------------------------15th repository---------------------------->
+  <div id="myNav15" class="overlay">
 
-        <!-- Button to close the overlay navigation -->
-        <a href="javascript:void(0)" class="closebtn" onclick="closeNav15()">&times;</a>
+    <!-- Button to close the overlay navigation -->
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav15()">&times;</a>
 
-        <!-- Overlay content -->
-        <div class="overlay-content">
-          <div class="project-issues-list container" role="tab">
-            <div class="row" id="opencodeiiita-Technical-Writing-issues">
-            </div>
-            <br>
-            <div class="row" id="opencodeiiita-Technical-Writing-load-more">
+    <!-- Overlay content -->
+    <div class="overlay-content">
+      <div class="project-issues-list container" role="tab">
+        <div class="row" id="opencodeiiita-Technical-Writing-issues">
+        </div>
+        <br>
+        <div class="row" id="opencodeiiita-Technical-Writing-load-more">
 
-                <button class="btn btn-danger" onclick="loadMoreIssues('opencodeiiita', 'Technical-Writing')">Load issues.</button>
-            </div>
-          </div>
+          <button class="btn btn-danger" onclick="loadMoreIssues('opencodeiiita', 'Technical-Writing')">Load issues.</button>
         </div>
       </div>
+    </div>
+  </div>
 
 
-       <!----------------------------16th repository---------------------------->
-   
-       <div id="myNav16" class="overlay">
+  <!----------------------------16th repository---------------------------->
+  <div id="myNav16" class="overlay">
 
-        <!-- Button to close the overlay navigation -->
-        <a href="javascript:void(0)" class="closebtn" onclick="closeNav16()">&times;</a>
+    <!-- Button to close the overlay navigation -->
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav16()">&times;</a>
 
-        <!-- Overlay content -->
-        <div class="overlay-content">
-          <div class="project-issues-list container" role="tab">
-            <div class="row" id="debck-File-Creator-CLI-issues">
-            </div>
-            <br>
-            <div class="row" id="debck-File-Creator-CLI-load-more">
+    <!-- Overlay content -->
+    <div class="overlay-content">
+      <div class="project-issues-list container" role="tab">
+        <div class="row" id="debck-File-Creator-CLI-issues">
+        </div>
+        <br>
+        <div class="row" id="debck-File-Creator-CLI-load-more">
 
-                <button class="btn btn-danger" onclick="loadMoreIssues('debck', 'File-Creator-CLI')">Load issues.</button>
-            </div>
-          </div>
+          <button class="btn btn-danger" onclick="loadMoreIssues('debck', 'File-Creator-CLI')">Load issues.</button>
         </div>
       </div>
+    </div>
+  </div>
 
-      <!----------------------------17th repository---------------------------->
-    <div id="myNav17" class="overlay">
 
-        <!-- Button to close the overlay navigation -->
-        <a href="javascript:void(0)" class="closebtn" onclick="closeNav17()">&times;</a>
+  <!----------------------------17th repository---------------------------->
+  <div id="myNav17" class="overlay">
 
-        <!-- Overlay content -->
-        <div class="overlay-content">
-          <div class="project-issues-list container" role="tab">
-            <div class="row" id="jogendra-HealthLedger-issues">
-            </div>
-            <br>
-            <div class="row" id="jogendra-HealthLedger-load-more">
+    <!-- Button to close the overlay navigation -->
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav17()">&times;</a>
 
-                <button class="btn btn-danger" onclick="loadMoreIssues('jogendra', 'HealthLedger')">Load issues.</button>
-            </div>
-          </div>
+    <!-- Overlay content -->
+    <div class="overlay-content">
+      <div class="project-issues-list container" role="tab">
+        <div class="row" id="jogendra-HealthLedger-issues">
+        </div>
+        <br>
+        <div class="row" id="jogendra-HealthLedger-load-more">
+
+          <button class="btn btn-danger" onclick="loadMoreIssues('jogendra', 'HealthLedger')">Load issues.</button>
         </div>
       </div>
+    </div>
+  </div>
 
 
-      <!----------------------------18th repository---------------------------->
-    <div id="myNav18" class="overlay">
+  <!----------------------------18th repository---------------------------->
+  <div id="myNav18" class="overlay">
 
-        <!-- Button to close the overlay navigation -->
-        <a href="javascript:void(0)" class="closebtn" onclick="closeNav18()">&times;</a>
+    <!-- Button to close the overlay navigation -->
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav18()">&times;</a>
 
-        <!-- Overlay content -->
-        <div class="overlay-content">
-          <div class="project-issues-list container" role="tab">
-            <div class="row" id="OrionStar25-Selena-Gomez-Discography-issues">
-            </div>
-            <br>
-            <div class="row" id="OrionStar25-Selena-Gomez-Discography-load-more">
+    <!-- Overlay content -->
+    <div class="overlay-content">
+      <div class="project-issues-list container" role="tab">
+        <div class="row" id="OrionStar25-Selena-Gomez-Discography-issues">
+        </div>
+        <br>
+        <div class="row" id="OrionStar25-Selena-Gomez-Discography-load-more">
 
-                <button class="btn btn-danger" onclick="loadMoreIssues('OrionStar25', 'Selena-Gomez-Discography')">Load issues.</button>
-            </div>
-          </div>
+          <button class="btn btn-danger" onclick="loadMoreIssues('OrionStar25', 'Selena-Gomez-Discography')">Load
+            issues.</button>
         </div>
       </div>
+    </div>
+  </div>
 
 
-      <!----------------------------19th repository---------------------------->
-    <div id="myNav19" class="overlay">
+  <!----------------------------19th repository---------------------------->
+  <div id="myNav19" class="overlay">
 
-        <!-- Button to close the overlay navigation -->
-        <a href="javascript:void(0)" class="closebtn" onclick="closeNav19()">&times;</a>
+    <!-- Button to close the overlay navigation -->
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav19()">&times;</a>
 
-        <!-- Overlay content -->
-        <div class="overlay-content">
-          <div class="project-issues-list container" role="tab">
-            <div class="row" id="Cynthesize-frontend-issues">
-            </div>
-            <br>
-            <div class="row" id="Cynthesize-frontend-load-more">
+    <!-- Overlay content -->
+    <div class="overlay-content">
+      <div class="project-issues-list container" role="tab">
+        <div class="row" id="Cynthesize-frontend-issues">
+        </div>
+        <br>
+        <div class="row" id="Cynthesize-frontend-load-more">
 
-                <button class="btn btn-danger" onclick="loadMoreIssues('Cynthesize', 'frontend')">Load issues.</button>
-            </div>
-          </div>
+          <button class="btn btn-danger" onclick="loadMoreIssues('Cynthesize', 'frontend')">Load issues.</button>
         </div>
       </div>
+    </div>
+  </div>
 
 
-       <!----------------------------20th repository---------------------------->
-    <div id="myNav20" class="overlay">
+  <!----------------------------20th repository---------------------------->
+  <div id="myNav20" class="overlay">
 
-        <!-- Button to close the overlay navigation -->
-        <a href="javascript:void(0)" class="closebtn" onclick="closeNav20()">&times;</a>
+    <!-- Button to close the overlay navigation -->
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav20()">&times;</a>
 
-        <!-- Overlay content -->
-        <div class="overlay-content">
-          <div class="project-issues-list container" role="tab">
-            <div class="row" id="yash-agarwal17-ComputerVision-issues">
-            </div>
-            <br>
-            <div class="row" id="yash-agarwal17-ComputerVision-load-more">
+    <!-- Overlay content -->
+    <div class="overlay-content">
+      <div class="project-issues-list container" role="tab">
+        <div class="row" id="yash-agarwal17-ComputerVision-issues">
+        </div>
+        <br>
+        <div class="row" id="yash-agarwal17-ComputerVision-load-more">
 
-                <button class="btn btn-danger" onclick="loadMoreIssues('yash-agarwal17', 'ComputerVision')">Load issues.</button>
-            </div>
-          </div>
+          <button class="btn btn-danger" onclick="loadMoreIssues('yash-agarwal17', 'ComputerVision')">Load issues.</button>
         </div>
       </div>
+    </div>
+  </div>
 
 
-       <!----------------------------21th repository---------------------------->
-    <div id="myNav21" class="overlay">
+  <!----------------------------21th repository---------------------------->
+  <div id="myNav21" class="overlay">
 
-        <!-- Button to close the overlay navigation -->
-        <a href="javascript:void(0)" class="closebtn" onclick="closeNav21()">&times;</a>
+    <!-- Button to close the overlay navigation -->
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav21()">&times;</a>
 
-        <!-- Overlay content -->
-        <div class="overlay-content">
-          <div class="project-issues-list container" role="tab">
-            <div class="row" id="Jigar3-Wall-Street-issues">
-            </div>
-            <br>
-            <div class="row" id="Jigar3-Wall-Street-load-more">
+    <!-- Overlay content -->
+    <div class="overlay-content">
+      <div class="project-issues-list container" role="tab">
+        <div class="row" id="Jigar3-Wall-Street-issues">
+        </div>
+        <br>
+        <div class="row" id="Jigar3-Wall-Street-load-more">
 
-                <button class="btn btn-danger" onclick="loadMoreIssues('Jigar3', 'Wall-Street')">Load issues.</button>
-            </div>
-          </div>
+          <button class="btn btn-danger" onclick="loadMoreIssues('Jigar3', 'Wall-Street')">Load issues.</button>
         </div>
       </div>
+    </div>
+  </div>
 
 
-      <!----------------------------22th repository---------------------------->
-    <div id="myNav22" class="overlay">
+  <!----------------------------22th repository---------------------------->
+  <div id="myNav22" class="overlay">
 
-        <!-- Button to close the overlay navigation -->
-        <a href="javascript:void(0)" class="closebtn" onclick="closeNav22()">&times;</a>
+    <!-- Button to close the overlay navigation -->
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav22()">&times;</a>
 
-        <!-- Overlay content -->
-        <div class="overlay-content">
-          <div class="project-issues-list container" role="tab">
-            <div class="row" id="stealthanthrax-kasper_music_player-issues">
-            </div>
-            <br>
-            <div class="row" id="stealthanthrax-kasper_music_player-load-more">
+    <!-- Overlay content -->
+    <div class="overlay-content">
+      <div class="project-issues-list container" role="tab">
+        <div class="row" id="stealthanthrax-kasper_music_player-issues">
+        </div>
+        <br>
+        <div class="row" id="stealthanthrax-kasper_music_player-load-more">
 
-                <button class="btn btn-danger" onclick="loadMoreIssues('stealthanthrax', 'kasper_music_player')">Load issues.</button>
-            </div>
-          </div>
+          <button class="btn btn-danger" onclick="loadMoreIssues('stealthanthrax', 'kasper_music_player')">Load
+            issues.</button>
         </div>
       </div>
+    </div>
+  </div>
 
 
       <!----------------------------23th repository---------------------------->
@@ -738,46 +677,47 @@
       <!----------------------------24th repository---------------------------->
     
 
-      <!----------------------------25th repository---------------------------->
-    <div id="myNav25" class="overlay">
+  <!----------------------------25th repository---------------------------->
+  <div id="myNav25" class="overlay">
 
-        <!-- Button to close the overlay navigation -->
-        <a href="javascript:void(0)" class="closebtn" onclick="closeNav25()">&times;</a>
+    <!-- Button to close the overlay navigation -->
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav25()">&times;</a>
 
-        <!-- Overlay content -->
-        <div class="overlay-content">
-          <div class="project-issues-list container" role="tab">
-            <div class="row" id="PaytmBuildForIndia-ResearchFLO-issues">
-            </div>
-            <br>
-            <div class="row" id="PaytmBuildForIndia-ResearchFLO-load-more">
+    <!-- Overlay content -->
+    <div class="overlay-content">
+      <div class="project-issues-list container" role="tab">
+        <div class="row" id="PaytmBuildForIndia-ResearchFLO-issues">
+        </div>
+        <br>
+        <div class="row" id="PaytmBuildForIndia-ResearchFLO-load-more">
 
-                <button class="btn btn-danger" onclick="loadMoreIssues('PaytmBuildForIndia', 'ResearchFLO')">Load issues.</button>
-            </div>
-          </div>
+          <button class="btn btn-danger" onclick="loadMoreIssues('PaytmBuildForIndia', 'ResearchFLO')">Load issues.</button>
         </div>
       </div>
+    </div>
+  </div>
 
 
-      <!----------------------------26th repository---------------------------->
-    <div id="myNav26" class="overlay">
+  <!----------------------------26th repository---------------------------->
+  <div id="myNav26" class="overlay">
 
-        <!-- Button to close the overlay navigation -->
-        <a href="javascript:void(0)" class="closebtn" onclick="closeNav26()">&times;</a>
+    <!-- Button to close the overlay navigation -->
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav26()">&times;</a>
 
-        <!-- Overlay content -->
-        <div class="overlay-content">
-          <div class="project-issues-list container" role="tab">
-            <div class="row" id="GeekHaven-Leave-Application-Portal-issues">
-            </div>
-            <br>
-            <div class="row" id="GeekHaven-Leave-Application-Portal-load-more">
+    <!-- Overlay content -->
+    <div class="overlay-content">
+      <div class="project-issues-list container" role="tab">
+        <div class="row" id="GeekHaven-Leave-Application-Portal-issues">
+        </div>
+        <br>
+        <div class="row" id="GeekHaven-Leave-Application-Portal-load-more">
 
-                <button class="btn btn-danger" onclick="loadMoreIssues('GeekHaven', 'Leave-Application-Portal')">Load issues.</button>
-            </div>
-          </div>
+          <button class="btn btn-danger" onclick="loadMoreIssues('GeekHaven', 'Leave-Application-Portal')">Load
+            issues.</button>
         </div>
       </div>
+    </div>
+  </div>
 
 
 
@@ -798,19 +738,20 @@
           <button onclick="openNav3()" type="button" class="btn btn-secondary">ToDo-List-App</button>
         </div>
       </div>
+    </div>
 
 
-      <div class="row row-c pt-3">
-        <div class="col-md-4 col-sm-6 center-c">
-          <button onclick="openNav4()" type="button" class="btn btn-secondary">CodeFemme</button>
-        </div>
-        <div class="col-md-4 col-sm-6 center-c">
-          <button onclick="openNav5()" type="button" class="btn btn-secondary">Competitive_Coding</button>
-        </div>
-        <div class="col-md-4 col-sm-6 center-c">
-          <button onclick="openNav6()" type="button" class="btn btn-secondary">Machine-Learning</button>
-        </div>
+    <div class="row row-c pt-3">
+      <div class="col-md-4 col-sm-6 center-c">
+        <button onclick="openNav4()" type="button" class="btn btn-secondary">CodeFemme</button>
       </div>
+      <div class="col-md-4 col-sm-6 center-c">
+        <button onclick="openNav5()" type="button" class="btn btn-secondary">Competitive_Coding</button>
+      </div>
+      <div class="col-md-4 col-sm-6 center-c">
+        <button onclick="openNav6()" type="button" class="btn btn-secondary">Machine-Learning</button>
+      </div>
+    </div>
 
 
       <div class="row row-c">
@@ -828,6 +769,7 @@
 
         
       </div>
+    </div>
 
 
       
@@ -848,6 +790,7 @@
         </div>
 
       </div>
+    </div>
 
 
 
@@ -865,8 +808,13 @@
         <div class="col-md-4 col-sm-6 center-c">
           <button onclick="openNav16()" type="button" class="btn btn-secondary">File-Creator-CLI</button>
       </div>
+      <div class="col-md-4 col-sm-6 center-c">
+        <button onclick="openNav15()" type="button" class="btn btn-secondary">Technical-Writing</button>
+      </div>
+    </div>
 
       </div>
+    </div>
 
 
 
@@ -884,6 +832,10 @@
           <button onclick="openNav21()" type="button" class="btn btn-secondary">Wall-Street</button>
         </div>
       </div>
+      <div class="col-md-4 col-sm-6 center-c">
+        <button onclick="openNav21()" type="button" class="btn btn-secondary">Wall-Street</button>
+      </div>
+    </div>
 
 
       
@@ -903,6 +855,7 @@
                 <button onclick="openNav26()" type="button" class="btn btn-secondary">Leave-Application-Portal</button>
               </div>
       </div>
+    </div>
 
 
 
@@ -913,69 +866,83 @@
 
 
 
-    </section>
+  </section>
 
 
-    <!-- Footer -->
-    <footer class="py-5 bg-dark">
-      <div class="footer_media">
-        <a href="https://www.facebook.com/opencodeiiita/" target="_blank"><i class="fab-night fab fa-facebook-f icon-color px-2"></i></a>  
-        <a href="https://github.com/opencodeiiita " target="_blank"><i class="fab-night fab fa-github icon-color px-2"></i></a>  
-        <a href="https://twitter.com/geekhaveniiita" target="_blank"><i class="fab-night fab fa-twitter icon-color px-2"></i></a> 
-       <div class="col-12 col-sm-12 col-md-4 night-footer-ref" >
-        <a href="https://www.iiita.ac.in/" class="px-2"><img class="night-footer-ref footer-hover" src="./assets/img/iiitalogo.jpg" width="65" height="60"></a>
-        <a href="https://geekhaven.iiita.ac.in/" class="px-2"><img class="night-footer-ref footer-hover" src="./assets/img/geekhavenlogo.svg" width="60" height="60"></a>
+  <!-- Footer -->
+  <footer class="py-5 bg-dark">
+    <div class="footer_media">
+      <a href="https://www.facebook.com/opencodeiiita/" target="_blank"><i class="fab-night fab fa-facebook-f icon-color px-2"></i></a>
+      <a href="https://github.com/opencodeiiita " target="_blank"><i class="fab-night fab fa-github icon-color px-2"></i></a>
+      <a href="https://twitter.com/geekhaveniiita" target="_blank"><i class="fab-night fab fa-twitter icon-color px-2"></i></a>
+      <div class="col-12 col-sm-12 col-md-4 night-footer-ref">
+        <a href="https://www.iiita.ac.in/" class="px-2"><img class="night-footer-ref footer-hover" src="./assets/img/iiitalogo.jpg"
+            width="65" height="60"></a>
+        <a href="https://geekhaven.iiita.ac.in/" class="px-2"><img class="night-footer-ref footer-hover" src="./assets/img/geekhavenlogo.svg"
+            width="60" height="60"></a>
       </div>
-      </div>
-      <div class="container night-footer-ref">    
-        <p class="m-0 text-center text-white">Copyright &copy; OpenCode'19</p>
-      </div>
-      <!-- /.container -->
-    </footer>
+    </div>
+    <div class="container night-footer-ref">
+      <p class="m-0 text-center text-white">Copyright &copy; OpenCode'19</p>
+    </div>
+    <button onclick="topFunction()" id="myBtn" title="Go to top" class="dark-scrl-btn"><i class="fas fa-arrow-up"></i></button>
+    <!-- /.container -->
+  </footer>
 
 
-<!--CSS Spinner-->
+  <!--CSS Spinner-->
   <div class="spinner-wrapper">
     <div class="spinner"></div>
   </div>
-</div>
-</div>
+ 
+
+</body>
 
 
+<!-- Bootstrap core JavaScript -->
+<script src="vendor/jquery/jquery.min.js"></script>
+<script src="js/issue-fetch.js"></script>
+<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="js/main.js"></script>
 
+<!-- Preloader -->
+<script>
+  $(document).ready(function () {
+    setTimeout(() => {
+      $(".spinner-wrapper").css({
+        "display": "none"
+      });
+      $('body').removeClass('loading');
+    }, 4000);
+  });
 
+  // When the user scrolls the page, execute myFunction 
+  window.onscroll = function () {
+    myFunction()
+  };
 
-  </body>
-
-  
-
-
-
-   <!-- Bootstrap core JavaScript -->
-   <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="js/issue-fetch.js"></script>
-   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-   <script src="js/main.js"></script>
-
-  <!-- Preloader -->
-  <script>
-
-      $(document).ready(function() {
-        setTimeout(() => {
-        $(".spinner-wrapper").css({"display":"none"});
-        $('body').removeClass('loading');
-         }, 4000);
-     });
-
-// When the user scrolls the page, execute myFunction 
-window.onscroll = function() {myFunction()};
-  
   function myFunction() {
     var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
     var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
     var scrolled = (winScroll / height) * 100;
     document.getElementById("myBar").style.width = scrolled + "%";
   }
-  </script>
+  window.onscroll = function () {
+    scrollFunction()
+  };
+
+  function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+      document.getElementById("myBtn").style.display = "block";
+    } else {
+      document.getElementById("myBtn").style.display = "none";
+    }
+  }
+
+  function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+  }
+</script>
 
 </html>
