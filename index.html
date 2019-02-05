@@ -61,7 +61,7 @@
 
 
     <a class=" ribbn-ref" href="https://github.com/opencodeiiita/Opencode-Collaborative-19" data-ribbon="Fork me on GitHub" title="Fork me on GitHub">Fork me on GitHub</a>
-    <button onclick="topFunction()" id="myBtn" title="Go to top" class="dark-scrl-btn"><i class="fas fa-arrow-up"></i></button>
+    
     <!-- Navigation -->
 
 
@@ -1009,6 +1009,7 @@
       <div class="container night-footer-ref">    
         <p class="m-0 text-center text-white">Copyright &copy; OpenCode'19</p>
       </div>
+      <button onclick="topFunction()" id="myBtn" title="Go to top" class="dark-scrl-btn"><i class="fas fa-arrow-up"></i></button>
       <!-- /.container -->
     </footer>
 
@@ -1054,6 +1055,20 @@ window.onscroll = function() {myFunction()};
     var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
     var scrolled = (winScroll / height) * 100;
     document.getElementById("myBar").style.width = scrolled + "%";
+  }
+  window.onscroll = function() {scrollFunction()};
+
+  function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+      document.getElementById("myBtn").style.display = "block";
+    } else {
+      document.getElementById("myBtn").style.display = "none";
+    }
+  }
+
+  function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
   }
   </script>
 
