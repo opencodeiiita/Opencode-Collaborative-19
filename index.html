@@ -44,6 +44,90 @@
       font-weight: 5px;
     }
   </style>
+<<<<<<< HEAD
+=======
+  
+  </head>
+
+  <body class="loading">
+
+    
+  
+  
+
+
+    <a class=" ribbn-ref" href="https://github.com/opencodeiiita/Opencode-Collaborative-19" data-ribbon="Fork me on GitHub" title="Fork me on GitHub">Fork me on GitHub</a>
+    
+    <!-- Navigation -->
+
+
+
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light a-nav navbar-fixed" id="mainNav" >
+      <div class="container">
+
+        <a class="navbar-brand d-flex align-items-center" href="index.html">
+  <!-- OpenCode Logo added in navbar -->
+          <img src="./assets/img/OClogo.jpg" width="40" height="37" class="d-inline-block align-top " style="padding-right:5px">Opencode 2019
+        </a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#participants">Participants</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="#mentors">Mentors</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="https://opencode19.netlify.com/">Leaderboard</a>
+            </li>
+
+
+
+            <li class="nav-item active">
+              <a class="nav-link" data-toggle="modal" data-target="#myModal">Trailer</a>
+            </li>
+          
+
+
+            <li class="nav-item dark-mode">
+                <label class="switch">
+                  <input type="checkbox">
+                  <span class="slider round"></span>
+              </label>
+            </li> 
+            <li class="nav-item mr-2 d-flex align-items fork" >
+               <div class="d-flex align-items-center">
+                  <i id="fork" class="fas fa-code-branch pr-1 github"></i> 
+                </div>
+            </li>
+            <li class="nav-item d-flex align-items-center star" >
+               <div class="d-flex align-items-center">
+                    <i id="star" class="fas fa-star pr-1 github"></i>
+                </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+          <div class="header animated-1s bounceInDown" style="z-index:-1;!important" >
+          <div class="progress-container">
+            <div class="progress-bar" id="myBar"></div>
+          </div> 
+          </div>
+    </nav>
+
+
+
+
+
+>>>>>>> 9601cdb6a243823b98ab0ce4cb8b81206acf2788
 
 </head>
 
@@ -941,12 +1025,13 @@
         <a href="https://geekhaven.iiita.ac.in/" class="px-2"><img class="night-footer-ref footer-hover" src="./assets/img/geekhavenlogo.svg"
             width="60" height="60"></a>
       </div>
-    </div>
-    <div class="container night-footer-ref">
-      <p class="m-0 text-center text-white">Copyright &copy; OpenCode'19</p>
-    </div>
-    <!-- /.container -->
-  </footer>
+      </div>
+      <div class="container night-footer-ref">    
+        <p class="m-0 text-center text-white">Copyright &copy; OpenCode'19</p>
+      </div>
+      <button onclick="topFunction()" id="myBtn" title="Go to top" class="dark-scrl-btn"><i class="fas fa-arrow-up"></i></button>
+      <!-- /.container -->
+    </footer>
 
 
   <!--CSS Spinner-->
@@ -987,6 +1072,24 @@
     var scrolled = (winScroll / height) * 100;
     document.getElementById("myBar").style.width = scrolled + "%";
   }
+<<<<<<< HEAD
 </script>
+=======
+  window.onscroll = function() {scrollFunction()};
+
+  function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+      document.getElementById("myBtn").style.display = "block";
+    } else {
+      document.getElementById("myBtn").style.display = "none";
+    }
+  }
+
+  function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+  }
+  </script>
+>>>>>>> 9601cdb6a243823b98ab0ce4cb8b81206acf2788
 
 </html>
