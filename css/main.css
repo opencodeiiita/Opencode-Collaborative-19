@@ -430,7 +430,7 @@ input:checked + .slider:before {
   
 } 
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 390px) {
   .participant-img {
     width: 100% !important;
     height: 100% !important;
