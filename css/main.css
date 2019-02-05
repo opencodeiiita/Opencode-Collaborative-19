@@ -423,6 +423,11 @@ input:checked + .slider:before {
     width: 100% !important;
     height: 100% !important;
   }
+  .card-img-project{
+    height: 250px;
+    width: 380px;
+  }
+  
 } 
 
 @media only screen and (min-width: 600px) {
