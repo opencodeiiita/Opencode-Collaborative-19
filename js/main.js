@@ -340,7 +340,7 @@ $(document).ready(function() {
                 "<h4 class='card-title card-name'>" +
                 participant.name +
                 "</h4>" +
-                "<p class='card-text card-college'>" +
+                "<p class='card-text card-college' style='height: 100% !important'>" +
                 participant.college +
                 "</p>" +
                 "</div>"+
