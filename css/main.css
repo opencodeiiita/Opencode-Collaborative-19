@@ -16,11 +16,7 @@ html,body
 
 
 
- .overlapissue
- {
-
-   z-index:1;!important
-
+ 
  .overlapissue{ 
    z-index: 1 !important;
 
