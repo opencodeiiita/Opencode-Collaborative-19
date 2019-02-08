@@ -193,6 +193,9 @@ $(document).ready(function() {
             $("#participants").empty();
             participants = all_participants.slice((current_page-1)*per_page, (current_page-1)*per_page+per_page);
             loadpage();
+            if($('#checkbox').is(':checked')){
+                $('.card').toggleClass('dark')
+            }
         }
         });
 
@@ -204,6 +207,9 @@ $(document).ready(function() {
             $(this).removeClass('disabled');
             participants = all_participants.slice((current_page-1)*per_page, (current_page-1)*per_page+per_page);
             loadpage(); 
+            if($('#checkbox').is(':checked')){
+                $('.card').toggleClass('dark')
+            }
             }
         });
 
@@ -217,6 +223,9 @@ $(document).ready(function() {
             $("#participants").empty();
             participants = all_participants.slice((current_page-1)*per_page, (current_page-1)*per_page+per_page);
             loadpage();
+            if($('#checkbox').is(':checked')){
+                $('.card').addClass('dark')
+            }
         }); 
 
     //this function load the data
@@ -330,26 +339,26 @@ $(document).ready(function() {
             if(participantabout==="")
                 participantabout="Talk is cheap. Show me the code";
             var participantDiv =
-                  "<div class='col-lg-2  col-md-4 col-sm-6 text-center mb-4'>" +
-                "<div class='card participant-card' style='width: 18rem;'>" +
-                "<div class = 'side'>" +
-                "<img class='participant-img img-fluid card-img-top' src=" +
+                  "<div class='p-card col-lg-2  col-md-4 col-sm-6 text-center mb-4'>" +
+                "<div class='p-card card participant-card' style='width: 18rem;'>" +
+                "<div class = 'side p-card'>" +
+                "<img class='p-card participant-img img-fluid card-img-top' src=" +
                 participant.imageurl +
                 " alt=''>" +
-                "<div class='card-body project-card-body'>" +
+                "<div class='p-card card-body project-card-body'>" +
                 "<h4 class='card-title card-name'>" +
                 participant.name +
                 "</h4>" +
-                "<p class='card-text card-college'>" +
+                "<p class='p-card card-text card-college'>" +
                 participant.college +
                 "</p>" +
                 "</div>"+
                 "</div>" +
-                "<div class='side back'>" +
+                "<div class='p-card side back'>" +
                 "<p class='card-about'>" +
                 participantabout +
                 "</p>" +
-                "<div class='social-media-links'>" +
+                "<div class='p-card social-media-links'>" +
                 "<a href=" +
                 participant.facebook +
                 "><i class='fab fa-facebook-f'></i></a>" +
@@ -412,6 +421,10 @@ $(document).ready(function() {
             $("#projects").empty();
             projects = all_projects.slice((current_page-1)*per_page, (current_page-1)*per_page+per_page);
             loadpage();
+            if($('#checkbox').is(':checked')){
+              $('.card').addClass('dark')
+              $('.stack-ref').addClass('dark')
+          }
         }
         });
 
@@ -424,6 +437,10 @@ $(document).ready(function() {
             $("#projects").empty();
             projects = all_projects.slice((current_page-1)*per_page, (current_page-1)*per_page+per_page);
             loadpage(); 
+            if($('#checkbox').is(':checked')){
+              $('.card').addClass('dark')
+              $('.stack-ref').addClass('dark')
+          }
             }
         });
 
@@ -437,6 +454,10 @@ $(document).ready(function() {
             $("#projects").empty();
             projects = all_projects.slice((current_page-1)*per_page, (current_page-1)*per_page+per_page);
             loadpage();
+            if($('#checkbox').is(':checked')){
+              $('.card').addClass('dark')
+              $('.stack-ref').addClass('dark')
+          }
         }); 
        
       //this function load the data
@@ -457,14 +478,14 @@ $(document).ready(function() {
         }
         $.each(projects, function(i, project) {
             var projectDiv =
-                "<div class='col-lg-3 col-md-4 col-sm-6 4 d-flex align-items-stretch portfolio-item'>" +
-                "<div class='card h-100'>" +
+                "<div class='p-card col-lg-3 col-md-4 col-sm-6 4 d-flex align-items-stretch portfolio-item'>" +
+                "<div class='p-card card h-100'>" +
                 "<a href=" +
                 project.github +
-                "><img class='card-img-top card-img-project' src=" +
+                "><img class='p-card card-img-top card-img-project' src=" +
                 project.imageurl +
                 " alt=''></a>" +
-                "<div class='card-body'>" +
+                "<div class='p-card card-body'>" +
                 "<h4 class='card-title'>" +
                 "<a href=" +
                 project.github +
@@ -472,18 +493,18 @@ $(document).ready(function() {
                 project.name +
                 "</a>" +
                 "</h4>" +
-                "<p class='card-text'>" +
+                "<p class='p-card card-text'>" +
                 project.about +
                 "</p>" +
                 "</div>"+
-                "<div class='card-footer card-footer-project'>"+
+                "<div class='p-card stack-ref card-footer card-footer-project'>"+
                 "<h5>"+
                 "Mentors" +
                 "</h5>"+
                 "<p>" +
                 project.mentors +
                 "</p>" +
-                "<h5>"+
+                "<h5 class='p-card stack-ref'>"+
                 "Tech Stack" +
                 "</h5>"+
                 "<p>" +
@@ -565,6 +586,7 @@ $(function(){
   });
 
 // dark mode
+var i=1; 
 $(document).ready(function(){
     $('.slider').click(function(){
         $('body').toggleClass('dark')
@@ -573,13 +595,20 @@ $(document).ready(function(){
         $('nav,div,footer').toggleClass('dark')
         $('.countdownContainer,.info,.labels,.values,.labellings').toggleClass('dark',false)
         $('.countdownContainer,.info,.labels,.values,.labellings').toggleClass('nightcountdown')
-        $('h2,h3,h5').toggleClass('dark')
+        $('h2,h3').toggleClass('dark')
         $('span,img,ul,li').toggleClass('dark')
         $('h1,h4,a').toggleClass('dark-landing-text')
         $('footer').toggleClass('night-footer')
         $('.footer_media').toggleClass('footer-dark')
         $('.fab-night').toggleClass('footer-dark')
         $('.night-footer-ref').toggleClass('footer-dark')
+        $('.issue-btn-section').toggleClass('dark')
+        $('.card-footer').toggleClass('dark')
+        $('.stack-ref').toggleClass('dark')
+        if($('#checkbox').is(':checked')){
+            $('.p-card').removeClass('dark');
+              console.log(i++);
+          }
     })
 })
 
