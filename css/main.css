@@ -434,7 +434,53 @@ input:checked + .slider:before {
     width: 100% !important;
     height: 100% !important;
   }
+
 }
+
+  .card-img-project{
+    height: 250px;
+    width: 360px;
+  }
+  
+} 
+
+@media only screen and (max-width: 480px) {
+  .participant-img {
+    width: 100% !important;
+    height: 100% !important;
+  }
+  .card-img-project{
+    height: 250px;
+    width: 342px;
+  }
+  
+}
+
+@media only screen and (max-width: 375px) {
+  .participant-img {
+    width: 100% !important;
+    height: 100% !important;
+  }
+  .card-img-project{
+    height: 250px;
+    width: 325px;
+  }
+  
+} 
+
+
+@media only screen and (max-width: 320px) {
+  .participant-img {
+    width: 100% !important;
+    height: 100% !important;
+  }
+  .card-img-project{
+    height: 250px;
+    width: 285px;
+  }
+  
+}
+  
 
 @media only screen and (min-width: 600px) {
   .participant-img {
@@ -824,4 +870,3 @@ input:checked + .slider:before {
   display: block;
   border-bottom: 2px solid gray;
 }
-
