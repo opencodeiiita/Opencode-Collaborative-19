@@ -346,10 +346,10 @@ $(document).ready(function() {
                 participant.imageurl +
                 " alt=''>" +
                 "<div class='p-card card-body project-card-body'>" +
-                "<h4 class='card-title card-name'>" +
+                "<h4 class='p-card card-title card-name'>" +
                 participant.name +
                 "</h4>" +
-                "<p class='p-card card-text card-college'>" +
+                "<p class='card-text card-college'>" +
                 participant.college +
                 "</p>" +
                 "</div>"+
@@ -487,7 +487,7 @@ $(document).ready(function() {
                 " alt=''></a>" +
                 "<div class='p-card card-body'>" +
                 "<h4 class='card-title'>" +
-                "<a href=" +
+                "<a class='card-title-text' href=" +
                 project.github +
                 ">" +
                 project.name +
@@ -597,7 +597,7 @@ $(document).ready(function(){
         $('.countdownContainer,.info,.labels,.values,.labellings').toggleClass('nightcountdown')
         $('h2,h3').toggleClass('dark')
         $('span,img,ul,li').toggleClass('dark')
-        $('h1,h4,a').toggleClass('dark-landing-text')
+        $('h1,a').toggleClass('dark-landing-text')
         $('footer').toggleClass('night-footer')
         $('.footer_media').toggleClass('footer-dark')
         $('.fab-night').toggleClass('footer-dark')
@@ -607,6 +607,7 @@ $(document).ready(function(){
         $('.stack-ref').toggleClass('dark')
         if($('#checkbox').is(':checked')){
             $('.p-card').removeClass('dark');
+            $('.card-title-text').removeClass('dark-landing-text');
               console.log(i++);
           }
     })
