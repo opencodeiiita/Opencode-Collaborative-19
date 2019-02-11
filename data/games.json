@@ -26,7 +26,7 @@
 		},
 		{
 		    "developer": "Archies11",
-		    "imageurl": "assets/img/participants/archisha.jpg",
+		    "imageurl": "https://image.flaticon.com/icons/svg/1141/1141771.svg",
 		    "gamename": "Snake",
 		    "github_link": "https://github.com/Archies11"
 		},
@@ -44,7 +44,7 @@
 		},
 		{
 		    "developer": "Vishvajeet Vasantrao Dhawale",
-		    "imageurl": "assets/img/participants/vishvajeet.jpg",
+		    "imageurl": "https://image.flaticon.com/icons/svg/1141/1141771.svg",
 		    "gamename": "Car Race",
 		    "github_link": "https://github.com/mivishvajeet"
 		},
