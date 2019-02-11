@@ -140,8 +140,8 @@ html,body
 }
 
 .participant-card {
-  max-height: 350px;
-  min-height: 375px;
+  max-height: 290px;
+  min-height: 290px;
   width: 100% !important;
   min-width: 180px;
   box-shadow: 0 3px 6px 0 rgba(0,0,0,0.12);
