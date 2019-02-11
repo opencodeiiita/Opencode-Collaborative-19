@@ -184,8 +184,8 @@ html,body
 }
 
 .participant-img {
-  max-height: 240px;
-  min-height: 240px;
+  max-height: 200px;
+  min-height: 200px;
   min-width: 100%;
 
   width: 100%;
