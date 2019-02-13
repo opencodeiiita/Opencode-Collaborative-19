@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.0/css/bootstrap.min.css" integrity="sha384-PDle/QlgIONtM1aqA2Qemk5gPOE7wFq8+Em+G/hmo5Iq0CCmYZLv3fVRDJ4MMwEA" crossorigin="anonymous">
+</head>
+<body>
+      <div class="addition">
+         <div class="container">
+            <div class="row justify-content-center py-3">
+               <div class="col-md-6">
+                  <h5>Get the number of additions and deletions per week</h5>
+               </div>
+            </div>
+            <div class="row justify-content-center">
+               <div class="col-md-6 col-md-offset-4">
+                     <canvas id="myChart"></canvas>
+               </div>
+            </div>
+         </div>
+      </div>
+<hr>
+      <div class="addition">
+            <div class="container">
+               <div class="row justify-content-center py-3">
+                  <div class="col-md-6">
+                     <h5>Number of commits per week</h5>
+                  </div>
+               </div>
+               <div class="row justify-content-center">
+                  <div class="col-md-6 col-md-offset-4">
+                        <canvas id="myChart2"></canvas>
+                  </div>
+               </div>
+            </div>
+         </div>
+      
+</body>
+<script
+  src="https://code.jquery.com/jquery-3.3.1.js"
+  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script>
+<script>
+ var jsonData = {};
+ var size;
+		$.ajax({
+    url: "https://api.github.com/repos/opencodeiiita/Opencode-Collaborative-19/stats/code_frequency",
+    type: 'GET',
+    processData: false,
+    success: function (data) {
+    jsonData = JSON.stringify(data);
+    jsonData = JSON.parse(jsonData);
+     
+
+   func();
+    
+    },
+    error: function(){
+      console.log("Cannot get data");
+    }
+});
+function func(){
+   var ctx = document.getElementById('myChart').getContext('2d');
+   size = Object.keys(jsonData).length;
+   var add = [];
+   var del = [],week = [],add_bg=[],add_border=[],del_bg = [],del_border = [];
+    for(let i=0;i<size;i++){
+     add.push(jsonData[i][1])
+     del.push(-(jsonData[i][2]))
+     week_var = "Week " + (i + 1);
+     add_bg.push('rgba(46, 204, 113,0.8)');
+     add_border.push('rgba(46, 204, 113,1.0)');
+     del_bg.push('rgba(231, 76, 60,0.7)');
+     del_border.push('rgba(231, 76, 60,1.0)');
+     week.push(week_var);
+    }
+    console.log(add)
+    var myChart = new Chart(ctx, {
+    type: 'bar',
+    data: {
+        labels: week,
+        datasets: [{
+            label: 'Number of addition',
+            data: add,
+            backgroundColor: add_bg,
+            borderColor: add_border,
+            borderWidth: 1
+        },
+        {
+            label: 'Number of deletion',
+            data: del,
+            backgroundColor: del_bg,
+            borderColor: del_border,
+            borderWidth: 1
+        }]
+    },
+    options: {
+        scales: {
+            yAxes: [{
+                ticks: {
+                    beginAtZero:true
+                }
+            }]
+        }
+    }
+});
+}
+
+var jsonData = {};
+ var size;
+		$.ajax({
+    url: "https://api.github.com/repos/opencodeiiita/Opencode-Collaborative-19/stats/commit_activity",
+    type: 'GET',
+    processData: false,
+    success: function (data) {
+    jsonData = JSON.stringify(data);
+    jsonData = JSON.parse(jsonData)
+    console.log(jsonData);
+      fun2();
+    },
+    error: function(){
+      console.log("Cannot get data");
+    }
+});
+
+function fun2(){
+   var ctx = document.getElementById('myChart2').getContext('2d');
+   size = Object.keys(jsonData).length;
+   var add = [];
+   var week = []; 
+   count = 1;
+    for(let i=46;i<size;i++){      
+         add.push(jsonData[i].total);
+         week.push("Week " + count++) ;
+         
+    }
+
+    var myChart2 = new Chart(ctx, {
+    type: 'line',
+    data: {
+    labels: week,
+    datasets: [{ 
+        data: add,
+        label: "Commits",
+        borderColor: "rgba(72, 52, 212,1.0)",
+        fill: false
+      }],
+      options: {
+    scales: {
+            yAxes: [{
+                ticks: {
+                    display: false //this will remove only the label
+                }
+            }]
+        }
+   }
+}});
+    }
+</script>
+</html>
