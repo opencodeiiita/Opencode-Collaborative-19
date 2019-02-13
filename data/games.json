@@ -1,16 +1,70 @@
 {
 	  "games": [
-      {
-		    "developer": "Anupam shukla",
-		    "imageurl": "assets/img/participants/vikash.jpg",
-		    "gamename": "sample game name",
-		    "github_link": "https://github.com/pal-0123"
+      	{
+		    "developer": "Dhairya Baweja",
+		    "imageurl": "assets/img/participants/dhairya.jpg",
+		    "gamename": "Basic Javascript Game",
+		    "github_link": "https://github.com/dhairyabaweja"
 		},
 		{
-		    "developer": "Vishnu",
-		    "imageurl": "assets/img/participants/vikash.jpg",
-		    "gamename": "sample game name",
-		    "github_link": "https://github.com/pal-0123"
-	    }
+		    "developer": "Rupesh Krishna Jha",
+		    "imageurl": "https://image.flaticon.com/icons/svg/1141/1141771.svg",
+		    "gamename": "Tic Tac Toe CLI",
+		    "github_link": "https://github.com/Rupeshiya"
+		},
+		{
+		    "developer": "Manthan Surkar",
+		    "imageurl": "https://en.gravatar.com/userimage/59390444/d267abe902e7f507e425febe985b3229.png?size=400",
+		    "gamename": "The Lucky Dice Game",
+		    "github_link": "https://github.com/thesmallstar"
+		},
+		{
+		    "developer": "Lalit Sharma",
+		    "imageurl": "https://image.flaticon.com/icons/svg/1141/1141771.svg",
+		    "gamename": "Color Game",
+		    "github_link": "https://github.com/Rattlecode17sh"
+		},
+		{
+		    "developer": "Archies11",
+		    "imageurl": "https://image.flaticon.com/icons/svg/1141/1141771.svg",
+		    "gamename": "Snake",
+		    "github_link": "https://github.com/Archies11"
+		},
+		{
+		    "developer": "Vishnu K Raman",
+		    "imageurl": "assets/img/participants/Vishnuk7.jpg",
+		    "gamename": "RPS",
+		    "github_link": "https://github.com/vishnuk7"
+		},
+		{
+		    "developer": "Anupam Shukla",
+		    "imageurl": "assets/img/participants/Anupam.jpg",
+		    "gamename": "Snake Game JS",
+		    "github_link": "https://github.com/anupm12"
+		},
+		{
+		    "developer": "Vishvajeet Vasantrao Dhawale",
+		    "imageurl": "https://image.flaticon.com/icons/svg/1141/1141771.svg",
+		    "gamename": "Car Race",
+		    "github_link": "https://github.com/mivishvajeet"
+		},
+		{
+		    "developer": "Shivam Singhal",
+		    "imageurl": "assets/img/participants/shivhek25.jpg",
+		    "gamename": "Tic Tac Toe",
+		    "github_link": "https://github.com/shivhek25"
+		},
+		{
+		    "developer": "Ashish Agarowala",
+		    "imageurl": "assets/img/participants/ashish4321.jpg",
+		    "gamename": "Hit the Dots",
+		    "github_link": "https://github.com/ashish4321"
+		},
+		{
+		    "developer": "Suneet Kumar Makkar",
+		    "imageurl": "https://image.flaticon.com/icons/svg/1141/1141771.svg",
+		    "gamename": "Color Game",
+		    "github_link": "https://github.com/SuneetKumar19"
+		}
     ]
 }
