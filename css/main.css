@@ -797,6 +797,7 @@ input:checked + .slider:before {
 
 
 /* hover effect to footer icons */
+
 .footer-hover:hover {
   transform: scale(1.2);
   transition-duration: 0.5s;
@@ -821,9 +822,6 @@ input:checked + .slider:before {
   transform: scale(1.2);
   transition-duration: 0.4s;
 }
-
-
-
 
 /* sticky github */
 .sticky-container{
